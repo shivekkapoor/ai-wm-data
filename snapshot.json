@@ -1,0 +1,2319 @@
+{
+  "generated_at": "2026-05-21T08:34:10.751384+05:30",
+  "portfolio": {
+    "cash_inr": 467674.8,
+    "invested_inr": 32325.2,
+    "current_holdings_value": 32396.2,
+    "total_value_inr": 500071.0,
+    "initial_capital": 1000000,
+    "total_pnl_inr": -499929.0,
+    "total_pnl_pct": -49.99,
+    "cash_pct": 93.5,
+    "last_run_date": "2026-05-20",
+    "holdings": [
+      {
+        "symbol": "TORNTPHARM",
+        "name": "Torrent Pharmaceuticals",
+        "sector": "Healthcare",
+        "qty": 2,
+        "avg_cost": 4393.7,
+        "ltp": 4429.2,
+        "value_inr": 8858.4,
+        "pnl_inr": 71.0,
+        "pnl_pct": 0.81,
+        "buy_date": "2026-05-20"
+      },
+      {
+        "symbol": "CIPLA",
+        "name": "Cipla",
+        "sector": "Healthcare",
+        "qty": 6,
+        "avg_cost": 1399.5,
+        "ltp": 1399.5,
+        "value_inr": 8397.0,
+        "pnl_inr": 0.0,
+        "pnl_pct": 0.0,
+        "buy_date": "2026-05-20"
+      },
+      {
+        "symbol": "BHARTIARTL",
+        "name": "Bharti Airtel",
+        "sector": "Telecom",
+        "qty": 4,
+        "avg_cost": 1904.9,
+        "ltp": 1904.9,
+        "value_inr": 7619.6,
+        "pnl_inr": 0.0,
+        "pnl_pct": 0.0,
+        "buy_date": "2026-05-20"
+      },
+      {
+        "symbol": "SUNPHARMA",
+        "name": "Sun Pharmaceutical",
+        "sector": "Healthcare",
+        "qty": 4,
+        "avg_cost": 1880.3,
+        "ltp": 1880.3,
+        "value_inr": 7521.2,
+        "pnl_inr": 0.0,
+        "pnl_pct": 0.0,
+        "buy_date": "2026-05-20"
+      }
+    ]
+  },
+  "macro": {
+    "regime": "RISK_OFF",
+    "position_size_multiplier": 0.6,
+    "vix": null,
+    "vix_signal": "unknown",
+    "inr_usd": 95.95500183105469,
+    "inr_signal": "weakening",
+    "crude_usd": 105.41999816894531,
+    "crude_signal": "rising",
+    "fii_flow_cr": null,
+    "fii_signal": "unknown",
+    "nifty100_momentum": "bearish",
+    "rbi_repo_pct": 6.5,
+    "sector_tilts": {
+      "Financials": "underweight",
+      "IT": "overweight",
+      "Energy": "neutral",
+      "FMCG": "overweight",
+      "Auto": "underweight",
+      "Healthcare": "overweight",
+      "Industrials": "underweight",
+      "Materials": "underweight",
+      "Utilities": "neutral",
+      "Telecom": "neutral",
+      "Consumer Discr.": "underweight",
+      "Real Estate": "underweight"
+    },
+    "reasoning": "INR has weakened sharply to 95.95 and crude WTI is elevated at $105.42, creating a stagflationary headwind for the Indian economy. NIFTY 100 is in bearish territory with a -3.1% 20-day return, confirming negative price momentum, while FII flow data is unknown, adding further uncertainty. The combination of a weak rupee, high crude, and bearish index momentum triggers a RISK_OFF regime with a low position size multiplier of 0.6. IT and Healthcare benefit from INR weakness as export earners, while import-sensitive sectors (Auto, Consumer Discretionary, Real Estate) and rate-sensitive Financials are underweighted; FMCG is favoured as a defensive play given the bearish market backdrop and unchanged RBI repo rate of 6.5%.",
+    "snapshot_date": "2026-05-16",
+    "history": [
+      {
+        "date": "2026-05-16",
+        "regime": "RISK_OFF",
+        "multiplier": 0.6,
+        "vix": null,
+        "inr_usd": 95.95500183105469,
+        "crude_usd": 105.41999816894531,
+        "fii_flow_cr": null
+      },
+      {
+        "date": "2026-05-11",
+        "regime": "NEUTRAL",
+        "multiplier": 0.8,
+        "vix": null,
+        "inr_usd": 94.91000366210938,
+        "crude_usd": 99.81999969482422,
+        "fii_flow_cr": null
+      },
+      {
+        "date": "2026-05-09",
+        "regime": "NEUTRAL",
+        "multiplier": 0.85,
+        "vix": null,
+        "inr_usd": 94.47000122070312,
+        "crude_usd": 95.41999816894531,
+        "fii_flow_cr": null
+      }
+    ]
+  },
+  "decisions": {
+    "runs": [
+      {
+        "date": "2026-05-20",
+        "n_decisions": 100,
+        "n_buys": 3,
+        "n_sells": 0,
+        "n_holds": 94,
+        "entries": [
+          {
+            "ticker": "RELIANCE",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1359.699951171875,
+            "ts": "2026-05-20T14:03:25.489862+00:00"
+          },
+          {
+            "ticker": "HDFCBANK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 759.5,
+            "ts": "2026-05-20T14:03:39.569014+00:00"
+          },
+          {
+            "ticker": "TCS",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 2327.39990234375,
+            "ts": "2026-05-20T14:04:00.358784+00:00"
+          },
+          {
+            "ticker": "BHARTIARTL",
+            "action": "BUY",
+            "final_qty": 4,
+            "proposed_qty": 4,
+            "risk_status": "APPROVED",
+            "risk_reason": "Within all caps.",
+            "last_close": 1904.9000244140625,
+            "ts": "2026-05-20T14:04:23.149577+00:00"
+          },
+          {
+            "ticker": "ICICIBANK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1237.300048828125,
+            "ts": "2026-05-20T14:04:37.031546+00:00"
+          },
+          {
+            "ticker": "SBIN",
+            "action": "SELL",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 950.9000244140625,
+            "ts": "2026-05-20T14:04:52.807245+00:00"
+          },
+          {
+            "ticker": "INFY",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1193.699951171875,
+            "ts": "2026-05-20T14:05:07.854185+00:00"
+          },
+          {
+            "ticker": "LT",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 3910.699951171875,
+            "ts": "2026-05-20T14:05:28.458918+00:00"
+          },
+          {
+            "ticker": "BAJFINANCE",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 923.0999755859375,
+            "ts": "2026-05-20T14:05:46.544408+00:00"
+          },
+          {
+            "ticker": "ITC",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 307.54998779296875,
+            "ts": "2026-05-20T14:06:00.856173+00:00"
+          },
+          {
+            "ticker": "HINDUNILVR",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 2209.300048828125,
+            "ts": "2026-05-20T14:06:14.964665+00:00"
+          },
+          {
+            "ticker": "M&M",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 3122.199951171875,
+            "ts": "2026-05-20T14:06:29.703986+00:00"
+          },
+          {
+            "ticker": "KOTAKBANK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 383.20001220703125,
+            "ts": "2026-05-20T14:06:44.057636+00:00"
+          },
+          {
+            "ticker": "MARUTI",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 13003.0,
+            "ts": "2026-05-20T14:07:05.423090+00:00"
+          },
+          {
+            "ticker": "AXISBANK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1249.800048828125,
+            "ts": "2026-05-20T14:07:18.288026+00:00"
+          },
+          {
+            "ticker": "SUNPHARMA",
+            "action": "BUY",
+            "final_qty": 4,
+            "proposed_qty": 4,
+            "risk_status": "APPROVED",
+            "risk_reason": "Within all caps.",
+            "last_close": 1880.300048828125,
+            "ts": "2026-05-20T14:07:39.093663+00:00"
+          },
+          {
+            "ticker": "ULTRACEMCO",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 11409.0,
+            "ts": "2026-05-20T14:07:50.428646+00:00"
+          },
+          {
+            "ticker": "NTPC",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 392.45001220703125,
+            "ts": "2026-05-20T14:08:05.470451+00:00"
+          },
+          {
+            "ticker": "HCLTECH",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1169.800048828125,
+            "ts": "2026-05-20T14:08:19.588117+00:00"
+          },
+          {
+            "ticker": "TITAN",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 4106.39990234375,
+            "ts": "2026-05-20T14:08:37.685740+00:00"
+          },
+          {
+            "ticker": "ONGC",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 298.29998779296875,
+            "ts": "2026-05-20T14:08:53.603909+00:00"
+          },
+          {
+            "ticker": "BAJAJFINSV",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1772.0,
+            "ts": "2026-05-20T14:09:07.167722+00:00"
+          },
+          {
+            "ticker": "ADANIENT",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 2704.800048828125,
+            "ts": "2026-05-20T14:09:33.319841+00:00"
+          },
+          {
+            "ticker": "POWERGRID",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 299.8999938964844,
+            "ts": "2026-05-20T14:09:55.193214+00:00"
+          },
+          {
+            "ticker": "WIPRO",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 197.1199951171875,
+            "ts": "2026-05-20T14:10:08.015192+00:00"
+          },
+          {
+            "ticker": "ADANIPORTS",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1772.5999755859375,
+            "ts": "2026-05-20T14:10:23.567809+00:00"
+          },
+          {
+            "ticker": "COALINDIA",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 458.70001220703125,
+            "ts": "2026-05-20T14:10:38.753563+00:00"
+          },
+          {
+            "ticker": "NESTLEIND",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1420.0999755859375,
+            "ts": "2026-05-20T14:10:55.898438+00:00"
+          },
+          {
+            "ticker": "ASIANPAINT",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 2598.60009765625,
+            "ts": "2026-05-20T14:11:11.827753+00:00"
+          },
+          {
+            "ticker": "JSWSTEEL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1283.199951171875,
+            "ts": "2026-05-20T14:11:35.198064+00:00"
+          },
+          {
+            "ticker": "TATASTEEL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 207.00999450683594,
+            "ts": "2026-05-20T14:11:50.597418+00:00"
+          },
+          {
+            "ticker": "TMPV",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 361.25,
+            "ts": "2026-05-20T14:12:05.567471+00:00"
+          },
+          {
+            "ticker": "TECHM",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1439.0,
+            "ts": "2026-05-20T14:12:20.772667+00:00"
+          },
+          {
+            "ticker": "BAJAJ-AUTO",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 10462.5,
+            "ts": "2026-05-20T14:12:34.365973+00:00"
+          },
+          {
+            "ticker": "HINDALCO",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1085.5,
+            "ts": "2026-05-20T14:12:47.727717+00:00"
+          },
+          {
+            "ticker": "DRREDDY",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1321.9000244140625,
+            "ts": "2026-05-20T14:12:59.705408+00:00"
+          },
+          {
+            "ticker": "CIPLA",
+            "action": "BUY",
+            "final_qty": 6,
+            "proposed_qty": 6,
+            "risk_status": "APPROVED",
+            "risk_reason": "Within all caps.",
+            "last_close": 1399.5,
+            "ts": "2026-05-20T14:13:11.816025+00:00"
+          },
+          {
+            "ticker": "INDUSINDBK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 897.1500244140625,
+            "ts": "2026-05-20T14:13:23.202751+00:00"
+          },
+          {
+            "ticker": "GRASIM",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 2971.10009765625,
+            "ts": "2026-05-20T14:13:33.631957+00:00"
+          },
+          {
+            "ticker": "EICHERMOT",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 6849.5,
+            "ts": "2026-05-20T14:13:55.968510+00:00"
+          },
+          {
+            "ticker": "APOLLOHOSP",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 8078.5,
+            "ts": "2026-05-20T14:14:09.167630+00:00"
+          },
+          {
+            "ticker": "BRITANNIA",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 5344.5,
+            "ts": "2026-05-20T14:14:21.814653+00:00"
+          },
+          {
+            "ticker": "HDFCLIFE",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 605.0999755859375,
+            "ts": "2026-05-20T14:14:33.351783+00:00"
+          },
+          {
+            "ticker": "DIVISLAB",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 6893.0,
+            "ts": "2026-05-20T14:14:57.187560+00:00"
+          },
+          {
+            "ticker": "HEROMOTOCO",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 4968.0,
+            "ts": "2026-05-20T14:15:09.704721+00:00"
+          },
+          {
+            "ticker": "BPCL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 293.75,
+            "ts": "2026-05-20T14:15:24.372514+00:00"
+          },
+          {
+            "ticker": "SBILIFE",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1864.199951171875,
+            "ts": "2026-05-20T14:15:34.688472+00:00"
+          },
+          {
+            "ticker": "ETERNAL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 243.33999633789062,
+            "ts": "2026-05-20T14:15:53.691491+00:00"
+          },
+          {
+            "ticker": "TRENT",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 4099.89990234375,
+            "ts": "2026-05-20T14:16:06.130676+00:00"
+          },
+          {
+            "ticker": "SHRIRAMFIN",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 923.4500122070312,
+            "ts": "2026-05-20T14:16:22.759908+00:00"
+          },
+          {
+            "ticker": "DMART",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 4144.2001953125,
+            "ts": "2026-05-20T14:16:36.854197+00:00"
+          },
+          {
+            "ticker": "PIDILITIND",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1455.5999755859375,
+            "ts": "2026-05-20T14:16:52.571857+00:00"
+          },
+          {
+            "ticker": "DLF",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 583.2999877929688,
+            "ts": "2026-05-20T14:17:08.945954+00:00"
+          },
+          {
+            "ticker": "AMBUJACEM",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 430.25,
+            "ts": "2026-05-20T14:17:20.167334+00:00"
+          },
+          {
+            "ticker": "BAJAJHLDNG",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 10468.0,
+            "ts": "2026-05-20T14:17:35.558096+00:00"
+          },
+          {
+            "ticker": "HAVELLS",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1207.800048828125,
+            "ts": "2026-05-20T14:17:57.016520+00:00"
+          },
+          {
+            "ticker": "ICICIPRULI",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 509.25,
+            "ts": "2026-05-20T14:18:12.556216+00:00"
+          },
+          {
+            "ticker": "CHOLAFIN",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1518.9000244140625,
+            "ts": "2026-05-20T14:18:26.774558+00:00"
+          },
+          {
+            "ticker": "SIEMENS",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 3696.39990234375,
+            "ts": "2026-05-20T14:18:38.543754+00:00"
+          },
+          {
+            "ticker": "VEDL",
+            "action": "SELL",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 333.75,
+            "ts": "2026-05-20T14:18:54.886708+00:00"
+          },
+          {
+            "ticker": "GODREJCP",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1022.9000244140625,
+            "ts": "2026-05-20T14:19:13.524042+00:00"
+          },
+          {
+            "ticker": "ICICIGI",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1784.800048828125,
+            "ts": "2026-05-20T14:19:27.092325+00:00"
+          },
+          {
+            "ticker": "DABUR",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 450.8999938964844,
+            "ts": "2026-05-20T14:19:42.474970+00:00"
+          },
+          {
+            "ticker": "ABB",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 6605.0,
+            "ts": "2026-05-20T14:19:57.098371+00:00"
+          },
+          {
+            "ticker": "TVSMOTOR",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 3361.89990234375,
+            "ts": "2026-05-20T14:20:16.570953+00:00"
+          },
+          {
+            "ticker": "VBL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 514.0,
+            "ts": "2026-05-20T14:20:27.171041+00:00"
+          },
+          {
+            "ticker": "CGPOWER",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 853.25,
+            "ts": "2026-05-20T14:20:43.844244+00:00"
+          },
+          {
+            "ticker": "BANKBARODA",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 263.54998779296875,
+            "ts": "2026-05-20T14:20:54.076879+00:00"
+          },
+          {
+            "ticker": "BEL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 413.29998779296875,
+            "ts": "2026-05-20T14:21:08.609929+00:00"
+          },
+          {
+            "ticker": "PFC",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 429.3500061035156,
+            "ts": "2026-05-20T14:21:30.625359+00:00"
+          },
+          {
+            "ticker": "RECLTD",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 333.0,
+            "ts": "2026-05-20T14:21:45.903911+00:00"
+          },
+          {
+            "ticker": "MOTHERSON",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 132.1699981689453,
+            "ts": "2026-05-20T14:21:57.309469+00:00"
+          },
+          {
+            "ticker": "LICI",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 800.5499877929688,
+            "ts": "2026-05-20T14:22:19.126041+00:00"
+          },
+          {
+            "ticker": "INDIGO",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 4264.60009765625,
+            "ts": "2026-05-20T14:22:32.843640+00:00"
+          },
+          {
+            "ticker": "HAL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 4326.5,
+            "ts": "2026-05-20T14:22:47.437546+00:00"
+          },
+          {
+            "ticker": "BOSCHLTD",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 36830.0,
+            "ts": "2026-05-20T14:22:59.032305+00:00"
+          },
+          {
+            "ticker": "ZYDUSLIFE",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1040.8499755859375,
+            "ts": "2026-05-20T14:23:11.097893+00:00"
+          },
+          {
+            "ticker": "TORNTPHARM",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 4429.2001953125,
+            "ts": "2026-05-20T14:23:22.454445+00:00"
+          },
+          {
+            "ticker": "LODHA",
+            "action": "SELL",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 880.0,
+            "ts": "2026-05-20T14:23:41.762299+00:00"
+          },
+          {
+            "ticker": "ADANIPOWER",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 220.24000549316406,
+            "ts": "2026-05-20T14:23:55.957451+00:00"
+          },
+          {
+            "ticker": "ADANIGREEN",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1363.199951171875,
+            "ts": "2026-05-20T14:34:11.709776+00:00"
+          },
+          {
+            "ticker": "GAIL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 155.63999938964844,
+            "ts": "2026-05-20T14:34:23.678883+00:00"
+          },
+          {
+            "ticker": "IOC",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 138.0399932861328,
+            "ts": "2026-05-20T14:34:37.838377+00:00"
+          },
+          {
+            "ticker": "UNITDSPR",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1284.5999755859375,
+            "ts": "2026-05-20T14:34:57.820566+00:00"
+          },
+          {
+            "ticker": "CANBK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 127.66000366210938,
+            "ts": "2026-05-20T14:35:09.767118+00:00"
+          },
+          {
+            "ticker": "PNB",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 102.22000122070312,
+            "ts": "2026-05-20T14:35:23.170329+00:00"
+          },
+          {
+            "ticker": "IDFCFIRSTB",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 68.20999908447266,
+            "ts": "2026-05-20T14:35:36.931909+00:00"
+          },
+          {
+            "ticker": "NAUKRI",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 942.25,
+            "ts": "2026-05-20T14:35:55.115193+00:00"
+          },
+          {
+            "ticker": "JINDALSTEL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1223.0999755859375,
+            "ts": "2026-05-20T14:36:10.354383+00:00"
+          },
+          {
+            "ticker": "SHREECEM",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 24420.0,
+            "ts": "2026-05-20T14:36:22.255785+00:00"
+          },
+          {
+            "ticker": "MARICO",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 838.4500122070312,
+            "ts": "2026-05-20T14:36:37.464388+00:00"
+          },
+          {
+            "ticker": "INDHOTEL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 659.5999755859375,
+            "ts": "2026-05-20T14:36:51.876679+00:00"
+          },
+          {
+            "ticker": "COLPAL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 2185.39990234375,
+            "ts": "2026-05-20T14:37:05.865208+00:00"
+          },
+          {
+            "ticker": "BERGEPAINT",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 508.45001220703125,
+            "ts": "2026-05-20T14:37:18.176747+00:00"
+          },
+          {
+            "ticker": "MUTHOOTFIN",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 3309.300048828125,
+            "ts": "2026-05-20T14:37:34.690191+00:00"
+          },
+          {
+            "ticker": "AUROPHARMA",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1517.5,
+            "ts": "2026-05-20T14:37:56.554938+00:00"
+          },
+          {
+            "ticker": "LUPIN",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 2285.5,
+            "ts": "2026-05-20T14:38:07.716654+00:00"
+          },
+          {
+            "ticker": "PAGEIND",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 38285.0,
+            "ts": "2026-05-20T14:38:21.231531+00:00"
+          },
+          {
+            "ticker": "ASHOKLEY",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 153.61000061035156,
+            "ts": "2026-05-20T14:38:35.055334+00:00"
+          },
+          {
+            "ticker": "POLYCAB",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 9199.0,
+            "ts": "2026-05-20T14:38:51.503323+00:00"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-19",
+        "n_decisions": 100,
+        "n_buys": 1,
+        "n_sells": 0,
+        "n_holds": 96,
+        "entries": [
+          {
+            "ticker": "RELIANCE",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1335.9000244140625,
+            "ts": "2026-05-19T02:37:35.828351+00:00"
+          },
+          {
+            "ticker": "HDFCBANK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 768.6500244140625,
+            "ts": "2026-05-19T02:37:49.462890+00:00"
+          },
+          {
+            "ticker": "TCS",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 2283.199951171875,
+            "ts": "2026-05-19T02:38:13.337047+00:00"
+          },
+          {
+            "ticker": "BHARTIARTL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1938.0999755859375,
+            "ts": "2026-05-19T02:38:35.469669+00:00"
+          },
+          {
+            "ticker": "ICICIBANK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1251.0999755859375,
+            "ts": "2026-05-19T02:38:50.029814+00:00"
+          },
+          {
+            "ticker": "SBIN",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 939.4000244140625,
+            "ts": "2026-05-19T02:39:06.203453+00:00"
+          },
+          {
+            "ticker": "INFY",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1142.5,
+            "ts": "2026-05-19T02:39:21.680532+00:00"
+          },
+          {
+            "ticker": "LT",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 3917.800048828125,
+            "ts": "2026-05-19T02:39:44.709141+00:00"
+          },
+          {
+            "ticker": "BAJFINANCE",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 921.0999755859375,
+            "ts": "2026-05-19T02:40:00.278262+00:00"
+          },
+          {
+            "ticker": "ITC",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 310.1499938964844,
+            "ts": "2026-05-19T02:40:14.818086+00:00"
+          },
+          {
+            "ticker": "HINDUNILVR",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 2254.199951171875,
+            "ts": "2026-05-19T02:40:31.898057+00:00"
+          },
+          {
+            "ticker": "M&M",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 3083.699951171875,
+            "ts": "2026-05-19T02:40:46.121868+00:00"
+          },
+          {
+            "ticker": "KOTAKBANK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 391.79998779296875,
+            "ts": "2026-05-19T02:40:59.775212+00:00"
+          },
+          {
+            "ticker": "MARUTI",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 13016.0,
+            "ts": "2026-05-19T02:41:19.330678+00:00"
+          },
+          {
+            "ticker": "AXISBANK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1237.9000244140625,
+            "ts": "2026-05-19T02:41:30.984354+00:00"
+          },
+          {
+            "ticker": "SUNPHARMA",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1905.800048828125,
+            "ts": "2026-05-19T02:41:56.093030+00:00"
+          },
+          {
+            "ticker": "ULTRACEMCO",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 11561.0,
+            "ts": "2026-05-19T02:42:05.513658+00:00"
+          },
+          {
+            "ticker": "NTPC",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 388.29998779296875,
+            "ts": "2026-05-19T02:42:21.352109+00:00"
+          },
+          {
+            "ticker": "HCLTECH",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1146.5999755859375,
+            "ts": "2026-05-19T02:42:34.719836+00:00"
+          },
+          {
+            "ticker": "TITAN",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 4169.7001953125,
+            "ts": "2026-05-19T02:42:47.708736+00:00"
+          },
+          {
+            "ticker": "ONGC",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 297.20001220703125,
+            "ts": "2026-05-19T02:43:02.353434+00:00"
+          },
+          {
+            "ticker": "BAJAJFINSV",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1753.0999755859375,
+            "ts": "2026-05-19T02:43:17.304778+00:00"
+          },
+          {
+            "ticker": "ADANIENT",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 2689.800048828125,
+            "ts": "2026-05-19T02:43:33.893753+00:00"
+          },
+          {
+            "ticker": "POWERGRID",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 296.54998779296875,
+            "ts": "2026-05-19T02:43:53.628911+00:00"
+          },
+          {
+            "ticker": "WIPRO",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 192.1699981689453,
+            "ts": "2026-05-19T02:44:05.738876+00:00"
+          },
+          {
+            "ticker": "ADANIPORTS",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1787.699951171875,
+            "ts": "2026-05-19T02:44:20.691515+00:00"
+          },
+          {
+            "ticker": "COALINDIA",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 462.1000061035156,
+            "ts": "2026-05-19T02:44:34.208050+00:00"
+          },
+          {
+            "ticker": "NESTLEIND",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1431.699951171875,
+            "ts": "2026-05-19T02:44:48.953686+00:00"
+          },
+          {
+            "ticker": "ASIANPAINT",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 2614.0,
+            "ts": "2026-05-19T02:45:03.084784+00:00"
+          },
+          {
+            "ticker": "JSWSTEEL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1292.800048828125,
+            "ts": "2026-05-19T02:45:24.589944+00:00"
+          },
+          {
+            "ticker": "TATASTEEL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 209.7100067138672,
+            "ts": "2026-05-19T02:45:38.925820+00:00"
+          },
+          {
+            "ticker": "TMPV",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 353.1499938964844,
+            "ts": "2026-05-19T02:45:53.158666+00:00"
+          },
+          {
+            "ticker": "TECHM",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1430.0,
+            "ts": "2026-05-19T02:46:07.802215+00:00"
+          },
+          {
+            "ticker": "BAJAJ-AUTO",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 10198.5,
+            "ts": "2026-05-19T02:46:21.319443+00:00"
+          },
+          {
+            "ticker": "HINDALCO",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1053.0999755859375,
+            "ts": "2026-05-19T02:46:36.678638+00:00"
+          },
+          {
+            "ticker": "DRREDDY",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1331.199951171875,
+            "ts": "2026-05-19T02:46:52.933673+00:00"
+          },
+          {
+            "ticker": "CIPLA",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1426.199951171875,
+            "ts": "2026-05-19T02:47:04.427864+00:00"
+          },
+          {
+            "ticker": "INDUSINDBK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 892.1500244140625,
+            "ts": "2026-05-19T02:47:15.183442+00:00"
+          },
+          {
+            "ticker": "GRASIM",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 2943.800048828125,
+            "ts": "2026-05-19T02:47:26.816290+00:00"
+          },
+          {
+            "ticker": "EICHERMOT",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 6913.0,
+            "ts": "2026-05-19T02:47:47.143049+00:00"
+          },
+          {
+            "ticker": "APOLLOHOSP",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 8020.5,
+            "ts": "2026-05-19T02:48:01.808999+00:00"
+          },
+          {
+            "ticker": "BRITANNIA",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 5380.5,
+            "ts": "2026-05-19T02:48:12.182004+00:00"
+          },
+          {
+            "ticker": "HDFCLIFE",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 604.9500122070312,
+            "ts": "2026-05-19T02:48:22.767233+00:00"
+          },
+          {
+            "ticker": "DIVISLAB",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 6835.0,
+            "ts": "2026-05-19T02:48:41.198410+00:00"
+          },
+          {
+            "ticker": "HEROMOTOCO",
+            "action": "SELL",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 4957.0,
+            "ts": "2026-05-19T02:48:57.377489+00:00"
+          },
+          {
+            "ticker": "BPCL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 280.79998779296875,
+            "ts": "2026-05-19T02:49:11.312709+00:00"
+          },
+          {
+            "ticker": "SBILIFE",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1860.4000244140625,
+            "ts": "2026-05-19T02:49:24.923711+00:00"
+          },
+          {
+            "ticker": "ETERNAL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 241.39999389648438,
+            "ts": "2026-05-19T02:49:48.467726+00:00"
+          },
+          {
+            "ticker": "TRENT",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 4032.300048828125,
+            "ts": "2026-05-19T02:50:02.198164+00:00"
+          },
+          {
+            "ticker": "SHRIRAMFIN",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 933.7000122070312,
+            "ts": "2026-05-19T02:50:17.454667+00:00"
+          },
+          {
+            "ticker": "DMART",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 4304.7001953125,
+            "ts": "2026-05-19T02:50:32.261597+00:00"
+          },
+          {
+            "ticker": "PIDILITIND",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1450.199951171875,
+            "ts": "2026-05-19T02:50:45.512630+00:00"
+          },
+          {
+            "ticker": "DLF",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 573.1500244140625,
+            "ts": "2026-05-19T02:51:02.818632+00:00"
+          },
+          {
+            "ticker": "AMBUJACEM",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 430.1499938964844,
+            "ts": "2026-05-19T02:51:14.432250+00:00"
+          },
+          {
+            "ticker": "BAJAJHLDNG",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 10367.0,
+            "ts": "2026-05-19T02:51:28.125609+00:00"
+          },
+          {
+            "ticker": "HAVELLS",
+            "action": "SELL",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1194.800048828125,
+            "ts": "2026-05-19T02:51:48.963879+00:00"
+          },
+          {
+            "ticker": "ICICIPRULI",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 515.4000244140625,
+            "ts": "2026-05-19T02:52:17.673990+00:00"
+          },
+          {
+            "ticker": "CHOLAFIN",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1527.9000244140625,
+            "ts": "2026-05-19T02:52:32.699050+00:00"
+          },
+          {
+            "ticker": "SIEMENS",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 3535.10009765625,
+            "ts": "2026-05-19T02:52:45.743207+00:00"
+          },
+          {
+            "ticker": "VEDL",
+            "action": "SELL",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 327.0,
+            "ts": "2026-05-19T02:53:00.784017+00:00"
+          },
+          {
+            "ticker": "GODREJCP",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1014.4000244140625,
+            "ts": "2026-05-19T02:53:17.168044+00:00"
+          },
+          {
+            "ticker": "ICICIGI",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1813.0,
+            "ts": "2026-05-19T02:53:29.796883+00:00"
+          },
+          {
+            "ticker": "DABUR",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 456.3500061035156,
+            "ts": "2026-05-19T02:53:57.101386+00:00"
+          },
+          {
+            "ticker": "ABB",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 6413.5,
+            "ts": "2026-05-19T02:54:11.115271+00:00"
+          },
+          {
+            "ticker": "TVSMOTOR",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 3291.0,
+            "ts": "2026-05-19T02:54:30.018655+00:00"
+          },
+          {
+            "ticker": "VBL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 511.5,
+            "ts": "2026-05-19T02:54:41.854045+00:00"
+          },
+          {
+            "ticker": "CGPOWER",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 808.75,
+            "ts": "2026-05-19T02:54:56.095770+00:00"
+          },
+          {
+            "ticker": "BANKBARODA",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 260.04998779296875,
+            "ts": "2026-05-19T02:55:07.555888+00:00"
+          },
+          {
+            "ticker": "BEL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 426.6000061035156,
+            "ts": "2026-05-19T02:55:21.454575+00:00"
+          },
+          {
+            "ticker": "PFC",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 429.79998779296875,
+            "ts": "2026-05-19T02:55:49.450566+00:00"
+          },
+          {
+            "ticker": "RECLTD",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 333.70001220703125,
+            "ts": "2026-05-19T02:56:04.207810+00:00"
+          },
+          {
+            "ticker": "MOTHERSON",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 128.75,
+            "ts": "2026-05-19T02:56:16.676959+00:00"
+          },
+          {
+            "ticker": "LICI",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 791.4000244140625,
+            "ts": "2026-05-19T02:56:37.566388+00:00"
+          },
+          {
+            "ticker": "INDIGO",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 4275.7001953125,
+            "ts": "2026-05-19T02:56:50.822388+00:00"
+          },
+          {
+            "ticker": "HAL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 4326.5,
+            "ts": "2026-05-19T02:57:05.873777+00:00"
+          },
+          {
+            "ticker": "BOSCHLTD",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 37155.0,
+            "ts": "2026-05-19T02:57:17.859198+00:00"
+          },
+          {
+            "ticker": "ZYDUSLIFE",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 991.0999755859375,
+            "ts": "2026-05-19T02:57:30.405602+00:00"
+          },
+          {
+            "ticker": "TORNTPHARM",
+            "action": "BUY",
+            "final_qty": 2,
+            "proposed_qty": 2,
+            "risk_status": "APPROVED",
+            "risk_reason": "Within all caps.",
+            "last_close": 4393.7001953125,
+            "ts": "2026-05-19T02:57:49.398043+00:00"
+          },
+          {
+            "ticker": "LODHA",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 857.75,
+            "ts": "2026-05-19T02:58:06.916277+00:00"
+          },
+          {
+            "ticker": "ADANIPOWER",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 219.3000030517578,
+            "ts": "2026-05-19T02:58:20.023986+00:00"
+          },
+          {
+            "ticker": "ADANIGREEN",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1369.0,
+            "ts": "2026-05-19T02:58:35.225925+00:00"
+          },
+          {
+            "ticker": "GAIL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 160.22000122070312,
+            "ts": "2026-05-19T02:58:53.662720+00:00"
+          },
+          {
+            "ticker": "IOC",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 131.80999755859375,
+            "ts": "2026-05-19T02:59:09.001570+00:00"
+          },
+          {
+            "ticker": "UNITDSPR",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1315.699951171875,
+            "ts": "2026-05-19T02:59:30.015990+00:00"
+          },
+          {
+            "ticker": "CANBK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 124.9000015258789,
+            "ts": "2026-05-19T02:59:42.177708+00:00"
+          },
+          {
+            "ticker": "PNB",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 99.48999786376953,
+            "ts": "2026-05-19T02:59:54.490001+00:00"
+          },
+          {
+            "ticker": "IDFCFIRSTB",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 67.58999633789062,
+            "ts": "2026-05-19T03:00:08.623845+00:00"
+          },
+          {
+            "ticker": "NAUKRI",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 925.9500122070312,
+            "ts": "2026-05-19T03:00:26.438734+00:00"
+          },
+          {
+            "ticker": "JINDALSTEL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1231.800048828125,
+            "ts": "2026-05-19T03:00:40.698224+00:00"
+          },
+          {
+            "ticker": "SHREECEM",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 24475.0,
+            "ts": "2026-05-19T03:00:51.513588+00:00"
+          },
+          {
+            "ticker": "MARICO",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 833.75,
+            "ts": "2026-05-19T03:01:14.362592+00:00"
+          },
+          {
+            "ticker": "INDHOTEL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 648.5499877929688,
+            "ts": "2026-05-19T03:01:34.945175+00:00"
+          },
+          {
+            "ticker": "COLPAL",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 2151.199951171875,
+            "ts": "2026-05-19T03:01:49.178997+00:00"
+          },
+          {
+            "ticker": "BERGEPAINT",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 524.5999755859375,
+            "ts": "2026-05-19T03:02:00.955405+00:00"
+          },
+          {
+            "ticker": "MUTHOOTFIN",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 3290.89990234375,
+            "ts": "2026-05-19T03:02:15.361849+00:00"
+          },
+          {
+            "ticker": "AUROPHARMA",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1500.5,
+            "ts": "2026-05-19T03:02:38.433433+00:00"
+          },
+          {
+            "ticker": "LUPIN",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 2252.39990234375,
+            "ts": "2026-05-19T03:02:49.572887+00:00"
+          },
+          {
+            "ticker": "PAGEIND",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 37505.0,
+            "ts": "2026-05-19T03:03:00.910651+00:00"
+          },
+          {
+            "ticker": "ASHOKLEY",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 151.13999938964844,
+            "ts": "2026-05-19T03:03:13.659075+00:00"
+          },
+          {
+            "ticker": "POLYCAB",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 9151.0,
+            "ts": "2026-05-19T03:03:28.200600+00:00"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-12",
+        "n_decisions": 5,
+        "n_buys": 0,
+        "n_sells": 0,
+        "n_holds": 5,
+        "entries": [
+          {
+            "ticker": "RELIANCE",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1388.199951171875,
+            "ts": "2026-05-12T05:15:18.712656+00:00"
+          },
+          {
+            "ticker": "HDFCBANK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 763.6500244140625,
+            "ts": "2026-05-12T05:15:35.267345+00:00"
+          },
+          {
+            "ticker": "TCS",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 2392.89990234375,
+            "ts": "2026-05-12T05:15:49.500090+00:00"
+          },
+          {
+            "ticker": "ICICIBANK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1266.4000244140625,
+            "ts": "2026-05-12T05:15:59.877543+00:00"
+          },
+          {
+            "ticker": "INFY",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1177.0,
+            "ts": "2026-05-12T05:16:12.650028+00:00"
+          }
+        ]
+      },
+      {
+        "date": "2026-05-11",
+        "n_decisions": 10,
+        "n_buys": 0,
+        "n_sells": 0,
+        "n_holds": 10,
+        "entries": [
+          {
+            "ticker": "RELIANCE",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1435.199951171875,
+            "ts": "2026-05-11T03:45:45.346744+00:00"
+          },
+          {
+            "ticker": "HDFCBANK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 780.8499755859375,
+            "ts": "2026-05-11T03:45:56.839774+00:00"
+          },
+          {
+            "ticker": "TCS",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 2394.39990234375,
+            "ts": "2026-05-11T03:46:10.766614+00:00"
+          },
+          {
+            "ticker": "ICICIBANK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1264.800048828125,
+            "ts": "2026-05-11T03:46:30.005012+00:00"
+          },
+          {
+            "ticker": "INFY",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1179.199951171875,
+            "ts": "2026-05-11T03:46:42.485184+00:00"
+          },
+          {
+            "ticker": "RELIANCE",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1435.199951171875,
+            "ts": "2026-05-11T04:19:51.663921+00:00"
+          },
+          {
+            "ticker": "HDFCBANK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 780.8499755859375,
+            "ts": "2026-05-11T04:20:05.142500+00:00"
+          },
+          {
+            "ticker": "TCS",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 2394.39990234375,
+            "ts": "2026-05-11T04:20:21.509372+00:00"
+          },
+          {
+            "ticker": "ICICIBANK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1264.800048828125,
+            "ts": "2026-05-11T04:20:32.709450+00:00"
+          },
+          {
+            "ticker": "INFY",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1179.199951171875,
+            "ts": "2026-05-11T04:20:46.043539+00:00"
+          }
+        ]
+      }
+    ]
+  },
+  "costs": {
+    "today_usd": 0.0,
+    "today_inr": 0.0,
+    "mtd_usd": 9.1768,
+    "mtd_inr": 780.02
+  }
+}
