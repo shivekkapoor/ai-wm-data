@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T13:33:02.648563+05:30",
+  "generated_at": "2026-05-23T20:24:41.189708+05:30",
   "portfolio": {
     "cash_inr": 412406.6,
     "invested_inr": 87593.4,
@@ -136,7 +136,7 @@
     "runs": [
       {
         "date": "2026-05-23",
-        "n_decisions": 103,
+        "n_decisions": 104,
         "n_buys": 4,
         "n_sells": 0,
         "n_holds": 55,
@@ -1170,6 +1170,16 @@
             "risk_reason": "No-op (HOLD/0 qty).",
             "last_close": 766.7999877929688,
             "ts": "2026-05-23T08:02:55.347132+00:00"
+          },
+          {
+            "ticker": "CIPLA",
+            "action": "BUY",
+            "final_qty": 0,
+            "proposed_qty": 6,
+            "risk_status": "REJECTED",
+            "risk_reason": "Per-stock cap 5.0% already at/over for CIPLA.",
+            "last_close": 1399.199951171875,
+            "ts": "2026-05-23T14:54:39.572526+00:00"
           }
         ]
       },
@@ -4203,10 +4213,10 @@
     ]
   },
   "costs": {
-    "today_usd": 1.751,
-    "today_inr": 148.84,
-    "mtd_usd": 19.6477,
-    "mtd_inr": 1670.05
+    "today_usd": 1.7636,
+    "today_inr": 149.91,
+    "mtd_usd": 19.6603,
+    "mtd_inr": 1671.12
   },
   "signals": {
     "RELIANCE": {
@@ -7917,11 +7927,11 @@
         "resistance": 1437.15
       },
       "trader": {
-        "reasoning": "Fundamental picture is constructive \u2014 cheap valuation (forward P/E 22x, -24% discount to sector), net-cash balance sheet, and ROIC of 22.9% \u2014 but growth is only moderate and the Lanreotide disruption plus North America ramp uncertainty cap upside confidence. Technical momentum is positive in the short term (ADX 36.6, RSI 61.9, bullish MACD) yet the death-cross and price sitting 2.6% below SMA200 mean the long-term structure is still bearish, making a new entry premature. Sentiment is neutral with zero conviction, and the macro regime (INR at 95.96, crude at $105.42, NIFTY bearish) enforces a RISK_OFF stance with a 0.6 position-size multiplier; on balance, two of three pillars lean cautious, warranting a HOLD until either the SMA200 is decisively reclaimed or the Lanreotide/FDA overhang clears.",
-        "action": "HOLD",
-        "conviction": 0.45,
-        "target_price": 1437.15,
-        "stop_loss": 1356.65
+        "reasoning": "Technical setup is the sole credible pillar here \u2014 CIPLA shows a confirmed uptrend with RSI at 61.9 (strong but not overbought) and ADX at 36.6 (strong trend), producing a 0.73 technical conviction. However, fundamentals were not analysed (fast mode, zero conviction) and sentiment is entirely neutral with no drivers, so cross-pillar corroboration is absent. The macro backdrop is mildly supportive: Healthcare is overweight in the current RISK_OFF regime and CIPLA as an export-oriented pharma benefits modestly from INR weakness at 95.96. Conviction is capped at 0.5 given the single-pillar basis; qty is sized conservatively at 6 shares (~\u20b98,395, ~1.7% of portfolio) well within the 3% effective cap. Stop loss anchored at technical support of \u20b91,292 (~7.7% below entry, approximately 1.5\u00d7 ATR-equivalent given the support distance); target conservatively set at nearest resistance \u20b91,356.65.",
+        "action": "BUY",
+        "conviction": 0.5,
+        "target_price": 1356.65,
+        "stop_loss": 1292.06
       },
       "fundamental": {
         "thesis": "Cipla is a leading Indian pharmaceutical company with strong domestic formulations (\u20b912,500 cr+ India revenue, +9% FY26, +15% Q4FY26), a growing North America business (US revenue \u20b94,797 cr in FY26 with $1B run-rate target by FY27 end), and an emerging specialty pipeline including Generic Ventolin (6-month exclusivity), Advair, and Symbicort. FY26 full-year revenue grew a modest +2.2% YoY to \u20b928,163 cr while PAT fell sharply -26.4% YoY to \u20b93,879 cr (FY26 PAT margin 13.8%), primarily driven by one-off impairment charges that compressed Q4FY26 PAT margin to ~8.5% versus the annual average; underlying EBITDA margin of 21% in Q4FY26 and FY27 guidance of 18.5\u201320% EBITDA suggests the PAT dip is largely non-recurring. Trailing P/E of 29.2\u00d7 sits at the low end of the pharma sector benchmark range (28\u201340\u00d7) and at P25 versus healthcare peers, with a -24% discount to the sector median of 38.6\u00d7 and forward P/E of 22.1\u00d7 implying meaningful earnings growth recovery, making valuation appear cheap; a net cash position of \u20b910,526 cr and ROIC of 22.9% reinforce balance sheet quality, though the yfinance Debt/Equity figure of 1.78 looks inconsistent with the net-cash status reported in filings and should be treated with caution. The key risk is the Lanreotide supply disruption (partner remediation ongoing, alternate US supplier being pursued) which, combined with the Indore OAI classification history and geopolitical sourcing cost pressures on the EMEU segment, could delay North America revenue ramp and suppress margins in H1 FY27.",
