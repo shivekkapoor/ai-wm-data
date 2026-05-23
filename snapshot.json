@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-23T10:57:11.942094+05:30",
+  "generated_at": "2026-05-23T13:33:02.648563+05:30",
   "portfolio": {
     "cash_inr": 412406.6,
     "invested_inr": 87593.4,
-    "current_holdings_value": 87593.4,
-    "total_value_inr": 500000.0,
+    "current_holdings_value": 87355.2,
+    "total_value_inr": 499761.8,
     "initial_capital": 500000,
-    "total_pnl_inr": 0.0,
-    "total_pnl_pct": 0.0,
+    "total_pnl_inr": -238.2,
+    "total_pnl_pct": -0.05,
     "cash_pct": 82.5,
     "last_run_date": "2026-05-23",
     "holdings": [
@@ -17,10 +17,10 @@
         "sector": "Healthcare",
         "qty": 13,
         "avg_cost": 1866.57,
-        "ltp": null,
-        "value_inr": 24265.4,
-        "pnl_inr": 0.0,
-        "pnl_pct": 0.0,
+        "ltp": 1844.6,
+        "value_inr": 23979.8,
+        "pnl_inr": -285.6,
+        "pnl_pct": -1.18,
         "buy_date": "2026-05-23"
       },
       {
@@ -29,10 +29,10 @@
         "sector": "Healthcare",
         "qty": 17,
         "avg_cost": 1399.41,
-        "ltp": null,
-        "value_inr": 23790.0,
-        "pnl_inr": 0.0,
-        "pnl_pct": 0.0,
+        "ltp": 1399.2,
+        "value_inr": 23786.4,
+        "pnl_inr": -3.6,
+        "pnl_pct": -0.02,
         "buy_date": "2026-05-23"
       },
       {
@@ -41,10 +41,10 @@
         "sector": "Telecom",
         "qty": 9,
         "avg_cost": 1886.29,
-        "ltp": null,
-        "value_inr": 16976.6,
-        "pnl_inr": 0.0,
-        "pnl_pct": 0.0,
+        "ltp": 1871.4,
+        "value_inr": 16842.6,
+        "pnl_inr": -134.0,
+        "pnl_pct": -0.79,
         "buy_date": "2026-05-23"
       },
       {
@@ -53,7 +53,7 @@
         "sector": "Healthcare",
         "qty": 2,
         "avg_cost": 6887.0,
-        "ltp": null,
+        "ltp": 6887.0,
         "value_inr": 13774.0,
         "pnl_inr": 0.0,
         "pnl_pct": 0.0,
@@ -65,10 +65,10 @@
         "sector": "Healthcare",
         "qty": 2,
         "avg_cost": 4393.7,
-        "ltp": null,
-        "value_inr": 8787.4,
-        "pnl_inr": 0.0,
-        "pnl_pct": 0.0,
+        "ltp": 4486.2,
+        "value_inr": 8972.4,
+        "pnl_inr": 185.0,
+        "pnl_pct": 2.11,
         "buy_date": "2026-05-23"
       }
     ]
@@ -136,10 +136,10 @@
     "runs": [
       {
         "date": "2026-05-23",
-        "n_decisions": 100,
+        "n_decisions": 103,
         "n_buys": 4,
         "n_sells": 0,
-        "n_holds": 52,
+        "n_holds": 55,
         "entries": [
           {
             "ticker": "RELIANCE",
@@ -1140,6 +1140,36 @@
             "risk_reason": "",
             "last_close": null,
             "ts": "2026-05-23T03:23:45.593504+00:00"
+          },
+          {
+            "ticker": "CIPLA",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1399.199951171875,
+            "ts": "2026-05-23T08:01:49.628991+00:00"
+          },
+          {
+            "ticker": "INFY",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 1174.5,
+            "ts": "2026-05-23T08:02:24.614646+00:00"
+          },
+          {
+            "ticker": "HDFCBANK",
+            "action": "HOLD",
+            "final_qty": 0,
+            "proposed_qty": 0,
+            "risk_status": "APPROVED",
+            "risk_reason": "No-op (HOLD/0 qty).",
+            "last_close": 766.7999877929688,
+            "ts": "2026-05-23T08:02:55.347132+00:00"
           }
         ]
       },
@@ -4173,10 +4203,10 @@
     ]
   },
   "costs": {
-    "today_usd": 1.6409,
-    "today_inr": 139.48,
-    "mtd_usd": 19.5376,
-    "mtd_inr": 1660.69
+    "today_usd": 1.751,
+    "today_inr": 148.84,
+    "mtd_usd": 19.6477,
+    "mtd_inr": 1670.05
   },
   "signals": {
     "RELIANCE": {
@@ -4220,6 +4250,81 @@
         "reaction_2d_pct": 1.67,
         "surprise": "inline",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Energy",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 22.7,
+            "sector_median": 9.3,
+            "pct_rank": 100.0,
+            "premium_pct": 143.3,
+            "label": "expensive",
+            "cheapest_peers": [
+              "BPCL",
+              "COALINDIA"
+            ],
+            "priciest_peers": [
+              "COALINDIA",
+              "ONGC"
+            ],
+            "peer_count": 4
+          },
+          "forward_pe": {
+            "stock_value": 18.9,
+            "sector_median": 7.6,
+            "pct_rank": 100.0,
+            "premium_pct": 146.7,
+            "label": "expensive",
+            "cheapest_peers": [
+              "ONGC",
+              "BPCL"
+            ],
+            "priciest_peers": [
+              "BPCL",
+              "COALINDIA"
+            ],
+            "peer_count": 4
+          },
+          "pb_ratio": {
+            "stock_value": 2.0,
+            "sector_median": 1.6,
+            "pct_rank": 66.7,
+            "premium_pct": 23.4,
+            "label": "fair",
+            "cheapest_peers": [
+              "ONGC",
+              "BPCL"
+            ],
+            "priciest_peers": [
+              "BPCL",
+              "COALINDIA"
+            ],
+            "peer_count": 4
+          },
+          "ev_ebitda": {
+            "stock_value": 12.1,
+            "sector_median": 5.6,
+            "pct_rank": 100.0,
+            "premium_pct": 116.2,
+            "label": "expensive",
+            "cheapest_peers": [
+              "BPCL",
+              "ONGC"
+            ],
+            "priciest_peers": [
+              "ONGC",
+              "COALINDIA"
+            ],
+            "peer_count": 4
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 100.0,
+        "pe_premium_pct": 143.3,
+        "pe_sector_median": 9.3,
+        "peer_count": 4
       }
     },
     "HDFCBANK": {
@@ -4227,26 +4332,26 @@
       "sentiment": {
         "tone": "neutral",
         "drivers": [
-          "Management reiterated guidance with no change \u2014 credit growth 12% ahead of system, deposit growth 14.4% outpacing credit, signalling balance sheet strength but no upside surprise",
-          "NIM under pressure: assets repriced faster than deposits (only 40-50 bps repriced so far), compressing near-term profitability",
-          "FinBERT aggregate score exactly 0.00 with 100% neutral headlines \u2014 no company-specific news catalyst in either direction",
-          "Macro headwinds (INR at 95.96, crude at $105.42, Financials sector underweighted in RISK_OFF regime) add external pressure to a rate-sensitive bank"
+          "Management guidance reiterated with no change \u2014 'continue to have good momentum and trajectory' but explicitly cautious on pace due to geopolitical situation; credit growth 12% beat initial 10.5%-11.5% system estimate but lacks upside surprise",
+          "NIM under pressure: assets repriced faster than deposits (only 40-50 bps repriced so far), creating near-term earnings drag that management acknowledged without offering a clear resolution timeline",
+          "Earnings reaction was in-line (-0.6% over two days), indicating market found results neither disappointing nor exciting \u2014 no strong institutional conviction either way",
+          "Financials sector flow is neutral (-0.86% relative return, 48% breadth) and sector is underweighted in current RISK_OFF macro regime with weak INR and elevated crude adding rate-sensitivity headwinds"
         ],
-        "conviction": 0.45
+        "conviction": 0.42
       },
       "technical": {
-        "setup": "HDFCBANK is range-bound and trendless \u2014 price sits below all three SMAs (20/50/200) with ADX at 18.2 confirming no directional trend, RSI in weak-neutral territory at 45.5, and a marginally positive MACD histogram that is too small to signal a meaningful recovery.",
+        "setup": "HDFCBANK is range-bound with no directional trend (ADX 18.2 < 20), sitting 16.8% below its 200-day SMA in a confirmed death-cross structure, with RSI neutral at 45.5 and MACD barely positive but the MACD line still deep in negative territory \u2014 consolidation with a bearish long-term bias, no actionable breakout signal present.",
         "signal": "hold",
-        "conviction": 0.25,
+        "conviction": 0.3,
         "support": 749.78,
-        "resistance": 771.86
+        "resistance": 785.87
       },
       "trader": {
-        "reasoning": "All three analyst pillars converge on caution: fundamentals are fair-valued with only moderate growth and partial data quality, sentiment is neutral with NIM compression and no positive catalysts, and technicals show a trendless setup with price below all major SMAs and ADX at 18.2. The macro backdrop \u2014 weak INR, elevated crude, and Financials underweighted in a RISK_OFF regime \u2014 adds further headwind for a rate-sensitive bank. With no pillar offering a buy signal and the effective position cap at just 19 shares, the risk-reward does not justify initiating or adding to a position at this time.",
+        "reasoning": "All three pillars converge on caution: fundamentals are fair-valued with only moderate growth and partial data quality, sentiment is neutral with NIM headwinds and no upside earnings surprise, and technicals show a range-bound, trendless structure with a bearish long-term death-cross and ADX below 20. The macro regime compounds the case against action \u2014 Financials are underweighted in a RISK_OFF environment where weak INR and elevated crude amplify rate-sensitivity risks for the sector. With no pillar offering a BUY signal and conviction across all three views ranging from 0.30 to 0.55, HOLD with zero new shares is the appropriate stance; revisit if NIM compression stabilises or price reclaims the 200-day SMA.",
         "action": "HOLD",
-        "conviction": 0.3,
-        "target_price": 766.8,
-        "stop_loss": null
+        "conviction": 0.32,
+        "target_price": 785.87,
+        "stop_loss": 749.78
       },
       "fundamental": {
         "thesis": "HDFC Bank remains India's premier private sector lender with consistently strong profitability \u2014 Q1FY26 net profit of \u20b916,258 cr and Q3FY25 at \u20b917,657 cr confirm a steady earnings base, though the wide revenue swing between quarters (\u20b919,555 cr in Q2FY25 vs \u20b995,306 cr in Q4FY25) raises data-quality or reporting-basis concerns that temper conviction. The RBI approval to invest in ICICI Bank and Kotak Mahindra Bank is a notable governance signal, suggesting regulatory confidence in HDFC Bank's capital adequacy and compliance posture. At current repo rate of 6.5% with no cuts imminent, NIM pressure from the merged HDFC Ltd book integration remains the key near-term risk, keeping growth at moderate rather than strong.",
@@ -4263,6 +4368,65 @@
         "reaction_2d_pct": -0.56,
         "surprise": "inline",
         "freshness": "medium"
+      },
+      "peer_valuation": {
+        "sector": "Financials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 17.1,
+            "sector_median": 19.8,
+            "pct_rank": 33.3,
+            "premium_pct": -13.5,
+            "label": "fair",
+            "cheapest_peers": [
+              "SBIN",
+              "BAJAJHLDNG"
+            ],
+            "priciest_peers": [
+              "SBILIFE",
+              "INDUSINDBK"
+            ],
+            "peer_count": 13
+          },
+          "forward_pe": {
+            "stock_value": 12.2,
+            "sector_median": 13.8,
+            "pct_rank": 18.2,
+            "premium_pct": -11.7,
+            "label": "cheap",
+            "cheapest_peers": [
+              "SBIN",
+              "AXISBANK"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 12
+          },
+          "pb_ratio": {
+            "stock_value": 2.1,
+            "sector_median": 2.5,
+            "pct_rank": 33.3,
+            "premium_pct": -16.1,
+            "label": "fair",
+            "cheapest_peers": [
+              "INDUSINDBK",
+              "SBIN"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 13
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 33.3,
+        "pe_premium_pct": -13.5,
+        "pe_sector_median": 19.8,
+        "peer_count": 13
       }
     },
     "TCS": {
@@ -4306,6 +4470,81 @@
         "reaction_2d_pct": -3.38,
         "surprise": "inline",
         "freshness": "medium"
+      },
+      "peer_valuation": {
+        "sector": "IT",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 17.0,
+            "sector_median": 17.0,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "INFY",
+              "WIPRO"
+            ],
+            "priciest_peers": [
+              "HCLTECH",
+              "TECHM"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 14.0,
+            "sector_median": 14.3,
+            "pct_rank": 0.0,
+            "premium_pct": -2.2,
+            "label": "cheap",
+            "cheapest_peers": [
+              "WIPRO",
+              "INFY"
+            ],
+            "priciest_peers": [
+              "HCLTECH",
+              "TECHM"
+            ],
+            "peer_count": 5
+          },
+          "pb_ratio": {
+            "stock_value": 7.4,
+            "sector_median": 4.6,
+            "pct_rank": 100.0,
+            "premium_pct": 61.4,
+            "label": "expensive",
+            "cheapest_peers": [
+              "WIPRO",
+              "HCLTECH"
+            ],
+            "priciest_peers": [
+              "TECHM",
+              "INFY"
+            ],
+            "peer_count": 5
+          },
+          "ev_ebitda": {
+            "stock_value": 11.5,
+            "sector_median": 13.3,
+            "pct_rank": 25.0,
+            "premium_pct": -14.0,
+            "label": "cheap",
+            "cheapest_peers": [
+              "WIPRO",
+              "TECHM"
+            ],
+            "priciest_peers": [
+              "INFY",
+              "HCLTECH"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 50.0,
+        "pe_premium_pct": 0.0,
+        "pe_sector_median": 17.0,
+        "peer_count": 5
       }
     },
     "BHARTIARTL": {
@@ -4392,6 +4631,65 @@
         "reaction_2d_pct": 0.7,
         "surprise": "inline",
         "freshness": "medium"
+      },
+      "peer_valuation": {
+        "sector": "Financials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 16.9,
+            "sector_median": 19.8,
+            "pct_rank": 25.0,
+            "premium_pct": -14.5,
+            "label": "cheap",
+            "cheapest_peers": [
+              "SBIN",
+              "BAJAJHLDNG"
+            ],
+            "priciest_peers": [
+              "SBILIFE",
+              "INDUSINDBK"
+            ],
+            "peer_count": 13
+          },
+          "forward_pe": {
+            "stock_value": 13.9,
+            "sector_median": 13.8,
+            "pct_rank": 54.5,
+            "premium_pct": 0.7,
+            "label": "fair",
+            "cheapest_peers": [
+              "SBIN",
+              "AXISBANK"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 12
+          },
+          "pb_ratio": {
+            "stock_value": 2.5,
+            "sector_median": 2.5,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "INDUSINDBK",
+              "SBIN"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 13
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 25.0,
+        "pe_premium_pct": -14.5,
+        "pe_sector_median": 19.8,
+        "peer_count": 13
       }
     },
     "SBIN": {
@@ -4436,31 +4734,90 @@
         "reaction_2d_pct": -10.84,
         "surprise": "negative_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Financials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 10.4,
+            "sector_median": 19.8,
+            "pct_rank": 0.0,
+            "premium_pct": -47.4,
+            "label": "cheap",
+            "cheapest_peers": [
+              "BAJAJHLDNG",
+              "AXISBANK"
+            ],
+            "priciest_peers": [
+              "SBILIFE",
+              "INDUSINDBK"
+            ],
+            "peer_count": 13
+          },
+          "forward_pe": {
+            "stock_value": 9.2,
+            "sector_median": 13.8,
+            "pct_rank": 0.0,
+            "premium_pct": -33.8,
+            "label": "cheap",
+            "cheapest_peers": [
+              "AXISBANK",
+              "HDFCBANK"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 12
+          },
+          "pb_ratio": {
+            "stock_value": 1.5,
+            "sector_median": 2.5,
+            "pct_rank": 8.3,
+            "premium_pct": -40.6,
+            "label": "cheap",
+            "cheapest_peers": [
+              "INDUSINDBK",
+              "BAJAJHLDNG"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 13
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 0.0,
+        "pe_premium_pct": -47.4,
+        "pe_sector_median": 19.8,
+        "peer_count": 13
       }
     },
     "INFY": {
       "run_date": "2026-05-23",
       "sentiment": {
-        "tone": "neutral",
+        "tone": "bearish",
         "drivers": [
-          "Management reiterated FY27 guidance (1.5\u20133.5% CC growth) with no upgrade; language cautious on discretionary spend and AI-driven margin compression",
-          "Strong deal pipeline ($14.9bn FY26, +28% YoY; $3.2bn Q4 with 55% net new) provides revenue visibility but does not shift guidance higher",
-          "FinBERT aggregate +0.67 with 67% positive headlines supports mild near-term optimism, partially confirming deal-win narrative",
-          "INR weakness to 95.96 is a structural tailwind for export earner INFY, partially offsetting cautious client spending and discretionary spend headwinds"
+          "NEGATIVE EARNINGS SURPRISE: market punished INFY -9.0% on results day and -7.8% over two days, signalling institutional disappointment despite management's constructive framing",
+          "Management guidance is neutral-to-cautious: FY27 CC revenue growth guided at only 1.5%-3.5%, client spending described as 'guarded with focus on cost optimization', and AI productivity compression flagged as a headwind to traditional IT services revenue",
+          "Q4 sequential CC revenue declined 1.3% and discretionary spend pressures persist \u2014 underlying demand environment remains soft even if large-deal wins look optically strong",
+          "SECTOR TAILWIND partially offsets: IT sector showing strong 5-day institutional inflow (+3.66% relative to benchmark, 100% breadth), suggesting some rotation back into IT, but this is a sector-level signal and does not reverse stock-specific negative verdict from results"
         ],
-        "conviction": 0.55
+        "conviction": 0.62
       },
       "technical": {
-        "setup": "INFY is in a short-term recovery within a broader downtrend \u2014 price has reclaimed SMA20 (\u20b91,162) and MACD histogram is positive, but price remains well below SMA50 (\u20b91,232) and far below SMA200 (\u20b91,444), indicating a relief bounce rather than a trend reversal.",
+        "setup": "INFY shows a tentative short-term recovery \u2014 MACD histogram is positive and %B is in the upper half of the band \u2014 but the broader structure remains bearish with price 18.6% below the 200-day SMA, a death-cross SMA alignment (SMA50 < SMA200), and MACD line still negative; ADX at 25 just crosses into 'strong trend' territory but the trend label is SIDEWAYS, so momentum is not yet directionally committed to upside.",
         "signal": "hold",
-        "conviction": 0.42,
+        "conviction": 0.38,
         "support": 1162.61,
         "resistance": 1232.03
       },
       "trader": {
-        "reasoning": "The three pillars are misaligned: fundamentals flag expensive valuation on moderate growth with partial data quality, technical shows only a relief bounce within a larger downtrend (price well below SMA50 and SMA200), and sentiment is cautiously neutral with no guidance upgrade despite a solid deal pipeline. INR weakness is a structural tailwind for INFY as an export earner and aligns with the macro regime's IT overweight tilt, but that positive is offset by expensive valuation, weak global IT discretionary spend, and the risk-off macro backdrop with a 0.6 position-size multiplier. With no two pillars in clear agreement and fundamental data quality rated partial, conviction is capped well below 0.5; HOLD with zero new exposure is the appropriate call until price clears SMA50 (~\u20b91,232) on volume or fundamentals improve materially.",
+        "reasoning": "All three pillars lean cautious: fundamentals flag expensive valuation at ~26-28x P/E against weak FY27 guidance (1.5-3.5% CC growth), sentiment is bearish driven by a sharp -9% post-results sell-off and soft discretionary demand, and technicals show price sitting 18.6% below the 200-day SMA in a death-cross configuration with no committed upside momentum. The partial fundamental data quality and mixed signals (sector-level IT inflows vs. stock-specific weakness, tentative MACD recovery vs. bearish SMA stack) keep conviction low. Macro context of INR weakness at 95.96 offers a mild export tailwind for IT, but this is insufficient to offset the negative earnings surprise and cautious management outlook. HOLD with zero new shares; reassess if price holds above support at \u20b91,162 and FY27 guidance is revised upward.",
         "action": "HOLD",
-        "conviction": 0.38,
+        "conviction": 0.3,
         "target_price": 1232.03,
         "stop_loss": 1162.61
       },
@@ -4479,6 +4836,65 @@
         "reaction_2d_pct": -7.75,
         "surprise": "negative_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "IT",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 15.2,
+            "sector_median": 17.0,
+            "pct_rank": 0.0,
+            "premium_pct": -10.7,
+            "label": "cheap",
+            "cheapest_peers": [
+              "WIPRO",
+              "TCS"
+            ],
+            "priciest_peers": [
+              "HCLTECH",
+              "TECHM"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 14.3,
+            "sector_median": 14.3,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "TCS",
+              "WIPRO"
+            ],
+            "priciest_peers": [
+              "HCLTECH",
+              "TECHM"
+            ],
+            "peer_count": 5
+          },
+          "pb_ratio": {
+            "stock_value": 5.1,
+            "sector_median": 4.6,
+            "pct_rank": 75.0,
+            "premium_pct": 12.2,
+            "label": "expensive",
+            "cheapest_peers": [
+              "WIPRO",
+              "HCLTECH"
+            ],
+            "priciest_peers": [
+              "TECHM",
+              "TCS"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 0.0,
+        "pe_premium_pct": -10.7,
+        "pe_sector_median": 17.0,
+        "peer_count": 5
       }
     },
     "LT": {
@@ -4515,6 +4931,81 @@
         "reaction_2d_pct": -1.48,
         "surprise": "inline",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Industrials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 33.6,
+            "sector_median": 33.6,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "ADANIPORTS",
+              "ADANIENT"
+            ],
+            "priciest_peers": [
+              "ADANIPORTS",
+              "ADANIENT"
+            ],
+            "peer_count": 3
+          },
+          "forward_pe": {
+            "stock_value": 21.4,
+            "sector_median": 23.0,
+            "pct_rank": 0.0,
+            "premium_pct": -7.1,
+            "label": "cheap",
+            "cheapest_peers": [
+              "ADANIPORTS",
+              "ADANIENT"
+            ],
+            "priciest_peers": [
+              "ADANIPORTS",
+              "ADANIENT"
+            ],
+            "peer_count": 3
+          },
+          "pb_ratio": {
+            "stock_value": 4.9,
+            "sector_median": 4.3,
+            "pct_rank": 100.0,
+            "premium_pct": 14.1,
+            "label": "expensive",
+            "cheapest_peers": [
+              "ADANIPORTS",
+              "ADANIENT"
+            ],
+            "priciest_peers": [
+              "ADANIPORTS",
+              "ADANIENT"
+            ],
+            "peer_count": 3
+          },
+          "ev_ebitda": {
+            "stock_value": 17.9,
+            "sector_median": 20.5,
+            "pct_rank": 0.0,
+            "premium_pct": -12.5,
+            "label": "cheap",
+            "cheapest_peers": [
+              "ADANIPORTS",
+              "ADANIENT"
+            ],
+            "priciest_peers": [
+              "ADANIPORTS",
+              "ADANIENT"
+            ],
+            "peer_count": 3
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 50.0,
+        "pe_premium_pct": 0.0,
+        "pe_sector_median": 33.6,
+        "peer_count": 3
       }
     },
     "BAJFINANCE": {
@@ -4551,6 +5042,65 @@
         "reaction_2d_pct": 1.45,
         "surprise": "inline",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Financials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 30.0,
+            "sector_median": 19.8,
+            "pct_rank": 66.7,
+            "premium_pct": 51.7,
+            "label": "fair",
+            "cheapest_peers": [
+              "SBIN",
+              "BAJAJHLDNG"
+            ],
+            "priciest_peers": [
+              "SBILIFE",
+              "INDUSINDBK"
+            ],
+            "peer_count": 13
+          },
+          "forward_pe": {
+            "stock_value": 18.5,
+            "sector_median": 13.8,
+            "pct_rank": 63.6,
+            "premium_pct": 34.1,
+            "label": "fair",
+            "cheapest_peers": [
+              "SBIN",
+              "AXISBANK"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 12
+          },
+          "pb_ratio": {
+            "stock_value": 5.0,
+            "sector_median": 2.5,
+            "pct_rank": 75.0,
+            "premium_pct": 100.8,
+            "label": "expensive",
+            "cheapest_peers": [
+              "INDUSINDBK",
+              "SBIN"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 13
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 66.7,
+        "pe_premium_pct": 51.7,
+        "pe_sector_median": 19.8,
+        "peer_count": 13
       }
     },
     "ITC": {
@@ -4594,6 +5144,81 @@
         "reaction_2d_pct": null,
         "surprise": "inline",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "FMCG",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 18.3,
+            "sector_median": 49.8,
+            "pct_rank": 0.0,
+            "premium_pct": -63.3,
+            "label": "cheap",
+            "cheapest_peers": [
+              "HINDUNILVR",
+              "BRITANNIA"
+            ],
+            "priciest_peers": [
+              "BRITANNIA",
+              "NESTLEIND"
+            ],
+            "peer_count": 4
+          },
+          "forward_pe": {
+            "stock_value": 16.8,
+            "sector_median": 41.1,
+            "pct_rank": 0.0,
+            "premium_pct": -59.1,
+            "label": "cheap",
+            "cheapest_peers": [
+              "BRITANNIA",
+              "HINDUNILVR"
+            ],
+            "priciest_peers": [
+              "HINDUNILVR",
+              "NESTLEIND"
+            ],
+            "peer_count": 4
+          },
+          "pb_ratio": {
+            "stock_value": 5.3,
+            "sector_median": 17.9,
+            "pct_rank": 0.0,
+            "premium_pct": -70.3,
+            "label": "cheap",
+            "cheapest_peers": [
+              "HINDUNILVR",
+              "BRITANNIA"
+            ],
+            "priciest_peers": [
+              "BRITANNIA",
+              "NESTLEIND"
+            ],
+            "peer_count": 4
+          },
+          "ev_ebitda": {
+            "stock_value": 13.1,
+            "sector_median": 34.9,
+            "pct_rank": 0.0,
+            "premium_pct": -62.6,
+            "label": "cheap",
+            "cheapest_peers": [
+              "HINDUNILVR",
+              "BRITANNIA"
+            ],
+            "priciest_peers": [
+              "BRITANNIA",
+              "NESTLEIND"
+            ],
+            "peer_count": 4
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 0.0,
+        "pe_premium_pct": -63.3,
+        "pe_sector_median": 49.8,
+        "peer_count": 4
       }
     },
     "HINDUNILVR": {
@@ -4638,6 +5263,81 @@
         "reaction_2d_pct": -0.22,
         "surprise": "inline",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "FMCG",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 48.8,
+            "sector_median": 49.8,
+            "pct_rank": 33.3,
+            "premium_pct": -2.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "ITC",
+              "BRITANNIA"
+            ],
+            "priciest_peers": [
+              "BRITANNIA",
+              "NESTLEIND"
+            ],
+            "peer_count": 4
+          },
+          "forward_pe": {
+            "stock_value": 41.1,
+            "sector_median": 41.1,
+            "pct_rank": 66.7,
+            "premium_pct": 0.1,
+            "label": "fair",
+            "cheapest_peers": [
+              "ITC",
+              "BRITANNIA"
+            ],
+            "priciest_peers": [
+              "BRITANNIA",
+              "NESTLEIND"
+            ],
+            "peer_count": 4
+          },
+          "pb_ratio": {
+            "stock_value": 10.6,
+            "sector_median": 17.9,
+            "pct_rank": 33.3,
+            "premium_pct": -40.6,
+            "label": "fair",
+            "cheapest_peers": [
+              "ITC",
+              "BRITANNIA"
+            ],
+            "priciest_peers": [
+              "BRITANNIA",
+              "NESTLEIND"
+            ],
+            "peer_count": 4
+          },
+          "ev_ebitda": {
+            "stock_value": 33.8,
+            "sector_median": 34.9,
+            "pct_rank": 33.3,
+            "premium_pct": -3.3,
+            "label": "fair",
+            "cheapest_peers": [
+              "ITC",
+              "BRITANNIA"
+            ],
+            "priciest_peers": [
+              "BRITANNIA",
+              "NESTLEIND"
+            ],
+            "peer_count": 4
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 33.3,
+        "pe_premium_pct": -2.0,
+        "pe_sector_median": 49.8,
+        "peer_count": 4
       }
     },
     "MM": {
@@ -4701,6 +5401,65 @@
         "reaction_2d_pct": -3.04,
         "surprise": "negative_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Financials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 19.8,
+            "sector_median": 19.8,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "SBIN",
+              "BAJAJHLDNG"
+            ],
+            "priciest_peers": [
+              "SBILIFE",
+              "INDUSINDBK"
+            ],
+            "peer_count": 13
+          },
+          "forward_pe": {
+            "stock_value": 13.7,
+            "sector_median": 13.8,
+            "pct_rank": 45.5,
+            "premium_pct": -0.7,
+            "label": "fair",
+            "cheapest_peers": [
+              "SBIN",
+              "AXISBANK"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 12
+          },
+          "pb_ratio": {
+            "stock_value": 2.1,
+            "sector_median": 2.5,
+            "pct_rank": 41.7,
+            "premium_pct": -15.3,
+            "label": "fair",
+            "cheapest_peers": [
+              "INDUSINDBK",
+              "SBIN"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 13
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 50.0,
+        "pe_premium_pct": 0.0,
+        "pe_sector_median": 19.8,
+        "peer_count": 13
       }
     },
     "MARUTI": {
@@ -4737,6 +5496,81 @@
         "reaction_2d_pct": -0.66,
         "surprise": "inline",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Auto",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 27.8,
+            "sector_median": 27.5,
+            "pct_rank": 75.0,
+            "premium_pct": 1.1,
+            "label": "expensive",
+            "cheapest_peers": [
+              "HEROMOTOCO",
+              "M&M"
+            ],
+            "priciest_peers": [
+              "BAJAJ-AUTO",
+              "EICHERMOT"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 20.8,
+            "sector_median": 20.0,
+            "pct_rank": 60.0,
+            "premium_pct": 3.8,
+            "label": "fair",
+            "cheapest_peers": [
+              "TMPV",
+              "HEROMOTOCO"
+            ],
+            "priciest_peers": [
+              "BAJAJ-AUTO",
+              "EICHERMOT"
+            ],
+            "peer_count": 6
+          },
+          "pb_ratio": {
+            "stock_value": 3.8,
+            "sector_median": 4.2,
+            "pct_rank": 40.0,
+            "premium_pct": -9.4,
+            "label": "fair",
+            "cheapest_peers": [
+              "TMPV",
+              "M&M"
+            ],
+            "priciest_peers": [
+              "BAJAJ-AUTO",
+              "EICHERMOT"
+            ],
+            "peer_count": 6
+          },
+          "ev_ebitda": {
+            "stock_value": 18.2,
+            "sector_median": 15.3,
+            "pct_rank": 60.0,
+            "premium_pct": 19.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "TMPV",
+              "M&M"
+            ],
+            "priciest_peers": [
+              "BAJAJ-AUTO",
+              "EICHERMOT"
+            ],
+            "peer_count": 6
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 75.0,
+        "pe_premium_pct": 1.1,
+        "pe_sector_median": 27.5,
+        "peer_count": 5
       }
     },
     "AXISBANK": {
@@ -4773,6 +5607,65 @@
         "reaction_2d_pct": -3.05,
         "surprise": "negative_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Financials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 15.2,
+            "sector_median": 19.8,
+            "pct_rank": 16.7,
+            "premium_pct": -23.1,
+            "label": "cheap",
+            "cheapest_peers": [
+              "SBIN",
+              "BAJAJHLDNG"
+            ],
+            "priciest_peers": [
+              "SBILIFE",
+              "INDUSINDBK"
+            ],
+            "peer_count": 13
+          },
+          "forward_pe": {
+            "stock_value": 10.2,
+            "sector_median": 13.8,
+            "pct_rank": 9.1,
+            "premium_pct": -26.2,
+            "label": "cheap",
+            "cheapest_peers": [
+              "SBIN",
+              "HDFCBANK"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 12
+          },
+          "pb_ratio": {
+            "stock_value": 1.9,
+            "sector_median": 2.5,
+            "pct_rank": 25.0,
+            "premium_pct": -25.3,
+            "label": "cheap",
+            "cheapest_peers": [
+              "INDUSINDBK",
+              "SBIN"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 13
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 16.7,
+        "pe_premium_pct": -23.1,
+        "pe_sector_median": 19.8,
+        "peer_count": 13
       }
     },
     "SUNPHARMA": {
@@ -4807,6 +5700,81 @@
         "conviction": 0.52,
         "target_price": 1906.64,
         "stop_loss": 1776.15
+      },
+      "peer_valuation": {
+        "sector": "Healthcare",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 38.6,
+            "sector_median": 38.6,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "DRREDDY",
+              "CIPLA"
+            ],
+            "priciest_peers": [
+              "APOLLOHOSP",
+              "DIVISLAB"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 28.2,
+            "sector_median": 28.2,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "DRREDDY",
+              "CIPLA"
+            ],
+            "priciest_peers": [
+              "APOLLOHOSP",
+              "DIVISLAB"
+            ],
+            "peer_count": 5
+          },
+          "pb_ratio": {
+            "stock_value": 5.7,
+            "sector_median": 5.7,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "DRREDDY",
+              "CIPLA"
+            ],
+            "priciest_peers": [
+              "DIVISLAB",
+              "APOLLOHOSP"
+            ],
+            "peer_count": 5
+          },
+          "ev_ebitda": {
+            "stock_value": 26.3,
+            "sector_median": 26.3,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "DRREDDY",
+              "CIPLA"
+            ],
+            "priciest_peers": [
+              "APOLLOHOSP",
+              "DIVISLAB"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 50.0,
+        "pe_premium_pct": 0.0,
+        "pe_sector_median": 38.6,
+        "peer_count": 5
       }
     },
     "ULTRACEMCO": {
@@ -4843,6 +5811,65 @@
         "reaction_2d_pct": -1.38,
         "surprise": "inline",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Materials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 41.7,
+            "sector_median": 35.1,
+            "pct_rank": 57.1,
+            "premium_pct": 18.8,
+            "label": "fair",
+            "cheapest_peers": [
+              "JSWSTEEL",
+              "HINDALCO"
+            ],
+            "priciest_peers": [
+              "PIDILITIND",
+              "ASIANPAINT"
+            ],
+            "peer_count": 8
+          },
+          "forward_pe": {
+            "stock_value": 26.4,
+            "sector_median": 24.0,
+            "pct_rank": 57.1,
+            "premium_pct": 10.3,
+            "label": "fair",
+            "cheapest_peers": [
+              "TATASTEEL",
+              "HINDALCO"
+            ],
+            "priciest_peers": [
+              "PIDILITIND",
+              "ASIANPAINT"
+            ],
+            "peer_count": 8
+          },
+          "pb_ratio": {
+            "stock_value": 4.7,
+            "sector_median": 2.9,
+            "pct_rank": 71.4,
+            "premium_pct": 60.5,
+            "label": "fair",
+            "cheapest_peers": [
+              "AMBUJACEM",
+              "HINDALCO"
+            ],
+            "priciest_peers": [
+              "ASIANPAINT",
+              "PIDILITIND"
+            ],
+            "peer_count": 8
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 57.1,
+        "pe_premium_pct": 18.8,
+        "pe_sector_median": 35.1,
+        "peer_count": 8
       }
     },
     "NTPC": {
@@ -4923,6 +5950,65 @@
         "reaction_2d_pct": -10.55,
         "surprise": "negative_surprise",
         "freshness": "medium"
+      },
+      "peer_valuation": {
+        "sector": "IT",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 19.0,
+            "sector_median": 17.0,
+            "pct_rank": 75.0,
+            "premium_pct": 11.4,
+            "label": "expensive",
+            "cheapest_peers": [
+              "INFY",
+              "WIPRO"
+            ],
+            "priciest_peers": [
+              "TCS",
+              "TECHM"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 14.5,
+            "sector_median": 14.3,
+            "pct_rank": 75.0,
+            "premium_pct": 1.5,
+            "label": "expensive",
+            "cheapest_peers": [
+              "TCS",
+              "WIPRO"
+            ],
+            "priciest_peers": [
+              "INFY",
+              "TECHM"
+            ],
+            "peer_count": 5
+          },
+          "pb_ratio": {
+            "stock_value": 4.2,
+            "sector_median": 4.6,
+            "pct_rank": 25.0,
+            "premium_pct": -8.1,
+            "label": "cheap",
+            "cheapest_peers": [
+              "WIPRO",
+              "TECHM"
+            ],
+            "priciest_peers": [
+              "INFY",
+              "TCS"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 75.0,
+        "pe_premium_pct": 11.4,
+        "pe_sector_median": 17.0,
+        "peer_count": 5
       }
     },
     "TITAN": {
@@ -4959,6 +6045,81 @@
         "reaction_2d_pct": -6.73,
         "surprise": "negative_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Consumer Discr.",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 71.4,
+            "sector_median": 88.5,
+            "pct_rank": 25.0,
+            "premium_pct": -19.3,
+            "label": "cheap",
+            "cheapest_peers": [
+              "HAVELLS",
+              "TRENT"
+            ],
+            "priciest_peers": [
+              "DMART",
+              "ETERNAL"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 47.5,
+            "sector_median": 57.5,
+            "pct_rank": 25.0,
+            "premium_pct": -17.3,
+            "label": "cheap",
+            "cheapest_peers": [
+              "HAVELLS",
+              "TRENT"
+            ],
+            "priciest_peers": [
+              "DMART",
+              "ETERNAL"
+            ],
+            "peer_count": 5
+          },
+          "pb_ratio": {
+            "stock_value": 28.3,
+            "sector_median": 10.9,
+            "pct_rank": 100.0,
+            "premium_pct": 158.1,
+            "label": "expensive",
+            "cheapest_peers": [
+              "ETERNAL",
+              "HAVELLS"
+            ],
+            "priciest_peers": [
+              "DMART",
+              "TRENT"
+            ],
+            "peer_count": 5
+          },
+          "ev_ebitda": {
+            "stock_value": 46.5,
+            "sector_median": 46.5,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "HAVELLS",
+              "TRENT"
+            ],
+            "priciest_peers": [
+              "DMART",
+              "ETERNAL"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 25.0,
+        "pe_premium_pct": -19.3,
+        "pe_sector_median": 88.5,
+        "peer_count": 5
       }
     },
     "ONGC": {
@@ -5002,6 +6163,81 @@
         "reaction_2d_pct": -1.02,
         "surprise": "inline",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Energy",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 9.6,
+            "sector_median": 9.3,
+            "pct_rank": 66.7,
+            "premium_pct": 2.9,
+            "label": "fair",
+            "cheapest_peers": [
+              "BPCL",
+              "COALINDIA"
+            ],
+            "priciest_peers": [
+              "COALINDIA",
+              "RELIANCE"
+            ],
+            "peer_count": 4
+          },
+          "forward_pe": {
+            "stock_value": 6.8,
+            "sector_median": 7.6,
+            "pct_rank": 0.0,
+            "premium_pct": -10.3,
+            "label": "cheap",
+            "cheapest_peers": [
+              "BPCL",
+              "COALINDIA"
+            ],
+            "priciest_peers": [
+              "COALINDIA",
+              "RELIANCE"
+            ],
+            "peer_count": 4
+          },
+          "pb_ratio": {
+            "stock_value": 1.0,
+            "sector_median": 1.6,
+            "pct_rank": 0.0,
+            "premium_pct": -39.8,
+            "label": "cheap",
+            "cheapest_peers": [
+              "BPCL",
+              "RELIANCE"
+            ],
+            "priciest_peers": [
+              "RELIANCE",
+              "COALINDIA"
+            ],
+            "peer_count": 4
+          },
+          "ev_ebitda": {
+            "stock_value": 5.4,
+            "sector_median": 5.6,
+            "pct_rank": 33.3,
+            "premium_pct": -4.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "BPCL",
+              "COALINDIA"
+            ],
+            "priciest_peers": [
+              "COALINDIA",
+              "RELIANCE"
+            ],
+            "peer_count": 4
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 66.7,
+        "pe_premium_pct": 2.9,
+        "pe_sector_median": 9.3,
+        "peer_count": 4
       }
     },
     "BAJAJFINSV": {
@@ -5038,6 +6274,81 @@
         "reaction_2d_pct": -2.28,
         "surprise": "inline",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Financials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 29.0,
+            "sector_median": 19.8,
+            "pct_rank": 58.3,
+            "premium_pct": 46.4,
+            "label": "fair",
+            "cheapest_peers": [
+              "SBIN",
+              "BAJAJHLDNG"
+            ],
+            "priciest_peers": [
+              "SBILIFE",
+              "INDUSINDBK"
+            ],
+            "peer_count": 13
+          },
+          "forward_pe": {
+            "stock_value": 19.2,
+            "sector_median": 13.8,
+            "pct_rank": 72.7,
+            "premium_pct": 38.9,
+            "label": "fair",
+            "cheapest_peers": [
+              "SBIN",
+              "AXISBANK"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 12
+          },
+          "pb_ratio": {
+            "stock_value": 3.6,
+            "sector_median": 2.5,
+            "pct_rank": 66.7,
+            "premium_pct": 45.4,
+            "label": "fair",
+            "cheapest_peers": [
+              "INDUSINDBK",
+              "SBIN"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 13
+          },
+          "ev_ebitda": {
+            "stock_value": 12.1,
+            "sector_median": 63.0,
+            "pct_rank": 0.0,
+            "premium_pct": -80.8,
+            "label": "cheap",
+            "cheapest_peers": [
+              "ICICIPRULI",
+              "HDFCLIFE"
+            ],
+            "priciest_peers": [
+              "SBILIFE",
+              "BAJAJHLDNG"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 58.3,
+        "pe_premium_pct": 46.4,
+        "pe_sector_median": 19.8,
+        "peer_count": 13
       }
     },
     "ADANIENT": {
@@ -5082,6 +6393,81 @@
         "reaction_2d_pct": 2.47,
         "surprise": "inline",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Industrials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 36.9,
+            "sector_median": 33.6,
+            "pct_rank": 100.0,
+            "premium_pct": 10.0,
+            "label": "expensive",
+            "cheapest_peers": [
+              "ADANIPORTS",
+              "LT"
+            ],
+            "priciest_peers": [
+              "ADANIPORTS",
+              "LT"
+            ],
+            "peer_count": 3
+          },
+          "forward_pe": {
+            "stock_value": 47.9,
+            "sector_median": 23.0,
+            "pct_rank": 100.0,
+            "premium_pct": 108.1,
+            "label": "expensive",
+            "cheapest_peers": [
+              "LT",
+              "ADANIPORTS"
+            ],
+            "priciest_peers": [
+              "LT",
+              "ADANIPORTS"
+            ],
+            "peer_count": 3
+          },
+          "pb_ratio": {
+            "stock_value": 4.3,
+            "sector_median": 4.3,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "ADANIPORTS",
+              "LT"
+            ],
+            "priciest_peers": [
+              "ADANIPORTS",
+              "LT"
+            ],
+            "peer_count": 3
+          },
+          "ev_ebitda": {
+            "stock_value": 32.3,
+            "sector_median": 20.5,
+            "pct_rank": 100.0,
+            "premium_pct": 57.4,
+            "label": "expensive",
+            "cheapest_peers": [
+              "LT",
+              "ADANIPORTS"
+            ],
+            "priciest_peers": [
+              "LT",
+              "ADANIPORTS"
+            ],
+            "peer_count": 3
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 100.0,
+        "pe_premium_pct": 10.0,
+        "pe_sector_median": 33.6,
+        "peer_count": 3
       }
     },
     "POWERGRID": {
@@ -5169,6 +6555,81 @@
         "reaction_2d_pct": -3.47,
         "surprise": "inline",
         "freshness": "medium"
+      },
+      "peer_valuation": {
+        "sector": "IT",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 16.2,
+            "sector_median": 17.0,
+            "pct_rank": 25.0,
+            "premium_pct": -5.0,
+            "label": "cheap",
+            "cheapest_peers": [
+              "INFY",
+              "TCS"
+            ],
+            "priciest_peers": [
+              "HCLTECH",
+              "TECHM"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 14.1,
+            "sector_median": 14.3,
+            "pct_rank": 25.0,
+            "premium_pct": -1.3,
+            "label": "cheap",
+            "cheapest_peers": [
+              "TCS",
+              "INFY"
+            ],
+            "priciest_peers": [
+              "HCLTECH",
+              "TECHM"
+            ],
+            "peer_count": 5
+          },
+          "pb_ratio": {
+            "stock_value": 2.4,
+            "sector_median": 4.6,
+            "pct_rank": 0.0,
+            "premium_pct": -48.3,
+            "label": "cheap",
+            "cheapest_peers": [
+              "HCLTECH",
+              "TECHM"
+            ],
+            "priciest_peers": [
+              "INFY",
+              "TCS"
+            ],
+            "peer_count": 5
+          },
+          "ev_ebitda": {
+            "stock_value": 10.2,
+            "sector_median": 13.3,
+            "pct_rank": 0.0,
+            "premium_pct": -23.8,
+            "label": "cheap",
+            "cheapest_peers": [
+              "TCS",
+              "TECHM"
+            ],
+            "priciest_peers": [
+              "INFY",
+              "HCLTECH"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 25.0,
+        "pe_premium_pct": -5.0,
+        "pe_sector_median": 17.0,
+        "peer_count": 5
       }
     },
     "ADANIPORTS": {
@@ -5213,6 +6674,81 @@
         "reaction_2d_pct": 4.91,
         "surprise": "inline",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Industrials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 30.7,
+            "sector_median": 33.6,
+            "pct_rank": 0.0,
+            "premium_pct": -8.6,
+            "label": "cheap",
+            "cheapest_peers": [
+              "LT",
+              "ADANIENT"
+            ],
+            "priciest_peers": [
+              "LT",
+              "ADANIENT"
+            ],
+            "peer_count": 3
+          },
+          "forward_pe": {
+            "stock_value": 23.0,
+            "sector_median": 23.0,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "LT",
+              "ADANIENT"
+            ],
+            "priciest_peers": [
+              "LT",
+              "ADANIENT"
+            ],
+            "peer_count": 3
+          },
+          "pb_ratio": {
+            "stock_value": 4.3,
+            "sector_median": 4.3,
+            "pct_rank": 0.0,
+            "premium_pct": -1.2,
+            "label": "cheap",
+            "cheapest_peers": [
+              "ADANIENT",
+              "LT"
+            ],
+            "priciest_peers": [
+              "ADANIENT",
+              "LT"
+            ],
+            "peer_count": 3
+          },
+          "ev_ebitda": {
+            "stock_value": 20.5,
+            "sector_median": 20.5,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "LT",
+              "ADANIENT"
+            ],
+            "priciest_peers": [
+              "LT",
+              "ADANIENT"
+            ],
+            "peer_count": 3
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 0.0,
+        "pe_premium_pct": -8.6,
+        "pe_sector_median": 33.6,
+        "peer_count": 3
       }
     },
     "COALINDIA": {
@@ -5249,6 +6785,81 @@
         "reaction_2d_pct": 6.4,
         "surprise": "positive_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Energy",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 9.1,
+            "sector_median": 9.3,
+            "pct_rank": 33.3,
+            "premium_pct": -2.9,
+            "label": "fair",
+            "cheapest_peers": [
+              "BPCL",
+              "ONGC"
+            ],
+            "priciest_peers": [
+              "ONGC",
+              "RELIANCE"
+            ],
+            "peer_count": 4
+          },
+          "forward_pe": {
+            "stock_value": 8.0,
+            "sector_median": 7.6,
+            "pct_rank": 66.7,
+            "premium_pct": 4.5,
+            "label": "fair",
+            "cheapest_peers": [
+              "ONGC",
+              "BPCL"
+            ],
+            "priciest_peers": [
+              "BPCL",
+              "RELIANCE"
+            ],
+            "peer_count": 4
+          },
+          "pb_ratio": {
+            "stock_value": 2.4,
+            "sector_median": 1.6,
+            "pct_rank": 100.0,
+            "premium_pct": 43.5,
+            "label": "expensive",
+            "cheapest_peers": [
+              "ONGC",
+              "BPCL"
+            ],
+            "priciest_peers": [
+              "BPCL",
+              "RELIANCE"
+            ],
+            "peer_count": 4
+          },
+          "ev_ebitda": {
+            "stock_value": 5.8,
+            "sector_median": 5.6,
+            "pct_rank": 66.7,
+            "premium_pct": 4.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "BPCL",
+              "ONGC"
+            ],
+            "priciest_peers": [
+              "ONGC",
+              "RELIANCE"
+            ],
+            "peer_count": 4
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 33.3,
+        "pe_premium_pct": -2.9,
+        "pe_sector_median": 9.3,
+        "peer_count": 4
       }
     },
     "NESTLEIND": {
@@ -5293,6 +6904,81 @@
         "reaction_2d_pct": 9.65,
         "surprise": "positive_surprise",
         "freshness": "medium"
+      },
+      "peer_valuation": {
+        "sector": "FMCG",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 78.1,
+            "sector_median": 49.8,
+            "pct_rank": 100.0,
+            "premium_pct": 57.0,
+            "label": "expensive",
+            "cheapest_peers": [
+              "ITC",
+              "HINDUNILVR"
+            ],
+            "priciest_peers": [
+              "HINDUNILVR",
+              "BRITANNIA"
+            ],
+            "peer_count": 4
+          },
+          "forward_pe": {
+            "stock_value": 60.1,
+            "sector_median": 41.1,
+            "pct_rank": 100.0,
+            "premium_pct": 46.2,
+            "label": "expensive",
+            "cheapest_peers": [
+              "ITC",
+              "BRITANNIA"
+            ],
+            "priciest_peers": [
+              "BRITANNIA",
+              "HINDUNILVR"
+            ],
+            "peer_count": 4
+          },
+          "pb_ratio": {
+            "stock_value": 53.2,
+            "sector_median": 17.9,
+            "pct_rank": 100.0,
+            "premium_pct": 197.4,
+            "label": "expensive",
+            "cheapest_peers": [
+              "ITC",
+              "HINDUNILVR"
+            ],
+            "priciest_peers": [
+              "HINDUNILVR",
+              "BRITANNIA"
+            ],
+            "peer_count": 4
+          },
+          "ev_ebitda": {
+            "stock_value": 51.5,
+            "sector_median": 34.9,
+            "pct_rank": 100.0,
+            "premium_pct": 47.6,
+            "label": "expensive",
+            "cheapest_peers": [
+              "ITC",
+              "HINDUNILVR"
+            ],
+            "priciest_peers": [
+              "HINDUNILVR",
+              "BRITANNIA"
+            ],
+            "peer_count": 4
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 100.0,
+        "pe_premium_pct": 57.0,
+        "pe_sector_median": 49.8,
+        "peer_count": 4
       }
     },
     "ASIANPAINT": {
@@ -5329,6 +7015,81 @@
         "reaction_2d_pct": -10.64,
         "surprise": "negative_surprise",
         "freshness": "low"
+      },
+      "peer_valuation": {
+        "sector": "Materials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 65.8,
+            "sector_median": 35.1,
+            "pct_rank": 100.0,
+            "premium_pct": 87.5,
+            "label": "expensive",
+            "cheapest_peers": [
+              "JSWSTEEL",
+              "HINDALCO"
+            ],
+            "priciest_peers": [
+              "GRASIM",
+              "PIDILITIND"
+            ],
+            "peer_count": 8
+          },
+          "forward_pe": {
+            "stock_value": 52.8,
+            "sector_median": 24.0,
+            "pct_rank": 100.0,
+            "premium_pct": 120.3,
+            "label": "expensive",
+            "cheapest_peers": [
+              "TATASTEEL",
+              "HINDALCO"
+            ],
+            "priciest_peers": [
+              "AMBUJACEM",
+              "PIDILITIND"
+            ],
+            "peer_count": 8
+          },
+          "pb_ratio": {
+            "stock_value": 12.9,
+            "sector_median": 2.9,
+            "pct_rank": 85.7,
+            "premium_pct": 339.5,
+            "label": "expensive",
+            "cheapest_peers": [
+              "AMBUJACEM",
+              "HINDALCO"
+            ],
+            "priciest_peers": [
+              "ULTRACEMCO",
+              "PIDILITIND"
+            ],
+            "peer_count": 8
+          },
+          "ev_ebitda": {
+            "stock_value": 43.0,
+            "sector_median": 13.3,
+            "pct_rank": 100.0,
+            "premium_pct": 222.3,
+            "label": "expensive",
+            "cheapest_peers": [
+              "HINDALCO",
+              "TATASTEEL"
+            ],
+            "priciest_peers": [
+              "AMBUJACEM",
+              "PIDILITIND"
+            ],
+            "peer_count": 7
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 100.0,
+        "pe_premium_pct": 87.5,
+        "pe_sector_median": 35.1,
+        "peer_count": 8
       }
     },
     "JSWSTEEL": {
@@ -5372,6 +7133,81 @@
         "reaction_2d_pct": 1.4,
         "surprise": "inline",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Materials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 14.1,
+            "sector_median": 35.1,
+            "pct_rank": 0.0,
+            "premium_pct": -59.9,
+            "label": "cheap",
+            "cheapest_peers": [
+              "HINDALCO",
+              "AMBUJACEM"
+            ],
+            "priciest_peers": [
+              "PIDILITIND",
+              "ASIANPAINT"
+            ],
+            "peer_count": 8
+          },
+          "forward_pe": {
+            "stock_value": 17.7,
+            "sector_median": 24.0,
+            "pct_rank": 28.6,
+            "premium_pct": -26.1,
+            "label": "fair",
+            "cheapest_peers": [
+              "TATASTEEL",
+              "HINDALCO"
+            ],
+            "priciest_peers": [
+              "PIDILITIND",
+              "ASIANPAINT"
+            ],
+            "peer_count": 8
+          },
+          "pb_ratio": {
+            "stock_value": 3.1,
+            "sector_median": 2.9,
+            "pct_rank": 57.1,
+            "premium_pct": 6.8,
+            "label": "fair",
+            "cheapest_peers": [
+              "AMBUJACEM",
+              "HINDALCO"
+            ],
+            "priciest_peers": [
+              "ASIANPAINT",
+              "PIDILITIND"
+            ],
+            "peer_count": 8
+          },
+          "ev_ebitda": {
+            "stock_value": 12.6,
+            "sector_median": 13.3,
+            "pct_rank": 33.3,
+            "premium_pct": -5.2,
+            "label": "fair",
+            "cheapest_peers": [
+              "HINDALCO",
+              "TATASTEEL"
+            ],
+            "priciest_peers": [
+              "PIDILITIND",
+              "ASIANPAINT"
+            ],
+            "peer_count": 7
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 0.0,
+        "pe_premium_pct": -59.9,
+        "pe_sector_median": 35.1,
+        "peer_count": 8
       }
     },
     "TATASTEEL": {
@@ -5416,6 +7252,81 @@
         "reaction_2d_pct": -5.16,
         "surprise": "negative_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Materials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 28.5,
+            "sector_median": 35.1,
+            "pct_rank": 42.9,
+            "premium_pct": -18.8,
+            "label": "fair",
+            "cheapest_peers": [
+              "JSWSTEEL",
+              "HINDALCO"
+            ],
+            "priciest_peers": [
+              "PIDILITIND",
+              "ASIANPAINT"
+            ],
+            "peer_count": 8
+          },
+          "forward_pe": {
+            "stock_value": 11.1,
+            "sector_median": 24.0,
+            "pct_rank": 0.0,
+            "premium_pct": -53.5,
+            "label": "cheap",
+            "cheapest_peers": [
+              "HINDALCO",
+              "JSWSTEEL"
+            ],
+            "priciest_peers": [
+              "PIDILITIND",
+              "ASIANPAINT"
+            ],
+            "peer_count": 8
+          },
+          "pb_ratio": {
+            "stock_value": 2.7,
+            "sector_median": 2.9,
+            "pct_rank": 42.9,
+            "premium_pct": -6.8,
+            "label": "fair",
+            "cheapest_peers": [
+              "AMBUJACEM",
+              "HINDALCO"
+            ],
+            "priciest_peers": [
+              "ASIANPAINT",
+              "PIDILITIND"
+            ],
+            "peer_count": 8
+          },
+          "ev_ebitda": {
+            "stock_value": 10.0,
+            "sector_median": 13.3,
+            "pct_rank": 16.7,
+            "premium_pct": -24.8,
+            "label": "cheap",
+            "cheapest_peers": [
+              "HINDALCO",
+              "JSWSTEEL"
+            ],
+            "priciest_peers": [
+              "PIDILITIND",
+              "ASIANPAINT"
+            ],
+            "peer_count": 7
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 42.9,
+        "pe_premium_pct": -18.8,
+        "pe_sector_median": 35.1,
+        "peer_count": 8
       }
     },
     "TMPV": {
@@ -5460,6 +7371,65 @@
         "reaction_2d_pct": 4.84,
         "surprise": "positive_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Auto",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "forward_pe": {
+            "stock_value": 6.8,
+            "sector_median": 20.0,
+            "pct_rank": 0.0,
+            "premium_pct": -66.2,
+            "label": "cheap",
+            "cheapest_peers": [
+              "HEROMOTOCO",
+              "M&M"
+            ],
+            "priciest_peers": [
+              "BAJAJ-AUTO",
+              "EICHERMOT"
+            ],
+            "peer_count": 6
+          },
+          "pb_ratio": {
+            "stock_value": 1.2,
+            "sector_median": 4.2,
+            "pct_rank": 0.0,
+            "premium_pct": -71.2,
+            "label": "cheap",
+            "cheapest_peers": [
+              "M&M",
+              "MARUTI"
+            ],
+            "priciest_peers": [
+              "BAJAJ-AUTO",
+              "EICHERMOT"
+            ],
+            "peer_count": 6
+          },
+          "ev_ebitda": {
+            "stock_value": 6.6,
+            "sector_median": 15.3,
+            "pct_rank": 0.0,
+            "premium_pct": -56.8,
+            "label": "cheap",
+            "cheapest_peers": [
+              "M&M",
+              "HEROMOTOCO"
+            ],
+            "priciest_peers": [
+              "BAJAJ-AUTO",
+              "EICHERMOT"
+            ],
+            "peer_count": 6
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 0.0,
+        "pe_premium_pct": -66.2,
+        "pe_sector_median": 20.0,
+        "peer_count": 6
       }
     },
     "TECHM": {
@@ -5504,6 +7474,81 @@
         "reaction_2d_pct": -4.55,
         "surprise": "negative_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "IT",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 26.2,
+            "sector_median": 17.0,
+            "pct_rank": 100.0,
+            "premium_pct": 54.0,
+            "label": "expensive",
+            "cheapest_peers": [
+              "INFY",
+              "WIPRO"
+            ],
+            "priciest_peers": [
+              "TCS",
+              "HCLTECH"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 16.7,
+            "sector_median": 14.3,
+            "pct_rank": 100.0,
+            "premium_pct": 16.4,
+            "label": "expensive",
+            "cheapest_peers": [
+              "TCS",
+              "WIPRO"
+            ],
+            "priciest_peers": [
+              "INFY",
+              "HCLTECH"
+            ],
+            "peer_count": 5
+          },
+          "pb_ratio": {
+            "stock_value": 4.6,
+            "sector_median": 4.6,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "WIPRO",
+              "HCLTECH"
+            ],
+            "priciest_peers": [
+              "INFY",
+              "TCS"
+            ],
+            "peer_count": 5
+          },
+          "ev_ebitda": {
+            "stock_value": 13.3,
+            "sector_median": 13.3,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "WIPRO",
+              "TCS"
+            ],
+            "priciest_peers": [
+              "INFY",
+              "HCLTECH"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 100.0,
+        "pe_premium_pct": 54.0,
+        "pe_sector_median": 17.0,
+        "peer_count": 5
       }
     },
     "BAJAJ-AUTO": {
@@ -5548,6 +7593,81 @@
         "reaction_2d_pct": 6.62,
         "surprise": "positive_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Auto",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 27.5,
+            "sector_median": 27.5,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "HEROMOTOCO",
+              "M&M"
+            ],
+            "priciest_peers": [
+              "MARUTI",
+              "EICHERMOT"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 22.4,
+            "sector_median": 20.0,
+            "pct_rank": 80.0,
+            "premium_pct": 11.9,
+            "label": "expensive",
+            "cheapest_peers": [
+              "TMPV",
+              "HEROMOTOCO"
+            ],
+            "priciest_peers": [
+              "MARUTI",
+              "EICHERMOT"
+            ],
+            "peer_count": 6
+          },
+          "pb_ratio": {
+            "stock_value": 7.6,
+            "sector_median": 4.2,
+            "pct_rank": 80.0,
+            "premium_pct": 80.5,
+            "label": "expensive",
+            "cheapest_peers": [
+              "TMPV",
+              "M&M"
+            ],
+            "priciest_peers": [
+              "HEROMOTOCO",
+              "EICHERMOT"
+            ],
+            "peer_count": 6
+          },
+          "ev_ebitda": {
+            "stock_value": 20.2,
+            "sector_median": 15.3,
+            "pct_rank": 80.0,
+            "premium_pct": 31.8,
+            "label": "expensive",
+            "cheapest_peers": [
+              "TMPV",
+              "M&M"
+            ],
+            "priciest_peers": [
+              "MARUTI",
+              "EICHERMOT"
+            ],
+            "peer_count": 6
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 50.0,
+        "pe_premium_pct": 0.0,
+        "pe_sector_median": 27.5,
+        "peer_count": 5
       }
     },
     "HINDALCO": {
@@ -5582,6 +7702,81 @@
         "conviction": 0.38,
         "target_price": 1061.34,
         "stop_loss": null
+      },
+      "peer_valuation": {
+        "sector": "Materials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 18.4,
+            "sector_median": 35.1,
+            "pct_rank": 14.3,
+            "premium_pct": -47.5,
+            "label": "cheap",
+            "cheapest_peers": [
+              "JSWSTEEL",
+              "AMBUJACEM"
+            ],
+            "priciest_peers": [
+              "PIDILITIND",
+              "ASIANPAINT"
+            ],
+            "peer_count": 8
+          },
+          "forward_pe": {
+            "stock_value": 12.5,
+            "sector_median": 24.0,
+            "pct_rank": 14.3,
+            "premium_pct": -47.8,
+            "label": "cheap",
+            "cheapest_peers": [
+              "TATASTEEL",
+              "JSWSTEEL"
+            ],
+            "priciest_peers": [
+              "PIDILITIND",
+              "ASIANPAINT"
+            ],
+            "peer_count": 8
+          },
+          "pb_ratio": {
+            "stock_value": 1.8,
+            "sector_median": 2.9,
+            "pct_rank": 14.3,
+            "premium_pct": -37.8,
+            "label": "cheap",
+            "cheapest_peers": [
+              "AMBUJACEM",
+              "GRASIM"
+            ],
+            "priciest_peers": [
+              "ASIANPAINT",
+              "PIDILITIND"
+            ],
+            "peer_count": 8
+          },
+          "ev_ebitda": {
+            "stock_value": 8.8,
+            "sector_median": 13.3,
+            "pct_rank": 0.0,
+            "premium_pct": -34.3,
+            "label": "cheap",
+            "cheapest_peers": [
+              "TATASTEEL",
+              "JSWSTEEL"
+            ],
+            "priciest_peers": [
+              "PIDILITIND",
+              "ASIANPAINT"
+            ],
+            "peer_count": 7
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 14.3,
+        "pe_premium_pct": -47.5,
+        "pe_sector_median": 35.1,
+        "peer_count": 8
       }
     },
     "DRREDDY": {
@@ -5625,6 +7820,81 @@
         "reaction_2d_pct": 1.85,
         "surprise": "inline",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Healthcare",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 26.0,
+            "sector_median": 38.6,
+            "pct_rank": 0.0,
+            "premium_pct": -32.7,
+            "label": "cheap",
+            "cheapest_peers": [
+              "CIPLA",
+              "SUNPHARMA"
+            ],
+            "priciest_peers": [
+              "APOLLOHOSP",
+              "DIVISLAB"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 20.3,
+            "sector_median": 28.2,
+            "pct_rank": 0.0,
+            "premium_pct": -28.3,
+            "label": "cheap",
+            "cheapest_peers": [
+              "CIPLA",
+              "SUNPHARMA"
+            ],
+            "priciest_peers": [
+              "APOLLOHOSP",
+              "DIVISLAB"
+            ],
+            "peer_count": 5
+          },
+          "pb_ratio": {
+            "stock_value": 2.9,
+            "sector_median": 5.7,
+            "pct_rank": 0.0,
+            "premium_pct": -49.2,
+            "label": "cheap",
+            "cheapest_peers": [
+              "CIPLA",
+              "SUNPHARMA"
+            ],
+            "priciest_peers": [
+              "DIVISLAB",
+              "APOLLOHOSP"
+            ],
+            "peer_count": 5
+          },
+          "ev_ebitda": {
+            "stock_value": 15.4,
+            "sector_median": 26.3,
+            "pct_rank": 0.0,
+            "premium_pct": -41.6,
+            "label": "cheap",
+            "cheapest_peers": [
+              "CIPLA",
+              "SUNPHARMA"
+            ],
+            "priciest_peers": [
+              "APOLLOHOSP",
+              "DIVISLAB"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 0.0,
+        "pe_premium_pct": -32.7,
+        "pe_sector_median": 38.6,
+        "peer_count": 5
       }
     },
     "CIPLA": {
@@ -5632,26 +7902,33 @@
       "sentiment": {
         "tone": "bullish",
         "drivers": [
-          "Management reiterated FY27 EBITDA margin band of 18.5\u201320% with sequential improvement expected; North America targeting $1B run rate by end FY27",
-          "India business crossed \u20b912,500 cr revenue with 9% FY26 growth and 15% Q4 growth; 33 brands exceeding \u20b9100 cr signals broad-based domestic franchise strength",
-          "Generic Ventolin approved with 6-month exclusivity; Advair and Symbicort approvals expected in FY27 \u2014 pipeline execution supports near-term US revenue visibility",
-          "Lanreotide supply disruption ongoing and Q4 PAT margin compressed to 8.5% due to impairment charges; EMEU geopolitical headwinds on sourcing costs add near-term uncertainty"
+          "Strong positive earnings surprise: stock surged +11.2% on results day (T+1), confirming market conviction in Q4FY26 beat \u2014 highest-weight signal",
+          "Management guidance reiterated with clear FY27 milestones: North America targeting $1B run rate, India expecting double-digit growth, EBITDA margin band 18.5%-20% with sequential improvement",
+          "Key positives from transcript: Generic Ventolin 6-month exclusivity, India business crossed \u20b912,500 cr with 15% Q4 growth, strong ROIC of 22.9%, net cash of \u20b910,526 cr",
+          "Key concerns temper conviction: Lanreotide supply disruption unresolved, Q4 PAT margin compressed to 8.5% due to impairment charges, geopolitical headwinds on EMEU sourcing costs"
         ],
-        "conviction": 0.62
+        "conviction": 0.7
       },
       "technical": {
-        "setup": "Cipla is in a confirmed uptrend with price well above SMA20 and SMA50, strong ADX of 36.6, positive MACD histogram, and %B at 0.73 \u2014 however, price remains below the SMA200 (\u20b91,437.15) which acts as a meaningful overhead resistance, capping near-term upside.",
-        "signal": "buy",
-        "conviction": 0.62,
+        "setup": "CIPLA shows a strong short-to-medium term uptrend confirmed by ADX 36.6, bullish MACD, and RSI at healthy 61.9, but the price sits 2.6% below the SMA200 with a death-cross (SMA50 < SMA200) still in place, meaning the longer-term structure remains bearish and the rally has not yet reclaimed the key long-term anchor.",
+        "signal": "hold",
+        "conviction": 0.45,
         "support": 1356.65,
         "resistance": 1437.15
       },
       "trader": {
-        "reasoning": "Sentiment and technical views align moderately bullish: management commentary points to improving US pipeline (generic Ventolin exclusivity, Advair/Symbicort expected), strong domestic franchise growth, and the chart shows a confirmed short-term uptrend with ADX at 36.6 and positive MACD. However, SMA200 at \u20b91,437 is a firm overhead resistance capping near-term upside, fundamental data quality is only 'partial' (no current quarterly financials), and the macro regime is RISK_OFF with a weak INR/high crude backdrop \u2014 while INR weakness is structurally positive for Cipla as an exporter, it also compresses import-linked input costs. Stop-loss is set at approximately 1.5\u00d7 ATR below entry (ATR implied ~56 from support spread), and qty is capped at 7 shares (well within the 10-share effective limit at 3% portfolio cap) to reflect partial-data caution and the bearish broader market.",
-        "action": "BUY",
-        "conviction": 0.55,
+        "reasoning": "Fundamental picture is constructive \u2014 cheap valuation (forward P/E 22x, -24% discount to sector), net-cash balance sheet, and ROIC of 22.9% \u2014 but growth is only moderate and the Lanreotide disruption plus North America ramp uncertainty cap upside confidence. Technical momentum is positive in the short term (ADX 36.6, RSI 61.9, bullish MACD) yet the death-cross and price sitting 2.6% below SMA200 mean the long-term structure is still bearish, making a new entry premature. Sentiment is neutral with zero conviction, and the macro regime (INR at 95.96, crude at $105.42, NIFTY bearish) enforces a RISK_OFF stance with a 0.6 position-size multiplier; on balance, two of three pillars lean cautious, warranting a HOLD until either the SMA200 is decisively reclaimed or the Lanreotide/FDA overhang clears.",
+        "action": "HOLD",
+        "conviction": 0.45,
         "target_price": 1437.15,
-        "stop_loss": 1314.75
+        "stop_loss": 1356.65
+      },
+      "fundamental": {
+        "thesis": "Cipla is a leading Indian pharmaceutical company with strong domestic formulations (\u20b912,500 cr+ India revenue, +9% FY26, +15% Q4FY26), a growing North America business (US revenue \u20b94,797 cr in FY26 with $1B run-rate target by FY27 end), and an emerging specialty pipeline including Generic Ventolin (6-month exclusivity), Advair, and Symbicort. FY26 full-year revenue grew a modest +2.2% YoY to \u20b928,163 cr while PAT fell sharply -26.4% YoY to \u20b93,879 cr (FY26 PAT margin 13.8%), primarily driven by one-off impairment charges that compressed Q4FY26 PAT margin to ~8.5% versus the annual average; underlying EBITDA margin of 21% in Q4FY26 and FY27 guidance of 18.5\u201320% EBITDA suggests the PAT dip is largely non-recurring. Trailing P/E of 29.2\u00d7 sits at the low end of the pharma sector benchmark range (28\u201340\u00d7) and at P25 versus healthcare peers, with a -24% discount to the sector median of 38.6\u00d7 and forward P/E of 22.1\u00d7 implying meaningful earnings growth recovery, making valuation appear cheap; a net cash position of \u20b910,526 cr and ROIC of 22.9% reinforce balance sheet quality, though the yfinance Debt/Equity figure of 1.78 looks inconsistent with the net-cash status reported in filings and should be treated with caution. The key risk is the Lanreotide supply disruption (partner remediation ongoing, alternate US supplier being pursued) which, combined with the Indore OAI classification history and geopolitical sourcing cost pressures on the EMEU segment, could delay North America revenue ramp and suppress margins in H1 FY27.",
+        "valuation_grade": "cheap",
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.65
       },
       "earnings_surprise": {
         "filing_date": "2026-05-13",
@@ -5661,6 +7938,81 @@
         "reaction_2d_pct": 10.82,
         "surprise": "positive_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Healthcare",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 29.2,
+            "sector_median": 38.6,
+            "pct_rank": 25.0,
+            "premium_pct": -24.4,
+            "label": "cheap",
+            "cheapest_peers": [
+              "DRREDDY",
+              "SUNPHARMA"
+            ],
+            "priciest_peers": [
+              "APOLLOHOSP",
+              "DIVISLAB"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 22.1,
+            "sector_median": 28.2,
+            "pct_rank": 25.0,
+            "premium_pct": -21.6,
+            "label": "cheap",
+            "cheapest_peers": [
+              "DRREDDY",
+              "SUNPHARMA"
+            ],
+            "priciest_peers": [
+              "APOLLOHOSP",
+              "DIVISLAB"
+            ],
+            "peer_count": 5
+          },
+          "pb_ratio": {
+            "stock_value": 3.4,
+            "sector_median": 5.7,
+            "pct_rank": 25.0,
+            "premium_pct": -39.7,
+            "label": "cheap",
+            "cheapest_peers": [
+              "DRREDDY",
+              "SUNPHARMA"
+            ],
+            "priciest_peers": [
+              "DIVISLAB",
+              "APOLLOHOSP"
+            ],
+            "peer_count": 5
+          },
+          "ev_ebitda": {
+            "stock_value": 17.4,
+            "sector_median": 26.3,
+            "pct_rank": 25.0,
+            "premium_pct": -33.7,
+            "label": "cheap",
+            "cheapest_peers": [
+              "DRREDDY",
+              "SUNPHARMA"
+            ],
+            "priciest_peers": [
+              "APOLLOHOSP",
+              "DIVISLAB"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 25.0,
+        "pe_premium_pct": -24.4,
+        "pe_sector_median": 38.6,
+        "peer_count": 5
       }
     },
     "INDUSINDBK": {
@@ -5697,6 +8049,65 @@
         "reaction_2d_pct": 4.63,
         "surprise": "positive_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Financials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 79.6,
+            "sector_median": 19.8,
+            "pct_rank": 100.0,
+            "premium_pct": 302.2,
+            "label": "expensive",
+            "cheapest_peers": [
+              "SBIN",
+              "BAJAJHLDNG"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 13
+          },
+          "forward_pe": {
+            "stock_value": 12.6,
+            "sector_median": 13.8,
+            "pct_rank": 27.3,
+            "premium_pct": -9.1,
+            "label": "fair",
+            "cheapest_peers": [
+              "SBIN",
+              "AXISBANK"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 12
+          },
+          "pb_ratio": {
+            "stock_value": 1.1,
+            "sector_median": 2.5,
+            "pct_rank": 0.0,
+            "premium_pct": -56.6,
+            "label": "cheap",
+            "cheapest_peers": [
+              "SBIN",
+              "BAJAJHLDNG"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 13
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 100.0,
+        "pe_premium_pct": 302.2,
+        "pe_sector_median": 19.8,
+        "peer_count": 13
       }
     },
     "GRASIM": {
@@ -5740,6 +8151,81 @@
         "reaction_2d_pct": 7.5,
         "surprise": "positive_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Materials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 43.1,
+            "sector_median": 35.1,
+            "pct_rank": 71.4,
+            "premium_pct": 22.9,
+            "label": "fair",
+            "cheapest_peers": [
+              "JSWSTEEL",
+              "HINDALCO"
+            ],
+            "priciest_peers": [
+              "PIDILITIND",
+              "ASIANPAINT"
+            ],
+            "peer_count": 8
+          },
+          "forward_pe": {
+            "stock_value": 21.5,
+            "sector_median": 24.0,
+            "pct_rank": 42.9,
+            "premium_pct": -10.3,
+            "label": "fair",
+            "cheapest_peers": [
+              "TATASTEEL",
+              "HINDALCO"
+            ],
+            "priciest_peers": [
+              "PIDILITIND",
+              "ASIANPAINT"
+            ],
+            "peer_count": 8
+          },
+          "pb_ratio": {
+            "stock_value": 2.1,
+            "sector_median": 2.9,
+            "pct_rank": 28.6,
+            "premium_pct": -26.9,
+            "label": "fair",
+            "cheapest_peers": [
+              "AMBUJACEM",
+              "HINDALCO"
+            ],
+            "priciest_peers": [
+              "ASIANPAINT",
+              "PIDILITIND"
+            ],
+            "peer_count": 8
+          },
+          "ev_ebitda": {
+            "stock_value": 13.3,
+            "sector_median": 13.3,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "HINDALCO",
+              "TATASTEEL"
+            ],
+            "priciest_peers": [
+              "PIDILITIND",
+              "ASIANPAINT"
+            ],
+            "peer_count": 7
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 71.4,
+        "pe_premium_pct": 22.9,
+        "pe_sector_median": 35.1,
+        "peer_count": 8
       }
     },
     "EICHERMOT": {
@@ -5774,6 +8260,81 @@
         "conviction": 0.25,
         "target_price": null,
         "stop_loss": null
+      },
+      "peer_valuation": {
+        "sector": "Auto",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 34.7,
+            "sector_median": 27.5,
+            "pct_rank": 100.0,
+            "premium_pct": 26.4,
+            "label": "expensive",
+            "cheapest_peers": [
+              "HEROMOTOCO",
+              "M&M"
+            ],
+            "priciest_peers": [
+              "BAJAJ-AUTO",
+              "MARUTI"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 26.4,
+            "sector_median": 20.0,
+            "pct_rank": 100.0,
+            "premium_pct": 31.9,
+            "label": "expensive",
+            "cheapest_peers": [
+              "TMPV",
+              "HEROMOTOCO"
+            ],
+            "priciest_peers": [
+              "MARUTI",
+              "BAJAJ-AUTO"
+            ],
+            "peer_count": 6
+          },
+          "pb_ratio": {
+            "stock_value": 8.7,
+            "sector_median": 4.2,
+            "pct_rank": 100.0,
+            "premium_pct": 106.2,
+            "label": "expensive",
+            "cheapest_peers": [
+              "TMPV",
+              "M&M"
+            ],
+            "priciest_peers": [
+              "HEROMOTOCO",
+              "BAJAJ-AUTO"
+            ],
+            "peer_count": 6
+          },
+          "ev_ebitda": {
+            "stock_value": 35.9,
+            "sector_median": 15.3,
+            "pct_rank": 100.0,
+            "premium_pct": 134.3,
+            "label": "expensive",
+            "cheapest_peers": [
+              "TMPV",
+              "M&M"
+            ],
+            "priciest_peers": [
+              "MARUTI",
+              "BAJAJ-AUTO"
+            ],
+            "peer_count": 6
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 100.0,
+        "pe_premium_pct": 26.4,
+        "pe_sector_median": 27.5,
+        "peer_count": 5
       }
     },
     "APOLLOHOSP": {
@@ -5810,6 +8371,81 @@
         "reaction_2d_pct": 4.19,
         "surprise": "positive_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Healthcare",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 61.8,
+            "sector_median": 38.6,
+            "pct_rank": 75.0,
+            "premium_pct": 59.9,
+            "label": "expensive",
+            "cheapest_peers": [
+              "DRREDDY",
+              "CIPLA"
+            ],
+            "priciest_peers": [
+              "SUNPHARMA",
+              "DIVISLAB"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 39.0,
+            "sector_median": 28.2,
+            "pct_rank": 75.0,
+            "premium_pct": 38.2,
+            "label": "expensive",
+            "cheapest_peers": [
+              "DRREDDY",
+              "CIPLA"
+            ],
+            "priciest_peers": [
+              "SUNPHARMA",
+              "DIVISLAB"
+            ],
+            "peer_count": 5
+          },
+          "pb_ratio": {
+            "stock_value": 12.7,
+            "sector_median": 5.7,
+            "pct_rank": 100.0,
+            "premium_pct": 122.8,
+            "label": "expensive",
+            "cheapest_peers": [
+              "DRREDDY",
+              "CIPLA"
+            ],
+            "priciest_peers": [
+              "SUNPHARMA",
+              "DIVISLAB"
+            ],
+            "peer_count": 5
+          },
+          "ev_ebitda": {
+            "stock_value": 33.7,
+            "sector_median": 26.3,
+            "pct_rank": 75.0,
+            "premium_pct": 28.2,
+            "label": "expensive",
+            "cheapest_peers": [
+              "DRREDDY",
+              "CIPLA"
+            ],
+            "priciest_peers": [
+              "SUNPHARMA",
+              "DIVISLAB"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 75.0,
+        "pe_premium_pct": 59.9,
+        "pe_sector_median": 38.6,
+        "peer_count": 5
       }
     },
     "BRITANNIA": {
@@ -5854,6 +8490,81 @@
         "reaction_2d_pct": -6.94,
         "surprise": "negative_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "FMCG",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 50.8,
+            "sector_median": 49.8,
+            "pct_rank": 66.7,
+            "premium_pct": 2.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "ITC",
+              "HINDUNILVR"
+            ],
+            "priciest_peers": [
+              "HINDUNILVR",
+              "NESTLEIND"
+            ],
+            "peer_count": 4
+          },
+          "forward_pe": {
+            "stock_value": 41.0,
+            "sector_median": 41.1,
+            "pct_rank": 33.3,
+            "premium_pct": -0.1,
+            "label": "fair",
+            "cheapest_peers": [
+              "ITC",
+              "HINDUNILVR"
+            ],
+            "priciest_peers": [
+              "HINDUNILVR",
+              "NESTLEIND"
+            ],
+            "peer_count": 4
+          },
+          "pb_ratio": {
+            "stock_value": 25.1,
+            "sector_median": 17.9,
+            "pct_rank": 66.7,
+            "premium_pct": 40.6,
+            "label": "fair",
+            "cheapest_peers": [
+              "ITC",
+              "HINDUNILVR"
+            ],
+            "priciest_peers": [
+              "HINDUNILVR",
+              "NESTLEIND"
+            ],
+            "peer_count": 4
+          },
+          "ev_ebitda": {
+            "stock_value": 36.1,
+            "sector_median": 34.9,
+            "pct_rank": 66.7,
+            "premium_pct": 3.3,
+            "label": "fair",
+            "cheapest_peers": [
+              "ITC",
+              "HINDUNILVR"
+            ],
+            "priciest_peers": [
+              "HINDUNILVR",
+              "NESTLEIND"
+            ],
+            "peer_count": 4
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 66.7,
+        "pe_premium_pct": 2.0,
+        "pe_sector_median": 49.8,
+        "peer_count": 4
       }
     },
     "HDFCLIFE": {
@@ -5890,6 +8601,81 @@
         "reaction_2d_pct": -4.79,
         "surprise": "negative_surprise",
         "freshness": "medium"
+      },
+      "peer_valuation": {
+        "sector": "Financials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 69.4,
+            "sector_median": 19.8,
+            "pct_rank": 83.3,
+            "premium_pct": 250.7,
+            "label": "expensive",
+            "cheapest_peers": [
+              "SBIN",
+              "BAJAJHLDNG"
+            ],
+            "priciest_peers": [
+              "SBILIFE",
+              "INDUSINDBK"
+            ],
+            "peer_count": 13
+          },
+          "forward_pe": {
+            "stock_value": 50.3,
+            "sector_median": 13.8,
+            "pct_rank": 90.9,
+            "premium_pct": 264.0,
+            "label": "expensive",
+            "cheapest_peers": [
+              "SBIN",
+              "AXISBANK"
+            ],
+            "priciest_peers": [
+              "ICICIPRULI",
+              "SBILIFE"
+            ],
+            "peer_count": 12
+          },
+          "pb_ratio": {
+            "stock_value": 7.5,
+            "sector_median": 2.5,
+            "pct_rank": 91.7,
+            "premium_pct": 200.4,
+            "label": "expensive",
+            "cheapest_peers": [
+              "INDUSINDBK",
+              "SBIN"
+            ],
+            "priciest_peers": [
+              "ICICIPRULI",
+              "SBILIFE"
+            ],
+            "peer_count": 13
+          },
+          "ev_ebitda": {
+            "stock_value": 63.0,
+            "sector_median": 63.0,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "BAJAJFINSV",
+              "ICICIPRULI"
+            ],
+            "priciest_peers": [
+              "SBILIFE",
+              "BAJAJHLDNG"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 83.3,
+        "pe_premium_pct": 250.7,
+        "pe_sector_median": 19.8,
+        "peer_count": 13
       }
     },
     "DIVISLAB": {
@@ -5926,6 +8712,81 @@
         "reaction_2d_pct": -0.11,
         "surprise": "inline",
         "freshness": "low"
+      },
+      "peer_valuation": {
+        "sector": "Healthcare",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 73.5,
+            "sector_median": 38.6,
+            "pct_rank": 100.0,
+            "premium_pct": 90.4,
+            "label": "expensive",
+            "cheapest_peers": [
+              "DRREDDY",
+              "CIPLA"
+            ],
+            "priciest_peers": [
+              "SUNPHARMA",
+              "APOLLOHOSP"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 58.8,
+            "sector_median": 28.2,
+            "pct_rank": 100.0,
+            "premium_pct": 108.2,
+            "label": "expensive",
+            "cheapest_peers": [
+              "DRREDDY",
+              "CIPLA"
+            ],
+            "priciest_peers": [
+              "SUNPHARMA",
+              "APOLLOHOSP"
+            ],
+            "peer_count": 5
+          },
+          "pb_ratio": {
+            "stock_value": 11.8,
+            "sector_median": 5.7,
+            "pct_rank": 75.0,
+            "premium_pct": 108.3,
+            "label": "expensive",
+            "cheapest_peers": [
+              "DRREDDY",
+              "CIPLA"
+            ],
+            "priciest_peers": [
+              "SUNPHARMA",
+              "APOLLOHOSP"
+            ],
+            "peer_count": 5
+          },
+          "ev_ebitda": {
+            "stock_value": 53.4,
+            "sector_median": 26.3,
+            "pct_rank": 100.0,
+            "premium_pct": 103.0,
+            "label": "expensive",
+            "cheapest_peers": [
+              "DRREDDY",
+              "CIPLA"
+            ],
+            "priciest_peers": [
+              "SUNPHARMA",
+              "APOLLOHOSP"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 100.0,
+        "pe_premium_pct": 90.4,
+        "pe_sector_median": 38.6,
+        "peer_count": 5
       }
     },
     "HEROMOTOCO": {
@@ -5962,6 +8823,81 @@
         "reaction_2d_pct": 4.17,
         "surprise": "positive_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Auto",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 17.3,
+            "sector_median": 27.5,
+            "pct_rank": 0.0,
+            "premium_pct": -36.9,
+            "label": "cheap",
+            "cheapest_peers": [
+              "M&M",
+              "BAJAJ-AUTO"
+            ],
+            "priciest_peers": [
+              "MARUTI",
+              "EICHERMOT"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 15.6,
+            "sector_median": 20.0,
+            "pct_rank": 20.0,
+            "premium_pct": -22.2,
+            "label": "cheap",
+            "cheapest_peers": [
+              "TMPV",
+              "M&M"
+            ],
+            "priciest_peers": [
+              "BAJAJ-AUTO",
+              "EICHERMOT"
+            ],
+            "peer_count": 6
+          },
+          "pb_ratio": {
+            "stock_value": 4.6,
+            "sector_median": 4.2,
+            "pct_rank": 60.0,
+            "premium_pct": 9.4,
+            "label": "fair",
+            "cheapest_peers": [
+              "TMPV",
+              "M&M"
+            ],
+            "priciest_peers": [
+              "BAJAJ-AUTO",
+              "EICHERMOT"
+            ],
+            "peer_count": 6
+          },
+          "ev_ebitda": {
+            "stock_value": 12.4,
+            "sector_median": 15.3,
+            "pct_rank": 40.0,
+            "premium_pct": -19.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "TMPV",
+              "M&M"
+            ],
+            "priciest_peers": [
+              "BAJAJ-AUTO",
+              "EICHERMOT"
+            ],
+            "peer_count": 6
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 0.0,
+        "pe_premium_pct": -36.9,
+        "pe_sector_median": 27.5,
+        "peer_count": 5
       }
     },
     "BPCL": {
@@ -6005,6 +8941,81 @@
         "reaction_2d_pct": 5.56,
         "surprise": "positive_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Energy",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 4.9,
+            "sector_median": 9.3,
+            "pct_rank": 0.0,
+            "premium_pct": -47.5,
+            "label": "cheap",
+            "cheapest_peers": [
+              "COALINDIA",
+              "ONGC"
+            ],
+            "priciest_peers": [
+              "ONGC",
+              "RELIANCE"
+            ],
+            "peer_count": 4
+          },
+          "forward_pe": {
+            "stock_value": 7.3,
+            "sector_median": 7.6,
+            "pct_rank": 33.3,
+            "premium_pct": -4.5,
+            "label": "fair",
+            "cheapest_peers": [
+              "ONGC",
+              "COALINDIA"
+            ],
+            "priciest_peers": [
+              "COALINDIA",
+              "RELIANCE"
+            ],
+            "peer_count": 4
+          },
+          "pb_ratio": {
+            "stock_value": 1.3,
+            "sector_median": 1.6,
+            "pct_rank": 33.3,
+            "premium_pct": -23.4,
+            "label": "fair",
+            "cheapest_peers": [
+              "ONGC",
+              "RELIANCE"
+            ],
+            "priciest_peers": [
+              "RELIANCE",
+              "COALINDIA"
+            ],
+            "peer_count": 4
+          },
+          "ev_ebitda": {
+            "stock_value": 3.8,
+            "sector_median": 5.6,
+            "pct_rank": 0.0,
+            "premium_pct": -33.1,
+            "label": "cheap",
+            "cheapest_peers": [
+              "ONGC",
+              "COALINDIA"
+            ],
+            "priciest_peers": [
+              "COALINDIA",
+              "RELIANCE"
+            ],
+            "peer_count": 4
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 0.0,
+        "pe_premium_pct": -47.5,
+        "pe_sector_median": 9.3,
+        "peer_count": 4
       }
     },
     "SBILIFE": {
@@ -6049,6 +9060,81 @@
         "reaction_2d_pct": -7.46,
         "surprise": "negative_surprise",
         "freshness": "medium"
+      },
+      "peer_valuation": {
+        "sector": "Financials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 75.8,
+            "sector_median": 19.8,
+            "pct_rank": 91.7,
+            "premium_pct": 282.7,
+            "label": "expensive",
+            "cheapest_peers": [
+              "SBIN",
+              "BAJAJHLDNG"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "INDUSINDBK"
+            ],
+            "peer_count": 13
+          },
+          "forward_pe": {
+            "stock_value": 53.9,
+            "sector_median": 13.8,
+            "pct_rank": 100.0,
+            "premium_pct": 290.3,
+            "label": "expensive",
+            "cheapest_peers": [
+              "SBIN",
+              "AXISBANK"
+            ],
+            "priciest_peers": [
+              "ICICIPRULI",
+              "HDFCLIFE"
+            ],
+            "peer_count": 12
+          },
+          "pb_ratio": {
+            "stock_value": 9.9,
+            "sector_median": 2.5,
+            "pct_rank": 100.0,
+            "premium_pct": 296.4,
+            "label": "expensive",
+            "cheapest_peers": [
+              "INDUSINDBK",
+              "SBIN"
+            ],
+            "priciest_peers": [
+              "ICICIPRULI",
+              "HDFCLIFE"
+            ],
+            "peer_count": 13
+          },
+          "ev_ebitda": {
+            "stock_value": 66.6,
+            "sector_median": 63.0,
+            "pct_rank": 75.0,
+            "premium_pct": 5.6,
+            "label": "expensive",
+            "cheapest_peers": [
+              "BAJAJFINSV",
+              "ICICIPRULI"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "BAJAJHLDNG"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 91.7,
+        "pe_premium_pct": 282.7,
+        "pe_sector_median": 19.8,
+        "peer_count": 13
       }
     },
     "ETERNAL": {
@@ -6092,6 +9178,81 @@
         "reaction_2d_pct": -3.31,
         "surprise": "inline",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Consumer Discr.",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 620.4,
+            "sector_median": 88.5,
+            "pct_rank": 100.0,
+            "premium_pct": 601.0,
+            "label": "expensive",
+            "cheapest_peers": [
+              "HAVELLS",
+              "TITAN"
+            ],
+            "priciest_peers": [
+              "TRENT",
+              "DMART"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 59.6,
+            "sector_median": 57.5,
+            "pct_rank": 100.0,
+            "premium_pct": 3.7,
+            "label": "expensive",
+            "cheapest_peers": [
+              "HAVELLS",
+              "TITAN"
+            ],
+            "priciest_peers": [
+              "TRENT",
+              "DMART"
+            ],
+            "peer_count": 5
+          },
+          "pb_ratio": {
+            "stock_value": 7.2,
+            "sector_median": 10.9,
+            "pct_rank": 0.0,
+            "premium_pct": -34.7,
+            "label": "cheap",
+            "cheapest_peers": [
+              "HAVELLS",
+              "DMART"
+            ],
+            "priciest_peers": [
+              "TRENT",
+              "TITAN"
+            ],
+            "peer_count": 5
+          },
+          "ev_ebitda": {
+            "stock_value": 181.7,
+            "sector_median": 46.5,
+            "pct_rank": 100.0,
+            "premium_pct": 290.7,
+            "label": "expensive",
+            "cheapest_peers": [
+              "HAVELLS",
+              "TRENT"
+            ],
+            "priciest_peers": [
+              "TITAN",
+              "DMART"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 100.0,
+        "pe_premium_pct": 601.0,
+        "pe_sector_median": 88.5,
+        "peer_count": 5
       }
     },
     "TRENT": {
@@ -6136,6 +9297,81 @@
         "reaction_2d_pct": -1.61,
         "surprise": "inline",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Consumer Discr.",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 88.5,
+            "sector_median": 88.5,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "HAVELLS",
+              "TITAN"
+            ],
+            "priciest_peers": [
+              "DMART",
+              "ETERNAL"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 57.5,
+            "sector_median": 57.5,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "HAVELLS",
+              "TITAN"
+            ],
+            "priciest_peers": [
+              "DMART",
+              "ETERNAL"
+            ],
+            "peer_count": 5
+          },
+          "pb_ratio": {
+            "stock_value": 21.9,
+            "sector_median": 10.9,
+            "pct_rank": 75.0,
+            "premium_pct": 99.7,
+            "label": "expensive",
+            "cheapest_peers": [
+              "ETERNAL",
+              "HAVELLS"
+            ],
+            "priciest_peers": [
+              "DMART",
+              "TITAN"
+            ],
+            "peer_count": 5
+          },
+          "ev_ebitda": {
+            "stock_value": 42.1,
+            "sector_median": 46.5,
+            "pct_rank": 25.0,
+            "premium_pct": -9.6,
+            "label": "cheap",
+            "cheapest_peers": [
+              "HAVELLS",
+              "TITAN"
+            ],
+            "priciest_peers": [
+              "DMART",
+              "ETERNAL"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 50.0,
+        "pe_premium_pct": 0.0,
+        "pe_sector_median": 88.5,
+        "peer_count": 5
       }
     },
     "SHRIRAMFIN": {
@@ -6180,6 +9416,65 @@
         "reaction_2d_pct": -3.43,
         "surprise": "negative_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Financials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 17.7,
+            "sector_median": 19.8,
+            "pct_rank": 41.7,
+            "premium_pct": -10.8,
+            "label": "fair",
+            "cheapest_peers": [
+              "SBIN",
+              "BAJAJHLDNG"
+            ],
+            "priciest_peers": [
+              "SBILIFE",
+              "INDUSINDBK"
+            ],
+            "peer_count": 13
+          },
+          "forward_pe": {
+            "stock_value": 13.6,
+            "sector_median": 13.8,
+            "pct_rank": 36.4,
+            "premium_pct": -1.8,
+            "label": "fair",
+            "cheapest_peers": [
+              "SBIN",
+              "AXISBANK"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 12
+          },
+          "pb_ratio": {
+            "stock_value": 2.7,
+            "sector_median": 2.5,
+            "pct_rank": 58.3,
+            "premium_pct": 8.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "INDUSINDBK",
+              "SBIN"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 13
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 41.7,
+        "pe_premium_pct": -10.8,
+        "pe_sector_median": 19.8,
+        "peer_count": 13
       }
     },
     "DMART": {
@@ -6224,6 +9519,81 @@
         "reaction_2d_pct": -4.57,
         "surprise": "negative_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Consumer Discr.",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 90.1,
+            "sector_median": 88.5,
+            "pct_rank": 75.0,
+            "premium_pct": 1.8,
+            "label": "expensive",
+            "cheapest_peers": [
+              "HAVELLS",
+              "TITAN"
+            ],
+            "priciest_peers": [
+              "TRENT",
+              "ETERNAL"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 58.1,
+            "sector_median": 57.5,
+            "pct_rank": 75.0,
+            "premium_pct": 1.0,
+            "label": "expensive",
+            "cheapest_peers": [
+              "HAVELLS",
+              "TITAN"
+            ],
+            "priciest_peers": [
+              "TRENT",
+              "ETERNAL"
+            ],
+            "peer_count": 5
+          },
+          "pb_ratio": {
+            "stock_value": 10.9,
+            "sector_median": 10.9,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "ETERNAL",
+              "HAVELLS"
+            ],
+            "priciest_peers": [
+              "TRENT",
+              "TITAN"
+            ],
+            "peer_count": 5
+          },
+          "ev_ebitda": {
+            "stock_value": 52.1,
+            "sector_median": 46.5,
+            "pct_rank": 75.0,
+            "premium_pct": 11.9,
+            "label": "expensive",
+            "cheapest_peers": [
+              "HAVELLS",
+              "TRENT"
+            ],
+            "priciest_peers": [
+              "TITAN",
+              "ETERNAL"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 75.0,
+        "pe_premium_pct": 1.8,
+        "pe_sector_median": 88.5,
+        "peer_count": 5
       }
     },
     "PIDILITIND": {
@@ -6268,6 +9638,81 @@
         "reaction_2d_pct": -2.06,
         "surprise": "inline",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Materials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 61.7,
+            "sector_median": 35.1,
+            "pct_rank": 85.7,
+            "premium_pct": 75.9,
+            "label": "expensive",
+            "cheapest_peers": [
+              "JSWSTEEL",
+              "HINDALCO"
+            ],
+            "priciest_peers": [
+              "GRASIM",
+              "ASIANPAINT"
+            ],
+            "peer_count": 8
+          },
+          "forward_pe": {
+            "stock_value": 48.8,
+            "sector_median": 24.0,
+            "pct_rank": 85.7,
+            "premium_pct": 103.5,
+            "label": "expensive",
+            "cheapest_peers": [
+              "TATASTEEL",
+              "HINDALCO"
+            ],
+            "priciest_peers": [
+              "AMBUJACEM",
+              "ASIANPAINT"
+            ],
+            "peer_count": 8
+          },
+          "pb_ratio": {
+            "stock_value": 15.8,
+            "sector_median": 2.9,
+            "pct_rank": 100.0,
+            "premium_pct": 435.7,
+            "label": "expensive",
+            "cheapest_peers": [
+              "AMBUJACEM",
+              "HINDALCO"
+            ],
+            "priciest_peers": [
+              "ULTRACEMCO",
+              "ASIANPAINT"
+            ],
+            "peer_count": 8
+          },
+          "ev_ebitda": {
+            "stock_value": 41.8,
+            "sector_median": 13.3,
+            "pct_rank": 83.3,
+            "premium_pct": 213.0,
+            "label": "expensive",
+            "cheapest_peers": [
+              "HINDALCO",
+              "TATASTEEL"
+            ],
+            "priciest_peers": [
+              "AMBUJACEM",
+              "ASIANPAINT"
+            ],
+            "peer_count": 7
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 85.7,
+        "pe_premium_pct": 75.9,
+        "pe_sector_median": 35.1,
+        "peer_count": 8
       }
     },
     "DLF": {
@@ -6348,6 +9793,81 @@
         "reaction_2d_pct": 1.2,
         "surprise": "inline",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Materials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 22.9,
+            "sector_median": 35.1,
+            "pct_rank": 28.6,
+            "premium_pct": -34.8,
+            "label": "fair",
+            "cheapest_peers": [
+              "JSWSTEEL",
+              "HINDALCO"
+            ],
+            "priciest_peers": [
+              "PIDILITIND",
+              "ASIANPAINT"
+            ],
+            "peer_count": 8
+          },
+          "forward_pe": {
+            "stock_value": 27.9,
+            "sector_median": 24.0,
+            "pct_rank": 71.4,
+            "premium_pct": 16.3,
+            "label": "fair",
+            "cheapest_peers": [
+              "TATASTEEL",
+              "HINDALCO"
+            ],
+            "priciest_peers": [
+              "PIDILITIND",
+              "ASIANPAINT"
+            ],
+            "peer_count": 8
+          },
+          "pb_ratio": {
+            "stock_value": 1.8,
+            "sector_median": 2.9,
+            "pct_rank": 0.0,
+            "premium_pct": -38.1,
+            "label": "cheap",
+            "cheapest_peers": [
+              "HINDALCO",
+              "GRASIM"
+            ],
+            "priciest_peers": [
+              "ASIANPAINT",
+              "PIDILITIND"
+            ],
+            "peer_count": 8
+          },
+          "ev_ebitda": {
+            "stock_value": 18.4,
+            "sector_median": 13.3,
+            "pct_rank": 66.7,
+            "premium_pct": 37.9,
+            "label": "fair",
+            "cheapest_peers": [
+              "HINDALCO",
+              "TATASTEEL"
+            ],
+            "priciest_peers": [
+              "PIDILITIND",
+              "ASIANPAINT"
+            ],
+            "peer_count": 7
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 28.6,
+        "pe_premium_pct": -34.8,
+        "pe_sector_median": 35.1,
+        "peer_count": 8
       }
     },
     "BAJAJHLDNG": {
@@ -6384,6 +9904,65 @@
         "reaction_2d_pct": -1.76,
         "surprise": "inline",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Financials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 12.1,
+            "sector_median": 19.8,
+            "pct_rank": 8.3,
+            "premium_pct": -38.8,
+            "label": "cheap",
+            "cheapest_peers": [
+              "SBIN",
+              "AXISBANK"
+            ],
+            "priciest_peers": [
+              "SBILIFE",
+              "INDUSINDBK"
+            ],
+            "peer_count": 13
+          },
+          "pb_ratio": {
+            "stock_value": 1.6,
+            "sector_median": 2.5,
+            "pct_rank": 16.7,
+            "premium_pct": -36.1,
+            "label": "cheap",
+            "cheapest_peers": [
+              "INDUSINDBK",
+              "SBIN"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 13
+          },
+          "ev_ebitda": {
+            "stock_value": 130.9,
+            "sector_median": 63.0,
+            "pct_rank": 100.0,
+            "premium_pct": 107.7,
+            "label": "expensive",
+            "cheapest_peers": [
+              "BAJAJFINSV",
+              "ICICIPRULI"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 8.3,
+        "pe_premium_pct": -38.8,
+        "pe_sector_median": 19.8,
+        "peer_count": 13
       }
     },
     "HAVELLS": {
@@ -6427,6 +10006,81 @@
         "reaction_2d_pct": -6.79,
         "surprise": "negative_surprise",
         "freshness": "medium"
+      },
+      "peer_valuation": {
+        "sector": "Consumer Discr.",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 44.6,
+            "sector_median": 88.5,
+            "pct_rank": 0.0,
+            "premium_pct": -49.6,
+            "label": "cheap",
+            "cheapest_peers": [
+              "TITAN",
+              "TRENT"
+            ],
+            "priciest_peers": [
+              "DMART",
+              "ETERNAL"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 35.3,
+            "sector_median": 57.5,
+            "pct_rank": 0.0,
+            "premium_pct": -38.5,
+            "label": "cheap",
+            "cheapest_peers": [
+              "TITAN",
+              "TRENT"
+            ],
+            "priciest_peers": [
+              "DMART",
+              "ETERNAL"
+            ],
+            "peer_count": 5
+          },
+          "pb_ratio": {
+            "stock_value": 8.0,
+            "sector_median": 10.9,
+            "pct_rank": 25.0,
+            "premium_pct": -27.2,
+            "label": "cheap",
+            "cheapest_peers": [
+              "ETERNAL",
+              "DMART"
+            ],
+            "priciest_peers": [
+              "TRENT",
+              "TITAN"
+            ],
+            "peer_count": 5
+          },
+          "ev_ebitda": {
+            "stock_value": 34.6,
+            "sector_median": 46.5,
+            "pct_rank": 0.0,
+            "premium_pct": -25.7,
+            "label": "cheap",
+            "cheapest_peers": [
+              "TRENT",
+              "TITAN"
+            ],
+            "priciest_peers": [
+              "DMART",
+              "ETERNAL"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 0.0,
+        "pe_premium_pct": -49.6,
+        "pe_sector_median": 88.5,
+        "peer_count": 5
       }
     },
     "ICICIPRULI": {
@@ -6471,6 +10125,81 @@
         "reaction_2d_pct": 2.1,
         "surprise": "inline",
         "freshness": "medium"
+      },
+      "peer_valuation": {
+        "sector": "Financials",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 46.9,
+            "sector_median": 19.8,
+            "pct_rank": 75.0,
+            "premium_pct": 137.1,
+            "label": "expensive",
+            "cheapest_peers": [
+              "SBIN",
+              "BAJAJHLDNG"
+            ],
+            "priciest_peers": [
+              "SBILIFE",
+              "INDUSINDBK"
+            ],
+            "peer_count": 13
+          },
+          "forward_pe": {
+            "stock_value": 38.5,
+            "sector_median": 13.8,
+            "pct_rank": 81.8,
+            "premium_pct": 178.8,
+            "label": "expensive",
+            "cheapest_peers": [
+              "SBIN",
+              "AXISBANK"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 12
+          },
+          "pb_ratio": {
+            "stock_value": 5.5,
+            "sector_median": 2.5,
+            "pct_rank": 83.3,
+            "premium_pct": 121.7,
+            "label": "expensive",
+            "cheapest_peers": [
+              "INDUSINDBK",
+              "SBIN"
+            ],
+            "priciest_peers": [
+              "HDFCLIFE",
+              "SBILIFE"
+            ],
+            "peer_count": 13
+          },
+          "ev_ebitda": {
+            "stock_value": 46.5,
+            "sector_median": 63.0,
+            "pct_rank": 25.0,
+            "premium_pct": -26.2,
+            "label": "cheap",
+            "cheapest_peers": [
+              "BAJAJFINSV",
+              "HDFCLIFE"
+            ],
+            "priciest_peers": [
+              "SBILIFE",
+              "BAJAJHLDNG"
+            ],
+            "peer_count": 5
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 75.0,
+        "pe_premium_pct": 137.1,
+        "pe_sector_median": 19.8,
+        "peer_count": 13
       }
     },
     "M&M": {
@@ -6514,6 +10243,81 @@
         "reaction_2d_pct": 8.5,
         "surprise": "positive_surprise",
         "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Auto",
+        "as_of": "2026-05-23",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 20.2,
+            "sector_median": 27.5,
+            "pct_rank": 25.0,
+            "premium_pct": -26.3,
+            "label": "cheap",
+            "cheapest_peers": [
+              "HEROMOTOCO",
+              "BAJAJ-AUTO"
+            ],
+            "priciest_peers": [
+              "MARUTI",
+              "EICHERMOT"
+            ],
+            "peer_count": 5
+          },
+          "forward_pe": {
+            "stock_value": 19.2,
+            "sector_median": 20.0,
+            "pct_rank": 40.0,
+            "premium_pct": -3.8,
+            "label": "fair",
+            "cheapest_peers": [
+              "TMPV",
+              "HEROMOTOCO"
+            ],
+            "priciest_peers": [
+              "BAJAJ-AUTO",
+              "EICHERMOT"
+            ],
+            "peer_count": 6
+          },
+          "pb_ratio": {
+            "stock_value": 3.7,
+            "sector_median": 4.2,
+            "pct_rank": 20.0,
+            "premium_pct": -12.0,
+            "label": "cheap",
+            "cheapest_peers": [
+              "TMPV",
+              "MARUTI"
+            ],
+            "priciest_peers": [
+              "BAJAJ-AUTO",
+              "EICHERMOT"
+            ],
+            "peer_count": 6
+          },
+          "ev_ebitda": {
+            "stock_value": 10.8,
+            "sector_median": 15.3,
+            "pct_rank": 20.0,
+            "premium_pct": -29.2,
+            "label": "cheap",
+            "cheapest_peers": [
+              "TMPV",
+              "HEROMOTOCO"
+            ],
+            "priciest_peers": [
+              "BAJAJ-AUTO",
+              "EICHERMOT"
+            ],
+            "peer_count": 6
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 25.0,
+        "pe_premium_pct": -26.3,
+        "pe_sector_median": 27.5,
+        "peer_count": 5
       }
     },
     "CHOLAFIN": {
@@ -8180,6 +11984,133 @@
         "reaction_2d_pct": 8.95,
         "surprise": "positive_surprise",
         "freshness": "high"
+      }
+    }
+  },
+  "sector_flows": {
+    "computed_date": "2026-05-23",
+    "benchmark_ret_5d_pct": 0.49,
+    "benchmark_ret_1d_pct": 0.32,
+    "sectors": {
+      "Energy": {
+        "sector": "Energy",
+        "ret_5d_pct": -1.06,
+        "ret_1d_pct": -0.12,
+        "rel_5d_pct": -1.55,
+        "stocks_count": 6,
+        "stocks_advancing_pct": 33.3,
+        "signal": "outflow",
+        "computed_date": "2026-05-23"
+      },
+      "Financials": {
+        "sector": "Financials",
+        "ret_5d_pct": -0.37,
+        "ret_1d_pct": 0.72,
+        "rel_5d_pct": -0.86,
+        "stocks_count": 23,
+        "stocks_advancing_pct": 47.8,
+        "signal": "neutral",
+        "computed_date": "2026-05-23"
+      },
+      "IT": {
+        "sector": "IT",
+        "ret_5d_pct": 4.15,
+        "ret_1d_pct": 0.1,
+        "rel_5d_pct": 3.66,
+        "stocks_count": 5,
+        "stocks_advancing_pct": 100.0,
+        "signal": "strong_inflow",
+        "computed_date": "2026-05-23"
+      },
+      "Telecom": {
+        "sector": "Telecom",
+        "ret_5d_pct": -1.78,
+        "ret_1d_pct": -0.74,
+        "rel_5d_pct": -2.28,
+        "stocks_count": 1,
+        "stocks_advancing_pct": 0.0,
+        "signal": "outflow",
+        "computed_date": "2026-05-23"
+      },
+      "Industrials": {
+        "sector": "Industrials",
+        "ret_5d_pct": 0.51,
+        "ret_1d_pct": 1.27,
+        "rel_5d_pct": 0.01,
+        "stocks_count": 10,
+        "stocks_advancing_pct": 70.0,
+        "signal": "neutral",
+        "computed_date": "2026-05-23"
+      },
+      "FMCG": {
+        "sector": "FMCG",
+        "ret_5d_pct": -0.05,
+        "ret_1d_pct": -0.11,
+        "rel_5d_pct": -0.54,
+        "stocks_count": 10,
+        "stocks_advancing_pct": 40.0,
+        "signal": "neutral",
+        "computed_date": "2026-05-23"
+      },
+      "Auto": {
+        "sector": "Auto",
+        "ret_5d_pct": -0.03,
+        "ret_1d_pct": 0.35,
+        "rel_5d_pct": -0.53,
+        "stocks_count": 10,
+        "stocks_advancing_pct": 50.0,
+        "signal": "neutral",
+        "computed_date": "2026-05-23"
+      },
+      "Healthcare": {
+        "sector": "Healthcare",
+        "ret_5d_pct": 1.94,
+        "ret_1d_pct": -0.08,
+        "rel_5d_pct": 1.45,
+        "stocks_count": 9,
+        "stocks_advancing_pct": 66.7,
+        "signal": "neutral",
+        "computed_date": "2026-05-23"
+      },
+      "Materials": {
+        "sector": "Materials",
+        "ret_5d_pct": 0.94,
+        "ret_1d_pct": 0.25,
+        "rel_5d_pct": 0.45,
+        "stocks_count": 12,
+        "stocks_advancing_pct": 75.0,
+        "signal": "neutral",
+        "computed_date": "2026-05-23"
+      },
+      "Utilities": {
+        "sector": "Utilities",
+        "ret_5d_pct": -0.68,
+        "ret_1d_pct": -0.58,
+        "rel_5d_pct": -1.17,
+        "stocks_count": 4,
+        "stocks_advancing_pct": 25.0,
+        "signal": "neutral",
+        "computed_date": "2026-05-23"
+      },
+      "Consumer Discr.": {
+        "sector": "Consumer Discr.",
+        "ret_5d_pct": 1.32,
+        "ret_1d_pct": 0.38,
+        "rel_5d_pct": 0.83,
+        "stocks_count": 8,
+        "stocks_advancing_pct": 62.5,
+        "signal": "neutral",
+        "computed_date": "2026-05-23"
+      },
+      "Real Estate": {
+        "sector": "Real Estate",
+        "ret_5d_pct": 2.1,
+        "ret_1d_pct": -0.79,
+        "rel_5d_pct": 1.61,
+        "stocks_count": 2,
+        "stocks_advancing_pct": 100.0,
+        "signal": "inflow",
+        "computed_date": "2026-05-23"
       }
     }
   }
