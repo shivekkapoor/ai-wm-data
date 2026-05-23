@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-23T10:30:45.448136+05:30",
+  "generated_at": "2026-05-23T10:57:11.942094+05:30",
   "portfolio": {
     "cash_inr": 412406.6,
     "invested_inr": 87593.4,
@@ -4211,6 +4211,15 @@
         "growth_grade": "moderate",
         "risk_grade": "medium",
         "conviction": 0.55
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-24",
+        "document_kind": "financial_results",
+        "days_since_filing": 29,
+        "reaction_1d_pct": 1.67,
+        "reaction_2d_pct": 1.67,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "HDFCBANK": {
@@ -4245,6 +4254,15 @@
         "growth_grade": "moderate",
         "risk_grade": "low",
         "conviction": 0.55
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-18",
+        "document_kind": "financial_results",
+        "days_since_filing": 35,
+        "reaction_1d_pct": -0.56,
+        "reaction_2d_pct": -0.56,
+        "surprise": "inline",
+        "freshness": "medium"
       }
     },
     "TCS": {
@@ -4279,6 +4297,15 @@
         "conviction": 0.42,
         "target_price": 2373.14,
         "stop_loss": 2264.0
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-09",
+        "document_kind": "financial_results",
+        "days_since_filing": 44,
+        "reaction_1d_pct": -1.36,
+        "reaction_2d_pct": -3.38,
+        "surprise": "inline",
+        "freshness": "medium"
       }
     },
     "BHARTIARTL": {
@@ -4313,6 +4340,15 @@
         "conviction": 0.5,
         "target_price": 1958.75,
         "stop_loss": 1810.0
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-14",
+        "document_kind": "financial_results",
+        "days_since_filing": 9,
+        "reaction_1d_pct": 6.49,
+        "reaction_2d_pct": 8.32,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "ICICIBANK": {
@@ -4347,6 +4383,15 @@
         "growth_grade": "strong",
         "risk_grade": "medium",
         "conviction": 0.65
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-18",
+        "document_kind": "financial_results",
+        "days_since_filing": 35,
+        "reaction_1d_pct": 0.7,
+        "reaction_2d_pct": 0.7,
+        "surprise": "inline",
+        "freshness": "medium"
       }
     },
     "SBIN": {
@@ -4382,6 +4427,15 @@
         "risk_grade": "high",
         "conviction": 0.38,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-08",
+        "document_kind": "financial_results",
+        "days_since_filing": 15,
+        "reaction_1d_pct": -10.84,
+        "reaction_2d_pct": -10.84,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "INFY": {
@@ -4416,6 +4470,15 @@
         "growth_grade": "moderate",
         "risk_grade": "medium",
         "conviction": 0.25
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-23",
+        "document_kind": "financial_results",
+        "days_since_filing": 30,
+        "reaction_1d_pct": -8.99,
+        "reaction_2d_pct": -7.75,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "LT": {
@@ -4443,6 +4506,15 @@
         "conviction": 0.25,
         "target_price": null,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-11",
+        "document_kind": "transcript",
+        "days_since_filing": 12,
+        "reaction_1d_pct": -2.97,
+        "reaction_2d_pct": -1.48,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "BAJFINANCE": {
@@ -4470,6 +4542,15 @@
         "conviction": 0.2,
         "target_price": 930.9,
         "stop_loss": 899.99
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-29",
+        "document_kind": "financial_results",
+        "days_since_filing": 24,
+        "reaction_1d_pct": 1.45,
+        "reaction_2d_pct": 1.45,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "ITC": {
@@ -4504,6 +4585,15 @@
         "conviction": 0.3,
         "target_price": 308.39,
         "stop_loss": 296.58
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-21",
+        "document_kind": "financial_results",
+        "days_since_filing": 2,
+        "reaction_1d_pct": -1.9,
+        "reaction_2d_pct": null,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "HINDUNILVR": {
@@ -4539,6 +4629,15 @@
         "risk_grade": "low",
         "conviction": 0.2,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-30",
+        "document_kind": "financial_results",
+        "days_since_filing": 23,
+        "reaction_1d_pct": -2.74,
+        "reaction_2d_pct": -0.22,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "MM": {
@@ -4593,6 +4692,15 @@
         "conviction": 0.2,
         "target_price": 406.61,
         "stop_loss": 375.13
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-02",
+        "document_kind": "financial_results",
+        "days_since_filing": 21,
+        "reaction_1d_pct": -3.04,
+        "reaction_2d_pct": -3.04,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "MARUTI": {
@@ -4620,6 +4728,15 @@
         "conviction": 0.15,
         "target_price": null,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-14",
+        "document_kind": "financial_results",
+        "days_since_filing": 9,
+        "reaction_1d_pct": 0.9,
+        "reaction_2d_pct": -0.66,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "AXISBANK": {
@@ -4647,6 +4764,15 @@
         "conviction": 0.1,
         "target_price": 1285.4,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-25",
+        "document_kind": "financial_results",
+        "days_since_filing": 28,
+        "reaction_1d_pct": -3.05,
+        "reaction_2d_pct": -3.05,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "SUNPHARMA": {
@@ -4708,6 +4834,15 @@
         "conviction": 0.2,
         "target_price": null,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-27",
+        "document_kind": "financial_results",
+        "days_since_filing": 26,
+        "reaction_1d_pct": -1.51,
+        "reaction_2d_pct": -1.38,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "NTPC": {
@@ -4743,6 +4878,15 @@
         "risk_grade": "low",
         "conviction": 0.55,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-01-30",
+        "document_kind": "financial_results",
+        "days_since_filing": 113,
+        "reaction_1d_pct": -2.18,
+        "reaction_2d_pct": -2.18,
+        "surprise": "inline",
+        "freshness": "low"
       }
     },
     "HCLTECH": {
@@ -4770,6 +4914,15 @@
         "conviction": 0.25,
         "target_price": 1132.88,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-21",
+        "document_kind": "financial_results",
+        "days_since_filing": 32,
+        "reaction_1d_pct": -10.01,
+        "reaction_2d_pct": -10.55,
+        "surprise": "negative_surprise",
+        "freshness": "medium"
       }
     },
     "TITAN": {
@@ -4797,6 +4950,15 @@
         "conviction": 0.15,
         "target_price": null,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-09",
+        "document_kind": "financial_results",
+        "days_since_filing": 14,
+        "reaction_1d_pct": -6.73,
+        "reaction_2d_pct": -6.73,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "ONGC": {
@@ -4831,6 +4993,15 @@
         "conviction": 0.38,
         "target_price": 284.04,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-08",
+        "document_kind": "financial_results",
+        "days_since_filing": 15,
+        "reaction_1d_pct": -1.02,
+        "reaction_2d_pct": -1.02,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "BAJAJFINSV": {
@@ -4858,6 +5029,15 @@
         "conviction": 0.1,
         "target_price": null,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-07",
+        "document_kind": "transcript",
+        "days_since_filing": 16,
+        "reaction_1d_pct": -0.97,
+        "reaction_2d_pct": -2.28,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "ADANIENT": {
@@ -4893,6 +5073,15 @@
         "risk_grade": "high",
         "conviction": 0.45,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-30",
+        "document_kind": "financial_results",
+        "days_since_filing": 23,
+        "reaction_1d_pct": -0.72,
+        "reaction_2d_pct": 2.47,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "POWERGRID": {
@@ -4927,6 +5116,15 @@
         "conviction": 0.3,
         "target_price": 294.3,
         "stop_loss": 285.96
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-15",
+        "document_kind": "financial_results",
+        "days_since_filing": 8,
+        "reaction_1d_pct": -1.72,
+        "reaction_2d_pct": -1.72,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "WIPRO": {
@@ -4962,6 +5160,15 @@
         "risk_grade": "medium",
         "conviction": 0.42,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-16",
+        "document_kind": "financial_results",
+        "days_since_filing": 37,
+        "reaction_1d_pct": -2.59,
+        "reaction_2d_pct": -3.47,
+        "surprise": "inline",
+        "freshness": "medium"
       }
     },
     "ADANIPORTS": {
@@ -4997,6 +5204,15 @@
         "risk_grade": "high",
         "conviction": 0.52,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-30",
+        "document_kind": "financial_results",
+        "days_since_filing": 23,
+        "reaction_1d_pct": -0.23,
+        "reaction_2d_pct": 4.91,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "COALINDIA": {
@@ -5024,6 +5240,15 @@
         "conviction": 0.2,
         "target_price": 456.55,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-28",
+        "document_kind": "financial_results",
+        "days_since_filing": 25,
+        "reaction_1d_pct": 6.06,
+        "reaction_2d_pct": 6.4,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "NESTLEIND": {
@@ -5059,6 +5284,15 @@
         "risk_grade": "low",
         "conviction": 0.2,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-21",
+        "document_kind": "financial_results",
+        "days_since_filing": 32,
+        "reaction_1d_pct": 8.5,
+        "reaction_2d_pct": 9.65,
+        "surprise": "positive_surprise",
+        "freshness": "medium"
       }
     },
     "ASIANPAINT": {
@@ -5086,6 +5320,15 @@
         "conviction": 0.25,
         "target_price": 2539.03,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-01-27",
+        "document_kind": "financial_results",
+        "days_since_filing": 116,
+        "reaction_1d_pct": -7.1,
+        "reaction_2d_pct": -10.64,
+        "surprise": "negative_surprise",
+        "freshness": "low"
       }
     },
     "JSWSTEEL": {
@@ -5120,6 +5363,15 @@
         "growth_grade": "weak",
         "risk_grade": "high",
         "conviction": 0.15
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-14",
+        "document_kind": "financial_results",
+        "days_since_filing": 9,
+        "reaction_1d_pct": 0.31,
+        "reaction_2d_pct": 1.4,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "TATASTEEL": {
@@ -5155,6 +5407,15 @@
         "risk_grade": "high",
         "conviction": 0.55,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-15",
+        "document_kind": "financial_results",
+        "days_since_filing": 8,
+        "reaction_1d_pct": -5.16,
+        "reaction_2d_pct": -5.16,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "TMPV": {
@@ -5190,6 +5451,15 @@
         "risk_grade": "high",
         "conviction": 0.65,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-14",
+        "document_kind": "financial_results",
+        "days_since_filing": 9,
+        "reaction_1d_pct": 5.85,
+        "reaction_2d_pct": 4.84,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "TECHM": {
@@ -5225,6 +5495,15 @@
         "risk_grade": "medium",
         "conviction": 0.52,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-23",
+        "document_kind": "financial_results",
+        "days_since_filing": 30,
+        "reaction_1d_pct": -7.12,
+        "reaction_2d_pct": -4.55,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "BAJAJ-AUTO": {
@@ -5260,6 +5539,15 @@
         "risk_grade": "medium",
         "conviction": 0.55,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-06",
+        "document_kind": "financial_results",
+        "days_since_filing": 17,
+        "reaction_1d_pct": 5.56,
+        "reaction_2d_pct": 6.62,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "HINDALCO": {
@@ -5328,6 +5616,15 @@
         "growth_grade": "moderate",
         "risk_grade": "medium",
         "conviction": 0.52
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-12",
+        "document_kind": "financial_results",
+        "days_since_filing": 11,
+        "reaction_1d_pct": -1.14,
+        "reaction_2d_pct": 1.85,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "CIPLA": {
@@ -5355,6 +5652,15 @@
         "conviction": 0.55,
         "target_price": 1437.15,
         "stop_loss": 1314.75
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-13",
+        "document_kind": "financial_results",
+        "days_since_filing": 10,
+        "reaction_1d_pct": 11.17,
+        "reaction_2d_pct": 10.82,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "INDUSINDBK": {
@@ -5382,6 +5688,15 @@
         "conviction": 0.2,
         "target_price": null,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-24",
+        "document_kind": "financial_results",
+        "days_since_filing": 29,
+        "reaction_1d_pct": 4.63,
+        "reaction_2d_pct": 4.63,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "GRASIM": {
@@ -5416,6 +5731,15 @@
         "conviction": 0.38,
         "target_price": 3155.3,
         "stop_loss": 2919.51
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-20",
+        "document_kind": "financial_results",
+        "days_since_filing": 3,
+        "reaction_1d_pct": 7.47,
+        "reaction_2d_pct": 7.5,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "EICHERMOT": {
@@ -5477,6 +5801,15 @@
         "conviction": 0.45,
         "target_price": 8530.66,
         "stop_loss": 7943.52
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-20",
+        "document_kind": "financial_results",
+        "days_since_filing": 3,
+        "reaction_1d_pct": 3.52,
+        "reaction_2d_pct": 4.19,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "BRITANNIA": {
@@ -5512,6 +5845,15 @@
         "risk_grade": "medium",
         "conviction": 0.52,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-08",
+        "document_kind": "financial_results",
+        "days_since_filing": 15,
+        "reaction_1d_pct": -6.94,
+        "reaction_2d_pct": -6.94,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "HDFCLIFE": {
@@ -5539,6 +5881,15 @@
         "conviction": 0.2,
         "target_price": 715.69,
         "stop_loss": 604.58
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-16",
+        "document_kind": "financial_results",
+        "days_since_filing": 37,
+        "reaction_1d_pct": -3.75,
+        "reaction_2d_pct": -4.79,
+        "surprise": "negative_surprise",
+        "freshness": "medium"
       }
     },
     "DIVISLAB": {
@@ -5566,6 +5917,15 @@
         "conviction": 0.52,
         "target_price": 7100.0,
         "stop_loss": 6682.0
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-02-11",
+        "document_kind": "financial_results",
+        "days_since_filing": 101,
+        "reaction_1d_pct": 0.15,
+        "reaction_2d_pct": -0.11,
+        "surprise": "inline",
+        "freshness": "low"
       }
     },
     "HEROMOTOCO": {
@@ -5593,6 +5953,15 @@
         "conviction": 0.15,
         "target_price": null,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-06",
+        "document_kind": "financial_results",
+        "days_since_filing": 17,
+        "reaction_1d_pct": 4.58,
+        "reaction_2d_pct": 4.17,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "BPCL": {
@@ -5627,6 +5996,15 @@
         "conviction": 0.25,
         "target_price": 298.86,
         "stop_loss": 289.0
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-19",
+        "document_kind": "financial_results",
+        "days_since_filing": 4,
+        "reaction_1d_pct": 4.61,
+        "reaction_2d_pct": 5.56,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "SBILIFE": {
@@ -5662,6 +6040,15 @@
         "risk_grade": "medium",
         "conviction": 0.42,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-22",
+        "document_kind": "financial_results",
+        "days_since_filing": 31,
+        "reaction_1d_pct": -4.37,
+        "reaction_2d_pct": -7.46,
+        "surprise": "negative_surprise",
+        "freshness": "medium"
       }
     },
     "ETERNAL": {
@@ -5696,6 +6083,15 @@
         "conviction": 0.25,
         "target_price": null,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-28",
+        "document_kind": "financial_results",
+        "days_since_filing": 25,
+        "reaction_1d_pct": -0.57,
+        "reaction_2d_pct": -3.31,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "TRENT": {
@@ -5731,6 +6127,15 @@
         "risk_grade": "medium",
         "conviction": 0.55,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-27",
+        "document_kind": "financial_results",
+        "days_since_filing": 26,
+        "reaction_1d_pct": -1.01,
+        "reaction_2d_pct": -1.61,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "SHRIRAMFIN": {
@@ -5766,6 +6171,15 @@
         "risk_grade": "medium",
         "conviction": 0.55,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-24",
+        "document_kind": "financial_results",
+        "days_since_filing": 29,
+        "reaction_1d_pct": -3.43,
+        "reaction_2d_pct": -3.43,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "DMART": {
@@ -5801,6 +6215,15 @@
         "risk_grade": "medium",
         "conviction": 0.62,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-02",
+        "document_kind": "financial_results",
+        "days_since_filing": 21,
+        "reaction_1d_pct": -4.57,
+        "reaction_2d_pct": -4.57,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "PIDILITIND": {
@@ -5836,6 +6259,15 @@
         "risk_grade": "medium",
         "conviction": 0.55,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-11",
+        "document_kind": "financial_results",
+        "days_since_filing": 12,
+        "reaction_1d_pct": -1.56,
+        "reaction_2d_pct": -2.06,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "DLF": {
@@ -5863,6 +6295,15 @@
         "conviction": 0.15,
         "target_price": null,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-14",
+        "document_kind": "financial_results",
+        "days_since_filing": 9,
+        "reaction_1d_pct": -1.29,
+        "reaction_2d_pct": -0.17,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "AMBUJACEM": {
@@ -5898,6 +6339,15 @@
         "risk_grade": "high",
         "conviction": 0.3,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-05",
+        "document_kind": "financial_results",
+        "days_since_filing": 18,
+        "reaction_1d_pct": 0.36,
+        "reaction_2d_pct": 1.2,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "BAJAJHLDNG": {
@@ -5925,6 +6375,15 @@
         "conviction": 0.3,
         "target_price": null,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-07",
+        "document_kind": "financial_results",
+        "days_since_filing": 16,
+        "reaction_1d_pct": 0.19,
+        "reaction_2d_pct": -1.76,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "HAVELLS": {
@@ -5959,6 +6418,15 @@
         "conviction": 0.22,
         "target_price": null,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-22",
+        "document_kind": "financial_results",
+        "days_since_filing": 31,
+        "reaction_1d_pct": -5.16,
+        "reaction_2d_pct": -6.79,
+        "surprise": "negative_surprise",
+        "freshness": "medium"
       }
     },
     "ICICIPRULI": {
@@ -5994,6 +6462,15 @@
         "risk_grade": "medium",
         "conviction": 0.35,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-14",
+        "document_kind": "financial_results",
+        "days_since_filing": 39,
+        "reaction_1d_pct": 2.7,
+        "reaction_2d_pct": 2.1,
+        "surprise": "inline",
+        "freshness": "medium"
       }
     },
     "M&M": {
@@ -6028,6 +6505,15 @@
         "risk_grade": "high",
         "conviction": 0.55,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-05",
+        "document_kind": "financial_results",
+        "days_since_filing": 18,
+        "reaction_1d_pct": 6.25,
+        "reaction_2d_pct": 8.5,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "CHOLAFIN": {
@@ -6062,6 +6548,15 @@
         "risk_grade": "high",
         "conviction": 0.55,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-30",
+        "document_kind": "financial_results",
+        "days_since_filing": 23,
+        "reaction_1d_pct": 0.62,
+        "reaction_2d_pct": 5.55,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "SIEMENS": {
@@ -6088,6 +6583,15 @@
         "conviction": 0.2,
         "target_price": 3737.13,
         "stop_loss": 3452.37
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-02-06",
+        "document_kind": "financial_results",
+        "days_since_filing": 106,
+        "reaction_1d_pct": -5.79,
+        "reaction_2d_pct": -5.79,
+        "surprise": "negative_surprise",
+        "freshness": "low"
       }
     },
     "VEDL": {
@@ -6122,6 +6626,15 @@
         "risk_grade": "high",
         "conviction": 0.55,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-30",
+        "document_kind": "financial_results",
+        "days_since_filing": 23,
+        "reaction_1d_pct": -64.9,
+        "reaction_2d_pct": -61.91,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "GODREJCP": {
@@ -6148,6 +6661,15 @@
         "conviction": 0.15,
         "target_price": null,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-06",
+        "document_kind": "financial_results",
+        "days_since_filing": 17,
+        "reaction_1d_pct": -5.89,
+        "reaction_2d_pct": -5.37,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "ICICIGI": {
@@ -6182,6 +6704,15 @@
         "risk_grade": "medium",
         "conviction": 0.45,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-16",
+        "document_kind": "financial_results",
+        "days_since_filing": 37,
+        "reaction_1d_pct": 1.81,
+        "reaction_2d_pct": 1.0,
+        "surprise": "inline",
+        "freshness": "medium"
       }
     },
     "DABUR": {
@@ -6215,6 +6746,15 @@
         "growth_grade": "moderate",
         "risk_grade": "low",
         "conviction": 0.45
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-08",
+        "document_kind": "financial_results",
+        "days_since_filing": 15,
+        "reaction_1d_pct": 0.73,
+        "reaction_2d_pct": 0.73,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "ABB": {
@@ -6249,6 +6789,15 @@
         "risk_grade": "medium",
         "conviction": 0.45,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-08",
+        "document_kind": "financial_results",
+        "days_since_filing": 15,
+        "reaction_1d_pct": -11.14,
+        "reaction_2d_pct": -11.14,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "TVSMOTOR": {
@@ -6282,6 +6831,15 @@
         "growth_grade": "moderate",
         "risk_grade": "high",
         "conviction": 0.3
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-13",
+        "document_kind": "financial_results",
+        "days_since_filing": 10,
+        "reaction_1d_pct": -2.81,
+        "reaction_2d_pct": -2.65,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "VBL": {
@@ -6306,6 +6864,15 @@
         "conviction": 0.15,
         "target_price": 527.94,
         "stop_loss": 506.87
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-27",
+        "document_kind": "financial_results",
+        "days_since_filing": 26,
+        "reaction_1d_pct": 5.73,
+        "reaction_2d_pct": 6.66,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "CGPOWER": {
@@ -6340,6 +6907,15 @@
         "risk_grade": "medium",
         "conviction": 0.55,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-06",
+        "document_kind": "financial_results",
+        "days_since_filing": 17,
+        "reaction_1d_pct": 3.89,
+        "reaction_2d_pct": 5.64,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "BANKBARODA": {
@@ -6364,6 +6940,15 @@
         "conviction": 0.1,
         "target_price": null,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-08",
+        "document_kind": "financial_results",
+        "days_since_filing": 15,
+        "reaction_1d_pct": -1.61,
+        "reaction_2d_pct": -1.61,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "BEL": {
@@ -6398,6 +6983,15 @@
         "risk_grade": "medium",
         "conviction": 0.55,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-19",
+        "document_kind": "financial_results",
+        "days_since_filing": 4,
+        "reaction_1d_pct": -3.12,
+        "reaction_2d_pct": null,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "PFC": {
@@ -6431,6 +7025,15 @@
         "growth_grade": "moderate",
         "risk_grade": "medium",
         "conviction": 0.45
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-15",
+        "document_kind": "financial_results",
+        "days_since_filing": 8,
+        "reaction_1d_pct": -4.8,
+        "reaction_2d_pct": -4.8,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "RECLTD": {
@@ -6465,6 +7068,15 @@
         "risk_grade": "high",
         "conviction": 0.42,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-29",
+        "document_kind": "financial_results",
+        "days_since_filing": 24,
+        "reaction_1d_pct": -5.72,
+        "reaction_2d_pct": -5.72,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "MOTHERSON": {
@@ -6590,6 +7202,15 @@
         "risk_grade": "low",
         "conviction": 0.55,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-14",
+        "document_kind": "financial_results",
+        "days_since_filing": 9,
+        "reaction_1d_pct": -5.03,
+        "reaction_2d_pct": -6.32,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "BOSCHLTD": {
@@ -6658,6 +7279,15 @@
         "risk_grade": "medium",
         "conviction": 0.45,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-19",
+        "document_kind": "financial_results",
+        "days_since_filing": 4,
+        "reaction_1d_pct": 5.02,
+        "reaction_2d_pct": null,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "TORNTPHARM": {
@@ -6722,6 +7352,15 @@
         "conviction": 0.2,
         "target_price": null,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-25",
+        "document_kind": "financial_results",
+        "days_since_filing": 28,
+        "reaction_1d_pct": 4.61,
+        "reaction_2d_pct": 4.61,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "ADANIPOWER": {
@@ -6756,6 +7395,15 @@
         "risk_grade": "high",
         "conviction": 0.5,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-29",
+        "document_kind": "financial_results",
+        "days_since_filing": 24,
+        "reaction_1d_pct": -0.67,
+        "reaction_2d_pct": -0.67,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "ADANIGREEN": {
@@ -6782,6 +7430,15 @@
         "conviction": 0.25,
         "target_price": 1447.0,
         "stop_loss": 1314.55
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-28",
+        "document_kind": "transcript",
+        "days_since_filing": 25,
+        "reaction_1d_pct": 1.23,
+        "reaction_2d_pct": -0.21,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "GAIL": {
@@ -6848,6 +7505,15 @@
         "risk_grade": "high",
         "conviction": 0.15,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-18",
+        "document_kind": "financial_results",
+        "days_since_filing": 5,
+        "reaction_1d_pct": 0.39,
+        "reaction_2d_pct": 2.65,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "UNITDSPR": {
@@ -6881,6 +7547,15 @@
         "conviction": 0.2,
         "target_price": null,
         "stop_loss": null
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-14",
+        "document_kind": "financial_results",
+        "days_since_filing": 9,
+        "reaction_1d_pct": 5.12,
+        "reaction_2d_pct": 4.72,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "CANBK": {
@@ -6913,6 +7588,15 @@
         "risk_grade": "medium",
         "conviction": 0.42,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-11",
+        "document_kind": "financial_results",
+        "days_since_filing": 12,
+        "reaction_1d_pct": -3.22,
+        "reaction_2d_pct": -3.78,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "PNB": {
@@ -6945,6 +7629,15 @@
         "risk_grade": "high",
         "conviction": 0.38,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-05",
+        "document_kind": "financial_results",
+        "days_since_filing": 18,
+        "reaction_1d_pct": 1.38,
+        "reaction_2d_pct": 0.4,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "IDFCFIRSTB": {
@@ -6979,6 +7672,15 @@
         "risk_grade": "high",
         "conviction": 0.55,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-04-25",
+        "document_kind": "financial_results",
+        "days_since_filing": 28,
+        "reaction_1d_pct": 4.52,
+        "reaction_2d_pct": 4.52,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "NAUKRI": {
@@ -7044,6 +7746,15 @@
         "risk_grade": "high",
         "conviction": 0.45,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-01",
+        "document_kind": "financial_results",
+        "days_since_filing": 22,
+        "reaction_1d_pct": 3.13,
+        "reaction_2d_pct": 3.13,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "SHREECEM": {
@@ -7076,6 +7787,15 @@
         "risk_grade": "medium",
         "conviction": 0.52,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-06",
+        "document_kind": "financial_results",
+        "days_since_filing": 17,
+        "reaction_1d_pct": 3.02,
+        "reaction_2d_pct": 2.37,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "MARICO": {
@@ -7109,6 +7829,15 @@
         "growth_grade": "moderate",
         "risk_grade": "medium",
         "conviction": 0.55
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-06",
+        "document_kind": "financial_results",
+        "days_since_filing": 17,
+        "reaction_1d_pct": 3.09,
+        "reaction_2d_pct": 2.99,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     },
     "INDHOTEL": {
@@ -7142,6 +7871,15 @@
         "growth_grade": "moderate",
         "risk_grade": "medium",
         "conviction": 0.38
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-11",
+        "document_kind": "financial_results",
+        "days_since_filing": 12,
+        "reaction_1d_pct": -5.74,
+        "reaction_2d_pct": -5.3,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "COLPAL": {
@@ -7200,6 +7938,15 @@
         "conviction": 0.25,
         "target_price": 510.01,
         "stop_loss": 489.18
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-12",
+        "document_kind": "financial_results",
+        "days_since_filing": 11,
+        "reaction_1d_pct": 2.8,
+        "reaction_2d_pct": 8.11,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "MUTHOOTFIN": {
@@ -7234,6 +7981,15 @@
         "risk_grade": "medium",
         "conviction": 0.62,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-02-12",
+        "document_kind": "financial_results",
+        "days_since_filing": 100,
+        "reaction_1d_pct": -8.82,
+        "reaction_2d_pct": -11.06,
+        "surprise": "negative_surprise",
+        "freshness": "low"
       }
     },
     "AUROPHARMA": {
@@ -7299,6 +8055,15 @@
         "risk_grade": "medium",
         "conviction": 0.65,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-09",
+        "document_kind": "financial_results",
+        "days_since_filing": 14,
+        "reaction_1d_pct": -5.19,
+        "reaction_2d_pct": -5.19,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       }
     },
     "PAGEIND": {
@@ -7363,6 +8128,15 @@
         "risk_grade": "high",
         "conviction": 0.45,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-18",
+        "document_kind": "financial_results",
+        "days_since_filing": 5,
+        "reaction_1d_pct": -1.14,
+        "reaction_2d_pct": 0.31,
+        "surprise": "inline",
+        "freshness": "high"
       }
     },
     "POLYCAB": {
@@ -7397,6 +8171,15 @@
         "risk_grade": "medium",
         "conviction": 0.55,
         "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-05-06",
+        "document_kind": "financial_results",
+        "days_since_filing": 17,
+        "reaction_1d_pct": 7.99,
+        "reaction_2d_pct": 8.95,
+        "surprise": "positive_surprise",
+        "freshness": "high"
       }
     }
   }
