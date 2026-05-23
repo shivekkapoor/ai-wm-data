@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-23T08:53:53.073043+05:30",
+  "generated_at": "2026-05-23T10:30:45.448136+05:30",
   "portfolio": {
     "cash_inr": 412406.6,
     "invested_inr": 87593.4,
-    "current_holdings_value": 87355.2,
-    "total_value_inr": 499761.8,
+    "current_holdings_value": 87593.4,
+    "total_value_inr": 500000.0,
     "initial_capital": 500000,
-    "total_pnl_inr": -238.2,
-    "total_pnl_pct": -0.05,
+    "total_pnl_inr": 0.0,
+    "total_pnl_pct": 0.0,
     "cash_pct": 82.5,
     "last_run_date": "2026-05-23",
     "holdings": [
@@ -17,10 +17,10 @@
         "sector": "Healthcare",
         "qty": 13,
         "avg_cost": 1866.57,
-        "ltp": 1844.6,
-        "value_inr": 23979.8,
-        "pnl_inr": -285.6,
-        "pnl_pct": -1.18,
+        "ltp": null,
+        "value_inr": 24265.4,
+        "pnl_inr": 0.0,
+        "pnl_pct": 0.0,
         "buy_date": "2026-05-23"
       },
       {
@@ -29,10 +29,10 @@
         "sector": "Healthcare",
         "qty": 17,
         "avg_cost": 1399.41,
-        "ltp": 1399.2,
-        "value_inr": 23786.4,
-        "pnl_inr": -3.6,
-        "pnl_pct": -0.02,
+        "ltp": null,
+        "value_inr": 23790.0,
+        "pnl_inr": 0.0,
+        "pnl_pct": 0.0,
         "buy_date": "2026-05-23"
       },
       {
@@ -41,10 +41,10 @@
         "sector": "Telecom",
         "qty": 9,
         "avg_cost": 1886.29,
-        "ltp": 1871.4,
-        "value_inr": 16842.6,
-        "pnl_inr": -134.0,
-        "pnl_pct": -0.79,
+        "ltp": null,
+        "value_inr": 16976.6,
+        "pnl_inr": 0.0,
+        "pnl_pct": 0.0,
         "buy_date": "2026-05-23"
       },
       {
@@ -53,7 +53,7 @@
         "sector": "Healthcare",
         "qty": 2,
         "avg_cost": 6887.0,
-        "ltp": 6887.0,
+        "ltp": null,
         "value_inr": 13774.0,
         "pnl_inr": 0.0,
         "pnl_pct": 0.0,
@@ -65,10 +65,10 @@
         "sector": "Healthcare",
         "qty": 2,
         "avg_cost": 4393.7,
-        "ltp": 4486.2,
-        "value_inr": 8972.4,
-        "pnl_inr": 185.0,
-        "pnl_pct": 2.11,
+        "ltp": null,
+        "value_inr": 8787.4,
+        "pnl_inr": 0.0,
+        "pnl_pct": 0.0,
         "buy_date": "2026-05-23"
       }
     ]
@@ -4443,13 +4443,6 @@
         "conviction": 0.25,
         "target_price": null,
         "stop_loss": null
-      },
-      "fundamental": {
-        "thesis": "All five recent quarterly data points are null, making it impossible to assess revenue trends, margins, or EPS trajectory from the supplied cache. BSE filings indicate L&T is approaching its 81st AGM with a final dividend announcement and has recently won significant Power T&D orders plus a defence partnership with Exail (France) for the Indian Navy, which are qualitatively positive signals for its order pipeline. However, with no hard financial numbers available, any valuation or growth grade would be speculative, so conviction is set to the minimum defensible level.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.1
       }
     },
     "BAJFINANCE": {
@@ -4477,14 +4470,6 @@
         "conviction": 0.2,
         "target_price": 930.9,
         "stop_loss": 899.99
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available for Bajaj Finance, making it impossible to assess current earnings trajectory, asset quality, or balance sheet strength with confidence. In the prevailing macro environment \u2014 weakening INR (95.96), elevated crude ($105.42), and an unchanged RBI repo rate of 6.5% \u2014 an NBFC like Bajaj Finance faces meaningful headwinds from potential margin compression and higher cost of funds. Without data, a conservative default is appropriate; the sector is also macro-underweight in the current risk-off regime.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "high",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "ITC": {
@@ -4608,14 +4593,6 @@
         "conviction": 0.2,
         "target_price": 406.61,
         "stop_loss": 375.13
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available to assess Kotak Mahindra Bank's current revenue trajectory, asset quality, net interest margins, or capital adequacy. In the absence of hard data, a conservative neutral stance is warranted \u2014 Kotak is historically a well-run private bank with strong governance, but the macro environment (INR at 95.96, rising crude, RBI repo at 6.5%) creates headwinds for rate-sensitive financials. Cannot form a differentiated fundamental view without at least one recent quarter of P&L, NIM, GNPA, and PCR data.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "MARUTI": {
@@ -4643,13 +4620,6 @@
         "conviction": 0.15,
         "target_price": null,
         "stop_loss": null
-      },
-      "fundamental": {
-        "thesis": "All five recent quarterly data points are null, making any quantitative fundamental assessment impossible for this cycle. The macro backdrop is directly hostile to Maruti: rising crude (\u20b9105/bbl WTI) inflates input costs (steel, aluminium, logistics) while a weakening INR at 95.96 raises the cost of imported components and royalties paid to Suzuki Japan. The April 2026 sales and production filings could signal volume direction, but without revenue, margin, or EPS numbers, conviction must remain near zero.",
-        "valuation_grade": "fair",
-        "growth_grade": "weak",
-        "risk_grade": "high",
-        "conviction": 0.1
       }
     },
     "AXISBANK": {
@@ -4677,14 +4647,6 @@
         "conviction": 0.1,
         "target_price": 1285.4,
         "stop_loss": null
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available for Axis Bank, making a data-driven fundamental assessment impossible at this time. In the current macro environment \u2014 weakening INR at 95.96, elevated crude at $105.42, and an unchanged RBI repo rate of 6.5% \u2014 rate-sensitive private-sector banks face margin pressure and potential asset-quality stress, particularly in unsecured retail segments. Without concrete numbers on NIM trajectory, slippage ratios, CASA mix, or capital adequacy, no meaningful valuation or growth call can be made with confidence.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "high",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "SUNPHARMA": {
@@ -4746,14 +4708,6 @@
         "conviction": 0.2,
         "target_price": null,
         "stop_loss": null
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available for UltraTech Cement, making a fundamental assessment unreliable at this time. The broader macro backdrop \u2014 rising crude (a key input cost for cement via fuel and power) and a weakening INR (raises imported coal costs) \u2014 creates headwinds for cement sector margins that would ordinarily weigh on the fundamental view. Without financials to assess valuation, growth trajectory, or balance sheet health, a conservative neutral stance is the only defensible position.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "NTPC": {
@@ -4816,14 +4770,6 @@
         "conviction": 0.25,
         "target_price": 1132.88,
         "stop_loss": null
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available for HCL Technologies, making it impossible to assess current revenue growth, margin trends, or balance sheet health with any confidence. HCL Tech is a large-cap IT exporter that structurally benefits from INR weakness (at 95.96), which would support USD-denominated revenue realisation, but this macro tailwind cannot substitute for company-specific fundamental data. Given the complete absence of recent financial disclosures, a conservative neutral stance is warranted with minimal conviction.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "TITAN": {
@@ -4851,14 +4797,6 @@
         "conviction": 0.15,
         "target_price": null,
         "stop_loss": null
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available for Titan Company, making it impossible to assess revenue growth, margins, debt levels, or earnings quality with any confidence. Titan operates in Consumer Discretionary (jewellery, watches, eyewear), a segment that is currently underweighted given INR weakness at 95.96 and elevated crude at $105.42, both of which compress discretionary household budgets and raise input costs. Without fundamental data, a neutral/conservative default is the only responsible stance.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "ONGC": {
@@ -4920,14 +4858,6 @@
         "conviction": 0.1,
         "target_price": null,
         "stop_loss": null
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available for Bajaj Finserv, making it impossible to assess current revenue growth, profitability, or balance sheet health with any confidence. Bajaj Finserv operates a diversified financial services conglomerate spanning lending (via Bajaj Finance), insurance (life and general), and investments \u2014 sectors that face headwinds from a weakening INR, elevated crude, and uncertain rate trajectory under the current macro regime. Without fresh data, a conservative neutral stance is the only responsible call.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "ADANIENT": {
@@ -5094,14 +5024,6 @@
         "conviction": 0.2,
         "target_price": 456.55,
         "stop_loss": null
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available to assess Coal India's revenue trajectory, margins, or balance sheet health. While Coal India is a dominant PSU with historically strong dividends and low debt, the current macro backdrop \u2014 rising crude at $105.42 and a weakening INR at 95.96 \u2014 adds input cost and logistics-cost uncertainty even for a domestic coal producer. Without current data, any fundamental view would be speculative; defaulting to conservative neutral stance.",
-        "valuation_grade": "fair",
-        "growth_grade": "weak",
-        "risk_grade": "medium",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "NESTLEIND": {
@@ -5164,14 +5086,6 @@
         "conviction": 0.25,
         "target_price": 2539.03,
         "stop_loss": null
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available to assess Asian Paints' current revenue growth, margin trajectory, or balance sheet health. In the absence of data, a conservative default is appropriate \u2014 crude oil at $105.42 is a meaningful input-cost headwind for a paint manufacturer that relies heavily on petrochemical-derived raw materials, compounding margin uncertainty. Without numbers to anchor valuation or growth confidence, conviction must remain very low.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "JSWSTEEL": {
@@ -5441,14 +5355,6 @@
         "conviction": 0.55,
         "target_price": 1437.15,
         "stop_loss": 1314.75
-      },
-      "fundamental": {
-        "thesis": "No quarterly fundamentals or recent BSE filings are available for Cipla, making it impossible to assess current revenue growth, margins, debt levels, or valuation multiples with any confidence. Cipla is generally known as a mid-sized pharma with a diversified domestic and export portfolio, which structurally benefits from INR weakness as an export earner, but this macro tailwind cannot substitute for company-specific data. Defaulting to conservative neutral stance; conviction is minimal until results data is available.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "INDUSINDBK": {
@@ -5476,14 +5382,6 @@
         "conviction": 0.2,
         "target_price": null,
         "stop_loss": null
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available to assess IndusInd Bank's earnings trajectory, asset quality, or capital adequacy. In the current macro environment \u2014 a weakening INR at 95.96, rising crude at $105.42, and an unchanged RBI repo rate of 6.5% \u2014 private sector banks with retail and vehicle-loan exposure face meaningful NIM compression and asset-quality risks, which is a concern for IndusInd given its known concentration in vehicle finance and microfinance. Without any data to anchor a valuation or growth view, conservative defaults apply.",
-        "valuation_grade": "fair",
-        "growth_grade": "weak",
-        "risk_grade": "high",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "GRASIM": {
@@ -5579,14 +5477,6 @@
         "conviction": 0.45,
         "target_price": 8530.66,
         "stop_loss": 7943.52
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available to assess Apollo Hospitals' revenue growth, margin trajectory, or balance sheet position, making any fundamental view unreliable. Apollo operates in Healthcare, a sector that structurally benefits from India's underpenetrated hospital market and rising insurance penetration, but the stock historically trades at a significant premium to peers, raising valuation risk in the absence of current earnings data. Given the data vacuum, a conservative neutral stance is appropriate rather than inferring fundamentals from macro or sectoral trends alone.",
-        "valuation_grade": "expensive",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "BRITANNIA": {
@@ -5649,14 +5539,6 @@
         "conviction": 0.2,
         "target_price": 715.69,
         "stop_loss": 604.58
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available to assess HDFC Life's revenue trajectory, profitability metrics (VNB margin, embedded value growth), or balance sheet quality. In the current macro environment\u2014weakening INR at 95.96, rising crude at $105.42, and a bearish NIFTY\u2014rate-sensitive Financials (including life insurers) face headwinds from potential compression in investment income and equity-linked product demand. Without data, no meaningful valuation or growth call can be made with confidence.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "DIVISLAB": {
@@ -5684,13 +5566,6 @@
         "conviction": 0.52,
         "target_price": 7100.0,
         "stop_loss": 6682.0
-      },
-      "fundamental": {
-        "thesis": "All five quarterly data points return null financials, meaning no usable revenue, profit, or EPS figures are available to assess Divi's Laboratories on valuation or growth. The only recent BSE filings confirm that Q4 FY26 results have not yet been published \u2014 the board meeting to approve them is scheduled for 23 May 2026. Without any financial data, a fundamental view cannot be formed with meaningful confidence.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.1
       }
     },
     "HEROMOTOCO": {
@@ -5718,14 +5593,6 @@
         "conviction": 0.15,
         "target_price": null,
         "stop_loss": null
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available to assess Hero MotoCorp's current revenue trajectory, margins, or balance sheet health, making any fundamental valuation unreliable. In the absence of data, conservative defaults apply. Additionally, the macro backdrop \u2014 a weakening INR at 95.96 and crude at $105.42 \u2014 is structurally adverse for Auto OEMs given higher raw material costs (steel, aluminium) and fuel-price sensitivity that suppresses two-wheeler demand.",
-        "valuation_grade": "fair",
-        "growth_grade": "weak",
-        "risk_grade": "high",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "BPCL": {
@@ -5996,13 +5863,6 @@
         "conviction": 0.15,
         "target_price": null,
         "stop_loss": null
-      },
-      "fundamental": {
-        "thesis": "DLF has filed Q4 & FY26 audited results and recommended a final dividend, signalling the board is comfortable with cash generation, but all revenue, profit, and EPS figures from yfinance are missing (None), making any quantitative valuation or growth assessment impossible. In the current macro backdrop \u2014 INR at 95.96, crude at $105.42, NIFTY 100 in bearish territory, and Real Estate sector on underweight tilt \u2014 the sector faces rising input costs, affordability pressure from elevated rates, and weak risk appetite. Without hard numbers to anchor a view, a conservative default is appropriate; the dividend recommendation is a mild positive signal but insufficient to override the data gap and macro headwinds.",
-        "valuation_grade": "fair",
-        "growth_grade": "weak",
-        "risk_grade": "high",
-        "conviction": 0.1
       }
     },
     "AMBUJACEM": {
@@ -6065,14 +5925,6 @@
         "conviction": 0.3,
         "target_price": null,
         "stop_loss": null
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available for Bajaj Holdings & Investment, making it impossible to assess current earnings, balance sheet health, or valuation with any confidence. Bajaj Holdings is structurally an investment holding company whose value is largely derived from its stakes in Bajaj Finserv and Bajaj Auto, which introduces a conglomerate discount but limits direct operational risk. Given the absence of data and the current RISK_OFF macro environment with a weakening INR and rising crude, a conservative default is warranted.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "HAVELLS": {
@@ -6236,14 +6088,6 @@
         "conviction": 0.2,
         "target_price": 3737.13,
         "stop_loss": 3452.37
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available for Siemens India, making it impossible to assess revenue trends, margin trajectory, or balance sheet health with any confidence. Siemens India typically trades at a significant premium to its industrial peers given its technology pedigree and order book visibility, but without current data that valuation cannot be verified or challenged. Given the information vacuum and the broader stagflationary macro headwind (weak INR, elevated crude) weighing on Industrials capex sentiment, a conservative default stance is warranted.",
-        "valuation_grade": "expensive",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "VEDL": {
@@ -6304,14 +6148,6 @@
         "conviction": 0.15,
         "target_price": null,
         "stop_loss": null
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available for Godrej Consumer Products (GODREJCP), making it impossible to assess current revenue growth, margins, debt levels, or earnings trajectory with any confidence. GODREJCP is an FMCG name that typically commands a premium valuation given its brand strength and international exposure (Africa, Indonesia), but without fresh data the valuation grade and growth trajectory cannot be verified. In the absence of material fundamental evidence, conservative defaults apply.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "ICICIGI": {
@@ -6470,14 +6306,6 @@
         "conviction": 0.15,
         "target_price": 527.94,
         "stop_loss": 506.87
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available to assess VBL's revenue growth, margins, debt levels, or valuation multiples. Given the absence of fundamental data, a conservative neutral stance is warranted. Additionally, the macroeconomic backdrop \u2014 rising crude (input/packaging costs) and a weakening INR \u2014 poses incremental margin headwinds for a consumer beverages company.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "CGPOWER": {
@@ -6536,14 +6364,6 @@
         "conviction": 0.1,
         "target_price": null,
         "stop_loss": null
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available to assess Bank of Baroda's current financial health, earnings trajectory, or balance sheet quality. In the absence of data, a conservative default is warranted \u2014 particularly given the macro headwind of a weakening INR and elevated crude, which pressures credit quality in import-sensitive borrower segments and could widen NPAs. Financials are sector-underweighted in the current regime, further reducing conviction.",
-        "valuation_grade": "fair",
-        "growth_grade": "weak",
-        "risk_grade": "high",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "BEL": {
@@ -6736,14 +6556,6 @@
         "conviction": 0.15,
         "target_price": null,
         "stop_loss": null
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available to assess InterGlobe Aviation's current financial position. In the absence of any fundamental data, a conservative default must be applied. Additionally, the macro backdrop \u2014 rising crude at $105.42 and a weakening INR at 95.96 \u2014 is structurally adverse for an airline that imports fuel in USD, suggesting meaningful margin and cash-flow pressure even before company-specific numbers are considered.",
-        "valuation_grade": "fair",
-        "growth_grade": "weak",
-        "risk_grade": "high",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "HAL": {
@@ -6970,14 +6782,6 @@
         "conviction": 0.25,
         "target_price": 1447.0,
         "stop_loss": 1314.55
-      },
-      "fundamental": {
-        "thesis": "No quarterly financials or BSE filings are available for Adani Green Energy, making any fundamental assessment unreliable. The broader macro context \u2014 rising crude at $105.42 and a weakening INR at 95.96 \u2014 does not directly impair a renewable energy generator's revenues, but elevated interest rates and capital costs remain a material risk given ADANIGREEN's known high-leverage, capex-heavy balance sheet. Without data to validate earnings, debt levels, or cash flows, a conservative default is the only responsible stance.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "high",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "GAIL": {
@@ -7396,14 +7200,6 @@
         "conviction": 0.25,
         "target_price": 510.01,
         "stop_loss": 489.18
-      },
-      "fundamental": {
-        "thesis": "No quarterly results or BSE filings are available for Berger Paints, making a data-driven fundamental assessment impossible at this time. In the absence of concrete financials, we default to conservative priors: Berger is a well-established FMCG-adjacent paints franchise with historically moderate-to-strong growth, but the current macro backdrop of rising crude (a key raw material input for paints via TiO2 and petrochemical derivatives) at $105.42 and a weakening INR at 95.96 creates meaningful margin pressure risk. Without fresh earnings data to confirm or deny margin resilience, conviction must remain very low.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.1,
-        "from_cache": true
       }
     },
     "MUTHOOTFIN": {
