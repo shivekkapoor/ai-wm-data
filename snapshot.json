@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T20:08:17.914612+05:30",
+  "generated_at": "2026-05-26T20:21:12.374868+05:30",
   "portfolio": {
     "cash_inr": 394537.6,
     "invested_inr": 105462.4,
@@ -86,35 +86,44 @@
     ]
   },
   "macro": {
-    "regime": "RISK_OFF",
-    "position_size_multiplier": 0.6,
-    "vix": null,
-    "vix_signal": "unknown",
-    "inr_usd": 95.95500183105469,
-    "inr_signal": "weakening",
-    "crude_usd": 105.41999816894531,
+    "regime": "NEUTRAL",
+    "position_size_multiplier": 0.82,
+    "vix": 16.13249969482422,
+    "vix_signal": "moderate",
+    "inr_usd": 95.66999816894531,
+    "inr_signal": "strengthening",
+    "crude_usd": 93.6500015258789,
     "crude_signal": "rising",
-    "fii_flow_cr": null,
-    "fii_signal": "unknown",
-    "nifty100_momentum": "bearish",
-    "rbi_repo_pct": 6.5,
+    "fii_flow_cr": -976.9231928738964,
+    "fii_signal": "selling",
+    "nifty100_momentum": "sideways",
+    "rbi_repo_pct": 6.0,
     "sector_tilts": {
-      "Financials": "underweight",
-      "IT": "overweight",
-      "Energy": "neutral",
-      "FMCG": "overweight",
-      "Auto": "underweight",
+      "Financials": "overweight",
+      "IT": "neutral",
+      "Energy": "underweight",
+      "FMCG": "neutral",
+      "Auto": "neutral",
       "Healthcare": "overweight",
-      "Industrials": "underweight",
+      "Industrials": "neutral",
       "Materials": "underweight",
       "Utilities": "neutral",
       "Telecom": "neutral",
-      "Consumer Discr.": "underweight",
+      "Consumer Discr.": "neutral",
       "Real Estate": "underweight"
     },
-    "reasoning": "INR has weakened sharply to 95.95 and crude WTI is elevated at $105.42, creating a stagflationary headwind for the Indian economy. NIFTY 100 is in bearish territory with a -3.1% 20-day return, confirming negative price momentum, while FII flow data is unknown, adding further uncertainty. The combination of a weak rupee, high crude, and bearish index momentum triggers a RISK_OFF regime with a low position size multiplier of 0.6. IT and Healthcare benefit from INR weakness as export earners, while import-sensitive sectors (Auto, Consumer Discretionary, Real Estate) and rate-sensitive Financials are underweighted; FMCG is favoured as a defensive play given the bearish market backdrop and unchanged RBI repo rate of 6.5%.",
-    "snapshot_date": "2026-05-16",
+    "reasoning": "With the 30-day FII rolling flow unavailable, regime cannot be confirmed as sustained buying or selling; the single latest-day outflow of ~-977 cr is treated as noise, keeping overall stance NEUTRAL. India VIX at 16.1 is in the moderate band, imposing no hard override and allowing a standard 0.8\u20130.9 multiplier range. Rising crude at $93.65 is a headwind for energy importers and autos but supports upstream energy names; however, the RBI repo cut bias (6.0% with easing trajectory) tilts Financials to overweight. Gold falling signals mild risk appetite returning, supporting a slight cyclical lean, but a strengthening INR (~95.67) and stable DXY/US 10Y reduce both the IT/pharma INR tailwind and the EM outflow pressure, leaving most sectors near neutral with Healthcare overweighted as a defensive-growth balance.",
+    "snapshot_date": "2026-05-26",
     "history": [
+      {
+        "date": "2026-05-26",
+        "regime": "NEUTRAL",
+        "multiplier": 0.82,
+        "vix": 16.13249969482422,
+        "inr_usd": 95.66999816894531,
+        "crude_usd": 93.6500015258789,
+        "fii_flow_cr": -976.9231928738964
+      },
       {
         "date": "2026-05-16",
         "regime": "RISK_OFF",
@@ -6234,10 +6243,10 @@
     ]
   },
   "costs": {
-    "today_usd": 0.0,
-    "today_inr": 0.0,
-    "mtd_usd": 24.9882,
-    "mtd_inr": 2123.99
+    "today_usd": 0.0094,
+    "today_inr": 0.8,
+    "mtd_usd": 24.9976,
+    "mtd_inr": 2124.79
   },
   "signals": {
     "RELIANCE": {
