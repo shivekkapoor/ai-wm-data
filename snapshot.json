@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T20:04:30.423607+05:30",
+  "generated_at": "2026-05-26T20:08:17.914612+05:30",
   "portfolio": {
     "cash_inr": 394537.6,
     "invested_inr": 105462.4,
@@ -85,7 +85,65 @@
       }
     ]
   },
-  "macro": {},
+  "macro": {
+    "regime": "RISK_OFF",
+    "position_size_multiplier": 0.6,
+    "vix": null,
+    "vix_signal": "unknown",
+    "inr_usd": 95.95500183105469,
+    "inr_signal": "weakening",
+    "crude_usd": 105.41999816894531,
+    "crude_signal": "rising",
+    "fii_flow_cr": null,
+    "fii_signal": "unknown",
+    "nifty100_momentum": "bearish",
+    "rbi_repo_pct": 6.5,
+    "sector_tilts": {
+      "Financials": "underweight",
+      "IT": "overweight",
+      "Energy": "neutral",
+      "FMCG": "overweight",
+      "Auto": "underweight",
+      "Healthcare": "overweight",
+      "Industrials": "underweight",
+      "Materials": "underweight",
+      "Utilities": "neutral",
+      "Telecom": "neutral",
+      "Consumer Discr.": "underweight",
+      "Real Estate": "underweight"
+    },
+    "reasoning": "INR has weakened sharply to 95.95 and crude WTI is elevated at $105.42, creating a stagflationary headwind for the Indian economy. NIFTY 100 is in bearish territory with a -3.1% 20-day return, confirming negative price momentum, while FII flow data is unknown, adding further uncertainty. The combination of a weak rupee, high crude, and bearish index momentum triggers a RISK_OFF regime with a low position size multiplier of 0.6. IT and Healthcare benefit from INR weakness as export earners, while import-sensitive sectors (Auto, Consumer Discretionary, Real Estate) and rate-sensitive Financials are underweighted; FMCG is favoured as a defensive play given the bearish market backdrop and unchanged RBI repo rate of 6.5%.",
+    "snapshot_date": "2026-05-16",
+    "history": [
+      {
+        "date": "2026-05-16",
+        "regime": "RISK_OFF",
+        "multiplier": 0.6,
+        "vix": null,
+        "inr_usd": 95.95500183105469,
+        "crude_usd": 105.41999816894531,
+        "fii_flow_cr": null
+      },
+      {
+        "date": "2026-05-11",
+        "regime": "NEUTRAL",
+        "multiplier": 0.8,
+        "vix": null,
+        "inr_usd": 94.91000366210938,
+        "crude_usd": 99.81999969482422,
+        "fii_flow_cr": null
+      },
+      {
+        "date": "2026-05-09",
+        "regime": "NEUTRAL",
+        "multiplier": 0.85,
+        "vix": null,
+        "inr_usd": 94.47000122070312,
+        "crude_usd": 95.41999816894531,
+        "fii_flow_cr": null
+      }
+    ]
+  },
   "decisions": {
     "runs": [
       {
@@ -6208,6 +6266,14 @@
         "target_price": 1390.47,
         "stop_loss": 1330.0
       },
+      "fundamental": {
+        "thesis": "Reliance's trailing five quarters show revenues climbing from \u20b9166,140 cr (Q3FY25) to \u20b9215,850 cr (Q4FY26), a healthy top-line expansion, but net profit has been uneven \u2014 Q4FY26 profit of \u20b916,971 cr is notably below Q1FY26's \u20b926,994 cr and below Q4FY25's \u20b919,407 cr, suggesting margin compression likely from the refining/petchem cycle or elevated capex depreciation. Recent BSE filings point to continued inorganic expansion (Kandla GHA transmission acquisition, Anomaly beauty brand via Reliance Retail), consistent with the conglomerate's long-term capital deployment playbook, but these add near-term execution complexity. At current scale and with falling crude providing a mixed signal (margin tailwind for retail/downstream, but revenue headwind for upstream O2C), valuation appears fair rather than cheap given the profit trajectory softness and no visible near-term re-rating catalyst.",
+        "valuation_grade": "fair",
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.55,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-04-24",
         "document_kind": "financial_results",
@@ -6318,6 +6384,14 @@
         "conviction": 0.3,
         "target_price": 785.87,
         "stop_loss": 754.0
+      },
+      "fundamental": {
+        "thesis": "HDFC Bank remains India's premier private sector lender with consistently strong profitability \u2014 Q1FY26 net profit of \u20b916,258 cr and Q3FY25 at \u20b917,657 cr confirm a steady earnings base, though the wide revenue swing between quarters (\u20b919,555 cr in Q2FY25 vs \u20b995,306 cr in Q4FY25) raises data-quality or reporting-basis concerns that temper conviction. The RBI approval to invest in ICICI Bank and Kotak Mahindra Bank is a notable governance signal, suggesting regulatory confidence in HDFC Bank's capital adequacy and compliance posture. At current repo rate of 6.5% with no cuts imminent, NIM pressure from the merged HDFC Ltd book integration remains the key near-term risk, keeping growth at moderate rather than strong.",
+        "valuation_grade": "fair",
+        "growth_grade": "moderate",
+        "risk_grade": "low",
+        "conviction": 0.55,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-04-18",
@@ -6575,6 +6649,14 @@
         "target_price": 1277.43,
         "stop_loss": 1237.0
       },
+      "fundamental": {
+        "thesis": "ICICI Bank posted a strong Q4FY26 with net profit of \u20b914,755 cr (EPS \u20b920.36), up ~9% sequentially and ~27% year-on-year versus Q4FY25 (\u20b913,502 cr), demonstrating consistent double-digit earnings momentum across all four quarters of FY26. The RBI approval for HDFC Bank to acquire up to 9.95% stake is a notable governance/ownership development worth monitoring, though it introduces no immediate balance-sheet risk. At current earnings run-rate, the bank trades at a premium to sector peers, reflecting its best-in-class asset quality and ROE profile, making valuation fair-to-full rather than cheap.",
+        "valuation_grade": "fair",
+        "growth_grade": "strong",
+        "risk_grade": "medium",
+        "conviction": 0.65,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-04-18",
         "document_kind": "financial_results",
@@ -6670,6 +6752,14 @@
         "target_price": 949.2,
         "stop_loss": null
       },
+      "fundamental": {
+        "thesis": "SBI reported Q3FY26 net profit of \u20b921,317 cr (EPS \u20b923.09) and Q1FY26 net profit of \u20b921,201 cr (EPS \u20b923.76), showing broadly stable earnings power at a large-cap PSU bank \u2014 though the absence of Q2FY26 data limits trend visibility. At a macro level, rising crude and a weakening INR at \u20b995.96 compress margins via higher inflation and potential NPA stress in rate-sensitive segments, while the board's recent fund-raising intimation (May 2026) could signal capital needs or dilution risk. Valuation is likely fair-to-cheap on reported earnings, but the risk grade is elevated given stagflationary macro headwinds, sector underweight positioning, and incomplete quarterly data.",
+        "valuation_grade": "fair",
+        "growth_grade": "moderate",
+        "risk_grade": "high",
+        "conviction": 0.38,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-05-08",
         "document_kind": "financial_results",
@@ -6764,6 +6854,14 @@
         "conviction": 0.28,
         "target_price": 1232.03,
         "stop_loss": 1162.61
+      },
+      "fundamental": {
+        "thesis": "The revenue figures reported (\u20b9348\u2013366 crore quarterly) appear implausibly small for Infosys, which typically posts revenues of \u20b938,000\u201340,000 crore per quarter \u2014 this likely reflects a data artefact (possibly ADR-level or a feed error) rather than true consolidated results, severely limiting fundamental analysis. Based on publicly known Infosys fundamentals, the company trades at a premium P/E (~26\u201328x) relative to modest single-digit revenue growth guidance (~4\u20137% CC for FY26), which makes the stock fair-to-expensive on a growth-adjusted basis. Balance sheet remains strong with net cash, low debt, and consistent dividend payouts, but deal momentum and margin trajectory in a weak global IT spending environment keep the risk grade at medium.",
+        "valuation_grade": "expensive",
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.25,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-04-23",
@@ -7197,6 +7295,14 @@
         "conviction": 0.28,
         "target_price": 2269.2,
         "stop_loss": 2180.0
+      },
+      "fundamental": {
+        "thesis": "No quarterly results or BSE filings are available to assess HUL's current revenue growth, margin trajectory, or balance sheet position. FMCG sector is defensively favoured in the current macro regime, and HUL historically carries a strong balance sheet with low debt, but without recent numbers any valuation or growth call would be speculative. Defaulting to conservative neutral stance pending data.",
+        "valuation_grade": "fair",
+        "growth_grade": "moderate",
+        "risk_grade": "low",
+        "conviction": 0.2,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-04-30",
@@ -8216,6 +8322,14 @@
         "target_price": 2542.56,
         "stop_loss": null
       },
+      "fundamental": {
+        "thesis": "Adani Enterprises posted a sharp net loss of \u20b9220.71 cr in Q4FY26 on revenue of \u20b922,158 cr, reversing the strong \u20b95,627 cr profit seen in Q3FY26 \u2014 this extreme quarterly earnings volatility makes reliable valuation nearly impossible and raises concerns about earnings quality. The ongoing rights issue (partly paid-up shares still pending calls) adds dilution risk and signals continued heavy capital requirements, consistent with the group's infrastructure-heavy, capex-intensive model. Governance risk remains elevated given the Adani Group's history of regulatory scrutiny, promoter concentration, and the conglomerate complexity that makes independent fundamental analysis difficult; with no clean EPS trend and high debt implied by the security cover filings, risk is assessed as high.",
+        "valuation_grade": "expensive",
+        "growth_grade": "weak",
+        "risk_grade": "high",
+        "conviction": 0.45,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-04-30",
         "document_kind": "financial_results",
@@ -8445,6 +8559,14 @@
         "target_price": 207.28,
         "stop_loss": 197.16
       },
+      "fundamental": {
+        "thesis": "Wipro's revenue has grown modestly from \u20b915,725 cr in Q1FY26 to \u20b916,720 cr in Q3FY26, representing roughly 6% sequential growth over three quarters \u2014 moderate at best for a large-cap IT name. Net profit has actually declined from \u20b93,330 cr in Q1FY26 to \u20b93,119 cr in Q3FY26, suggesting margin pressure even as topline inches up. The Mindsprint acquisition adds capabilities but also integration risk and incremental debt (borrowings disclosed in the April 28 filing), and with revenue/profit data missing for Q4FY26 and the cache period, visibility into the current trajectory is limited.",
+        "valuation_grade": "fair",
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.42,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-04-16",
         "document_kind": "financial_results",
@@ -8555,6 +8677,14 @@
         "conviction": 0.55,
         "target_price": 1867.82,
         "stop_loss": 1704.35
+      },
+      "fundamental": {
+        "thesis": "Adani Ports delivered strong sequential revenue growth from \u20b94,022 cr in Q4FY25 to \u20b95,582 cr in Q4FY26 (+38.8% YoY), with net profit rising to \u20b93,329 cr and consistent EPS around \u20b914\u201315, indicating robust operational leverage and pricing power. The recent acquisition of a 51% stake in Meridian Transportes Maritimos signals continued international expansion, which adds long-term growth optionality but also elevates execution and currency risk given a weakening INR at 95.96 and rising crude at $105.42 (both inflationary for port operations and logistics costs). Governance risk remains elevated given the Adani Group conglomerate structure and ongoing promoter-related scrutiny, and high crude prices could dampen cargo volumes in import-sensitive commodities.",
+        "valuation_grade": "fair",
+        "growth_grade": "strong",
+        "risk_grade": "high",
+        "conviction": 0.52,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-04-30",
@@ -8784,6 +8914,14 @@
         "conviction": 0.42,
         "target_price": 1452.09,
         "stop_loss": 1325.78
+      },
+      "fundamental": {
+        "thesis": "No quarterly results or BSE filings are available to assess Nestle India's current revenue growth, margins, or balance sheet position. Nestle India is historically a high-quality FMCG compounder with strong brand moats and low debt, but without recent data we cannot confirm whether current valuations (typically premium, 70-80x trailing PE) are justified by the latest earnings trajectory. Given the macro backdrop of rising crude and a weakening rupee, input cost pressures on packaging and raw materials could be squeezing margins, but this remains unverifiable from the data provided.",
+        "valuation_grade": "expensive",
+        "growth_grade": "moderate",
+        "risk_grade": "low",
+        "conviction": 0.2,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-04-21",
@@ -9132,6 +9270,14 @@
         "target_price": 209.19,
         "stop_loss": 204.98
       },
+      "fundamental": {
+        "thesis": "Tata Steel's India operations remain profitable with Q3FY26 net profit of \u20b92,689 cr and Q2FY26 at \u20b93,102 cr, but the Q4FY25 revenue jump to \u20b952,802 cr alongside a thin net profit of \u20b91,301 cr signals margin compression, likely from the UK/Europe operations which remain a structural drag. At current EPS run-rate of roughly \u20b98-9 annualised (Q1+Q2+Q3FY26 = \u20b96.32), valuations are not cheap for a cyclical steel producer facing elevated coking coal import costs (crude at $105 amplifies this via freight and energy), and a weakening INR further pressures raw material import bills. The \u20b94/share dividend recommendation is a modest positive signal on balance sheet confidence, but rising input costs, global steel oversupply from China, and the Materials sector being underweighted in the current macro regime all argue for a cautious stance.",
+        "valuation_grade": "fair",
+        "growth_grade": "weak",
+        "risk_grade": "high",
+        "conviction": 0.55,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-05-15",
         "document_kind": "financial_results",
@@ -9243,6 +9389,14 @@
         "target_price": 373.0,
         "stop_loss": 337.0
       },
+      "fundamental": {
+        "thesis": "Tata Motors PV has swung into back-to-back quarterly losses in Q2 and Q3 FY26 (net losses of \u20b96,446 cr and \u20b93,486 cr respectively), a sharp reversal from the \u20b94,085\u20138,597 cr profits seen just one year earlier, suggesting significant margin deterioration likely driven by rising input costs and a weak product mix amid elevated crude and a weakening rupee. Revenue has also contracted steeply \u2014 from \u20b976,403 cr in Q4FY25 to \u20b943,823 cr in Q3FY26 \u2014 pointing to genuine demand softness rather than a one-off charge. Given the loss-making trajectory, no visible earnings support, and the Auto sector's structural headwinds from INR weakness and high crude, the risk profile is elevated and there is no clear near-term catalyst for a fundamental re-rating.",
+        "valuation_grade": "expensive",
+        "growth_grade": "weak",
+        "risk_grade": "high",
+        "conviction": 0.65,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-05-14",
         "document_kind": "financial_results",
@@ -9337,6 +9491,14 @@
         "conviction": 0.3,
         "target_price": 1493.09,
         "stop_loss": 1380.0
+      },
+      "fundamental": {
+        "thesis": "Tech Mahindra shows a sequential revenue recovery trajectory \u2014 Q4FY26 revenue of \u20b99,591 cr is up ~10% over Q4FY25's \u20b98,716 cr, and net profit of \u20b91,354 cr in Q4FY26 is the strongest quarter in the visible dataset, suggesting the margin recovery story is gaining traction after a difficult FY24. However, the absolute profit level remains modest relative to revenue (net margin ~14% in Q4FY26), and the recent acquisition filing warrants monitoring for integration costs or goodwill risks. The INR weakness at 95.96 is a structural tailwind for USD-revenue earners like TECHM, but elevated crude and a bearish macro backdrop temper the overall risk appetite.",
+        "valuation_grade": "fair",
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.52,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-04-23",
@@ -9448,6 +9610,14 @@
         "conviction": 0.45,
         "target_price": 10549.5,
         "stop_loss": 10233.4
+      },
+      "fundamental": {
+        "thesis": "Bajaj Auto delivered a strong FY26 with Q4 revenue of \u20b912,272 cr and net profit of \u20b93,662 cr (EPS \u20b9130.9), showing a sharp sequential acceleration \u2014 full-year EPS adds to roughly \u20b9384, implying the stock is priced at a premium but earnings momentum is real. The board's \u20b9150/share dividend and an approved buyback signal management confidence and strong free cash generation, which partially cushions the valuation concern. Key risks are rising crude (input cost pressure, two-wheeler demand softness among price-sensitive buyers) and INR weakness (imported components cost more), keeping risk grade elevated for this Auto-sector name in a macro headwind environment.",
+        "valuation_grade": "expensive",
+        "growth_grade": "strong",
+        "risk_grade": "medium",
+        "conviction": 0.55,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-05-06",
@@ -10134,6 +10304,14 @@
         "target_price": 5331.5,
         "stop_loss": null
       },
+      "fundamental": {
+        "thesis": "Britannia delivered remarkably stable profitability across the available quarters, with net profit holding in the \u20b9520\u2013680 cr range and Q4FY26 net margin approximately 24.8% \u2014 exceptionally high for an FMCG biscuits/bakery business, suggesting strong pricing power and cost discipline. Revenue growth appears flat to slightly declining quarter-on-quarter (Q3FY26 \u20b92820 cr vs Q4FY26 \u20b92731 cr), which is a mild concern, but the absence of a Q2FY26 data point limits trend confidence. At elevated crude and a weak INR (~96), input cost pressures on wheat, palm oil, and packaging are real headwinds that could compress margins in coming quarters, though Britannia's track record of passing through costs tempers this risk.",
+        "valuation_grade": "expensive",
+        "growth_grade": "weak",
+        "risk_grade": "medium",
+        "conviction": 0.52,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-05-08",
         "document_kind": "financial_results",
@@ -10599,6 +10777,14 @@
         "target_price": 1870.7,
         "stop_loss": null
       },
+      "fundamental": {
+        "thesis": "SBI Life's Q4FY26 net profit of \u20b9804.64 cr is broadly in line with Q4FY25 (\u20b9813.51 cr), suggesting flat YoY earnings growth at a time when the life insurance sector typically benefits from rising financialisation \u2014 this is a mild disappointment. Revenue figures show extreme volatility across quarters (\u20b94,094 cr in Q4FY26 vs \u20b946,110 cr in Q3FY26), which is characteristic of insurance accounting where premium income and investment income can swing sharply, making revenue a weak standalone metric; net profit is the more reliable anchor. Valuation for life insurers is typically assessed on Embedded Value multiples \u2014 without current EV/P-EV data, and given flat profit trajectory and a risk-off macro backdrop with rising crude and a weakening INR pressuring household savings capacity, the stock appears fairly valued at best with moderate growth and medium risk (driven by equity market sensitivity of VNB margins and regulatory changes in surrender value norms).",
+        "valuation_grade": "fair",
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.42,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-04-22",
         "document_kind": "financial_results",
@@ -10812,6 +10998,14 @@
         "target_price": 4296.5,
         "stop_loss": null
       },
+      "fundamental": {
+        "thesis": "Trent delivered strong and consistent profitability across all four quarters of FY26, with full-year revenue of approximately \u20b911,265 cr and net profit of approximately \u20b91,720 cr, implying a net margin of ~15%\u2014robust for a retail business. The company's earnings quality appears solid with no single quarter showing a sharp outlier dip, and a forthcoming bonus issue signals promoter confidence in the balance sheet. However, Trent trades at a significant premium to most consumer discretionary peers (historically 80\u2013120x P/E), and in a stagflationary macro environment with a weakening rupee and rising crude, discretionary retail faces margin pressure from logistics and input costs, making the current valuation difficult to justify at fair value or below.",
+        "valuation_grade": "expensive",
+        "growth_grade": "strong",
+        "risk_grade": "medium",
+        "conviction": 0.55,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-04-27",
         "document_kind": "financial_results",
@@ -10923,6 +11117,14 @@
         "target_price": 970.8,
         "stop_loss": 855.11
       },
+      "fundamental": {
+        "thesis": "Shriram Finance is delivering strong sequential earnings growth \u2014 Q4FY26 net profit of \u20b93,021 cr is up ~41% year-on-year versus Q4FY25's \u20b92,144 cr, with EPS expanding from \u20b911.39 to \u20b916.05 over the same period, pointing to genuine operating leverage in its vehicle-financing franchise. However, in a stagflationary environment with INR at 95.96 and crude at $105.42, the NBFC faces twin headwinds: higher borrowing costs squeeze NIMs while its core commercial-vehicle and used-vehicle borrowers face fuel-cost pressure that could lift credit costs. Balance-sheet risk is medium given the inherent leverage of an NBFC business model, promoter-linked encumbrance (Sanlam filing noted) warrants monitoring, but frequent NCD issuances and a Moody's engagement suggest active liability management and market confidence in credit quality.",
+        "valuation_grade": "fair",
+        "growth_grade": "strong",
+        "risk_grade": "medium",
+        "conviction": 0.55,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-04-24",
         "document_kind": "financial_results",
@@ -11017,6 +11219,14 @@
         "conviction": 0.63,
         "target_price": 3710.0,
         "stop_loss": 4290.0
+      },
+      "fundamental": {
+        "thesis": "Avenue Supermarts delivered 18.4% YoY revenue growth in Q4FY26 (\u20b915,111 cr vs \u20b912,766 cr) and a strong 19.2% YoY net profit jump, demonstrating resilient top-line momentum in a tough macro environment; however, Q4FY26 net profit margin compressed to ~4.3% versus ~5.6% in Q3FY26, suggesting cost pressures (likely from higher input/logistics costs tied to elevated crude) are biting. The back-to-back senior management changes in May 2026 introduce a governance watch flag and warrant monitoring, though the core business model \u2014 everyday low-cost, cash-and-carry, owned stores \u2014 remains structurally sound with low leverage. At a typical trailing P/E well above 80x for this earnings level, DMART trades at a premium that leaves little room for any execution slip, making it expensive relative to its current growth trajectory in a risk-off, high-crude environment.",
+        "valuation_grade": "expensive",
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.62,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-05-02",
@@ -11128,6 +11338,14 @@
         "conviction": 0.3,
         "target_price": 1478.4,
         "stop_loss": null
+      },
+      "fundamental": {
+        "thesis": "Pidilite reported Q4FY26 revenue of \u20b91,555 cr and net profit of \u20b9579 cr (EPS \u20b95.68), with Q3FY26 marginally stronger at \u20b91,614 cr revenue and \u20b9618 cr profit \u2014 implying sequential revenue softness but robust absolute margins (net margin ~37% in Q3, ~37% in Q4) that reflect the company's strong brand moat in adhesives and construction chemicals. Annualising recent quarterly EPS (~\u20b924\u201327 range) against a stock trading at a historically rich multiple (sector peers typically 60\u201380x for quality FMCG-adjacent names) places valuation firmly in expensive territory relative to what appears to be moderate, not accelerating, revenue growth. The key macro risk is elevated crude/VAM (vinyl acetate monomer) input costs driven by high WTI at $105, which alongside a weak INR at 95.96 could compress gross margins in coming quarters, making near-term earnings upgrades unlikely.",
+        "valuation_grade": "expensive",
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.55,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-05-11",
@@ -11282,6 +11500,14 @@
         "conviction": 0.22,
         "target_price": 441.33,
         "stop_loss": 424.0
+      },
+      "fundamental": {
+        "thesis": "Ambuja Cements shows volatile quarterly earnings \u2014 Q4FY26 net profit of \u20b91,830 cr looks anomalously high against Q3FY26's \u20b9204 cr, suggesting one-off items or restatement effects that inflate reported numbers and reduce comparability. Revenue growth is modest (Q4FY26 \u20b92,005 cr vs Q4FY25 \u20b91,827 cr, ~9.7% YoY) but operating in a high-cost environment with rising crude (input cost for logistics/fuel) and a weakening INR (imported coal exposure) compresses margins structurally. A disclosed insider trading regulation violation (May 2026 BSE filing) is a meaningful governance red flag that warrants caution, and conviction is capped accordingly.",
+        "valuation_grade": "fair",
+        "growth_grade": "moderate",
+        "risk_grade": "high",
+        "conviction": 0.3,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-05-05",
@@ -11614,6 +11840,14 @@
         "target_price": 524.8,
         "stop_loss": null
       },
+      "fundamental": {
+        "thesis": "ICICI Prudential Life shows improving profitability trajectory with Q4FY26 net profit at \u20b9623.91 cr (EPS \u20b94.31), a meaningful step-up from the \u20b9300\u2013387 cr range seen in prior quarters, suggesting either a strong operating quarter or one-off gains \u2014 without segment-level data it is hard to confirm sustainability. Revenue figures are highly volatile across quarters (\u20b93,130 cr in Q4FY26 vs \u20b922,834 cr in Q3FY26), which is typical for life insurers where premium income recognition can be lumpy, but the magnitude of swings warrants caution about underlying business consistency. A dividend record date filing and regular ESOP allotments indicate normal corporate governance activity, but the rising crude and weakening INR environment (higher inflation, possible equity market drawdown) could suppress new business premium growth and ULIP asset values, adding medium-term risk.",
+        "valuation_grade": "fair",
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.35,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-04-14",
         "document_kind": "financial_results",
@@ -11724,6 +11958,14 @@
         "conviction": 0.3,
         "target_price": 1539.8,
         "stop_loss": null
+      },
+      "fundamental": {
+        "thesis": "Cholamandalam Investment has delivered consistent revenue and profit growth, with Q3FY26 revenue of \u20b94,363 cr up ~22% YoY and net profit of \u20b91,290 cr up ~19% YoY, indicating strong underlying business momentum in vehicle and consumer finance. However, as an NBFC with significant vehicle loan exposure, it faces meaningful headwinds from a weakening INR (higher cost of foreign borrowings), elevated crude prices (stress on borrower segments like truckers and small transport operators), and a risk-off macro environment that could pressure credit quality and funding costs. The company continues to raise NCD funding and declared a final dividend, suggesting reasonable capital management, but sector cyclicality and macro headwinds keep the risk grade elevated.",
+        "valuation_grade": "expensive",
+        "growth_grade": "strong",
+        "risk_grade": "high",
+        "conviction": 0.55,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-04-30",
@@ -11921,6 +12163,14 @@
         "conviction": 0.25,
         "target_price": null,
         "stop_loss": null
+      },
+      "fundamental": {
+        "thesis": "Vedanta's quarterly revenues are highly inconsistent (Q1FY26 \u20b920,912 cr vs Q4FY25 \u20b97,814 cr vs Q4FY26 \u20b911,081 cr), reflecting the inherent cyclicality of its metals and mining portfolio alongside possible inter-company transaction timing; net margins are thin at roughly 12-14% in recent quarters, which is vulnerable to input cost and commodity price swings. Promoter encumbrance filings by Twin Star Holdings and Kroll Trustee Services (HK) are a significant governance red flag \u2014 pledged/encumbered promoter shares at an already-leveraged holding structure raise risk of forced selling or dilution. With crude at $105 and INR at 95.96, energy and logistics costs for Vedanta's smelting and mining operations will rise, squeezing margins further in an already cyclical, high-debt business.",
+        "valuation_grade": "fair",
+        "growth_grade": "weak",
+        "risk_grade": "high",
+        "conviction": 0.55,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-04-30",
@@ -12151,6 +12401,14 @@
         "target_price": 1826.2,
         "stop_loss": null
       },
+      "fundamental": {
+        "thesis": "ICICI Lombard shows solid year-on-year revenue growth (~12% Q4FY26 vs Q4FY25) and decent net profit recovery, though Q4FY26 net profit of \u20b9546 cr and Q3FY26's \u20b9659 cr suggest some earnings volatility quarter-to-quarter. As a non-life insurer, it benefits from rising insurance penetration in India but faces headwinds from elevated claims costs driven by high crude and INR weakness inflating imported medical/auto-part costs; the balance sheet appears sound with no governance red flags in recent filings, though we lack sufficient disclosure-level data to assess combined ratio or solvency margin precisely. At current earnings run-rates the stock is likely priced at a premium to book and earnings typical for quality private insurers, making it fair-to-expensive without a clear near-term catalyst to re-rate higher.",
+        "valuation_grade": "expensive",
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.45,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-04-16",
         "document_kind": "financial_results",
@@ -12379,6 +12637,14 @@
         "conviction": 0.35,
         "target_price": 6689.5,
         "stop_loss": null
+      },
+      "fundamental": {
+        "thesis": "ABB India shows solid revenue growth trending from ~\u20b91,842 cr in Q4FY25 to ~\u20b92,189 cr in Q3FY26, reflecting healthy order execution in its electrification and automation segments, which benefit from India's capex cycle. However, net profit has declined sequentially from \u20b9531 cr in Q3FY25 to \u20b9434 cr in Q3FY26, suggesting margin compression likely from input cost pressures or product mix shift, which warrants caution. At a high-single-digit P/E multiple typical for ABB India's historical premium valuation (market cap implying ~70-80x trailing earnings), the stock appears expensive relative to this profit deceleration, though the long-term industrials capex story remains intact.",
+        "valuation_grade": "expensive",
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.45,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-05-08",
@@ -12710,6 +12976,14 @@
         "conviction": 0.45,
         "target_price": 917.26,
         "stop_loss": 823.54
+      },
+      "fundamental": {
+        "thesis": "CG Power has delivered consistent sequential revenue and profit growth over the last four quarters, with Q4FY26 revenue of \u20b92,337 cr and net profit of \u20b9363 cr representing roughly 21% and 34% year-on-year improvement respectively versus Q4FY25 \u2014 demonstrating solid operating leverage in its industrial and power segments. However, the stock trades at a premium valuation typical of high-quality capital goods compounders, and the current macro environment of rising crude and a weak INR raises input cost and working capital concerns for a manufacturing-heavy business. Governance appears stable with regular BSE disclosures, monitoring agency reports, and timely results, but cyclicality in the industrial capex cycle and rich market pricing keep risk at medium.",
+        "valuation_grade": "expensive",
+        "growth_grade": "strong",
+        "risk_grade": "medium",
+        "conviction": 0.55,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-05-06",
@@ -13143,6 +13417,14 @@
         "conviction": 0.25,
         "target_price": 336.95,
         "stop_loss": 328.0
+      },
+      "fundamental": {
+        "thesis": "REC Limited shows solid profitability with net profit margins consistently above 60% (e.g. Q4FY26 net profit \u20b93,375 cr on revenue \u20b95,361 cr), but sequential profit has declined from \u20b94,466 cr in Q1FY26 to \u20b93,375 cr in Q4FY26, suggesting either NIM compression or one-off gains earlier in the year. The proposed merger with Power Finance Corporation (PFC) is a significant governance and structural risk \u2014 while potentially value-accretive long-term, merger-related uncertainty, management churn (multiple board and senior management changes in May 2026), and integration complexity elevate near-term risk meaningfully. Valuation appears fair-to-cheap for a NBFC of this quality given the power-sector financing tailwind, but the REC-PFC merger overhang and a rising crude/weak INR environment (which pressures power sector input costs and government capex prioritisation) keep conviction moderate.",
+        "valuation_grade": "cheap",
+        "growth_grade": "moderate",
+        "risk_grade": "high",
+        "conviction": 0.42,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-04-29",
@@ -13754,6 +14036,14 @@
         "target_price": 221.75,
         "stop_loss": 189.9
       },
+      "fundamental": {
+        "thesis": "Adani Power posted strong Q4FY26 net profit of \u20b94,017 cr on revenue of \u20b98,158 cr, with profit growth of ~52% YoY versus Q4FY25's \u20b92,637 cr \u2014 a meaningful earnings acceleration. However, the company is identified as a Large Corporate with material outstanding borrowings, and the pending GVK Energy acquisition (CCI nod received) adds integration and leverage risk on top of an already debt-heavy balance sheet typical of the sector. Elevated crude at $105.42 and a weakening INR at 95.96 raise fuel import costs for merchant/spot capacity, though regulated PPAs provide partial insulation.",
+        "valuation_grade": "fair",
+        "growth_grade": "strong",
+        "risk_grade": "high",
+        "conviction": 0.5,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-04-29",
         "document_kind": "financial_results",
@@ -14337,6 +14627,14 @@
         "target_price": null,
         "stop_loss": null
       },
+      "fundamental": {
+        "thesis": "Canara Bank shows solid year-on-year profit growth \u2014 net profit rose from \u20b94,214 cr in Q3FY25 to \u20b95,254 cr in Q3FY26, a ~25% YoY increase \u2014 indicating healthy core earnings momentum for a PSU lender. However, the macro backdrop is unfavourable: a weakening INR at 95.96 and elevated crude at $105.42 raise inflation and credit-quality risks, while Financials are sector-underweighted in the current RISK_OFF regime. Governance risk remains a structural concern for PSU banks (government nominee director appointment noted), and balance sheet quality (NPA trajectory) cannot be fully assessed from the data provided, warranting a medium risk grade and moderate conviction.",
+        "valuation_grade": "cheap",
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.42,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-05-11",
         "document_kind": "financial_results",
@@ -14432,6 +14730,14 @@
         "target_price": 96.07,
         "stop_loss": null
       },
+      "fundamental": {
+        "thesis": "PNB has shown meaningful profit recovery, with net profit rising from \u20b94,989 cr in Q4FY25 to \u20b95,592 cr in Q4FY26, a ~12% YoY improvement, and sequential stability in Q3/Q4FY26 suggests asset quality is broadly under control. However, Q1FY26 net profit of \u20b92,120 cr (EPS \u20b91.84) versus \u20b95,556 cr in Q3FY26 (EPS \u20b94.83) signals lumpy earnings that likely reflect seasonal provisioning or one-off items, reducing confidence in run-rate profitability. As a PSU bank, PNB carries elevated governance and balance-sheet risk (legacy NPA overhang, government ownership constraints), and the current macro environment \u2014 weak INR, rising crude, bearish market \u2014 is unfavourable for rate-sensitive Financials.",
+        "valuation_grade": "fair",
+        "growth_grade": "moderate",
+        "risk_grade": "high",
+        "conviction": 0.38,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-05-05",
         "document_kind": "financial_results",
@@ -14526,6 +14832,14 @@
         "conviction": 0.25,
         "target_price": 68.88,
         "stop_loss": 66.23
+      },
+      "fundamental": {
+        "thesis": "IDFC First Bank shows sequential profit deterioration \u2014 net profit fell from \u20b9478 cr in Q3FY26 to \u20b9330 cr in Q4FY26, with EPS declining from \u20b90.54 to \u20b90.38, suggesting rising credit costs or margin pressure rather than one-off items. Year-on-year revenue growth is healthy (~7.4% Q4FY26 vs Q4FY25), but the profit compression trend is concerning in a rising-rate, weakening-rupee environment where retail borrowers face stress. The credit rating reaffirmation by ICRA offers modest balance-sheet comfort, but the bank operates in a rate-sensitive segment with medium-to-high retail/microfinance exposure that faces headwinds from elevated crude and INR weakness.",
+        "valuation_grade": "fair",
+        "growth_grade": "weak",
+        "risk_grade": "high",
+        "conviction": 0.55,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-04-25",
@@ -14739,6 +15053,14 @@
         "conviction": 0.28,
         "target_price": 25325.0,
         "stop_loss": null
+      },
+      "fundamental": {
+        "thesis": "Shree Cement posted a strong Q4FY26 with revenue of \u20b92,092 cr and net profit of \u20b9526 cr (EPS \u20b9145.7), a meaningful sequential and year-on-year improvement over Q4FY25 (\u20b9574 cr profit), though Q3FY26 was notably weaker at \u20b9267 cr net profit suggesting quarterly volatility. The cement sector faces a double headwind from elevated crude (energy/logistics cost pressure) and a weakening INR (imported coal/pet coke costs), which compresses margins; Shree Cement's premium valuation historically trades at 30\u201340x earnings, making it expensive relative to the earnings growth trajectory visible in these numbers. Regulatory noise (GST demand order, income-tax assessment) and senior management changes add a modest governance/execution risk layer, keeping overall risk at medium.",
+        "valuation_grade": "expensive",
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.52,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-05-06",
@@ -15205,6 +15527,14 @@
         "target_price": 3379.59,
         "stop_loss": 3192.18
       },
+      "fundamental": {
+        "thesis": "Muthoot Finance is delivering exceptional sequential revenue and profit growth \u2014 revenue rose from \u20b93,482 cr in Q4FY25 to \u20b95,320 cr in Q3FY26, while net profit nearly doubled from \u20b91,478 cr to \u20b92,804 cr over the same period, implying very strong AUM expansion and margin improvement in its gold loan book. EPS has grown from \u20b950.22 in Q1FY26 to \u20b969.84 in Q3FY26, a ~39% rise in just two quarters, suggesting robust earnings momentum. However, rising crude and a weak INR at 95.96 create a macro headwind for consumer borrowing capacity, and the RBI's vigilance on gold-loan NBFCs (regulatory risk) alongside rate-sensitive NIM dynamics keeps the risk grade at medium.",
+        "valuation_grade": "fair",
+        "growth_grade": "strong",
+        "risk_grade": "medium",
+        "conviction": 0.62,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-02-12",
         "document_kind": "financial_results",
@@ -15417,6 +15747,14 @@
         "conviction": 0.38,
         "target_price": 2311.08,
         "stop_loss": 2122.18
+      },
+      "fundamental": {
+        "thesis": "Lupin shows strong year-on-year profit growth \u2014 Q3FY26 net profit of \u20b91,175 cr vs \u20b9855 cr in Q3FY25 (+37% YoY) and Q1FY26 net profit of \u20b91,219 cr, indicating sustained earnings recovery driven by its US generics business, which benefits directly from INR weakness at 95.96. The balance sheet appears stable with a final dividend of \u20b918/share (900% of face value) declared for FY26, signalling management confidence in cash generation. Q4FY25 revenue of \u20b92,300 cr suggests a seasonally strong quarter, and the US FDA approval for Famotidine Injection adds to the near-term pipeline; however, the absence of Q4FY26 revenue/EPS detail and the CACHE entry with null data introduce some uncertainty in full-year projections.",
+        "valuation_grade": "fair",
+        "growth_grade": "strong",
+        "risk_grade": "medium",
+        "conviction": 0.65,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-05-09",
@@ -15647,6 +15985,14 @@
         "target_price": 9487.12,
         "stop_loss": 8759.3
       },
+      "fundamental": {
+        "thesis": "Polycab delivered strong sequential and year-on-year growth: Q4FY26 revenue of \u20b96,787 cr is up ~30% YoY vs Q4FY25's \u20b95,205 cr, and net profit of \u20b9773 cr is up ~6% YoY, with trailing four-quarter EPS adding up to roughly \u20b9180+, implying a business that is compounding well. However, rising crude oil (a key raw material input via copper and PVC) at $105 and a weakening INR at ~96 create meaningful margin pressure going forward, as commodity cost pass-through typically lags 1-2 quarters. The balance sheet and auditor filings appear clean with no red flags, but the stock sits in the Industrials/Materials-adjacent space which carries a sector underweight tilt in the current macro regime, moderating our overall conviction.",
+        "valuation_grade": "fair",
+        "growth_grade": "strong",
+        "risk_grade": "medium",
+        "conviction": 0.55,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-05-06",
         "document_kind": "financial_results",
@@ -15866,6 +16212,14 @@
         "conviction": 0.3,
         "target_price": 388.65,
         "stop_loss": null
+      },
+      "fundamental": {
+        "thesis": "NTPC is India's largest thermal power generator and a state-owned utility with a regulated-return business model, giving it stable but capped earnings growth tied to tariff orders and capacity additions. For 9M FY26, revenue declined 3.0% YoY to \u20b91,22,383 cr primarily due to lower energy charges, while PAT grew a modest 3.9% YoY to \u20b914,415 cr \u2014 this divergence reflects cost discipline (EBITDA +6.7% YoY) rather than volume-driven strength, and the single data point in the trend table limits multi-quarter trajectory assessment. The trailing P/E of 21.59\u00d7 sits above the Utilities sector median range of 10\u201318\u00d7, making it appear expensive on earnings; however, EV/EBITDA of 8.86\u00d7 is more appropriate for this capital-intensive, debt-heavy utility and looks fair-to-cheap relative to the regulated asset base and ongoing capacity expansion into renewables. The biggest risk is that pending CERC tariff orders for FY26 create revenue recognition uncertainty, and the extremely high debt/equity of 118\u00d7 with \u20b97,775 cr in 9M finance costs leaves limited buffer if interest rates rise or capacity utilisation dips.",
+        "valuation_grade": "fair",
+        "growth_grade": "weak",
+        "risk_grade": "medium",
+        "conviction": 0.45,
+        "from_cache": true
       },
       "peer_valuation": {
         "sector": "Utilities",
@@ -16404,6 +16758,14 @@
         "target_price": null,
         "stop_loss": null
       },
+      "fundamental": {
+        "thesis": "M&M has delivered strong revenue and profit growth over the past four quarters, with Q4FY26 revenue of \u20b934,331 cr representing a ~33% year-on-year increase over Q4FY25's \u20b925,770 cr, and net profit up ~42% YoY to \u20b94,668 cr \u2014 indicating robust top-line momentum and margin resilience in its core auto and farm equipment segments. However, M&M is an Auto-sector stock in a macro environment where rising crude (\u20b9105/bbl) and a weakening rupee (~95.96) are direct input-cost headwinds for an import-sensitive manufacturer, and the sector is currently underweighted in our regime framework. Valuation appears fair-to-slightly-expensive given the strong growth trajectory already priced in by the market, and balance-sheet risk remains medium given cyclical auto exposure and commodity cost sensitivity.",
+        "valuation_grade": "expensive",
+        "growth_grade": "strong",
+        "risk_grade": "high",
+        "conviction": 0.55,
+        "from_cache": true
+      },
       "earnings_surprise": {
         "filing_date": "2026-05-05",
         "document_kind": "financial_results",
@@ -16834,6 +17196,14 @@
         "target_price": 2234.39,
         "stop_loss": 2150.8
       },
+      "fundamental": {
+        "thesis": "Colgate-Palmolive India is the dominant oral care brand in India with a near-monopoly in toothpaste and toothbrush categories, benefiting from strong brand equity and a wide rural distribution network. Q3FY26 showed a modest recovery \u2014 domestic net sales grew 2.2% YoY and PAT grew 2.3% YoY (ex-exceptional items) to \u20b9324 cr, but the nine-month picture is more sobering with revenue declining 3.2% YoY and PAT down 10.1% YoY, indicating that the single-quarter data point represents stabilisation rather than a sustained reacceleration. At a trailing P/E of 43.0\u00d7 vs the FMCG sector median of ~50\u201355\u00d7, COLPAL screens at the P22 percentile among peers \u2014 cheaper than MARICO and NESTLEIND on earnings multiples \u2014 and forward P/E of 35.9\u00d7 suggests the market is pricing in earnings recovery, though the P/B of 36\u00d7 (P89 in sector) reflects an extremely asset-light, high-ROE (81.6%) franchise that justifies a structural book premium. The single biggest risk is that the nine-month revenue decline was not purely GST-disruption-driven and that consumer demand recovery in mass oral care remains slow, particularly if rural spending stays muted under the stagflationary pressure of a weak INR (95.96) and elevated crude ($105.42).",
+        "valuation_grade": "fair",
+        "growth_grade": "weak",
+        "risk_grade": "medium",
+        "conviction": 0.5,
+        "from_cache": true
+      },
       "peer_valuation": {
         "sector": "FMCG",
         "as_of": "2026-05-26",
@@ -16932,6 +17302,14 @@
         "conviction": 0.3,
         "target_price": 38285.0,
         "stop_loss": null
+      },
+      "fundamental": {
+        "thesis": "Page Industries is India's exclusive licensee for Jockey and Speedo brands, operating as a dominant premium innerwear and athleisure company with ~1,616 stores and strong consumer brand equity. Full-year FY26 revenue grew +6.3% YoY to \u20b95,247 cr while PAT grew a slower +4.7% to \u20b9764 cr, with quarterly momentum showing mild deceleration to +5.6% in Q3FY26; EBITDA margin has actually been expanding (21.3% \u2192 22.9% over three periods) though the trajectory signals table labels this as 'contracting', suggesting the quarterly granularity reflects some PAT compression driven by a one-off \u20b93,500 cr exceptional charge related to New Labour Codes implementation \u2014 stripping this, underlying business quality remains intact but modest. At a trailing P/E of 56.1\u00d7 (broadly at the upper end of the FMCG/Consumer Staples 40\u201360\u00d7 benchmark and at sector median P50 for Consumer Discr. peers), the stock is fairly valued with forward P/E of 45\u00d7 implying earnings growth is already priced in; EV/EBITDA of 38\u00d7 is below the sector peer median of 44.3\u00d7 (P29), offering a slight relative discount on that metric. The biggest risk is that mid-single-digit revenue growth (~6%) at a 56\u00d7 P/E leaves no margin of safety if consumer spending weakens under the current stagflationary macro backdrop of INR at 95.96 and crude at $105, while the Debt/Equity of 18.42 and an exceptional labour-code cost suggest rising structural cost pressures.",
+        "valuation_grade": "fair",
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.55,
+        "from_cache": true
       },
       "peer_valuation": {
         "sector": "Consumer Discr.",
