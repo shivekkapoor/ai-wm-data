@@ -1,0 +1,7 @@
+# OS / editor cruft — keep this data repo clean (snapshot.json only)
+.DS_Store
+Thumbs.db
+*.log
+node_modules/
+.env
+.env.local

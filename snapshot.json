@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T22:21:43.076495+05:30",
+  "generated_at": "2026-06-02T22:32:29.806581+05:30",
   "portfolio": {
     "cash_inr": 291067.2,
     "invested_inr": 208932.8,
@@ -20701,7 +20701,7 @@
     "ret_1d_pct": 0.403,
     "ret_5d_pct": -2.041,
     "ret_30d_pct": -2.962,
-    "since_start_pct": 0.0,
+    "since_start_pct": -0.404,
     "history": [
       {
         "date": "2026-01-16",
