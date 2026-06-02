@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T22:32:29.806581+05:30",
+  "generated_at": "2026-06-02T23:06:52.382452+05:30",
   "portfolio": {
     "cash_inr": 291067.2,
     "invested_inr": 208932.8,
@@ -148,33 +148,42 @@
   "macro": {
     "regime": "NEUTRAL",
     "position_size_multiplier": 0.82,
-    "vix": 16.13249969482422,
+    "vix": 15.354999542236328,
     "vix_signal": "moderate",
-    "inr_usd": 95.66999816894531,
-    "inr_signal": "strengthening",
-    "crude_usd": 93.6500015258789,
-    "crude_signal": "rising",
-    "fii_flow_cr": -976.9231928738964,
+    "inr_usd": 95.25499725341797,
+    "inr_signal": "stable",
+    "crude_usd": 93.52999877929688,
+    "crude_signal": "stable",
+    "fii_flow_cr": -947.0495209867939,
     "fii_signal": "selling",
-    "nifty100_momentum": "sideways",
+    "nifty100_momentum": "bearish",
     "rbi_repo_pct": 6.0,
     "sector_tilts": {
       "Financials": "overweight",
       "IT": "neutral",
-      "Energy": "underweight",
+      "Energy": "neutral",
       "FMCG": "neutral",
       "Auto": "neutral",
-      "Healthcare": "overweight",
+      "Healthcare": "neutral",
       "Industrials": "neutral",
       "Materials": "underweight",
       "Utilities": "neutral",
       "Telecom": "neutral",
-      "Consumer Discr.": "neutral",
+      "Consumer Discr.": "underweight",
       "Real Estate": "underweight"
     },
-    "reasoning": "With the 30-day FII rolling flow unavailable, regime cannot be confirmed as sustained buying or selling; the single latest-day outflow of ~-977 cr is treated as noise, keeping overall stance NEUTRAL. India VIX at 16.1 is in the moderate band, imposing no hard override and allowing a standard 0.8\u20130.9 multiplier range. Rising crude at $93.65 is a headwind for energy importers and autos but supports upstream energy names; however, the RBI repo cut bias (6.0% with easing trajectory) tilts Financials to overweight. Gold falling signals mild risk appetite returning, supporting a slight cyclical lean, but a strengthening INR (~95.67) and stable DXY/US 10Y reduce both the IT/pharma INR tailwind and the EM outflow pressure, leaving most sectors near neutral with Healthcare overweighted as a defensive-growth balance.",
-    "snapshot_date": "2026-05-26",
+    "reasoning": "The 30-day FII rolling flow is unavailable, so the single-day selling of ~947 cr is treated as noise rather than a sustained regime signal; regime defaults toward NEUTRAL. India VIX at 15.4 is in the moderate band with no override required. Gold is falling, suggesting risk appetite is tentatively returning and reducing the case for defensives, though the bearish NIFTY 20-day return (-2.3%) and a strengthening DXY (99.3) create EM headwinds that cap any risk-on tilt. RBI at 6.0% with an accommodative bias supports Financials overweight, while falling gold and DXY-driven pressure on cyclicals like Real Estate, Materials, and Consumer Discretionary warrant underweights; IT is held neutral as INR stability at 95.25 offsets DXY tailwinds.",
+    "snapshot_date": "2026-06-02",
     "history": [
+      {
+        "date": "2026-06-02",
+        "regime": "NEUTRAL",
+        "multiplier": 0.82,
+        "vix": 15.354999542236328,
+        "inr_usd": 95.25499725341797,
+        "crude_usd": 93.52999877929688,
+        "fii_flow_cr": -947.0495209867939
+      },
       {
         "date": "2026-05-26",
         "regime": "NEUTRAL",
@@ -9321,10 +9330,10 @@
     ]
   },
   "costs": {
-    "today_usd": 3.7424,
-    "today_inr": 318.11,
-    "mtd_usd": 3.7424,
-    "mtd_inr": 318.11
+    "today_usd": 3.7516,
+    "today_inr": 318.89,
+    "mtd_usd": 3.7516,
+    "mtd_inr": 318.89
   },
   "signals": {
     "RELIANCE": {
