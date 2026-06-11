@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-11T22:00:37.658260+05:30",
+  "generated_at": "2026-06-11T22:03:45.106281+05:30",
   "portfolio": {
     "cash_inr": 418.34,
     "invested_inr": 999581.66,
@@ -160,8 +160,8 @@
       },
       {
         "symbol": "AJANTPHARM",
-        "name": "AJANTPHARM",
-        "sector": "Unknown",
+        "name": "Ajanta Pharma",
+        "sector": "Healthcare",
         "qty": 12,
         "avg_cost": 2997.2,
         "ltp": 3143.4,
@@ -31688,9 +31688,9 @@
       "events_classified": 761,
       "fundamental_records": 1282,
       "price_observations": 60400,
-      "data_bytes": 4038188404,
-      "data_mb": 4038.2,
-      "data_gb": 4.038
+      "data_bytes": 10180306850,
+      "data_mb": 10180.3,
+      "data_gb": 10.18
     }
   },
   "scorecard": {
