@@ -294,39 +294,9 @@
         "decided_date": "2026-06-18"
       },
       {
-        "sym": "HDFCBANK",
-        "action": "ADD",
-        "qty": 30,
-        "decided_date": "2026-06-18"
-      },
-      {
         "sym": "HINDALCO",
         "action": "TRIM",
         "qty": 1,
-        "decided_date": "2026-06-18"
-      },
-      {
-        "sym": "CIPLA",
-        "action": "TRIM",
-        "qty": 10,
-        "decided_date": "2026-06-18"
-      },
-      {
-        "sym": "VBL",
-        "action": "TRIM",
-        "qty": 30,
-        "decided_date": "2026-06-18"
-      },
-      {
-        "sym": "LICI",
-        "action": "BUY",
-        "qty": 90,
-        "decided_date": "2026-06-18"
-      },
-      {
-        "sym": "YESBANK",
-        "action": "BUY",
-        "qty": 689,
         "decided_date": "2026-06-18"
       }
     ],
