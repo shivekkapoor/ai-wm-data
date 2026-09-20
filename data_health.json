@@ -1,6 +1,6 @@
 {
- "as_of": "2026-09-20",
- "generated_at": "2026-09-20T12:51:12Z",
+ "as_of": "2026-09-21",
+ "generated_at": "2026-09-20T21:59:58Z",
  "overall": "RED",
  "last_run": {
   "date": "2026-09-18",
@@ -16,13 +16,13 @@
   {
    "pillar": "Fundamentals",
    "status": "RED",
-   "headline": "0/174 names analysed with a fresh fundamental view; 59.2% of filings read",
+   "headline": "0/174 names analysed with a fresh fundamental view; 59.6% of filings read",
    "metrics": [
     {
      "label": "filings read",
-     "value": "59% current",
+     "value": "60% current",
      "status": "RED",
-     "detail": "expected Q1 FY27: 296 current, 88 behind, 79 with an unread filing (104 PDFs)",
+     "detail": "expected Q1 FY27: 298 current, 80 behind, 85 with an unread filing (110 PDFs)",
      "dimension": "fresh"
     },
     {
@@ -34,9 +34,9 @@
     },
     {
      "label": "repair loop",
-     "value": "+2 names since the last run",
+     "value": "+1 names since the last run",
      "status": "GREEN",
-     "detail": "167 still to repair; ~84 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
+     "detail": "165 still to repair; ~165 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
      "dimension": "used"
     },
     {
@@ -76,7 +76,7 @@
     },
     {
      "label": "cached view age",
-     "value": "median 91d, p90 126d",
+     "value": "median 92d, p90 127d",
      "status": "RED",
      "detail": "761 views older than 90 days (1267 cached)",
      "dimension": "used"
@@ -153,7 +153,7 @@
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-09-20 (0d)",
+     "value": "2026-09-20 (1d)",
      "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
@@ -191,11 +191,11 @@
   {
    "pillar": "Macro",
    "status": "YELLOW",
-   "headline": "macro snapshot 2026-09-20",
+   "headline": "macro snapshot 2026-09-21",
    "metrics": [
     {
      "label": "snapshot date",
-     "value": "2026-09-20 (0d)",
+     "value": "2026-09-21 (0d)",
      "status": "GREEN",
      "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
      "dimension": "fresh"
@@ -223,7 +223,7 @@
     },
     {
      "label": "regime the agents read",
-     "value": "NEUTRAL (1d)",
+     "value": "NEUTRAL (0d)",
      "status": "GREEN",
      "detail": "the database snapshot every trader prompt opens with",
      "dimension": "used"
