@@ -1,0 +1,248 @@
+{
+ "as_of": "2026-09-20",
+ "generated_at": "2026-09-20T12:51:12Z",
+ "overall": "RED",
+ "last_run": {
+  "date": "2026-09-18",
+  "names_analysed": 174,
+  "agent_calls": {
+   "macro_indicator_extractor": 1,
+   "sentiment_analyst": 178,
+   "technical_analyst": 177,
+   "trader": 174
+  }
+ },
+ "pillars": [
+  {
+   "pillar": "Fundamentals",
+   "status": "RED",
+   "headline": "0/174 names analysed with a fresh fundamental view; 59.2% of filings read",
+   "metrics": [
+    {
+     "label": "filings read",
+     "value": "59% current",
+     "status": "RED",
+     "detail": "expected Q1 FY27: 296 current, 88 behind, 79 with an unread filing (104 PDFs)",
+     "dimension": "fresh"
+    },
+    {
+     "label": "ledger age",
+     "value": "0d",
+     "status": "GREEN",
+     "detail": "rebuilt by data-prep and before every publish",
+     "dimension": "fresh"
+    },
+    {
+     "label": "repair loop",
+     "value": "+2 names since the last run",
+     "status": "GREEN",
+     "detail": "167 still to repair; ~84 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
+     "dimension": "used"
+    },
+    {
+     "label": "rows published",
+     "value": "499",
+     "status": "GREEN",
+     "detail": "one per universe name",
+     "dimension": "correct"
+    },
+    {
+     "label": "rows flagged",
+     "value": "18 (3.6%)",
+     "status": "GREEN",
+     "detail": "failed a validation gate or an independent cross-check",
+     "dimension": "correct"
+    },
+    {
+     "label": "basis labelled",
+     "value": "474/499",
+     "status": "YELLOW",
+     "detail": "consolidated vs standalone stated on the row",
+     "dimension": "correct"
+    },
+    {
+     "label": "latest period",
+     "value": "FY26 on 427 rows",
+     "status": "GREEN",
+     "detail": "FY26:427; FY25:40; Q1 FY27:15; H1 FY26:5",
+     "dimension": "fresh"
+    },
+    {
+     "label": "agent ran",
+     "value": "0/174 names",
+     "status": "RED",
+     "detail": "last run 2026-09-18: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
+     "dimension": "used"
+    },
+    {
+     "label": "cached view age",
+     "value": "median 91d, p90 126d",
+     "status": "RED",
+     "detail": "761 views older than 90 days (1267 cached)",
+     "dimension": "used"
+    },
+    {
+     "label": "vs independent income statement",
+     "value": "84.5% reconciled",
+     "status": "YELLOW",
+     "detail": "275 agree within 5%, 145 documented definition gaps, 77 unexplained",
+     "dimension": "verified"
+    }
+   ]
+  },
+  {
+   "pillar": "Technicals",
+   "status": "GREEN",
+   "headline": "177/174 names analysed on technicals",
+   "metrics": [
+    {
+     "label": "newest bar",
+     "value": "2026-09-18",
+     "status": "GREEN",
+     "detail": "502 series; median series ends 2026-09-18",
+     "dimension": "fresh"
+    },
+    {
+     "label": "bars final",
+     "value": "501/502",
+     "status": "GREEN",
+     "detail": "every bar fetched after its 16:00 IST session close (no live in-session prints)",
+     "dimension": "correct"
+    },
+    {
+     "label": "unfinished bars",
+     "value": "0",
+     "status": "GREEN",
+     "detail": "a bar dated after the last session close would be an intraday print",
+     "dimension": "correct"
+    },
+    {
+     "label": "corporate actions",
+     "value": "7 recorded",
+     "status": "GREEN",
+     "detail": "demergers and vendor stitches spliced out of the indicator series",
+     "dimension": "correct"
+    },
+    {
+     "label": "coverage",
+     "value": "498/499",
+     "status": "GREEN",
+     "detail": "names with a published series",
+     "dimension": "fresh"
+    },
+    {
+     "label": "agent ran",
+     "value": "177/174 names",
+     "status": "GREEN",
+     "detail": "last run 2026-09-18",
+     "dimension": "used"
+    },
+    {
+     "label": "vs the exchange's own bhavcopy",
+     "value": "100.0% agreed",
+     "status": "GREEN",
+     "detail": "690 bar-checks over 5 days, 0 corrected",
+     "dimension": "verified"
+    }
+   ]
+  },
+  {
+   "pillar": "Sentiment / news",
+   "status": "GREEN",
+   "headline": "newest headline 2026-09-20; 99% typed",
+   "metrics": [
+    {
+     "label": "newest headline",
+     "value": "2026-09-20 (0d)",
+     "status": "GREEN",
+     "detail": "publish refuses anything older than 3 days",
+     "dimension": "fresh"
+    },
+    {
+     "label": "names with news",
+     "value": "477",
+     "status": "GREEN",
+     "detail": "of the 500 universe",
+     "dimension": "fresh"
+    },
+    {
+     "label": "headlines typed",
+     "value": "4246/4305 (99%)",
+     "status": "GREEN",
+     "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
+     "dimension": "correct"
+    },
+    {
+     "label": "agent ran",
+     "value": "178/174 names",
+     "status": "GREEN",
+     "detail": "last run 2026-09-18",
+     "dimension": "used"
+    },
+    {
+     "label": "entity-leak probes",
+     "value": "8/8 passed",
+     "status": "GREEN",
+     "detail": "a headline about a sibling company must not tag the parent",
+     "dimension": "verified"
+    }
+   ]
+  },
+  {
+   "pillar": "Macro",
+   "status": "YELLOW",
+   "headline": "macro snapshot 2026-09-20",
+   "metrics": [
+    {
+     "label": "snapshot date",
+     "value": "2026-09-20 (0d)",
+     "status": "GREEN",
+     "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
+     "dimension": "fresh"
+    },
+    {
+     "label": "sectors",
+     "value": "12",
+     "status": "GREEN",
+     "detail": "leading/lagging quadrant per sector",
+     "dimension": "correct"
+    },
+    {
+     "label": "FII/DII days",
+     "value": "10",
+     "status": "GREEN",
+     "detail": "foreign and domestic institutional flow history",
+     "dimension": "correct"
+    },
+    {
+     "label": "indicators",
+     "value": "3",
+     "status": "GREEN",
+     "detail": "CPI, PMI, repo and the rest of the macro series",
+     "dimension": "correct"
+    },
+    {
+     "label": "regime the agents read",
+     "value": "NEUTRAL (1d)",
+     "status": "GREEN",
+     "detail": "the database snapshot every trader prompt opens with",
+     "dimension": "used"
+    },
+    {
+     "label": "index print vs a fresh pull",
+     "value": "matches",
+     "status": "GREEN",
+     "detail": "ours 11.4 vs live 11.39 (2026-09-18)",
+     "dimension": "verified"
+    },
+    {
+     "label": "flow series continuity",
+     "value": "1 missing weekday(s)",
+     "status": "YELLOW",
+     "detail": "2026-09-14",
+     "dimension": "verified"
+    }
+   ]
+  }
+ ]
+}
