@@ -5,13 +5,13 @@
  "universe": 500,
  "counts": {
   "current": 298,
-  "behind": 80,
-  "unread": 85,
+  "behind": 81,
+  "unread": 84,
   "annual_behind": 35,
   "no_filing": 2
  },
  "pct_current": 59.6,
- "pct_unread": 17.0,
+ "pct_unread": 16.8,
  "unread_docs_total": 110,
  "rows": [
   {
@@ -1924,7 +1924,7 @@
    "latest_results_filing": "2026-09-14",
    "latest_results_title": "Outcome of Board Meeting - Equity Investment in Joint Venture",
    "latest_filing_read": null,
-   "unread_results_docs": 1,
+   "unread_results_docs": 2,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-16",
    "latest_extract_written": "2026-09-21",
@@ -2610,13 +2610,13 @@
    "latest_results_filing": "2026-07-20",
    "latest_results_title": "Press Release on Financial Results for the quarter ended 30.06.2026",
    "latest_filing_read": null,
-   "unread_results_docs": 1,
+   "unread_results_docs": 0,
    "latest_extracted_period": "H1 FY26",
    "latest_extracted_filing_date": "2025-10-16",
    "latest_extract_written": "2026-09-21",
    "expected_annual": "FY26",
    "latest_annual_period": null,
-   "status": "unread"
+   "status": "behind"
   },
   {
    "symbol": "IREDA",
@@ -7019,8 +7019,8 @@
   "as_of": "2026-09-21",
   "counts": {
    "current": 297,
-   "behind": 80,
-   "unread": 86,
+   "behind": 81,
+   "unread": 85,
    "annual_behind": 35,
    "no_filing": 2
   },
