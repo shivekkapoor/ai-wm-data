@@ -1,6 +1,6 @@
 {
- "as_of": "2026-09-21",
- "generated_at": "2026-09-21T12:25:27Z",
+ "as_of": "2026-09-22",
+ "generated_at": "2026-09-21T22:31:14Z",
  "overall": "RED",
  "last_run": {
   "date": "2026-09-18",
@@ -16,13 +16,13 @@
   {
    "pillar": "Fundamentals",
    "status": "RED",
-   "headline": "0/174 names analysed with a fresh fundamental view; 59.6% of filings read",
+   "headline": "0/174 names analysed with a fresh fundamental view; 59.2% of filings read",
    "metrics": [
     {
      "label": "filings read",
-     "value": "60% current",
+     "value": "59% current",
      "status": "RED",
-     "detail": "expected Q1 FY27: 298 current, 81 behind, 84 with an unread filing (110 PDFs)",
+     "detail": "expected Q1 FY27: 296 current, 79 behind, 88 with an unread filing (114 PDFs)",
      "dimension": "fresh"
     },
     {
@@ -36,7 +36,7 @@
      "label": "repair loop",
      "value": "+1 names since the last run",
      "status": "GREEN",
-     "detail": "165 still to repair; ~165 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
+     "detail": "167 still to repair; ~167 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
      "dimension": "used"
     },
     {
@@ -48,7 +48,7 @@
     },
     {
      "label": "rows flagged",
-     "value": "18 (3.6%)",
+     "value": "19 (3.8%)",
      "status": "GREEN",
      "detail": "failed a validation gate or an independent cross-check",
      "dimension": "correct"
@@ -76,7 +76,7 @@
     },
     {
      "label": "cached view age",
-     "value": "median 92d, p90 127d",
+     "value": "median 93d, p90 128d",
      "status": "RED",
      "detail": "761 views older than 90 days (1267 cached)",
      "dimension": "used"
@@ -97,9 +97,9 @@
    "metrics": [
     {
      "label": "newest bar",
-     "value": "2026-09-18",
+     "value": "2026-09-21",
      "status": "GREEN",
-     "detail": "502 series; median series ends 2026-09-18",
+     "detail": "502 series; median series ends 2026-09-21",
      "dimension": "fresh"
     },
     {
@@ -153,7 +153,7 @@
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-09-21 (0d)",
+     "value": "2026-09-21 (1d)",
      "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
@@ -191,11 +191,11 @@
   {
    "pillar": "Macro",
    "status": "YELLOW",
-   "headline": "macro snapshot 2026-09-21",
+   "headline": "macro snapshot 2026-09-22",
    "metrics": [
     {
      "label": "snapshot date",
-     "value": "2026-09-21 (0d)",
+     "value": "2026-09-22 (0d)",
      "status": "GREEN",
      "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
      "dimension": "fresh"
