@@ -4,15 +4,15 @@
  "expected_annual": "FY26",
  "universe": 500,
  "counts": {
-  "current": 298,
-  "behind": 80,
-  "unread": 85,
+  "current": 297,
+  "behind": 79,
+  "unread": 87,
   "annual_behind": 35,
   "no_filing": 2
  },
- "pct_current": 59.6,
- "pct_unread": 17.0,
- "unread_docs_total": 109,
+ "pct_current": 59.4,
+ "pct_unread": 17.4,
+ "unread_docs_total": 113,
  "rows": [
   {
    "symbol": "RELIANCE",
@@ -171,9 +171,9 @@
   {
    "symbol": "M&M",
    "expected_period": "Q1 FY27",
-   "latest_results_filing": null,
-   "latest_results_title": null,
-   "latest_filing_read": null,
+   "latest_results_filing": "2026-07-30",
+   "latest_results_title": "Mahindra & Mahindra Limited has informed the Exchange regarding a press release dated 30th July 2026, titled \"Press Rele",
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-30",
@@ -1924,7 +1924,7 @@
    "latest_results_filing": "2026-09-14",
    "latest_results_title": "Outcome of Board Meeting - Equity Investment in Joint Venture",
    "latest_filing_read": null,
-   "unread_results_docs": 1,
+   "unread_results_docs": 2,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-16",
    "latest_extract_written": "2026-09-23",
@@ -2117,9 +2117,9 @@
   {
    "symbol": "360ONE",
    "expected_period": "Q1 FY27",
-   "latest_results_filing": "2026-07-16",
-   "latest_results_title": "360 ONE WAM LIMITED has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": true,
+   "latest_results_filing": null,
+   "latest_results_title": null,
+   "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-16",
@@ -2218,13 +2218,13 @@
    "latest_results_filing": "2026-07-15",
    "latest_results_title": "Unaudited Standalone and Consolidated Financial Results of the Company along with Limited Review Report by the Auditors ",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
+   "unread_results_docs": 1,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-15",
    "latest_extract_written": "2026-09-23",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "current"
+   "status": "unread"
   },
   {
    "symbol": "APTUS",
@@ -2412,7 +2412,7 @@
    "symbol": "CRISIL",
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-07-21",
-   "latest_results_title": "Please find enclosed press release on the unaudited financial results for the quarter and half year ended June 30, 2026.",
+   "latest_results_title": "Please find enclosed the outcome of Board meeting of Board of Directors of Crisil Limited.",
    "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "FY26",
@@ -3030,13 +3030,13 @@
    "latest_results_filing": "2026-07-22",
    "latest_results_title": "Outcome of the Board meeting held on 22nd July, 2026",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
+   "unread_results_docs": 1,
    "latest_extracted_period": "FY26",
    "latest_extracted_filing_date": "2026-04-23",
    "latest_extract_written": "2026-09-23",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "behind"
+   "status": "unread"
   },
   {
    "symbol": "3MINDIA",
@@ -3154,7 +3154,7 @@
    "symbol": "CARBORUNIV",
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-08-07",
-   "latest_results_title": "Enclosed Press Release pertaining to unaudited financial results for the quarter ended June 30, 2026.",
+   "latest_results_title": "Outcome of the Board meeting",
    "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
@@ -5256,7 +5256,7 @@
    "latest_results_filing": "2026-07-21",
    "latest_results_title": "Please find enclosed the Audited Consolidated & Standalone Financial Results of the Company for the quarter ended June 3",
    "latest_filing_read": null,
-   "unread_results_docs": 1,
+   "unread_results_docs": 2,
    "latest_extracted_period": "FY26",
    "latest_extracted_filing_date": "2026-04-30",
    "latest_extract_written": "2026-09-23",
@@ -7018,13 +7018,13 @@
  "previous": {
   "as_of": "2026-09-23",
   "counts": {
-   "current": 297,
-   "behind": 80,
-   "unread": 86,
+   "current": 296,
+   "behind": 79,
+   "unread": 88,
    "annual_behind": 35,
    "no_filing": 2
   },
-  "pct_current": 59.4
+  "pct_current": 59.2
  },
  "repaired_since_previous": 1
 }
