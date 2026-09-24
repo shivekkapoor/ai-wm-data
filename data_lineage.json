@@ -5,10 +5,10 @@
  "universe": 500,
  "counts": {
   "current": 298,
-  "behind": 80,
+  "behind": 79,
   "unread": 85,
   "annual_behind": 35,
-  "no_filing": 2
+  "no_filing": 3
  },
  "pct_current": 59.6,
  "pct_unread": 17.0,
@@ -1405,7 +1405,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-07-16",
    "latest_results_title": "Unaudited Financial Results for the quarter ended 30th June 2026",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-16",
@@ -2805,7 +2805,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-07-24",
    "latest_results_title": "The Board of Directors of the Company at their meeting held on 24th July 2026 have approved inter-alia the Un-audited Fi",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-27",
@@ -4415,7 +4415,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-07-24",
    "latest_results_title": "Submission of unaudited Standalone and consolidated financial results for quarter ending June 30, 2026",
-   "latest_filing_read": null,
+   "latest_filing_read": false,
    "unread_results_docs": 1,
    "latest_extracted_period": "FY26",
    "latest_extracted_filing_date": "2026-05-26",
@@ -4738,13 +4738,13 @@
    "latest_results_filing": "2026-08-05",
    "latest_results_title": "Outcome of the Board Meeting",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
+   "unread_results_docs": 1,
    "latest_extracted_period": "FY26",
    "latest_extracted_filing_date": "2026-05-12",
    "latest_extract_written": "2026-09-24",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "behind"
+   "status": "unread"
   },
   {
    "symbol": "CONCORDBIO",
@@ -5898,7 +5898,7 @@
    "symbol": "OLECTRA",
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-08-13",
-   "latest_results_title": "Olectra Greentech Limited has informed the exchange about unaudited financial results for the quarter ended 30th June, 2",
+   "latest_results_title": "Outcome of the Board Meeting held on 13th August, 2026",
    "latest_filing_read": null,
    "unread_results_docs": 1,
    "latest_extracted_period": "Q1 FY27",
@@ -6331,16 +6331,16 @@
   {
    "symbol": "LTM",
    "expected_period": "Q1 FY27",
-   "latest_results_filing": "2026-07-11",
-   "latest_results_title": "LTM Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": false,
-   "unread_results_docs": 1,
+   "latest_results_filing": null,
+   "latest_results_title": null,
+   "latest_filing_read": null,
+   "unread_results_docs": 0,
    "latest_extracted_period": "FY26",
    "latest_extracted_filing_date": "2026-04-23",
    "latest_extract_written": "2026-09-24",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "unread"
+   "status": "no_filing"
   },
   {
    "symbol": "MAPMYINDIA",
@@ -6529,7 +6529,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-08-14",
    "latest_results_title": "Unaudited financial results for the quarter ended 30.06.2026",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "FY26",
    "latest_extracted_filing_date": "2026-05-15",
@@ -7019,10 +7019,10 @@
   "as_of": "2026-09-24",
   "counts": {
    "current": 297,
-   "behind": 80,
+   "behind": 79,
    "unread": 86,
    "annual_behind": 35,
-   "no_filing": 2
+   "no_filing": 3
   },
   "pct_current": 59.4
  },
