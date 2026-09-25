@@ -1,6 +1,6 @@
 {
  "as_of": "2026-09-25",
- "generated_at": "2026-09-24T23:46:50Z",
+ "generated_at": "2026-09-25T13:09:20Z",
  "overall": "RED",
  "last_run": {
   "date": "2026-09-18",
@@ -34,9 +34,9 @@
     },
     {
      "label": "repair loop",
-     "value": "+3 names since the last run",
+     "value": "+4 names since the last run",
      "status": "GREEN",
-     "detail": "160 still to repair; ~54 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
+     "detail": "160 still to repair; ~40 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
      "dimension": "used"
     },
     {
@@ -118,7 +118,7 @@
     },
     {
      "label": "corporate actions",
-     "value": "7 recorded",
+     "value": "12 recorded",
      "status": "GREEN",
      "detail": "demergers and vendor stitches spliced out of the indicator series",
      "dimension": "correct"
@@ -149,25 +149,25 @@
   {
    "pillar": "Sentiment / news",
    "status": "RED",
-   "headline": "newest headline 2026-09-24; 47% typed",
+   "headline": "newest headline 2026-09-25; 36% typed",
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-09-24 (1d)",
+     "value": "2026-09-25 (0d)",
      "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "492",
+     "value": "491",
      "status": "GREEN",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "3249/6846 (47%)",
+     "value": "2878/8083 (36%)",
      "status": "RED",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
@@ -181,8 +181,8 @@
     },
     {
      "label": "entity-leak probes",
-     "value": "0/0 passed",
-     "status": "RED",
+     "value": "8/8 passed",
+     "status": "GREEN",
      "detail": "a headline about a sibling company must not tag the parent",
      "dimension": "verified"
     }
@@ -232,14 +232,14 @@
      "label": "index print vs a fresh pull",
      "value": "mismatch",
      "status": "RED",
-     "detail": "ours 11.4 vs live None (None)",
+     "detail": "our print matches neither the latest nor the previous close",
      "dimension": "verified"
     },
     {
      "label": "flow series continuity",
-     "value": "0 missing weekday(s)",
-     "status": "GREEN",
-     "detail": "no gaps in the last dozen weekdays",
+     "value": "1 missing weekday(s)",
+     "status": "YELLOW",
+     "detail": "2026-09-14",
      "dimension": "verified"
     }
    ]

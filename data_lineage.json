@@ -7016,15 +7016,15 @@
   }
  ],
  "previous": {
-  "as_of": "2026-09-24",
+  "as_of": "2026-09-25",
   "counts": {
    "current": 297,
-   "behind": 79,
+   "behind": 80,
    "unread": 86,
    "annual_behind": 35,
-   "no_filing": 3
+   "no_filing": 2
   },
   "pct_current": 59.4
  },
- "repaired_since_previous": 3
+ "repaired_since_previous": 4
 }
