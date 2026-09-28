@@ -1,6 +1,6 @@
 {
  "as_of": "2026-09-28",
- "generated_at": "2026-09-27T22:28:10Z",
+ "generated_at": "2026-09-28T02:48:01Z",
  "overall": "RED",
  "last_run": {
   "date": "2026-09-18",
@@ -22,7 +22,7 @@
      "label": "filings read",
      "value": "59% current",
      "status": "RED",
-     "detail": "expected Q1 FY27: 296 current, 79 behind, 88 with an unread filing (116 PDFs)",
+     "detail": "expected Q1 FY27: 296 current, 79 behind, 88 with an unread filing (115 PDFs)",
      "dimension": "fresh"
     },
     {
@@ -149,7 +149,7 @@
   {
    "pillar": "Sentiment / news",
    "status": "RED",
-   "headline": "newest headline 2026-09-25; 33% typed",
+   "headline": "newest headline 2026-09-25; 32% typed",
    "metrics": [
     {
      "label": "newest headline",
@@ -167,7 +167,7 @@
     },
     {
      "label": "headlines typed",
-     "value": "2511/7715 (33%)",
+     "value": "2499/7703 (32%)",
      "status": "RED",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
