@@ -1,6 +1,6 @@
 {
  "as_of": "2026-09-29",
- "generated_at": "2026-09-29T02:40:29Z",
+ "generated_at": "2026-09-29T12:21:51Z",
  "overall": "RED",
  "last_run": {
   "date": "2026-09-18",
@@ -149,11 +149,11 @@
   {
    "pillar": "Sentiment / news",
    "status": "RED",
-   "headline": "newest headline 2026-09-28; 25% typed",
+   "headline": "newest headline 2026-09-29; 19% typed",
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-09-28 (1d)",
+     "value": "2026-09-29 (0d)",
      "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
@@ -167,7 +167,7 @@
     },
     {
      "label": "headlines typed",
-     "value": "2199/8812 (25%)",
+     "value": "1758/9292 (19%)",
      "status": "RED",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
