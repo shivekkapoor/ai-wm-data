@@ -4,15 +4,15 @@
  "expected_annual": "FY26",
  "universe": 500,
  "counts": {
-  "current": 305,
-  "behind": 124,
-  "unread": 32,
-  "annual_behind": 37,
-  "no_filing": 2
+  "current": 308,
+  "behind": 117,
+  "unread": 35,
+  "annual_behind": 39,
+  "no_filing": 1
  },
- "pct_current": 61.0,
- "pct_unread": 6.4,
- "unread_docs_total": 36,
+ "pct_current": 61.6,
+ "pct_unread": 7.0,
+ "unread_docs_total": 41,
  "rows": [
   {
    "symbol": "RELIANCE",
@@ -162,7 +162,7 @@
    "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
-   "latest_extracted_filing_date": "2026-07-28",
+   "latest_extracted_filing_date": "2026-07-31",
    "latest_extract_written": "2026-09-30",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
@@ -173,7 +173,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-07-30",
    "latest_results_title": "Mahindra & Mahindra Limited has informed the Exchange regarding a press release dated 30th July 2026, titled \"Press Rele",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-30",
@@ -187,7 +187,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-07-18",
    "latest_results_title": "Kotak Mahindra Bank Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-18",
@@ -469,12 +469,12 @@
    "latest_results_title": "Audited Standalone & Consolidated Financial Results for the quarter ended 30th June 2026",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "FY26",
-   "latest_extracted_filing_date": "2026-04-23",
+   "latest_extracted_period": "Q1 FY27",
+   "latest_extracted_filing_date": "2026-07-16",
    "latest_extract_written": "2026-09-30",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "behind"
+   "status": "current"
   },
   {
    "symbol": "BAJAJ-AUTO",
@@ -579,7 +579,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-08-12",
    "latest_results_title": "Apollo Hospitals Enterprise Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 20",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-08-12",
@@ -638,7 +638,7 @@
    "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
-   "latest_extracted_filing_date": "2026-08-06",
+   "latest_extracted_filing_date": "2026-08-07",
    "latest_extract_written": "2026-09-30",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
@@ -707,12 +707,12 @@
    "latest_results_title": "Press release on unaudited financial results",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "FY26",
-   "latest_extracted_filing_date": "2026-04-24",
+   "latest_extracted_period": "Q1 FY27",
+   "latest_extracted_filing_date": "2026-07-24",
    "latest_extract_written": "2026-09-30",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "behind"
+   "status": "current"
   },
   {
    "symbol": "DMART",
@@ -764,7 +764,7 @@
    "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
-   "latest_extracted_filing_date": "2026-07-28",
+   "latest_extracted_filing_date": "2026-07-29",
    "latest_extract_written": "2026-09-30",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
@@ -831,7 +831,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-08-11",
    "latest_results_title": "Siemens Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-08-11",
@@ -845,7 +845,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-07-30",
    "latest_results_title": "Vedanta Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-30",
@@ -859,7 +859,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-08-07",
    "latest_results_title": "Godrej Consumer Products Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "FY26",
    "latest_extracted_filing_date": "2026-05-06",
@@ -889,19 +889,19 @@
    "latest_results_title": null,
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "Q3 FY26",
-   "latest_extracted_filing_date": "2026-01-29",
+   "latest_extracted_period": "Q1 FY27",
+   "latest_extracted_filing_date": "2026-07-31",
    "latest_extract_written": "2026-09-30",
    "expected_annual": "FY26",
    "latest_annual_period": null,
-   "status": "no_filing"
+   "status": "current"
   },
   {
    "symbol": "ABB",
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-07-31",
    "latest_results_title": "ABB India Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "FY26",
    "latest_extracted_filing_date": "2026-05-08",
@@ -985,14 +985,14 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-08-07",
    "latest_results_title": "1. Un-audited financial results (Standalone & Consolidated) for the quarter ended 30.06.2026 and Un-audited Special Purp",
-   "latest_filing_read": false,
-   "unread_results_docs": 1,
-   "latest_extracted_period": "Q1 FY26",
-   "latest_extracted_filing_date": "2025-08-06",
+   "latest_filing_read": true,
+   "unread_results_docs": 0,
+   "latest_extracted_period": "Q1 FY27",
+   "latest_extracted_filing_date": "2026-08-07",
    "latest_extract_written": "2026-09-30",
    "expected_annual": "FY26",
    "latest_annual_period": null,
-   "status": "unread"
+   "status": "annual_behind"
   },
   {
    "symbol": "RECLTD",
@@ -1001,12 +1001,12 @@
    "latest_results_title": "Press Release-Financial Results of REC Limited for the quarter ended June 30, 2026.",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "FY26",
-   "latest_extracted_filing_date": "2026-04-28",
+   "latest_extracted_period": "Q1 FY27",
+   "latest_extracted_filing_date": "2026-07-24",
    "latest_extract_written": "2026-09-30",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "behind"
+   "status": "current"
   },
   {
    "symbol": "MOTHERSON",
@@ -1055,7 +1055,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-08-12",
    "latest_results_title": "Hindustan Aeronautics Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-08-12",
@@ -1069,7 +1069,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-08-10",
    "latest_results_title": "Bosch Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-08-10",
@@ -1281,12 +1281,12 @@
    "latest_results_title": "Please find enclosed outcome of the Board meeting held on August 4, 2026",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "FY26",
-   "latest_extracted_filing_date": "2026-05-06",
+   "latest_extracted_period": "Q1 FY27",
+   "latest_extracted_filing_date": "2026-08-05",
    "latest_extract_written": "2026-09-30",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "behind"
+   "status": "current"
   },
   {
    "symbol": "INDHOTEL",
@@ -1462,7 +1462,7 @@
    "latest_results_filing": "2026-07-24",
    "latest_results_title": "Financial result for the quarter ended June,2026",
    "latest_filing_read": null,
-   "unread_results_docs": 2,
+   "unread_results_docs": 3,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-24",
    "latest_extract_written": "2026-09-30",
@@ -1546,13 +1546,13 @@
    "latest_results_filing": "2026-07-17",
    "latest_results_title": "Press Release on unaudited financial results and financial performance of the Company for the quarter ended June 30, 202",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
+   "unread_results_docs": 1,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-17",
    "latest_extract_written": "2026-09-30",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "current"
+   "status": "unread"
   },
   {
    "symbol": "SUNDARMFIN",
@@ -1631,12 +1631,12 @@
    "latest_results_title": "Outcome of the Board Meeting for the Quarter Ended June 30, 2026",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "H1 FY26",
-   "latest_extracted_filing_date": "2025-10-17",
+   "latest_extracted_period": "Q1 FY27",
+   "latest_extracted_filing_date": "2026-07-14",
    "latest_extract_written": "2026-09-30",
    "expected_annual": "FY26",
    "latest_annual_period": "FY25",
-   "status": "behind"
+   "status": "annual_behind"
   },
   {
    "symbol": "OFSS",
@@ -1658,13 +1658,13 @@
    "latest_results_filing": "2026-07-29",
    "latest_results_title": "Outcome of Board Meeting Q1 FY 2026-27",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
+   "unread_results_docs": 1,
    "latest_extracted_period": "FY26",
    "latest_extracted_filing_date": "2025-04-28",
    "latest_extract_written": "2026-09-30",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "behind"
+   "status": "unread"
   },
   {
    "symbol": "ALKEM",
@@ -1699,7 +1699,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-07-24",
    "latest_results_title": "Laurus Labs Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "FY26",
    "latest_extracted_filing_date": "2026-04-30",
@@ -1755,7 +1755,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-08-06",
    "latest_results_title": "Fortis Healthcare Limited has informed the Exchange regarding a press release dated August 06, 2026, titled \"Fortis Heal",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-08-06",
@@ -1797,14 +1797,14 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-08-11",
    "latest_results_title": "MRF Limited has informed the Exchange regarding a press release dated August 11, 2026, titled \"Press release on Unaudite",
-   "latest_filing_read": null,
-   "unread_results_docs": 0,
+   "latest_filing_read": false,
+   "unread_results_docs": 1,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-08-11",
    "latest_extract_written": "2026-09-30",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "current"
+   "status": "unread"
   },
   {
    "symbol": "BALKRISIND",
@@ -1895,7 +1895,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-07-28",
    "latest_results_title": "Supreme Industries Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "FY26",
    "latest_extracted_filing_date": "2026-04-27",
@@ -1980,13 +1980,13 @@
    "latest_results_filing": "2026-07-27",
    "latest_results_title": "Financial Results for the quarter ended June 30, 2026",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
+   "unread_results_docs": 2,
    "latest_extracted_period": "FY26",
    "latest_extracted_filing_date": "2026-05-04",
    "latest_extract_written": "2026-09-30",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "behind"
+   "status": "unread"
   },
   {
    "symbol": "COROMANDEL",
@@ -7018,13 +7018,13 @@
  "previous": {
   "as_of": "2026-09-30",
   "counts": {
-   "current": 294,
+   "current": 299,
    "behind": 79,
-   "unread": 89,
-   "annual_behind": 36,
-   "no_filing": 2
+   "unread": 83,
+   "annual_behind": 38,
+   "no_filing": 1
   },
-  "pct_current": 58.8
+  "pct_current": 59.8
  },
- "repaired_since_previous": 11
+ "repaired_since_previous": 9
 }
