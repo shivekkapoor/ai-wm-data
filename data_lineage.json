@@ -4,15 +4,15 @@
  "expected_annual": "FY26",
  "universe": 500,
  "counts": {
-  "current": 338,
+  "current": 337,
   "behind": 104,
-  "unread": 15,
+  "unread": 16,
   "annual_behind": 42,
   "no_filing": 1
  },
- "pct_current": 67.6,
- "pct_unread": 3.0,
- "unread_docs_total": 17,
+ "pct_current": 67.4,
+ "pct_unread": 3.2,
+ "unread_docs_total": 18,
  "rows": [
   {
    "symbol": "RELIANCE",
@@ -4976,13 +4976,13 @@
    "latest_results_filing": "2026-09-07",
    "latest_results_title": "Please find enclosed outcome of the Board Meeting held today i.e., September 7, 2026.",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
+   "unread_results_docs": 1,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-28",
    "latest_extract_written": "2026-10-02",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "current"
+   "status": "unread"
   },
   {
    "symbol": "POLYMED",
@@ -7026,5 +7026,5 @@
   },
   "pct_current": 59.8
  },
- "repaired_since_previous": 39
+ "repaired_since_previous": 38
 }

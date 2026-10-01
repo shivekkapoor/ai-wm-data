@@ -1,9 +1,9 @@
 {
  "as_of": "2026-10-02",
- "generated_at": "2026-10-01T19:09:29Z",
+ "generated_at": "2026-10-01T19:33:43Z",
  "overall": "RED",
  "alerts": [
-  "Fundamentals: 31/72 names analysed with a fresh fundamental view; 67.6% of filings read",
+  "Fundamentals: 31/72 names analysed with a fresh fundamental view; 67.4% of filings read",
   "Macro: macro snapshot 2026-10-01"
  ],
  "engine": {
@@ -58,13 +58,13 @@
   {
    "pillar": "Fundamentals",
    "status": "RED",
-   "headline": "31/72 names analysed with a fresh fundamental view; 67.6% of filings read",
+   "headline": "31/72 names analysed with a fresh fundamental view; 67.4% of filings read",
    "metrics": [
     {
      "label": "filings read",
-     "value": "68% current",
+     "value": "67% current",
      "status": "RED",
-     "detail": "expected Q1 FY27: 338 current, 104 behind, 15 with an unread filing (17 PDFs)",
+     "detail": "expected Q1 FY27: 337 current, 104 behind, 16 with an unread filing (18 PDFs)",
      "dimension": "fresh"
     },
     {
@@ -76,9 +76,9 @@
     },
     {
      "label": "repair loop",
-     "value": "+39 names since the last run",
+     "value": "+38 names since the last run",
      "status": "GREEN",
-     "detail": "119 still to repair; ~4 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
+     "detail": "120 still to repair; ~4 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
      "dimension": "used"
     },
     {
@@ -209,7 +209,7 @@
     },
     {
      "label": "headlines typed",
-     "value": "5954/6252 (95%)",
+     "value": "5945/6244 (95%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
