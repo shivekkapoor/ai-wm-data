@@ -1,6 +1,6 @@
 {
  "as_of": "2026-10-02",
- "generated_at": "2026-10-01T19:33:43Z",
+ "generated_at": "2026-10-01T19:48:37Z",
  "overall": "RED",
  "alerts": [
   "Fundamentals: 31/72 names analysed with a fresh fundamental view; 67.4% of filings read",
@@ -120,7 +120,7 @@
      "label": "cached view age",
      "value": "median 31d, p90 137d",
      "status": "RED",
-     "detail": "762 views older than 90 days (1689 cached)",
+     "detail": "762 views older than 90 days (1691 cached)",
      "dimension": "used"
     },
     {
@@ -209,7 +209,7 @@
     },
     {
      "label": "headlines typed",
-     "value": "5945/6244 (95%)",
+     "value": "5944/6242 (95%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
