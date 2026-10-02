@@ -4,15 +4,15 @@
  "expected_annual": "FY26",
  "universe": 500,
  "counts": {
-  "current": 347,
+  "current": 348,
   "behind": 86,
-  "unread": 22,
-  "annual_behind": 44,
+  "unread": 20,
+  "annual_behind": 45,
   "no_filing": 1
  },
- "pct_current": 69.4,
- "pct_unread": 4.4,
- "unread_docs_total": 24,
+ "pct_current": 69.6,
+ "pct_unread": 4.0,
+ "unread_docs_total": 22,
  "rows": [
   {
    "symbol": "RELIANCE",
@@ -5157,7 +5157,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-08-07",
    "latest_results_title": "Blue Star Limited has informed the Exchange about Communication to shareholders   Financial Results for the First Quarte",
-   "latest_filing_read": true,
+   "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-08-06",
@@ -6670,13 +6670,13 @@
    "latest_results_filing": "2026-07-21",
    "latest_results_title": "Unaudited Financial Results for the quarter ended 30th June 2026",
    "latest_filing_read": null,
-   "unread_results_docs": 1,
+   "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-21",
    "latest_extract_written": "2026-10-02",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "unread"
+   "status": "current"
   },
   {
    "symbol": "CASTROLIND",
@@ -6852,13 +6852,13 @@
    "latest_results_filing": "2026-07-30",
    "latest_results_title": "Outcome of Board meeting",
    "latest_filing_read": null,
-   "unread_results_docs": 1,
-   "latest_extracted_period": "9M FY26",
-   "latest_extracted_filing_date": "2026-02-02",
+   "unread_results_docs": 0,
+   "latest_extracted_period": "Q1 FY27",
+   "latest_extracted_filing_date": "2026-07-30",
    "latest_extract_written": "2026-10-02",
    "expected_annual": "FY26",
    "latest_annual_period": "FY25",
-   "status": "unread"
+   "status": "annual_behind"
   },
   {
    "symbol": "TATACOMM",
@@ -7026,5 +7026,5 @@
   },
   "pct_current": 67.2
  },
- "repaired_since_previous": 11
+ "repaired_since_previous": 12
 }
