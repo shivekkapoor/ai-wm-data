@@ -4,15 +4,15 @@
  "expected_annual": "FY26",
  "universe": 500,
  "counts": {
-  "current": 344,
-  "behind": 93,
-  "unread": 18,
+  "current": 347,
+  "behind": 86,
+  "unread": 22,
   "annual_behind": 44,
   "no_filing": 1
  },
- "pct_current": 68.8,
- "pct_unread": 3.6,
- "unread_docs_total": 20,
+ "pct_current": 69.4,
+ "pct_unread": 4.4,
+ "unread_docs_total": 24,
  "rows": [
   {
    "symbol": "RELIANCE",
@@ -6333,14 +6333,14 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-07-11",
    "latest_results_title": "LTM Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
-   "latest_extracted_period": "FY26",
-   "latest_extracted_filing_date": "2026-04-23",
+   "latest_extracted_period": "Q1 FY27",
+   "latest_extracted_filing_date": "2026-07-11",
    "latest_extract_written": "2026-10-02",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "behind"
+   "status": "current"
   },
   {
    "symbol": "MAPMYINDIA",
@@ -6362,13 +6362,13 @@
    "latest_results_filing": "2026-07-28",
    "latest_results_title": "Press Release on unaudited financial results for the quarter ended 30th June 2026",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
-   "latest_extracted_period": "FY26",
-   "latest_extracted_filing_date": "2026-05-02",
+   "unread_results_docs": 1,
+   "latest_extracted_period": "Q1 FY27",
+   "latest_extracted_filing_date": "2026-07-28",
    "latest_extract_written": "2026-10-02",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "behind"
+   "status": "unread"
   },
   {
    "symbol": "NEWGEN",
@@ -6376,13 +6376,13 @@
    "latest_results_filing": "2026-07-16",
    "latest_results_title": "Enclosed press release on the Financial Result for quarter ended June 30, 2026",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
-   "latest_extracted_period": "FY26",
-   "latest_extracted_filing_date": "2026-04-30",
+   "unread_results_docs": 1,
+   "latest_extracted_period": "Q1 FY27",
+   "latest_extracted_filing_date": "2026-07-16",
    "latest_extract_written": "2026-10-02",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "behind"
+   "status": "unread"
   },
   {
    "symbol": "SAGILITY",
@@ -6418,13 +6418,13 @@
    "latest_results_filing": "2026-07-14",
    "latest_results_title": "Please find enclosed Audited Financial Results for the quarter ended June 30, 2026",
    "latest_filing_read": null,
-   "unread_results_docs": 1,
-   "latest_extracted_period": "FY26",
-   "latest_extracted_filing_date": "2026-04-21",
+   "unread_results_docs": 0,
+   "latest_extracted_period": "Q1 FY27",
+   "latest_extracted_filing_date": "2026-07-14",
    "latest_extract_written": "2026-10-02",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "unread"
+   "status": "current"
   },
   {
    "symbol": "TATATECH",
@@ -6432,13 +6432,13 @@
    "latest_results_filing": "2026-07-17",
    "latest_results_title": "Press Release - Financial Results for the quarter ended June 30, 2026",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
-   "latest_extracted_period": "Q3 FY26",
-   "latest_extracted_filing_date": "2025-01-21",
+   "unread_results_docs": 1,
+   "latest_extracted_period": "Q1 FY27",
+   "latest_extracted_filing_date": "2026-07-17",
    "latest_extract_written": "2026-10-02",
    "expected_annual": "FY26",
    "latest_annual_period": "FY25",
-   "status": "behind"
+   "status": "unread"
   },
   {
    "symbol": "ZENSARTECH",
@@ -6587,26 +6587,26 @@
    "latest_results_title": "Outcome Of The Board Meeting",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "FY26",
-   "latest_extracted_filing_date": "2026-05-21",
+   "latest_extracted_period": "Q1 FY27",
+   "latest_extracted_filing_date": "2026-08-06",
    "latest_extract_written": "2026-10-02",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "behind"
+   "status": "current"
   },
   {
    "symbol": "SJVN",
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-07-31",
    "latest_results_title": "SJVN Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
-   "latest_extracted_period": "FY26",
-   "latest_extracted_filing_date": "2026-05-15",
+   "latest_extracted_period": "Q1 FY27",
+   "latest_extracted_filing_date": "2026-07-31",
    "latest_extract_written": "2026-10-02",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "behind"
+   "status": "current"
   },
   {
    "symbol": "TATAPOWER",
@@ -6670,13 +6670,13 @@
    "latest_results_filing": "2026-07-21",
    "latest_results_title": "Unaudited Financial Results for the quarter ended 30th June 2026",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
+   "unread_results_docs": 1,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-21",
    "latest_extract_written": "2026-10-02",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "current"
+   "status": "unread"
   },
   {
    "symbol": "CASTROLIND",
@@ -6837,7 +6837,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-08-13",
    "latest_results_title": "Un-audited Financial Results (Consolidated & Standalone) for the Quarter ended 30.06.2026",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-08-13",
@@ -6852,13 +6852,13 @@
    "latest_results_filing": "2026-07-30",
    "latest_results_title": "Outcome of Board meeting",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
+   "unread_results_docs": 1,
    "latest_extracted_period": "9M FY26",
    "latest_extracted_filing_date": "2026-02-02",
    "latest_extract_written": "2026-10-02",
    "expected_annual": "FY26",
    "latest_annual_period": "FY25",
-   "status": "behind"
+   "status": "unread"
   },
   {
    "symbol": "TATACOMM",
@@ -7018,13 +7018,13 @@
  "previous": {
   "as_of": "2026-10-02",
   "counts": {
-   "current": 319,
-   "behind": 80,
-   "unread": 59,
-   "annual_behind": 41,
+   "current": 336,
+   "behind": 81,
+   "unread": 39,
+   "annual_behind": 43,
    "no_filing": 1
   },
-  "pct_current": 63.8
+  "pct_current": 67.2
  },
- "repaired_since_previous": 25
+ "repaired_since_previous": 11
 }
