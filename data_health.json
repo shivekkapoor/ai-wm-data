@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-03",
- "generated_at": "2026-10-03T09:14:47Z",
+ "as_of": "2026-10-04",
+ "generated_at": "2026-10-03T18:52:33Z",
  "overall": "RED",
  "alerts": [
   "Fundamentals: 17/26 names analysed with a fresh fundamental view; 69.6% of filings read",
@@ -43,7 +43,7 @@
      "label": "last real decision",
      "value": "2026-10-02",
      "status": "GREEN",
-     "detail": "1d ago",
+     "detail": "2d ago",
      "dimension": "fresh"
     },
     {
@@ -118,7 +118,7 @@
     },
     {
      "label": "cached view age",
-     "value": "median 30d, p90 138d",
+     "value": "median 31d, p90 139d",
      "status": "RED",
      "detail": "762 views older than 90 days (1787 cached)",
      "dimension": "used"
@@ -190,26 +190,26 @@
   },
   {
    "pillar": "Sentiment / news",
-   "status": "GREEN",
+   "status": "YELLOW",
    "headline": "newest headline 2026-10-02; 100% typed",
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-10-02 (1d)",
-     "status": "GREEN",
+     "value": "2026-10-02 (2d)",
+     "status": "YELLOW",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "479",
+     "value": "477",
      "status": "GREEN",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "5804/5830 (100%)",
+     "value": "5737/5763 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
@@ -237,8 +237,8 @@
    "metrics": [
     {
      "label": "snapshot date",
-     "value": "2026-10-02 (1d)",
-     "status": "GREEN",
+     "value": "2026-10-02 (2d)",
+     "status": "YELLOW",
      "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
      "dimension": "fresh"
     },
@@ -265,8 +265,8 @@
     },
     {
      "label": "regime the agents read",
-     "value": "RISK_OFF (1d)",
-     "status": "GREEN",
+     "value": "RISK_OFF (2d)",
+     "status": "YELLOW",
      "detail": "the database snapshot every trader prompt opens with",
      "dimension": "used"
     },
