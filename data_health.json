@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-02",
- "generated_at": "2026-10-02T13:36:24Z",
+ "as_of": "2026-10-03",
+ "generated_at": "2026-10-03T09:14:47Z",
  "overall": "RED",
  "alerts": [
   "Fundamentals: 17/26 names analysed with a fresh fundamental view; 69.6% of filings read",
@@ -43,7 +43,7 @@
      "label": "last real decision",
      "value": "2026-10-02",
      "status": "GREEN",
-     "detail": "0d ago",
+     "detail": "1d ago",
      "dimension": "fresh"
     },
     {
@@ -76,9 +76,9 @@
     },
     {
      "label": "repair loop",
-     "value": "+12 names since the last run",
-     "status": "GREEN",
-     "detail": "106 still to repair; ~9 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
+     "value": "-8 names since the last run",
+     "status": "RED",
+     "detail": "106 still to repair. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
      "dimension": "used"
     },
     {
@@ -118,7 +118,7 @@
     },
     {
      "label": "cached view age",
-     "value": "median 29d, p90 137d",
+     "value": "median 30d, p90 138d",
      "status": "RED",
      "detail": "762 views older than 90 days (1787 cached)",
      "dimension": "used"
@@ -191,25 +191,25 @@
   {
    "pillar": "Sentiment / news",
    "status": "GREEN",
-   "headline": "newest headline 2026-10-01; 96% typed",
+   "headline": "newest headline 2026-10-02; 100% typed",
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-10-01 (1d)",
+     "value": "2026-10-02 (1d)",
      "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "480",
+     "value": "479",
      "status": "GREEN",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "5510/5746 (96%)",
+     "value": "5804/5830 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
@@ -237,7 +237,7 @@
    "metrics": [
     {
      "label": "snapshot date",
-     "value": "2026-10-02 (0d)",
+     "value": "2026-10-02 (1d)",
      "status": "GREEN",
      "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
      "dimension": "fresh"
@@ -265,7 +265,7 @@
     },
     {
      "label": "regime the agents read",
-     "value": "RISK_OFF (0d)",
+     "value": "RISK_OFF (1d)",
      "status": "GREEN",
      "detail": "the database snapshot every trader prompt opens with",
      "dimension": "used"
