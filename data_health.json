@@ -1,54 +1,55 @@
 {
- "as_of": "2026-10-04",
- "generated_at": "2026-10-03T18:52:33Z",
+ "as_of": "2026-10-05",
+ "generated_at": "2026-10-04T20:00:01Z",
  "overall": "RED",
  "alerts": [
-  "Fundamentals: 17/26 names analysed with a fresh fundamental view; 69.6% of filings read",
-  "Macro: macro snapshot 2026-10-02"
+  "Fundamentals: 7/135 names analysed with a fresh fundamental view; 69.6% of filings read",
+  "Macro: macro snapshot 2026-10-04"
  ],
  "engine": {
-  "date": "2026-10-02",
-  "real": 528,
-  "errors": 187,
-  "gated": 290,
-  "other": 7,
+  "date": "2026-10-04",
+  "real": 408,
+  "errors": 29,
+  "gated": 1037,
+  "other": 9,
   "top_error": "api-credit-exhausted (circuit open) \u2014 stock retries next run",
-  "last_real_date": "2026-10-02"
+  "last_real_date": "2026-10-04"
  },
  "last_run": {
-  "date": "2026-10-02",
-  "names_analysed": 26,
+  "date": "2026-10-04",
+  "names_analysed": 135,
   "agent_calls": {
-   "fundamental_analyst": 17,
-   "sentiment_analyst": 27,
-   "technical_analyst": 27,
-   "trader": 26,
-   "devils_advocate": 1
+   "macro_indicator_extractor": 1,
+   "sentiment_analyst": 135,
+   "technical_analyst": 135,
+   "trader": 135,
+   "fundamental_analyst": 7,
+   "conviction_ranker": 137
   }
  },
  "pillars": [
   {
    "pillar": "Engine output",
-   "status": "YELLOW",
-   "headline": "528 decisions on 2026-10-02",
+   "status": "GREEN",
+   "headline": "408 decisions on 2026-10-04",
    "metrics": [
     {
      "label": "decisions (latest run)",
-     "value": "528 real / 187 errors / 290 gated",
-     "status": "YELLOW",
-     "detail": "run of 2026-10-02; top error: api-credit-exhausted (circuit open) \u2014 stock retries next run",
+     "value": "408 real / 29 errors / 1037 gated",
+     "status": "GREEN",
+     "detail": "run of 2026-10-04; top error: api-credit-exhausted (circuit open) \u2014 stock retries next run",
      "dimension": "used"
     },
     {
      "label": "last real decision",
-     "value": "2026-10-02",
+     "value": "2026-10-04",
      "status": "GREEN",
-     "detail": "2d ago",
+     "detail": "1d ago",
      "dimension": "fresh"
     },
     {
      "label": "trader traces (same date)",
-     "value": "551 traces / 528 decisions",
+     "value": "441 traces / 408 decisions",
      "status": "GREEN",
      "detail": "each decision has a trader trace from the same run",
      "dimension": "verified"
@@ -58,13 +59,13 @@
   {
    "pillar": "Fundamentals",
    "status": "RED",
-   "headline": "17/26 names analysed with a fresh fundamental view; 69.6% of filings read",
+   "headline": "7/135 names analysed with a fresh fundamental view; 69.6% of filings read",
    "metrics": [
     {
      "label": "filings read",
      "value": "70% current",
      "status": "RED",
-     "detail": "expected Q1 FY27: 348 current, 86 behind, 20 with an unread filing (22 PDFs)",
+     "detail": "expected Q1 FY27: 348 current, 87 behind, 19 with an unread filing (20 PDFs)",
      "dimension": "fresh"
     },
     {
@@ -111,16 +112,16 @@
     },
     {
      "label": "agent ran",
-     "value": "17/26 names",
-     "status": "GREEN",
-     "detail": "last run 2026-10-02: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
+     "value": "7/135 names",
+     "status": "YELLOW",
+     "detail": "last run 2026-10-04: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
      "dimension": "used"
     },
     {
      "label": "cached view age",
-     "value": "median 31d, p90 139d",
+     "value": "median 32d, p90 140d",
      "status": "RED",
-     "detail": "762 views older than 90 days (1787 cached)",
+     "detail": "762 views older than 90 days (1805 cached)",
      "dimension": "used"
     },
     {
@@ -134,13 +135,13 @@
   },
   {
    "pillar": "Technicals",
-   "status": "GREEN",
-   "headline": "27/26 names analysed on technicals",
+   "status": "YELLOW",
+   "headline": "135/135 names analysed on technicals",
    "metrics": [
     {
      "label": "newest bar",
      "value": "2026-10-01",
-     "status": "GREEN",
+     "status": "YELLOW",
      "detail": "502 series; median series ends 2026-10-01",
      "dimension": "fresh"
     },
@@ -174,9 +175,9 @@
     },
     {
      "label": "agent ran",
-     "value": "27/26 names",
+     "value": "135/135 names",
      "status": "GREEN",
-     "detail": "last run 2026-10-02",
+     "detail": "last run 2026-10-04",
      "dimension": "used"
     },
     {
@@ -195,30 +196,30 @@
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-10-02 (2d)",
+     "value": "2026-10-02 (3d)",
      "status": "YELLOW",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "477",
+     "value": "476",
      "status": "GREEN",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "5737/5763 (100%)",
+     "value": "5584/5605 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
     },
     {
      "label": "agent ran",
-     "value": "27/26 names",
+     "value": "135/135 names",
      "status": "GREEN",
-     "detail": "last run 2026-10-02",
+     "detail": "last run 2026-10-04",
      "dimension": "used"
     },
     {
@@ -233,12 +234,12 @@
   {
    "pillar": "Macro",
    "status": "RED",
-   "headline": "macro snapshot 2026-10-02",
+   "headline": "macro snapshot 2026-10-04",
    "metrics": [
     {
      "label": "snapshot date",
-     "value": "2026-10-02 (2d)",
-     "status": "YELLOW",
+     "value": "2026-10-04 (1d)",
+     "status": "GREEN",
      "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
      "dimension": "fresh"
     },
@@ -265,8 +266,8 @@
     },
     {
      "label": "regime the agents read",
-     "value": "RISK_OFF (2d)",
-     "status": "YELLOW",
+     "value": "RISK_OFF (0d)",
+     "status": "GREEN",
      "detail": "the database snapshot every trader prompt opens with",
      "dimension": "used"
     },
