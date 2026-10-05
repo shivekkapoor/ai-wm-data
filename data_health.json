@@ -1,18 +1,18 @@
 {
  "as_of": "2026-10-05",
- "generated_at": "2026-10-05T02:23:44Z",
+ "generated_at": "2026-10-05T13:37:58Z",
  "overall": "RED",
  "alerts": [
-  "Engine output: 179 decisions on 2026-10-05",
+  "Engine output: 332 decisions on 2026-10-05",
   "Fundamentals: 1/23 names analysed with a fresh fundamental view; 69.0% of filings read",
-  "Macro: macro snapshot 2026-10-04"
+  "Macro: macro snapshot 2026-10-05"
  ],
  "engine": {
   "date": "2026-10-05",
-  "real": 179,
-  "errors": 341,
-  "gated": 0,
-  "other": 2,
+  "real": 332,
+  "errors": 343,
+  "gated": 340,
+  "other": 5,
   "top_error": "cli-unavailable: claude CLI failed for sentiment_analyst and the API fallback is disabled (sentinel ",
   "last_real_date": "2026-10-05"
  },
@@ -30,11 +30,11 @@
   {
    "pillar": "Engine output",
    "status": "RED",
-   "headline": "179 decisions on 2026-10-05",
+   "headline": "332 decisions on 2026-10-05",
    "metrics": [
     {
      "label": "decisions (latest run)",
-     "value": "179 real / 341 errors / 0 gated",
+     "value": "332 real / 343 errors / 340 gated",
      "status": "YELLOW",
      "detail": "run of 2026-10-05; top error: cli-unavailable: claude CLI failed for sentiment_analyst and the API fallback is disabled (sentinel ",
      "dimension": "used"
@@ -48,7 +48,7 @@
     },
     {
      "label": "trader traces (same date)",
-     "value": "146 traces / 179 decisions",
+     "value": "306 traces / 332 decisions",
      "status": "RED",
      "detail": "decisions without a matching trader call \u2014 trace log missing?",
      "dimension": "verified"
@@ -120,7 +120,7 @@
      "label": "cached view age",
      "value": "median 32d, p90 139d",
      "status": "RED",
-     "detail": "762 views older than 90 days (1822 cached)",
+     "detail": "762 views older than 90 days (1826 cached)",
      "dimension": "used"
     },
     {
@@ -209,7 +209,7 @@
     },
     {
      "label": "headlines typed",
-     "value": "5561/5582 (100%)",
+     "value": "5138/5159 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
@@ -233,11 +233,11 @@
   {
    "pillar": "Macro",
    "status": "RED",
-   "headline": "macro snapshot 2026-10-04",
+   "headline": "macro snapshot 2026-10-05",
    "metrics": [
     {
      "label": "snapshot date",
-     "value": "2026-10-04 (1d)",
+     "value": "2026-10-05 (0d)",
      "status": "GREEN",
      "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
      "dimension": "fresh"
