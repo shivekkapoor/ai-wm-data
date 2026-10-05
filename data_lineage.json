@@ -4,15 +4,15 @@
  "expected_annual": "FY26",
  "universe": 500,
  "counts": {
-  "current": 348,
+  "current": 347,
   "behind": 87,
-  "unread": 19,
+  "unread": 20,
   "annual_behind": 45,
   "no_filing": 1
  },
- "pct_current": 69.6,
- "pct_unread": 3.8,
- "unread_docs_total": 20,
+ "pct_current": 69.4,
+ "pct_unread": 4.0,
+ "unread_docs_total": 21,
  "rows": [
   {
    "symbol": "RELIANCE",
@@ -187,7 +187,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-07-18",
    "latest_results_title": "Kotak Mahindra Bank Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-18",
@@ -1069,7 +1069,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-08-10",
    "latest_results_title": "Bosch Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-08-10",
@@ -1699,7 +1699,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-07-24",
    "latest_results_title": "Laurus Labs Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "FY26",
    "latest_extracted_filing_date": "2026-04-30",
@@ -1755,7 +1755,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-08-06",
    "latest_results_title": "Fortis Healthcare Limited has informed the Exchange regarding a press release dated August 06, 2026, titled \"Fortis Heal",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-08-06",
@@ -1797,14 +1797,14 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-08-11",
    "latest_results_title": "MRF Limited has informed the Exchange regarding a press release dated August 11, 2026, titled \"Press release on Unaudite",
-   "latest_filing_read": null,
-   "unread_results_docs": 0,
+   "latest_filing_read": false,
+   "unread_results_docs": 1,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-08-11",
    "latest_extract_written": "2026-10-05",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "current"
+   "status": "unread"
   },
   {
    "symbol": "BALKRISIND",
@@ -1895,7 +1895,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-07-28",
    "latest_results_title": "Supreme Industries Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "FY26",
    "latest_extracted_filing_date": "2026-04-27",
@@ -2077,7 +2077,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-08-04",
    "latest_results_title": "Godrej Properties Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-08-04",
@@ -7016,7 +7016,7 @@
   }
  ],
  "previous": {
-  "as_of": "2026-10-02",
+  "as_of": "2026-10-05",
   "counts": {
    "current": 356,
    "behind": 96,
@@ -7026,5 +7026,5 @@
   },
   "pct_current": 71.2
  },
- "repaired_since_previous": -8
+ "repaired_since_previous": -9
 }
