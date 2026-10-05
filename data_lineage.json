@@ -4,15 +4,15 @@
  "expected_annual": "FY26",
  "universe": 500,
  "counts": {
-  "current": 347,
-  "behind": 87,
-  "unread": 20,
+  "current": 345,
+  "behind": 86,
+  "unread": 22,
   "annual_behind": 45,
-  "no_filing": 1
+  "no_filing": 2
  },
- "pct_current": 69.4,
- "pct_unread": 4.0,
- "unread_docs_total": 21,
+ "pct_current": 69.0,
+ "pct_unread": 4.4,
+ "unread_docs_total": 23,
  "rows": [
   {
    "symbol": "RELIANCE",
@@ -3533,7 +3533,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-07-29",
    "latest_results_title": "The Board at its meeting held today, approved the unaudited Financial results for quarter ended June 30, 2026 along with",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-29",
@@ -4220,13 +4220,13 @@
    "latest_results_filing": "2026-07-24",
    "latest_results_title": "Press Release on Unaudited Financial Results for the quarter ended June 30, 2026",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
+   "unread_results_docs": 1,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-24",
    "latest_extract_written": "2026-10-05",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "current"
+   "status": "unread"
   },
   {
    "symbol": "DEEPAKFERT",
@@ -4245,9 +4245,9 @@
   {
    "symbol": "FACT",
    "expected_period": "Q1 FY27",
-   "latest_results_filing": null,
-   "latest_results_title": null,
-   "latest_filing_read": null,
+   "latest_results_filing": "2026-08-14",
+   "latest_results_title": "Fertilizers and Chemicals Travancore Limited has submitted to the Exchange, the financial results for the period ended J",
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-08-14",
@@ -4987,8 +4987,8 @@
   {
    "symbol": "POLYMED",
    "expected_period": "Q1 FY27",
-   "latest_results_filing": "2026-08-07",
-   "latest_results_title": "Poly Medicure Limited has informed the outcome of Board Meeting held on today i.e. 07th August, 2026 and submitted to th",
+   "latest_results_filing": null,
+   "latest_results_title": null,
    "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "FY26",
@@ -4996,7 +4996,7 @@
    "latest_extract_written": "2026-10-05",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "behind"
+   "status": "no_filing"
   },
   {
    "symbol": "PPLPHARMA",
@@ -6670,13 +6670,13 @@
    "latest_results_filing": "2026-07-21",
    "latest_results_title": "Unaudited Financial Results for the quarter ended 30th June 2026",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
+   "unread_results_docs": 1,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-21",
    "latest_extract_written": "2026-10-05",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "current"
+   "status": "unread"
   },
   {
    "symbol": "CASTROLIND",
@@ -7018,13 +7018,13 @@
  "previous": {
   "as_of": "2026-10-05",
   "counts": {
-   "current": 356,
-   "behind": 96,
-   "unread": 0,
-   "annual_behind": 47,
-   "no_filing": 1
+   "current": 336,
+   "behind": 82,
+   "unread": 36,
+   "annual_behind": 44,
+   "no_filing": 2
   },
-  "pct_current": 71.2
+  "pct_current": 67.2
  },
- "repaired_since_previous": -9
+ "repaired_since_previous": 9
 }
