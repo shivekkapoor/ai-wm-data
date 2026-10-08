@@ -1,54 +1,56 @@
 {
- "as_of": "2026-10-05",
- "generated_at": "2026-10-05T13:37:58Z",
+ "as_of": "2026-10-08",
+ "generated_at": "2026-10-08T03:13:12Z",
  "overall": "RED",
  "alerts": [
-  "Engine output: 332 decisions on 2026-10-05",
-  "Fundamentals: 1/23 names analysed with a fresh fundamental view; 69.0% of filings read",
-  "Macro: macro snapshot 2026-10-05"
+  "Engine output: 262 decisions on 2026-10-08",
+  "Fundamentals: 22/261 names analysed with a fresh fundamental view; 70.4% of filings read",
+  "Macro: macro snapshot 2026-10-08"
  ],
  "engine": {
-  "date": "2026-10-05",
-  "real": 332,
-  "errors": 343,
-  "gated": 340,
-  "other": 5,
-  "top_error": "cli-unavailable: claude CLI failed for sentiment_analyst and the API fallback is disabled (sentinel ",
-  "last_real_date": "2026-10-05"
+  "date": "2026-10-08",
+  "real": 262,
+  "errors": 120,
+  "gated": 120,
+  "other": 3,
+  "top_error": "api-credit-exhausted (circuit open) \u2014 stock retries next run",
+  "last_real_date": "2026-10-08"
  },
  "last_run": {
-  "date": "2026-10-05",
-  "names_analysed": 23,
+  "date": "2026-10-08",
+  "names_analysed": 261,
   "agent_calls": {
-   "trader": 23,
-   "sentiment_analyst": 24,
-   "technical_analyst": 22,
-   "fundamental_analyst": 1
+   "macro_indicator_extractor": 1,
+   "macro_strategist": 1,
+   "sentiment_analyst": 265,
+   "technical_analyst": 263,
+   "trader": 261,
+   "fundamental_analyst": 22
   }
  },
  "pillars": [
   {
    "pillar": "Engine output",
    "status": "RED",
-   "headline": "332 decisions on 2026-10-05",
+   "headline": "262 decisions on 2026-10-08",
    "metrics": [
     {
      "label": "decisions (latest run)",
-     "value": "332 real / 343 errors / 340 gated",
+     "value": "262 real / 120 errors / 120 gated",
      "status": "YELLOW",
-     "detail": "run of 2026-10-05; top error: cli-unavailable: claude CLI failed for sentiment_analyst and the API fallback is disabled (sentinel ",
+     "detail": "run of 2026-10-08; top error: api-credit-exhausted (circuit open) \u2014 stock retries next run",
      "dimension": "used"
     },
     {
      "label": "last real decision",
-     "value": "2026-10-05",
+     "value": "2026-10-08",
      "status": "GREEN",
      "detail": "0d ago",
      "dimension": "fresh"
     },
     {
      "label": "trader traces (same date)",
-     "value": "306 traces / 332 decisions",
+     "value": "261 traces / 262 decisions",
      "status": "RED",
      "detail": "decisions without a matching trader call \u2014 trace log missing?",
      "dimension": "verified"
@@ -58,13 +60,13 @@
   {
    "pillar": "Fundamentals",
    "status": "RED",
-   "headline": "1/23 names analysed with a fresh fundamental view; 69.0% of filings read",
+   "headline": "22/261 names analysed with a fresh fundamental view; 70.4% of filings read",
    "metrics": [
     {
      "label": "filings read",
-     "value": "69% current",
-     "status": "RED",
-     "detail": "expected Q1 FY27: 345 current, 86 behind, 22 with an unread filing (23 PDFs)",
+     "value": "70% current",
+     "status": "YELLOW",
+     "detail": "expected Q1 FY27: 352 current, 88 behind, 14 with an unread filing (15 PDFs)",
      "dimension": "fresh"
     },
     {
@@ -76,9 +78,9 @@
     },
     {
      "label": "repair loop",
-     "value": "+9 names since the last run",
-     "status": "GREEN",
-     "detail": "108 still to repair; ~12 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
+     "value": "-2 names since the last run",
+     "status": "RED",
+     "detail": "102 still to repair. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
      "dimension": "used"
     },
     {
@@ -104,23 +106,23 @@
     },
     {
      "label": "latest period",
-     "value": "FY26 on 430 rows",
+     "value": "FY26 on 431 rows",
      "status": "GREEN",
-     "detail": "FY26:430; FY25:38; Q1 FY27:19; 9M FY26:3",
+     "detail": "FY26:431; FY25:38; Q1 FY27:19; 9M FY26:3",
      "dimension": "fresh"
     },
     {
      "label": "agent ran",
-     "value": "1/23 names",
-     "status": "RED",
-     "detail": "last run 2026-10-05: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
+     "value": "22/261 names",
+     "status": "YELLOW",
+     "detail": "last run 2026-10-08: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
      "dimension": "used"
     },
     {
      "label": "cached view age",
-     "value": "median 32d, p90 139d",
+     "value": "median 34d, p90 142d",
      "status": "RED",
-     "detail": "762 views older than 90 days (1826 cached)",
+     "detail": "762 views older than 90 days (1876 cached)",
      "dimension": "used"
     },
     {
@@ -134,14 +136,14 @@
   },
   {
    "pillar": "Technicals",
-   "status": "YELLOW",
-   "headline": "22/23 names analysed on technicals",
+   "status": "GREEN",
+   "headline": "263/261 names analysed on technicals",
    "metrics": [
     {
      "label": "newest bar",
-     "value": "2026-10-01",
-     "status": "YELLOW",
-     "detail": "502 series; median series ends 2026-10-01",
+     "value": "2026-10-07",
+     "status": "GREEN",
+     "detail": "502 series; median series ends 2026-10-07",
      "dimension": "fresh"
     },
     {
@@ -174,9 +176,9 @@
     },
     {
      "label": "agent ran",
-     "value": "22/23 names",
+     "value": "263/261 names",
      "status": "GREEN",
-     "detail": "last run 2026-10-05",
+     "detail": "last run 2026-10-08",
      "dimension": "used"
     },
     {
@@ -190,35 +192,35 @@
   },
   {
    "pillar": "Sentiment / news",
-   "status": "YELLOW",
-   "headline": "newest headline 2026-10-02; 100% typed",
+   "status": "GREEN",
+   "headline": "newest headline 2026-10-07; 99% typed",
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-10-02 (3d)",
-     "status": "YELLOW",
+     "value": "2026-10-07 (1d)",
+     "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "476",
+     "value": "471",
      "status": "GREEN",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "5138/5159 (100%)",
+     "value": "4919/4974 (99%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
     },
     {
      "label": "agent ran",
-     "value": "24/23 names",
+     "value": "265/261 names",
      "status": "GREEN",
-     "detail": "last run 2026-10-05",
+     "detail": "last run 2026-10-08",
      "dimension": "used"
     },
     {
@@ -233,11 +235,11 @@
   {
    "pillar": "Macro",
    "status": "RED",
-   "headline": "macro snapshot 2026-10-05",
+   "headline": "macro snapshot 2026-10-08",
    "metrics": [
     {
      "label": "snapshot date",
-     "value": "2026-10-05 (0d)",
+     "value": "2026-10-08 (0d)",
      "status": "GREEN",
      "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
      "dimension": "fresh"
