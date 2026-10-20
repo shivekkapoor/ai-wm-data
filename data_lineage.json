@@ -4,15 +4,15 @@
  "expected_annual": "FY26",
  "universe": 500,
  "counts": {
-  "current": 375,
+  "current": 377,
   "behind": 78,
-  "unread": 16,
+  "unread": 14,
   "annual_behind": 31,
   "no_filing": 0
  },
- "pct_current": 75.0,
- "pct_unread": 3.2,
- "unread_docs_total": 16,
+ "pct_current": 75.4,
+ "pct_unread": 2.8,
+ "unread_docs_total": 14,
  "rows": [
   {
    "symbol": "RELIANCE",
@@ -3968,13 +3968,13 @@
    "latest_results_filing": "2026-10-13",
    "latest_results_title": "Unaudited Financial Result - 30.09.2026",
    "latest_filing_read": null,
-   "unread_results_docs": 1,
+   "unread_results_docs": 0,
    "latest_extracted_period": "H1 FY27",
    "latest_extracted_filing_date": "2026-10-13",
    "latest_extract_written": "2026-10-20",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "unread"
+   "status": "current"
   },
   {
    "symbol": "TECHNOE",
@@ -5018,13 +5018,13 @@
    "latest_results_filing": "2026-09-23",
    "latest_results_title": "Outcome of Board Meeting for Appointment of Mr. Sudarshan Patodia as the Chief Financial Officer (KMP) of the Company an",
    "latest_filing_read": null,
-   "unread_results_docs": 1,
+   "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-30",
    "latest_extract_written": "2026-10-20",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "unread"
+   "status": "current"
   },
   {
    "symbol": "SAILIFE",
@@ -7026,5 +7026,5 @@
   },
   "pct_current": 73.0
  },
- "repaired_since_previous": 10
+ "repaired_since_previous": 12
 }

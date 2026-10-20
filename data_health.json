@@ -1,10 +1,10 @@
 {
  "as_of": "2026-10-20",
- "generated_at": "2026-10-20T00:10:40Z",
+ "generated_at": "2026-10-20T00:41:19Z",
  "overall": "RED",
  "alerts": [
   "Engine output: 53 decisions on 2026-10-20",
-  "Fundamentals: 17/54 names analysed with a fresh fundamental view; 75.0% of filings read",
+  "Fundamentals: 17/54 names analysed with a fresh fundamental view; 75.4% of filings read",
   "Technicals: 54/54 names analysed on technicals",
   "Sentiment / news: newest headline 2026-10-19; 100% typed",
   "Macro: macro snapshot 2026-10-20"
@@ -61,13 +61,13 @@
   {
    "pillar": "Fundamentals",
    "status": "RED",
-   "headline": "17/54 names analysed with a fresh fundamental view; 75.0% of filings read",
+   "headline": "17/54 names analysed with a fresh fundamental view; 75.4% of filings read",
    "metrics": [
     {
      "label": "filings read",
      "value": "75% current",
      "status": "YELLOW",
-     "detail": "expected Q1 FY27: 375 current, 78 behind, 16 with an unread filing (16 PDFs)",
+     "detail": "expected Q1 FY27: 377 current, 78 behind, 14 with an unread filing (14 PDFs)",
      "dimension": "fresh"
     },
     {
@@ -79,9 +79,9 @@
     },
     {
      "label": "repair loop",
-     "value": "+10 names since the last run",
+     "value": "+12 names since the last run",
      "status": "GREEN",
-     "detail": "94 still to repair; ~10 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
+     "detail": "92 still to repair; ~8 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
      "dimension": "used"
     },
     {
@@ -123,7 +123,7 @@
      "label": "cached view age",
      "value": "median 45d, p90 154d",
      "status": "RED",
-     "detail": "762 views older than 90 days (2004 cached)",
+     "detail": "762 views older than 90 days (2007 cached)",
      "dimension": "used"
     },
     {
@@ -226,7 +226,7 @@
     },
     {
      "label": "headlines typed",
-     "value": "1410/1414 (100%)",
+     "value": "1409/1413 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
