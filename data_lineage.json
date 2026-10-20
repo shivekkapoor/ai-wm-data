@@ -4,15 +4,15 @@
  "expected_annual": "FY26",
  "universe": 500,
  "counts": {
-  "current": 377,
+  "current": 375,
   "behind": 78,
-  "unread": 14,
-  "annual_behind": 31,
+  "unread": 18,
+  "annual_behind": 29,
   "no_filing": 0
  },
- "pct_current": 75.4,
- "pct_unread": 2.8,
- "unread_docs_total": 14,
+ "pct_current": 75.0,
+ "pct_unread": 3.6,
+ "unread_docs_total": 19,
  "rows": [
   {
    "symbol": "RELIANCE",
@@ -879,8 +879,8 @@
    "latest_extracted_filing_date": "2026-10-14",
    "latest_extract_written": "2026-10-20",
    "expected_annual": "FY26",
-   "latest_annual_period": null,
-   "status": "annual_behind"
+   "latest_annual_period": "FY26",
+   "status": "current"
   },
   {
    "symbol": "DABUR",
@@ -1462,13 +1462,13 @@
    "latest_results_filing": "2026-07-24",
    "latest_results_title": "Financial result for the quarter ended June,2026",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
+   "unread_results_docs": 1,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-24",
    "latest_extract_written": "2026-10-20",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "current"
+   "status": "unread"
   },
   {
    "symbol": "YESBANK",
@@ -1532,13 +1532,13 @@
    "latest_results_filing": "2026-10-15",
    "latest_results_title": "Financial Results for the Quarter & Half year ended September 30, 2026",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
+   "unread_results_docs": 1,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-15",
    "latest_extract_written": "2026-10-20",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "current"
+   "status": "unread"
   },
   {
    "symbol": "POONAWALLA",
@@ -1631,8 +1631,8 @@
    "latest_results_title": "Financial Results for the Quarter and Half Year Ended September 30, 2026",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "Q1 FY27",
-   "latest_extracted_filing_date": "2026-07-14",
+   "latest_extracted_period": "H1 FY27",
+   "latest_extracted_filing_date": "2026-10-19",
    "latest_extract_written": "2026-10-20",
    "expected_annual": "FY26",
    "latest_annual_period": "FY25",
@@ -1699,7 +1699,7 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-07-24",
    "latest_results_title": "Laurus Labs Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
-   "latest_filing_read": null,
+   "latest_filing_read": true,
    "unread_results_docs": 0,
    "latest_extracted_period": "FY26",
    "latest_extracted_filing_date": "2026-04-30",
@@ -1924,7 +1924,7 @@
    "latest_results_filing": "2026-10-15",
    "latest_results_title": "Published Financial Results",
    "latest_filing_read": true,
-   "unread_results_docs": 1,
+   "unread_results_docs": 2,
    "latest_extracted_period": "Q2 FY27",
    "latest_extracted_filing_date": "2026-10-15",
    "latest_extract_written": "2026-10-20",
@@ -2121,8 +2121,8 @@
    "latest_results_title": "Outcome of the meeting of the Board of Directors of 360 ONE WAM Limited held on Thursday, October 15, 2026",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "Q1 FY27",
-   "latest_extracted_filing_date": "2026-07-16",
+   "latest_extracted_period": "H1 FY27",
+   "latest_extracted_filing_date": "2026-10-15",
    "latest_extract_written": "2026-10-20",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
@@ -2694,13 +2694,13 @@
    "latest_results_filing": "2026-10-15",
    "latest_results_title": "Karur Vysya Bank Ltd has informed BSE regarding Outcome of Board Meeting held on October 15, 2026.",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
+   "unread_results_docs": 1,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-20",
    "latest_extract_written": "2026-10-20",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "current"
+   "status": "unread"
   },
   {
    "symbol": "KFINTECH",
@@ -5256,13 +5256,13 @@
    "latest_results_filing": "2026-07-21",
    "latest_results_title": "Please find enclosed the Audited Consolidated & Standalone Financial Results of the Company for the quarter ended June 3",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
+   "unread_results_docs": 1,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-21",
    "latest_extract_written": "2026-10-20",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "current"
+   "status": "unread"
   },
   {
    "symbol": "IRCTC",
@@ -5779,8 +5779,8 @@
    "latest_extracted_filing_date": "2026-08-13",
    "latest_extract_written": "2026-10-20",
    "expected_annual": "FY26",
-   "latest_annual_period": "FY25",
-   "status": "annual_behind"
+   "latest_annual_period": "FY26",
+   "status": "current"
   },
   {
    "symbol": "FORCEMOT",
@@ -6419,8 +6419,8 @@
    "latest_results_title": "Please find enclosed the Press Release for Q2 FY27 Financial Results.",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "Q1 FY27",
-   "latest_extracted_filing_date": "2026-07-14",
+   "latest_extracted_period": "H1 FY27",
+   "latest_extracted_filing_date": "2026-10-13",
    "latest_extract_written": "2026-10-20",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
@@ -6433,8 +6433,8 @@
    "latest_results_title": "Press Release for the unaudited standalone and consolidated financial results for the quarter ended September 30, 2026",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "Q1 FY27",
-   "latest_extracted_filing_date": "2026-07-17",
+   "latest_extracted_period": "H1 FY27",
+   "latest_extracted_filing_date": "2026-10-14",
    "latest_extract_written": "2026-10-20",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
@@ -6755,8 +6755,8 @@
    "latest_results_title": "Outcome of Board Meeting fo the quarter and half year ended September 30, 2026.",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "Q1 FY27",
-   "latest_extracted_filing_date": "2026-07-15",
+   "latest_extracted_period": "H1 FY27",
+   "latest_extracted_filing_date": "2026-10-14",
    "latest_extract_written": "2026-10-20",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
@@ -6797,8 +6797,8 @@
    "latest_results_title": "We hereby submit a copy of the Press Release on the Un-audited Financial Results of the Company for the 2nd Quarter and ",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "Q1 FY27",
-   "latest_extracted_filing_date": "2026-07-22",
+   "latest_extracted_period": "H1 FY27",
+   "latest_extracted_filing_date": "2026-10-19",
    "latest_extract_written": "2026-10-20",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
@@ -7018,13 +7018,13 @@
  "previous": {
   "as_of": "2026-10-20",
   "counts": {
-   "current": 365,
+   "current": 375,
    "behind": 78,
-   "unread": 26,
-   "annual_behind": 31,
+   "unread": 18,
+   "annual_behind": 29,
    "no_filing": 0
   },
-  "pct_current": 73.0
+  "pct_current": 75.0
  },
- "repaired_since_previous": 12
+ "repaired_since_previous": 0
 }
