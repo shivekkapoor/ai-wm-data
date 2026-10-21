@@ -5,14 +5,14 @@
  "universe": 500,
  "counts": {
   "current": 375,
-  "behind": 79,
-  "unread": 17,
+  "behind": 78,
+  "unread": 18,
   "annual_behind": 29,
   "no_filing": 0
  },
  "pct_current": 75.0,
- "pct_unread": 3.4,
- "unread_docs_total": 18,
+ "pct_unread": 3.6,
+ "unread_docs_total": 19,
  "rows": [
   {
    "symbol": "RELIANCE",
@@ -675,8 +675,8 @@
   {
    "symbol": "ETERNAL",
    "expected_period": "Q1 FY27",
-   "latest_results_filing": "2026-07-22",
-   "latest_results_title": "outcome of board meeting dated July 22, 2026.",
+   "latest_results_filing": "2026-10-21",
+   "latest_results_title": "Eternal Limited has filed with exchange un-audited financial results (standalone & consolidated) for the quarter and hal",
    "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "FY26",
@@ -1137,9 +1137,9 @@
   {
    "symbol": "ADANIGREEN",
    "expected_period": "Q1 FY27",
-   "latest_results_filing": "2026-07-22",
-   "latest_results_title": "Outcome of Board Meeting held on July 22, 2026",
-   "latest_filing_read": true,
+   "latest_results_filing": "2026-10-21",
+   "latest_results_title": "Unaudited Financial Results for the quarter and half year ended September 30, 2026",
+   "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-22",
@@ -1291,8 +1291,8 @@
   {
    "symbol": "INDHOTEL",
    "expected_period": "Q1 FY27",
-   "latest_results_filing": "2026-07-21",
-   "latest_results_title": "Please find enclosed the Un-audited (Reviewed) Standalone and Consolidated Financial Results of the Company for the quar",
+   "latest_results_filing": "2026-10-21",
+   "latest_results_title": "Further to our letter dated October 12, 2026, please find enclosed the Press Release titled \"IHCL announces Financial Re",
    "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
@@ -1501,8 +1501,8 @@
   {
    "symbol": "M&MFIN",
    "expected_period": "Q1 FY27",
-   "latest_results_filing": "2026-08-05",
-   "latest_results_title": "Outcome of Board Meeting - Scheme of Merger",
+   "latest_results_filing": "2026-10-21",
+   "latest_results_title": "Press Release- Financial Results Q2 FY2027",
    "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
@@ -1935,9 +1935,9 @@
   {
    "symbol": "SRF",
    "expected_period": "Q1 FY27",
-   "latest_results_filing": "2026-07-22",
-   "latest_results_title": "Financial Results- June 2026",
-   "latest_filing_read": true,
+   "latest_results_filing": "2026-10-21",
+   "latest_results_title": "Financial Results for the quarter and half year ended 30.09.2026",
+   "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-07-22",
@@ -2173,8 +2173,8 @@
   {
    "symbol": "ABSLAMC",
    "expected_period": "Q1 FY27",
-   "latest_results_filing": "2026-09-25",
-   "latest_results_title": "Closure of Trading Widow for all Designated Persons (including their immediate relatives) from October 1, 2026 till 48 h",
+   "latest_results_filing": "2026-10-21",
+   "latest_results_title": "Please find enclosed Unaudited Financial Results (Standalone and Consolidated) of the Company for the quarter and half y",
    "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
@@ -3391,8 +3391,8 @@
   {
    "symbol": "GALLANTT",
    "expected_period": "Q1 FY27",
-   "latest_results_filing": "2026-10-20",
-   "latest_results_title": "RESULTS - FINANCIAL RESULTS FOR 30-09-2026",
+   "latest_results_filing": "2026-10-21",
+   "latest_results_title": "OUTCOME OF BOARD MEETING HELD ON 19TH OCTOBER 2026 (REVISED)",
    "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "H1 FY27",
@@ -3685,9 +3685,9 @@
   {
    "symbol": "KEI",
    "expected_period": "Q1 FY27",
-   "latest_results_filing": "2026-08-03",
-   "latest_results_title": "Outcome of Board meeting / Announcements pursuant to Regulation 30 and 33 of SEBI LODR Regulations, 2015:\r\n\r\n1. Standalo",
-   "latest_filing_read": true,
+   "latest_results_filing": "2026-10-21",
+   "latest_results_title": "Outcome of Board meeting- Disclosure/Announcements pursuant to Regulation 30 and 33 of SEBI ( Listing Obligations and Di",
+   "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
    "latest_extracted_filing_date": "2026-08-03",
@@ -6880,13 +6880,13 @@
    "latest_results_filing": "2026-10-16",
    "latest_results_title": "Outcome of the Board Meeting for the Unaudited Financial Results for the quarter and six months ended September 30, 2026",
    "latest_filing_read": null,
-   "unread_results_docs": 0,
+   "unread_results_docs": 1,
    "latest_extracted_period": "FY26",
    "latest_extracted_filing_date": "2026-04-15",
    "latest_extract_written": "2026-10-21",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "behind"
+   "status": "unread"
   },
   {
    "symbol": "TTML",

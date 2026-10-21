@@ -1,42 +1,42 @@
 {
  "as_of": "2026-10-21",
- "generated_at": "2026-10-21T12:48:07Z",
+ "generated_at": "2026-10-21T14:04:50Z",
  "overall": "RED",
  "alerts": [
-  "Engine output: 451 decisions on 2026-10-21",
-  "Fundamentals: 67/351 names analysed with a fresh fundamental view; 75.0% of filings read",
-  "Technicals: 352/351 names analysed on technicals",
+  "Engine output: 484 decisions on 2026-10-21",
+  "Fundamentals: 73/384 names analysed with a fresh fundamental view; 75.0% of filings read",
+  "Technicals: 385/384 names analysed on technicals",
   "Sentiment / news: newest headline 2026-10-21; 100% typed",
   "Macro: macro snapshot 2026-10-21"
  ],
  "engine": {
   "date": "2026-10-21",
-  "real": 451,
-  "errors": 9,
+  "real": 484,
+  "errors": 18,
   "gated": 0,
-  "other": 0,
+  "other": 2,
   "top_error": "cli-unavailable: claude CLI failed for sentiment_analyst and the API fallback is disabled (sentinel ",
   "last_real_date": "2026-10-21"
  },
  "last_run": {
   "date": "2026-10-21",
-  "names_analysed": 351,
+  "names_analysed": 384,
   "agent_calls": {
-   "sentiment_analyst": 352,
-   "technical_analyst": 352,
-   "trader": 351,
-   "fundamental_analyst": 67
+   "sentiment_analyst": 385,
+   "technical_analyst": 385,
+   "trader": 384,
+   "fundamental_analyst": 73
   }
  },
  "pillars": [
   {
    "pillar": "Engine output",
    "status": "RED",
-   "headline": "451 decisions on 2026-10-21",
+   "headline": "484 decisions on 2026-10-21",
    "metrics": [
     {
      "label": "decisions (latest run)",
-     "value": "451 real / 9 errors / 0 gated",
+     "value": "484 real / 18 errors / 0 gated",
      "status": "GREEN",
      "detail": "run of 2026-10-21; top error: cli-unavailable: claude CLI failed for sentiment_analyst and the API fallback is disabled (sentinel ",
      "dimension": "used"
@@ -50,7 +50,7 @@
     },
     {
      "label": "trader traces (same date)",
-     "value": "351 traces / 451 decisions",
+     "value": "384 traces / 484 decisions",
      "status": "RED",
      "detail": "decisions without a matching trader call \u2014 trace log missing?",
      "dimension": "verified"
@@ -60,13 +60,13 @@
   {
    "pillar": "Fundamentals",
    "status": "RED",
-   "headline": "67/351 names analysed with a fresh fundamental view; 75.0% of filings read",
+   "headline": "73/384 names analysed with a fresh fundamental view; 75.0% of filings read",
    "metrics": [
     {
      "label": "filings read",
      "value": "75% current",
      "status": "YELLOW",
-     "detail": "expected Q1 FY27: 375 current, 79 behind, 17 with an unread filing (18 PDFs)",
+     "detail": "expected Q1 FY27: 375 current, 78 behind, 18 with an unread filing (19 PDFs)",
      "dimension": "fresh"
     },
     {
@@ -113,7 +113,7 @@
     },
     {
      "label": "agent ran",
-     "value": "67/351 names",
+     "value": "73/384 names",
      "status": "YELLOW",
      "detail": "last run 2026-10-21: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
      "dimension": "used"
@@ -122,7 +122,7 @@
      "label": "cached view age",
      "value": "median 43d, p90 154d",
      "status": "RED",
-     "detail": "762 views older than 90 days (2181 cached)",
+     "detail": "762 views older than 90 days (2187 cached)",
      "dimension": "used"
     },
     {
@@ -144,13 +144,13 @@
   {
    "pillar": "Technicals",
    "status": "UNKNOWN",
-   "headline": "352/351 names analysed on technicals",
+   "headline": "385/384 names analysed on technicals",
    "metrics": [
     {
      "label": "newest bar",
      "value": "2026-10-21",
      "status": "GREEN",
-     "detail": "502 series; median series ends 2026-10-19",
+     "detail": "502 series; median series ends 2026-10-21",
      "dimension": "fresh"
     },
     {
@@ -183,7 +183,7 @@
     },
     {
      "label": "agent ran",
-     "value": "352/351 names",
+     "value": "385/384 names",
      "status": "GREEN",
      "detail": "last run 2026-10-21",
      "dimension": "used"
@@ -218,21 +218,21 @@
     },
     {
      "label": "names with news",
-     "value": "244",
+     "value": "242",
      "status": "YELLOW",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "1424/1431 (100%)",
+     "value": "1405/1412 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
     },
     {
      "label": "agent ran",
-     "value": "352/351 names",
+     "value": "385/384 names",
      "status": "GREEN",
      "detail": "last run 2026-10-21",
      "dimension": "used"
