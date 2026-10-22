@@ -4,15 +4,15 @@
  "expected_annual": "FY26",
  "universe": 500,
  "counts": {
-  "current": 373,
+  "current": 374,
   "behind": 77,
-  "unread": 21,
+  "unread": 20,
   "annual_behind": 29,
   "no_filing": 0
  },
- "pct_current": 74.6,
- "pct_unread": 4.2,
- "unread_docs_total": 22,
+ "pct_current": 74.8,
+ "pct_unread": 4.0,
+ "unread_docs_total": 21,
  "rows": [
   {
    "symbol": "RELIANCE",
@@ -893,7 +893,7 @@
    "latest_extracted_filing_date": "2026-07-31",
    "latest_extract_written": "2026-10-22",
    "expected_annual": "FY26",
-   "latest_annual_period": null,
+   "latest_annual_period": "FY26",
    "status": "current"
   },
   {
@@ -2177,8 +2177,8 @@
    "latest_results_title": "Please find enclosed Unaudited Financial Results (Standalone and Consolidated) of the Company for the quarter and half y",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "Q1 FY27",
-   "latest_extracted_filing_date": "2026-07-21",
+   "latest_extracted_period": "H1 FY27",
+   "latest_extracted_filing_date": "2026-10-21",
    "latest_extract_written": "2026-10-22",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
@@ -2483,14 +2483,14 @@
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-10-14",
    "latest_results_title": "Unaudited financial results for the quarter and half year ended September 30, 2026 is annexed herewith.",
-   "latest_filing_read": false,
-   "unread_results_docs": 1,
-   "latest_extracted_period": "Q1 FY27",
-   "latest_extracted_filing_date": "2026-07-15",
+   "latest_filing_read": true,
+   "unread_results_docs": 0,
+   "latest_extracted_period": "H1 FY27",
+   "latest_extracted_filing_date": "2026-10-14",
    "latest_extract_written": "2026-10-22",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "unread"
+   "status": "current"
   },
   {
    "symbol": "HDBFS",
@@ -7018,13 +7018,13 @@
  "previous": {
   "as_of": "2026-10-22",
   "counts": {
-   "current": 371,
+   "current": 372,
    "behind": 76,
-   "unread": 24,
+   "unread": 23,
    "annual_behind": 29,
    "no_filing": 0
   },
-  "pct_current": 74.2
+  "pct_current": 74.4
  },
  "repaired_since_previous": 2
 }

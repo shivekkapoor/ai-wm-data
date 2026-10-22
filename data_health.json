@@ -1,11 +1,11 @@
 {
  "as_of": "2026-10-22",
- "generated_at": "2026-10-22T07:42:01Z",
+ "generated_at": "2026-10-22T13:35:38Z",
  "overall": "RED",
  "alerts": [
-  "Fundamentals: 85/413 names analysed with a fresh fundamental view; 74.6% of filings read",
+  "Fundamentals: 85/413 names analysed with a fresh fundamental view; 74.8% of filings read",
   "Technicals: 413/413 names analysed on technicals",
-  "Sentiment / news: newest headline 2026-10-21; 100% typed",
+  "Sentiment / news: newest headline 2026-10-22; 99% typed",
   "Macro: macro snapshot 2026-10-22"
  ],
  "engine": {
@@ -60,13 +60,13 @@
   {
    "pillar": "Fundamentals",
    "status": "RED",
-   "headline": "85/413 names analysed with a fresh fundamental view; 74.6% of filings read",
+   "headline": "85/413 names analysed with a fresh fundamental view; 74.8% of filings read",
    "metrics": [
     {
      "label": "filings read",
      "value": "75% current",
      "status": "YELLOW",
-     "detail": "expected Q1 FY27: 373 current, 77 behind, 21 with an unread filing (22 PDFs)",
+     "detail": "expected Q1 FY27: 374 current, 77 behind, 20 with an unread filing (21 PDFs)",
      "dimension": "fresh"
     },
     {
@@ -80,7 +80,7 @@
      "label": "repair loop",
      "value": "+2 names since the last run",
      "status": "GREEN",
-     "detail": "98 still to repair; ~49 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
+     "detail": "97 still to repair; ~49 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
      "dimension": "used"
     },
     {
@@ -99,16 +99,16 @@
     },
     {
      "label": "basis labelled",
-     "value": "479/499",
+     "value": "481/499",
      "status": "GREEN",
      "detail": "consolidated vs standalone stated on the row",
      "dimension": "correct"
     },
     {
      "label": "latest period",
-     "value": "FY26 on 452 rows",
+     "value": "FY26 on 453 rows",
      "status": "GREEN",
-     "detail": "FY26:452; FY25:24; Q1 FY27:13; H1 FY27:3",
+     "detail": "FY26:453; FY25:24; Q1 FY27:12; H1 FY27:3",
      "dimension": "fresh"
     },
     {
@@ -155,7 +155,7 @@
     },
     {
      "label": "bars final",
-     "value": "501/502",
+     "value": "500/502",
      "status": "GREEN",
      "detail": "every bar fetched after its 16:00 IST session close (no live in-session prints)",
      "dimension": "correct"
@@ -207,25 +207,25 @@
   {
    "pillar": "Sentiment / news",
    "status": "UNKNOWN",
-   "headline": "newest headline 2026-10-21; 100% typed",
+   "headline": "newest headline 2026-10-22; 99% typed",
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-10-21 (1d)",
+     "value": "2026-10-22 (0d)",
      "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "227",
+     "value": "243",
      "status": "YELLOW",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "1345/1347 (100%)",
+     "value": "1679/1689 (99%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
