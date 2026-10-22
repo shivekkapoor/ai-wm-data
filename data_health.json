@@ -1,58 +1,58 @@
 {
- "as_of": "2026-10-21",
- "generated_at": "2026-10-21T14:04:50Z",
+ "as_of": "2026-10-22",
+ "generated_at": "2026-10-22T07:42:01Z",
  "overall": "RED",
  "alerts": [
-  "Engine output: 484 decisions on 2026-10-21",
-  "Fundamentals: 73/384 names analysed with a fresh fundamental view; 75.0% of filings read",
-  "Technicals: 385/384 names analysed on technicals",
+  "Fundamentals: 85/413 names analysed with a fresh fundamental view; 74.6% of filings read",
+  "Technicals: 413/413 names analysed on technicals",
   "Sentiment / news: newest headline 2026-10-21; 100% typed",
-  "Macro: macro snapshot 2026-10-21"
+  "Macro: macro snapshot 2026-10-22"
  ],
  "engine": {
-  "date": "2026-10-21",
-  "real": 484,
-  "errors": 18,
+  "date": "2026-10-22",
+  "real": 413,
+  "errors": 87,
   "gated": 0,
   "other": 2,
   "top_error": "cli-unavailable: claude CLI failed for sentiment_analyst and the API fallback is disabled (sentinel ",
-  "last_real_date": "2026-10-21"
+  "last_real_date": "2026-10-22"
  },
  "last_run": {
-  "date": "2026-10-21",
-  "names_analysed": 384,
+  "date": "2026-10-22",
+  "names_analysed": 413,
   "agent_calls": {
-   "sentiment_analyst": 385,
-   "technical_analyst": 385,
-   "trader": 384,
-   "fundamental_analyst": 73
+   "macro_strategist": 1,
+   "sentiment_analyst": 413,
+   "technical_analyst": 413,
+   "trader": 413,
+   "fundamental_analyst": 85
   }
  },
  "pillars": [
   {
    "pillar": "Engine output",
-   "status": "RED",
-   "headline": "484 decisions on 2026-10-21",
+   "status": "GREEN",
+   "headline": "413 decisions on 2026-10-22",
    "metrics": [
     {
      "label": "decisions (latest run)",
-     "value": "484 real / 18 errors / 0 gated",
+     "value": "413 real / 87 errors / 0 gated",
      "status": "GREEN",
-     "detail": "run of 2026-10-21; top error: cli-unavailable: claude CLI failed for sentiment_analyst and the API fallback is disabled (sentinel ",
+     "detail": "run of 2026-10-22; top error: cli-unavailable: claude CLI failed for sentiment_analyst and the API fallback is disabled (sentinel ",
      "dimension": "used"
     },
     {
      "label": "last real decision",
-     "value": "2026-10-21",
+     "value": "2026-10-22",
      "status": "GREEN",
      "detail": "0d ago",
      "dimension": "fresh"
     },
     {
      "label": "trader traces (same date)",
-     "value": "384 traces / 484 decisions",
-     "status": "RED",
-     "detail": "decisions without a matching trader call \u2014 trace log missing?",
+     "value": "413 traces / 413 decisions",
+     "status": "GREEN",
+     "detail": "each decision has a trader trace from the same run",
      "dimension": "verified"
     }
    ]
@@ -60,13 +60,13 @@
   {
    "pillar": "Fundamentals",
    "status": "RED",
-   "headline": "73/384 names analysed with a fresh fundamental view; 75.0% of filings read",
+   "headline": "85/413 names analysed with a fresh fundamental view; 74.6% of filings read",
    "metrics": [
     {
      "label": "filings read",
      "value": "75% current",
      "status": "YELLOW",
-     "detail": "expected Q1 FY27: 375 current, 78 behind, 18 with an unread filing (19 PDFs)",
+     "detail": "expected Q1 FY27: 373 current, 77 behind, 21 with an unread filing (22 PDFs)",
      "dimension": "fresh"
     },
     {
@@ -78,9 +78,9 @@
     },
     {
      "label": "repair loop",
-     "value": "+1 names since the last run",
+     "value": "+2 names since the last run",
      "status": "GREEN",
-     "detail": "96 still to repair; ~96 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
+     "detail": "98 still to repair; ~49 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
      "dimension": "used"
     },
     {
@@ -113,16 +113,16 @@
     },
     {
      "label": "agent ran",
-     "value": "73/384 names",
-     "status": "YELLOW",
-     "detail": "last run 2026-10-21: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
+     "value": "85/413 names",
+     "status": "GREEN",
+     "detail": "last run 2026-10-22: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
      "dimension": "used"
     },
     {
      "label": "cached view age",
      "value": "median 43d, p90 154d",
      "status": "RED",
-     "detail": "762 views older than 90 days (2187 cached)",
+     "detail": "762 views older than 90 days (2272 cached)",
      "dimension": "used"
     },
     {
@@ -134,7 +134,7 @@
     },
     {
      "label": "validation age",
-     "value": "19d",
+     "value": "20d",
      "status": "YELLOW",
      "detail": "the weekly check has not run recently",
      "dimension": "verified"
@@ -144,7 +144,7 @@
   {
    "pillar": "Technicals",
    "status": "UNKNOWN",
-   "headline": "385/384 names analysed on technicals",
+   "headline": "413/413 names analysed on technicals",
    "metrics": [
     {
      "label": "newest bar",
@@ -183,9 +183,9 @@
     },
     {
      "label": "agent ran",
-     "value": "385/384 names",
+     "value": "413/413 names",
      "status": "GREEN",
-     "detail": "last run 2026-10-21",
+     "detail": "last run 2026-10-22",
      "dimension": "used"
     },
     {
@@ -197,7 +197,7 @@
     },
     {
      "label": "validation age",
-     "value": "19d",
+     "value": "20d",
      "status": "YELLOW",
      "detail": "the weekly check has not run recently",
      "dimension": "verified"
@@ -211,30 +211,30 @@
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-10-21 (0d)",
+     "value": "2026-10-21 (1d)",
      "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "242",
+     "value": "227",
      "status": "YELLOW",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "1405/1412 (100%)",
+     "value": "1345/1347 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
     },
     {
      "label": "agent ran",
-     "value": "385/384 names",
+     "value": "413/413 names",
      "status": "GREEN",
-     "detail": "last run 2026-10-21",
+     "detail": "last run 2026-10-22",
      "dimension": "used"
     },
     {
@@ -246,7 +246,7 @@
     },
     {
      "label": "validation age",
-     "value": "19d",
+     "value": "20d",
      "status": "YELLOW",
      "detail": "the weekly check has not run recently",
      "dimension": "verified"
@@ -256,11 +256,11 @@
   {
    "pillar": "Macro",
    "status": "UNKNOWN",
-   "headline": "macro snapshot 2026-10-21",
+   "headline": "macro snapshot 2026-10-22",
    "metrics": [
     {
      "label": "snapshot date",
-     "value": "2026-10-21 (0d)",
+     "value": "2026-10-22 (0d)",
      "status": "GREEN",
      "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
      "dimension": "fresh"
@@ -309,7 +309,7 @@
     },
     {
      "label": "validation age",
-     "value": "19d",
+     "value": "20d",
      "status": "YELLOW",
      "detail": "the weekly check has not run recently",
      "dimension": "verified"
