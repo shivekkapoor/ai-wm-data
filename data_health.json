@@ -1,6 +1,6 @@
 {
  "as_of": "2026-10-23",
- "generated_at": "2026-10-23T03:16:04Z",
+ "generated_at": "2026-10-23T13:11:30Z",
  "overall": "RED",
  "alerts": [
   "Engine output: 499 decisions on 2026-10-23",
@@ -146,7 +146,7 @@
     },
     {
      "label": "bars final",
-     "value": "501/502",
+     "value": "500/502",
      "status": "GREEN",
      "detail": "every bar fetched after its 16:00 IST session close (no live in-session prints)",
      "dimension": "correct"
@@ -183,7 +183,7 @@
      "label": "vs the exchange's own bhavcopy",
      "value": "100.0% agreed",
      "status": "GREEN",
-     "detail": "1872 bar-checks over 5 days, 0 corrected",
+     "detail": "2135 bar-checks over 5 days, 0 corrected",
      "dimension": "verified"
     }
    ]
@@ -191,25 +191,25 @@
   {
    "pillar": "Sentiment / news",
    "status": "YELLOW",
-   "headline": "newest headline 2026-10-22; 100% typed",
+   "headline": "newest headline 2026-10-23; 99% typed",
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-10-22 (1d)",
+     "value": "2026-10-23 (0d)",
      "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "241",
+     "value": "256",
      "status": "YELLOW",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "1679/1684 (100%)",
+     "value": "2103/2128 (99%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
