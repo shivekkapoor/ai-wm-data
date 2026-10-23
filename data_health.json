@@ -1,41 +1,40 @@
 {
  "as_of": "2026-10-23",
- "generated_at": "2026-10-23T00:04:57Z",
+ "generated_at": "2026-10-23T03:16:04Z",
  "overall": "RED",
  "alerts": [
-  "Engine output: 314 decisions on 2026-10-23",
-  "Fundamentals: 71/315 names analysed with a fresh fundamental view; 75.0% of filings read",
+  "Engine output: 499 decisions on 2026-10-23",
+  "Fundamentals: 45/174 names analysed with a fresh fundamental view; 75.0% of filings read",
   "Macro: macro snapshot 2026-10-23"
  ],
  "engine": {
   "date": "2026-10-23",
-  "real": 314,
+  "real": 499,
   "errors": 0,
   "gated": 0,
-  "other": 0,
+  "other": 2,
   "top_error": "",
   "last_real_date": "2026-10-23"
  },
  "last_run": {
-  "date": "2026-10-22",
-  "names_analysed": 315,
+  "date": "2026-10-23",
+  "names_analysed": 174,
   "agent_calls": {
-   "macro_strategist": 1,
-   "sentiment_analyst": 315,
-   "technical_analyst": 315,
-   "trader": 315,
-   "fundamental_analyst": 71
+   "technical_analyst": 174,
+   "trader": 174,
+   "sentiment_analyst": 173,
+   "fundamental_analyst": 45
   }
  },
  "pillars": [
   {
    "pillar": "Engine output",
    "status": "RED",
-   "headline": "314 decisions on 2026-10-23",
+   "headline": "499 decisions on 2026-10-23",
    "metrics": [
     {
      "label": "decisions (latest run)",
-     "value": "314 real / 0 errors / 0 gated",
+     "value": "499 real / 0 errors / 0 gated",
      "status": "GREEN",
      "detail": "run of 2026-10-23",
      "dimension": "used"
@@ -49,7 +48,7 @@
     },
     {
      "label": "trader traces (same date)",
-     "value": "0 traces / 314 decisions",
+     "value": "174 traces / 499 decisions",
      "status": "RED",
      "detail": "decisions without a matching trader call \u2014 trace log missing?",
      "dimension": "verified"
@@ -59,7 +58,7 @@
   {
    "pillar": "Fundamentals",
    "status": "RED",
-   "headline": "71/315 names analysed with a fresh fundamental view; 75.0% of filings read",
+   "headline": "45/174 names analysed with a fresh fundamental view; 75.0% of filings read",
    "metrics": [
     {
      "label": "filings read",
@@ -112,16 +111,16 @@
     },
     {
      "label": "agent ran",
-     "value": "71/315 names",
+     "value": "45/174 names",
      "status": "GREEN",
-     "detail": "last run 2026-10-22: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
+     "detail": "last run 2026-10-23: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
      "dimension": "used"
     },
     {
      "label": "cached view age",
-     "value": "median 43d, p90 155d",
+     "value": "median 42d, p90 155d",
      "status": "RED",
-     "detail": "762 views older than 90 days (2345 cached)",
+     "detail": "762 views older than 90 days (2389 cached)",
      "dimension": "used"
     },
     {
@@ -136,7 +135,7 @@
   {
    "pillar": "Technicals",
    "status": "GREEN",
-   "headline": "315/315 names analysed on technicals",
+   "headline": "174/174 names analysed on technicals",
    "metrics": [
     {
      "label": "newest bar",
@@ -175,9 +174,9 @@
     },
     {
      "label": "agent ran",
-     "value": "315/315 names",
+     "value": "174/174 names",
      "status": "GREEN",
-     "detail": "last run 2026-10-22",
+     "detail": "last run 2026-10-23",
      "dimension": "used"
     },
     {
@@ -203,23 +202,23 @@
     },
     {
      "label": "names with news",
-     "value": "242",
+     "value": "241",
      "status": "YELLOW",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "1679/1686 (100%)",
+     "value": "1679/1684 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
     },
     {
      "label": "agent ran",
-     "value": "315/315 names",
+     "value": "173/174 names",
      "status": "GREEN",
-     "detail": "last run 2026-10-22",
+     "detail": "last run 2026-10-23",
      "dimension": "used"
     },
     {
