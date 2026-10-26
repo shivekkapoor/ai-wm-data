@@ -1,6 +1,6 @@
 {
  "as_of": "2026-10-26",
- "generated_at": "2026-10-26T06:39:53Z",
+ "generated_at": "2026-10-26T12:15:22Z",
  "overall": "RED",
  "alerts": [
   "Engine output: 295 decisions on 2026-10-26",
@@ -38,8 +38,8 @@
    "unread": 0
   },
   "reads_today": {
-   "accepted": 19,
-   "attempted": 33
+   "accepted": 21,
+   "attempted": 42
   },
   "stale_sessions": 3,
   "stale": []
@@ -108,7 +108,7 @@
     },
     {
      "label": "reads today",
-     "value": "19 accepted / 33 attempted",
+     "value": "21 accepted / 42 attempted",
      "status": "GREEN",
      "detail": "extraction attempts receipted today (UTC) by the 17:00 prep and the weekend backlog job",
      "dimension": "used"
@@ -223,25 +223,25 @@
   {
    "pillar": "Sentiment / news",
    "status": "YELLOW",
-   "headline": "newest headline 2026-10-23; 100% typed",
+   "headline": "newest headline 2026-10-26; 100% typed",
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-10-23 (3d)",
-     "status": "YELLOW",
+     "value": "2026-10-26 (0d)",
+     "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "256",
+     "value": "266",
      "status": "YELLOW",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "2109/2115 (100%)",
+     "value": "2290/2291 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
