@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-26T11:34:40.465591+05:30",
+  "generated_at": "2026-10-26T11:37:00.997021+05:30",
   "portfolio": {
     "cash_inr": 114138.3,
     "invested_inr": 822160.0,
-    "current_holdings_value": 792114.39,
-    "total_value_inr": 906252.69,
+    "current_holdings_value": 791903.52,
+    "total_value_inr": 906041.82,
     "initial_capital": 1000000.0,
     "total_deposited_inr": 1000000.0,
     "deposits": [
@@ -17,12 +17,12 @@
         "amount": 500000
       }
     ],
-    "total_pnl_inr": -93747.31,
-    "total_pnl_pct": -9.49,
+    "total_pnl_inr": -93958.18,
+    "total_pnl_pct": -9.51,
     "inception_date": "2026-06-04",
-    "day_change_pct": 3.9,
-    "twr_pct": -9.49,
-    "money_weighted_pct": -9.37,
+    "day_change_pct": 3.88,
+    "twr_pct": -9.51,
+    "money_weighted_pct": -9.4,
     "return_method": "time_weighted",
     "twr_pct_v2": -9.23,
     "nav_history_v2": [
@@ -441,7 +441,7 @@
     ],
     "nav_v2_reconcile": {
       "available": true,
-      "twr_pct_v1": -9.49,
+      "twr_pct_v1": -9.51,
       "twr_pct_v2": -9.23,
       "n_common": 103,
       "max_abs_diff_inr": 36622.45,
@@ -504,10 +504,10 @@
         "sector": "IT",
         "qty": 18,
         "avg_cost": 2193.73,
-        "ltp": 2524.5,
-        "value_inr": 45441.0,
-        "pnl_inr": 5953.88,
-        "pnl_pct": 15.08,
+        "ltp": 2523.1,
+        "value_inr": 45415.8,
+        "pnl_inr": 5928.69,
+        "pnl_pct": 15.01,
         "buy_date": "2026-10-26"
       },
       {
@@ -516,10 +516,10 @@
         "sector": "Healthcare",
         "qty": 16,
         "avg_cost": 2859.09,
-        "ltp": 2824.0,
-        "value_inr": 45184.0,
-        "pnl_inr": -561.4,
-        "pnl_pct": -1.23,
+        "ltp": 2826.7,
+        "value_inr": 45227.2,
+        "pnl_inr": -518.2,
+        "pnl_pct": -1.13,
         "buy_date": "2026-10-26"
       },
       {
@@ -528,10 +528,10 @@
         "sector": "Healthcare",
         "qty": 13,
         "avg_cost": 3096.25,
-        "ltp": 3334.6,
-        "value_inr": 43349.8,
-        "pnl_inr": 3098.58,
-        "pnl_pct": 7.7,
+        "ltp": 3335.3,
+        "value_inr": 43358.9,
+        "pnl_inr": 3107.68,
+        "pnl_pct": 7.72,
         "buy_date": "2026-10-26"
       },
       {
@@ -540,10 +540,10 @@
         "sector": "Healthcare",
         "qty": 27,
         "avg_cost": 1659.44,
-        "ltp": 1563.1,
-        "value_inr": 42203.7,
-        "pnl_inr": -2601.13,
-        "pnl_pct": -5.81,
+        "ltp": 1561.9,
+        "value_inr": 42171.3,
+        "pnl_inr": -2633.53,
+        "pnl_pct": -5.88,
         "buy_date": "2026-10-26"
       },
       {
@@ -552,10 +552,10 @@
         "sector": "Financials",
         "qty": 202,
         "avg_cost": 229.53,
-        "ltp": 208.92,
-        "value_inr": 42201.84,
-        "pnl_inr": -4162.98,
-        "pnl_pct": -8.98,
+        "ltp": 208.65,
+        "value_inr": 42147.3,
+        "pnl_inr": -4217.52,
+        "pnl_pct": -9.1,
         "buy_date": "2026-10-26"
       },
       {
@@ -564,10 +564,10 @@
         "sector": "Healthcare",
         "qty": 36,
         "avg_cost": 1069.51,
-        "ltp": 1134.8,
-        "value_inr": 40852.8,
-        "pnl_inr": 2350.44,
-        "pnl_pct": 6.1,
+        "ltp": 1137.8,
+        "value_inr": 40960.8,
+        "pnl_inr": 2458.44,
+        "pnl_pct": 6.39,
         "buy_date": "2026-10-26"
       },
       {
@@ -576,10 +576,10 @@
         "sector": "Energy",
         "qty": 210,
         "avg_cost": 199.09,
-        "ltp": 190.25,
-        "value_inr": 39952.5,
-        "pnl_inr": -1856.27,
-        "pnl_pct": -4.44,
+        "ltp": 190.3,
+        "value_inr": 39963.0,
+        "pnl_inr": -1845.77,
+        "pnl_pct": -4.41,
         "buy_date": "2026-10-26"
       },
       {
@@ -588,10 +588,10 @@
         "sector": "Financials",
         "qty": 36,
         "avg_cost": 1109.38,
-        "ltp": 1089.9,
-        "value_inr": 39236.4,
-        "pnl_inr": -701.2,
-        "pnl_pct": -1.76,
+        "ltp": 1089.1,
+        "value_inr": 39207.6,
+        "pnl_inr": -730.0,
+        "pnl_pct": -1.83,
         "buy_date": "2026-10-26"
       },
       {
@@ -600,10 +600,10 @@
         "sector": "Utilities",
         "qty": 92,
         "avg_cost": 417.27,
-        "ltp": 371.6,
-        "value_inr": 34187.2,
-        "pnl_inr": -4201.88,
-        "pnl_pct": -10.95,
+        "ltp": 370.8,
+        "value_inr": 34113.6,
+        "pnl_inr": -4275.49,
+        "pnl_pct": -11.14,
         "buy_date": "2026-10-26"
       },
       {
@@ -612,22 +612,10 @@
         "sector": "Industrials",
         "qty": 7,
         "avg_cost": 4930.75,
-        "ltp": 4741.6,
-        "value_inr": 33191.2,
-        "pnl_inr": -1324.05,
-        "pnl_pct": -3.84,
-        "buy_date": "2026-10-26"
-      },
-      {
-        "symbol": "IDFCFIRSTB",
-        "name": "IDFC First Bank",
-        "sector": "Financials",
-        "qty": 450,
-        "avg_cost": 85.71,
-        "ltp": 71.52,
-        "value_inr": 32184.0,
-        "pnl_inr": -6387.06,
-        "pnl_pct": -16.56,
+        "ltp": 4737.2,
+        "value_inr": 33160.4,
+        "pnl_inr": -1354.85,
+        "pnl_pct": -3.93,
         "buy_date": "2026-10-26"
       },
       {
@@ -636,10 +624,22 @@
         "sector": "Consumer Discr.",
         "qty": 20,
         "avg_cost": 1758.32,
-        "ltp": 1608.6,
-        "value_inr": 32172.0,
-        "pnl_inr": -2994.33,
-        "pnl_pct": -8.51,
+        "ltp": 1608.4,
+        "value_inr": 32168.0,
+        "pnl_inr": -2998.33,
+        "pnl_pct": -8.53,
+        "buy_date": "2026-10-26"
+      },
+      {
+        "symbol": "IDFCFIRSTB",
+        "name": "IDFC First Bank",
+        "sector": "Financials",
+        "qty": 450,
+        "avg_cost": 85.71,
+        "ltp": 71.45,
+        "value_inr": 32152.5,
+        "pnl_inr": -6418.56,
+        "pnl_pct": -16.64,
         "buy_date": "2026-10-26"
       },
       {
@@ -648,10 +648,10 @@
         "sector": "Industrials",
         "qty": 20,
         "avg_cost": 1566.56,
-        "ltp": 1524.8,
-        "value_inr": 30496.0,
-        "pnl_inr": -835.3,
-        "pnl_pct": -2.67,
+        "ltp": 1525.7,
+        "value_inr": 30514.0,
+        "pnl_inr": -817.3,
+        "pnl_pct": -2.61,
         "buy_date": "2026-10-26"
       },
       {
@@ -660,10 +660,10 @@
         "sector": "FMCG",
         "qty": 80,
         "avg_cost": 377.39,
-        "ltp": 358.25,
-        "value_inr": 28660.0,
-        "pnl_inr": -1531.09,
-        "pnl_pct": -5.07,
+        "ltp": 358.05,
+        "value_inr": 28644.0,
+        "pnl_inr": -1547.09,
+        "pnl_pct": -5.12,
         "buy_date": "2026-10-26"
       },
       {
@@ -672,10 +672,10 @@
         "sector": "Financials",
         "qty": 60,
         "avg_cost": 438.22,
-        "ltp": 438.35,
-        "value_inr": 26301.0,
-        "pnl_inr": 7.86,
-        "pnl_pct": 0.03,
+        "ltp": 438.55,
+        "value_inr": 26313.0,
+        "pnl_inr": 19.86,
+        "pnl_pct": 0.08,
         "buy_date": "2026-10-26"
       },
       {
@@ -684,10 +684,10 @@
         "sector": "IT",
         "qty": 17,
         "avg_cost": 1382.79,
-        "ltp": 1416.3,
-        "value_inr": 24077.1,
-        "pnl_inr": 569.65,
-        "pnl_pct": 2.42,
+        "ltp": 1416.7,
+        "value_inr": 24083.9,
+        "pnl_inr": 576.45,
+        "pnl_pct": 2.45,
         "buy_date": "2026-10-26"
       },
       {
@@ -696,10 +696,10 @@
         "sector": "Financials",
         "qty": 100,
         "avg_cost": 234.89,
-        "ltp": 228.3,
-        "value_inr": 22830.0,
-        "pnl_inr": -658.74,
-        "pnl_pct": -2.8,
+        "ltp": 228.12,
+        "value_inr": 22812.0,
+        "pnl_inr": -676.74,
+        "pnl_pct": -2.88,
         "buy_date": "2026-10-26"
       },
       {
@@ -708,10 +708,10 @@
         "sector": "Financials",
         "qty": 60,
         "avg_cost": 340.9,
-        "ltp": 339.0,
-        "value_inr": 20340.0,
-        "pnl_inr": -114.13,
-        "pnl_pct": -0.56,
+        "ltp": 339.05,
+        "value_inr": 20343.0,
+        "pnl_inr": -111.13,
+        "pnl_pct": -0.54,
         "buy_date": "2026-10-26"
       },
       {
@@ -720,10 +720,10 @@
         "sector": "Financials",
         "qty": 24,
         "avg_cost": 830.98,
-        "ltp": 829.55,
-        "value_inr": 19909.2,
-        "pnl_inr": -34.32,
-        "pnl_pct": -0.17,
+        "ltp": 829.25,
+        "value_inr": 19902.0,
+        "pnl_inr": -41.52,
+        "pnl_pct": -0.21,
         "buy_date": "2026-10-26"
       },
       {
@@ -732,10 +732,10 @@
         "sector": "Energy",
         "qty": 100,
         "avg_cost": 168.48,
-        "ltp": 165.7,
-        "value_inr": 16570.0,
-        "pnl_inr": -278.42,
-        "pnl_pct": -1.65,
+        "ltp": 165.68,
+        "value_inr": 16568.0,
+        "pnl_inr": -280.42,
+        "pnl_pct": -1.66,
         "buy_date": "2026-10-26"
       },
       {
@@ -744,10 +744,10 @@
         "sector": "Consumer Discr.",
         "qty": 5,
         "avg_cost": 2877.74,
-        "ltp": 2735.2,
-        "value_inr": 13676.0,
-        "pnl_inr": -712.69,
-        "pnl_pct": -4.95,
+        "ltp": 2735.5,
+        "value_inr": 13677.5,
+        "pnl_inr": -711.19,
+        "pnl_pct": -4.94,
         "buy_date": "2026-10-26"
       },
       {
@@ -756,10 +756,10 @@
         "sector": "Healthcare",
         "qty": 10,
         "avg_cost": 1386.37,
-        "ltp": 1341.2,
-        "value_inr": 13412.0,
-        "pnl_inr": -451.75,
-        "pnl_pct": -3.26,
+        "ltp": 1340.0,
+        "value_inr": 13400.0,
+        "pnl_inr": -463.75,
+        "pnl_pct": -3.35,
         "buy_date": "2026-10-26"
       },
       {
@@ -768,10 +768,10 @@
         "sector": "IT",
         "qty": 7,
         "avg_cost": 1611.04,
-        "ltp": 1778.4,
-        "value_inr": 12448.8,
-        "pnl_inr": 1171.5,
-        "pnl_pct": 10.39,
+        "ltp": 1777.0,
+        "value_inr": 12439.0,
+        "pnl_inr": 1161.7,
+        "pnl_pct": 10.3,
         "buy_date": "2026-10-26"
       },
       {
@@ -780,10 +780,10 @@
         "sector": "FMCG",
         "qty": 30,
         "avg_cost": 528.3,
-        "ltp": 405.9,
-        "value_inr": 12177.0,
-        "pnl_inr": -3671.95,
-        "pnl_pct": -23.17,
+        "ltp": 404.9,
+        "value_inr": 12147.0,
+        "pnl_inr": -3701.95,
+        "pnl_pct": -23.36,
         "buy_date": "2026-10-26"
       },
       {
@@ -792,10 +792,10 @@
         "sector": "Materials",
         "qty": 11,
         "avg_cost": 1078.72,
-        "ltp": 880.3,
-        "value_inr": 9683.3,
-        "pnl_inr": -2182.66,
-        "pnl_pct": -18.39,
+        "ltp": 879.3,
+        "value_inr": 9672.3,
+        "pnl_inr": -2193.66,
+        "pnl_pct": -18.49,
         "buy_date": "2026-10-26"
       },
       {
@@ -804,10 +804,10 @@
         "sector": "Industrials",
         "qty": 26,
         "avg_cost": 394.56,
-        "ltp": 367.6,
-        "value_inr": 9557.6,
-        "pnl_inr": -700.98,
-        "pnl_pct": -6.83,
+        "ltp": 367.85,
+        "value_inr": 9564.1,
+        "pnl_inr": -694.48,
+        "pnl_pct": -6.77,
         "buy_date": "2026-10-26"
       },
       {
@@ -816,10 +816,10 @@
         "sector": "Energy",
         "qty": 20,
         "avg_cost": 479.48,
-        "ltp": 451.6,
-        "value_inr": 9032.0,
-        "pnl_inr": -557.58,
-        "pnl_pct": -5.81,
+        "ltp": 451.75,
+        "value_inr": 9035.0,
+        "pnl_inr": -554.58,
+        "pnl_pct": -5.78,
         "buy_date": "2026-10-26"
       },
       {
@@ -828,10 +828,10 @@
         "sector": "Financials",
         "qty": 17,
         "avg_cost": 516.82,
-        "ltp": 444.6,
-        "value_inr": 7558.2,
-        "pnl_inr": -1227.69,
-        "pnl_pct": -13.97,
+        "ltp": 444.0,
+        "value_inr": 7548.0,
+        "pnl_inr": -1237.9,
+        "pnl_pct": -14.09,
         "buy_date": "2026-10-26"
       },
       {
@@ -840,10 +840,10 @@
         "sector": "Industrials",
         "qty": 7,
         "avg_cost": 1233.23,
-        "ltp": 993.1,
-        "value_inr": 6951.7,
-        "pnl_inr": -1680.92,
-        "pnl_pct": -19.47,
+        "ltp": 992.0,
+        "value_inr": 6944.0,
+        "pnl_inr": -1688.62,
+        "pnl_pct": -19.56,
         "buy_date": "2026-10-26"
       },
       {
@@ -852,10 +852,10 @@
         "sector": "Industrials",
         "qty": 11,
         "avg_cost": 636.79,
-        "ltp": 510.5,
-        "value_inr": 5615.5,
-        "pnl_inr": -1389.2,
-        "pnl_pct": -19.83,
+        "ltp": 509.6,
+        "value_inr": 5605.6,
+        "pnl_inr": -1399.1,
+        "pnl_pct": -19.97,
         "buy_date": "2026-10-26"
       },
       {
@@ -864,10 +864,10 @@
         "sector": "Auto",
         "qty": 37,
         "avg_cost": 143.64,
-        "ltp": 149.51,
-        "value_inr": 5531.87,
-        "pnl_inr": 217.27,
-        "pnl_pct": 4.09,
+        "ltp": 149.25,
+        "value_inr": 5522.25,
+        "pnl_inr": 207.65,
+        "pnl_pct": 3.91,
         "buy_date": "2026-10-26"
       },
       {
@@ -876,10 +876,10 @@
         "sector": "Materials",
         "qty": 1,
         "avg_cost": 6812.52,
-        "ltp": 5311.5,
-        "value_inr": 5311.5,
-        "pnl_inr": -1501.02,
-        "pnl_pct": -22.03,
+        "ltp": 5310.0,
+        "value_inr": 5310.0,
+        "pnl_inr": -1502.52,
+        "pnl_pct": -22.06,
         "buy_date": "2026-10-26"
       },
       {
@@ -888,10 +888,10 @@
         "sector": "Industrials",
         "qty": 4,
         "avg_cost": 1421.7,
-        "ltp": 1293.4,
-        "value_inr": 5173.6,
-        "pnl_inr": -513.21,
-        "pnl_pct": -9.02,
+        "ltp": 1293.9,
+        "value_inr": 5175.6,
+        "pnl_inr": -511.21,
+        "pnl_pct": -8.99,
         "buy_date": "2026-10-26"
       },
       {
@@ -900,10 +900,10 @@
         "sector": "Financials",
         "qty": 39,
         "avg_cost": 116.83,
-        "ltp": 118.72,
-        "value_inr": 4630.08,
-        "pnl_inr": 73.53,
-        "pnl_pct": 1.61,
+        "ltp": 118.63,
+        "value_inr": 4626.57,
+        "pnl_inr": 70.02,
+        "pnl_pct": 1.54,
         "buy_date": "2026-10-26"
       },
       {
@@ -912,10 +912,10 @@
         "sector": "Healthcare",
         "qty": 1,
         "avg_cost": 4393.7,
-        "ltp": 4539.8,
-        "value_inr": 4539.8,
-        "pnl_inr": 146.1,
-        "pnl_pct": 3.33,
+        "ltp": 4541.0,
+        "value_inr": 4541.0,
+        "pnl_inr": 147.3,
+        "pnl_pct": 3.35,
         "buy_date": "2026-10-26"
       },
       {
@@ -924,10 +924,10 @@
         "sector": "Consumer Discr.",
         "qty": 1,
         "avg_cost": 4580.64,
-        "ltp": 4304.1,
-        "value_inr": 4304.1,
-        "pnl_inr": -276.54,
-        "pnl_pct": -6.04,
+        "ltp": 4297.7,
+        "value_inr": 4297.7,
+        "pnl_inr": -282.94,
+        "pnl_pct": -6.18,
         "buy_date": "2026-10-26"
       },
       {
@@ -111524,11 +111524,11 @@
     {
       "symbol": "^NSEI",
       "name": "Nifty 50",
-      "current_level": 22531.2,
-      "ret_1d_pct": -0.304,
-      "ret_5d_pct": -2.657,
-      "ret_30d_pct": -3.842,
-      "since_start_pct": -3.781,
+      "current_level": 22550.15,
+      "ret_1d_pct": -0.221,
+      "ret_5d_pct": -2.575,
+      "ret_30d_pct": -3.761,
+      "since_start_pct": -3.7,
       "history": [
         {
           "date": "2026-06-17",
@@ -111888,18 +111888,18 @@
         },
         {
           "date": "2026-10-26",
-          "level": 22531.2
+          "level": 22550.15
         }
       ]
     },
     {
       "symbol": "^CRSLDX",
       "name": "Nifty 500",
-      "current_level": 21391.6,
-      "ret_1d_pct": -0.168,
-      "ret_5d_pct": -3.945,
-      "ret_30d_pct": -6.826,
-      "since_start_pct": -4.917,
+      "current_level": 21412.1,
+      "ret_1d_pct": -0.072,
+      "ret_5d_pct": -3.852,
+      "ret_30d_pct": -6.737,
+      "since_start_pct": -4.825,
       "history": [
         {
           "date": "2026-06-17",
@@ -112259,7 +112259,7 @@
         },
         {
           "date": "2026-10-26",
-          "level": 21391.6
+          "level": 21412.1
         }
       ]
     }
@@ -112269,22 +112269,22 @@
     "universe_size": 501,
     "data_sources": 7,
     "today": {
-      "agent_analyses": 1452,
-      "tokens": 17307967,
-      "words": 12980975
+      "agent_analyses": 1453,
+      "tokens": 17316616,
+      "words": 12987462
     },
     "cumulative": {
-      "agent_analyses": 9922,
-      "tokens": 159456287,
-      "words": 119592215,
-      "data_points": 637825148,
+      "agent_analyses": 9923,
+      "tokens": 159464936,
+      "words": 119598702,
+      "data_points": 637859744,
       "documents_deep_read": 7851,
       "filings_indexed": 32219,
       "headlines_analyzed": 77031,
       "events_classified": 59876,
       "fundamental_records": 5908,
       "price_observations": 204400,
-      "data_bytes": 43774763963,
+      "data_bytes": 43774798559,
       "data_mb": 43774.8,
       "data_gb": 43.775
     }
@@ -112580,5 +112580,937 @@
     },
     "note": "Forward returns measured from next-day open. Leak-free, post-cutoff. One regime so far \u2014 read as early signal, not verdict."
   },
-  "books": {}
+  "books": {
+    "as_of": "2026-10-23",
+    "generated_at": "2026-10-26",
+    "leaderboard": [
+      {
+        "book_id": "book1_engine",
+        "title": "Engine as it is (control)",
+        "hypothesis": "Production as it runs today: four agents per name, trader proposal, risk and tax checks, the entry gate. Entries on confirmation, exits on breakdowns.",
+        "kind": "book",
+        "costs": true,
+        "started_on": "2026-10-23",
+        "as_of": "2026-10-23",
+        "n_dates": 0,
+        "nav_inr": 908839.7,
+        "cash_pct": 12.6,
+        "n_positions": 38,
+        "n_pending": 1,
+        "twr_pct": null,
+        "max_dd_pct": 0.0,
+        "turnover_pct": 0.0,
+        "hit_rate": null,
+        "n_sells": 0,
+        "fees_inr": 4062.98,
+        "slippage_inr": 2363.1,
+        "excess": {
+          "10d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          },
+          "20d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          }
+        },
+        "vs_null_60_pp": null,
+        "w30_pct": null,
+        "w60_pct": null,
+        "w90_pct": null,
+        "kill_flag": false
+      },
+      {
+        "book_id": "book2_ai_v2",
+        "title": "AI-first, rebuilt (v2 briefing + guardrails)",
+        "hypothesis": "With the right facts in front of it and the toxic actions fenced off, the AI's discretion adds value.",
+        "kind": "book",
+        "costs": true,
+        "started_on": "2026-10-23",
+        "as_of": "2026-10-23",
+        "n_dates": 0,
+        "nav_inr": 1000000.0,
+        "cash_pct": 100.0,
+        "n_positions": 0,
+        "n_pending": 3,
+        "twr_pct": null,
+        "max_dd_pct": 0.0,
+        "turnover_pct": 0.0,
+        "hit_rate": null,
+        "n_sells": 0,
+        "fees_inr": 0.0,
+        "slippage_inr": 0.0,
+        "excess": {
+          "10d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          },
+          "20d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          }
+        },
+        "vs_null_60_pp": null,
+        "w30_pct": null,
+        "w60_pct": null,
+        "w90_pct": null,
+        "kill_flag": false
+      },
+      {
+        "book_id": "book3_fundamental",
+        "title": "Fundamental grades \u2192 rules",
+        "hypothesis": "Strong growers that are not yet decelerating, held whole and long: the one filter with measured forward information (+2.5 pp at 60 sessions, +5.6 pp at 120 vs the equal-weight universe in the point-in-time study), alone \u2014 kept at target weight and re-qualified every 120 sessions.",
+        "kind": "book",
+        "costs": true,
+        "started_on": "2026-10-23",
+        "as_of": "2026-10-23",
+        "n_dates": 0,
+        "nav_inr": 1000000.0,
+        "cash_pct": 100.0,
+        "n_positions": 0,
+        "n_pending": 30,
+        "twr_pct": null,
+        "max_dd_pct": 0.0,
+        "turnover_pct": 0.0,
+        "hit_rate": null,
+        "n_sells": 0,
+        "fees_inr": 0.0,
+        "slippage_inr": 0.0,
+        "excess": {
+          "10d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          },
+          "20d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          }
+        },
+        "vs_null_60_pp": null,
+        "w30_pct": null,
+        "w60_pct": null,
+        "w90_pct": null,
+        "kill_flag": false
+      },
+      {
+        "book_id": "book4_fund_momentum",
+        "title": "Fundamental grades \u2229 momentum, 200-day overlay",
+        "hypothesis": "Our two independent signals (text and price) together: strong, non-decelerating growers that are also in a price uptrend; the most evidence-backed construct.",
+        "kind": "book",
+        "costs": true,
+        "started_on": "2026-10-23",
+        "as_of": "2026-10-23",
+        "n_dates": 0,
+        "nav_inr": 1000000.0,
+        "cash_pct": 100.0,
+        "n_positions": 0,
+        "n_pending": 20,
+        "twr_pct": null,
+        "max_dd_pct": 0.0,
+        "turnover_pct": 0.0,
+        "hit_rate": null,
+        "n_sells": 0,
+        "fees_inr": 0.0,
+        "slippage_inr": 0.0,
+        "excess": {
+          "10d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          },
+          "20d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          }
+        },
+        "vs_null_60_pp": null,
+        "w30_pct": null,
+        "w60_pct": null,
+        "w90_pct": null,
+        "kill_flag": false
+      },
+      {
+        "book_id": "book5_tech_pullback",
+        "title": "Technical pullback in uptrends",
+        "hypothesis": "Technicals the right way round in a mean-reverting tape: buy the dip in a leader and give it time \u2014 a 10-session minimum hold and a 20-session cap keep the edge from being traded away in charges.",
+        "kind": "book",
+        "costs": true,
+        "started_on": "2026-10-23",
+        "as_of": "2026-10-23",
+        "n_dates": 0,
+        "nav_inr": 1000000.0,
+        "cash_pct": 100.0,
+        "n_positions": 0,
+        "n_pending": 25,
+        "twr_pct": null,
+        "max_dd_pct": 0.0,
+        "turnover_pct": 0.0,
+        "hit_rate": null,
+        "n_sells": 0,
+        "fees_inr": 0.0,
+        "slippage_inr": 0.0,
+        "excess": {
+          "10d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          },
+          "20d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          }
+        },
+        "vs_null_60_pp": null,
+        "w30_pct": null,
+        "w60_pct": null,
+        "w90_pct": null,
+        "kill_flag": false
+      },
+      {
+        "book_id": "book6_macro_sector",
+        "title": "Macro + fundamental, sector rotation",
+        "hypothesis": "Top-down sector timing adds to the bottom-up filter (strong, non-decelerating growers). Judged against b6_neutral \u2014 the same construction with every tilt at 1.0 \u2014 by more than the random band, plus the sector-call scorecard at one month (>= 60% hit, >= +1 pp per call, model months only); at least 6-8 monthly calls before any judgement, two quarters the floor.",
+        "kind": "book",
+        "costs": true,
+        "started_on": "2026-10-23",
+        "as_of": "2026-10-23",
+        "n_dates": 0,
+        "nav_inr": 1000000.0,
+        "cash_pct": 100.0,
+        "n_positions": 0,
+        "n_pending": 23,
+        "twr_pct": null,
+        "max_dd_pct": 0.0,
+        "turnover_pct": 0.0,
+        "hit_rate": null,
+        "n_sells": 0,
+        "fees_inr": 0.0,
+        "slippage_inr": 0.0,
+        "excess": {
+          "10d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          },
+          "20d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          }
+        },
+        "vs_null_60_pp": null,
+        "w30_pct": null,
+        "w60_pct": null,
+        "w90_pct": null,
+        "kill_flag": false
+      },
+      {
+        "book_id": "bench_momentum",
+        "title": "Pure 12-1 momentum rules",
+        "hypothesis": "Book 4 without the fundamental filter: what price alone buys.",
+        "kind": "benchmark",
+        "costs": true,
+        "started_on": "2026-10-23",
+        "as_of": "2026-10-23",
+        "n_dates": 0,
+        "nav_inr": 1000000.0,
+        "cash_pct": 100.0,
+        "n_positions": 0,
+        "n_pending": 30,
+        "twr_pct": null,
+        "max_dd_pct": 0.0,
+        "turnover_pct": 0.0,
+        "hit_rate": null,
+        "n_sells": 0,
+        "fees_inr": 0.0,
+        "slippage_inr": 0.0,
+        "excess": {
+          "10d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          },
+          "20d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          }
+        },
+        "vs_null_60_pp": null,
+        "w30_pct": null,
+        "w60_pct": null,
+        "w90_pct": null,
+        "kill_flag": false
+      },
+      {
+        "book_id": "quality_factor",
+        "title": "Quality factor (mechanical)",
+        "hypothesis": "Quality from the filings alone \u2014 ROCE, margin, leverage, cash conversion, growth consistency, accruals \u2014 top 30, monthly, with the index overlay.",
+        "kind": "benchmark",
+        "costs": true,
+        "started_on": "2026-10-23",
+        "as_of": "2026-10-23",
+        "n_dates": 0,
+        "nav_inr": 1000000.0,
+        "cash_pct": 100.0,
+        "n_positions": 0,
+        "n_pending": 28,
+        "twr_pct": null,
+        "max_dd_pct": 0.0,
+        "turnover_pct": 0.0,
+        "hit_rate": null,
+        "n_sells": 0,
+        "fees_inr": 0.0,
+        "slippage_inr": 0.0,
+        "excess": {
+          "10d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          },
+          "20d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          }
+        },
+        "vs_null_60_pp": null,
+        "w30_pct": null,
+        "w60_pct": null,
+        "w90_pct": null,
+        "kill_flag": false
+      },
+      {
+        "book_id": "multifactor",
+        "title": "Multifactor (quality + momentum + low vol + value)",
+        "hypothesis": "Equal-weighted z-score composite of quality, 12-1 momentum, low 60-day volatility and earnings yield \u2014 top 30, monthly, with the index overlay.",
+        "kind": "benchmark",
+        "costs": true,
+        "started_on": "2026-10-23",
+        "as_of": "2026-10-23",
+        "n_dates": 0,
+        "nav_inr": 1000000.0,
+        "cash_pct": 100.0,
+        "n_positions": 0,
+        "n_pending": 30,
+        "twr_pct": null,
+        "max_dd_pct": 0.0,
+        "turnover_pct": 0.0,
+        "hit_rate": null,
+        "n_sells": 0,
+        "fees_inr": 0.0,
+        "slippage_inr": 0.0,
+        "excess": {
+          "10d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          },
+          "20d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          }
+        },
+        "vs_null_60_pp": null,
+        "w30_pct": null,
+        "w60_pct": null,
+        "w90_pct": null,
+        "kill_flag": false
+      },
+      {
+        "book_id": "book3_v1",
+        "title": "Fundamental grades \u2192 rules, old filter (a)",
+        "hypothesis": "The pre-c1 Book 3 \u2014 moderate growers and the conviction leg, no acceleration leg \u2014 run live beside Book 3 to settle c1 vs (a) out of sample (the first 98-session replay had (a) ahead).",
+        "kind": "benchmark",
+        "costs": true,
+        "started_on": "2026-10-23",
+        "as_of": "2026-10-23",
+        "n_dates": 0,
+        "nav_inr": 1000000.0,
+        "cash_pct": 100.0,
+        "n_positions": 0,
+        "n_pending": 30,
+        "twr_pct": null,
+        "max_dd_pct": 0.0,
+        "turnover_pct": 0.0,
+        "hit_rate": null,
+        "n_sells": 0,
+        "fees_inr": 0.0,
+        "slippage_inr": 0.0,
+        "excess": {
+          "10d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          },
+          "20d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          }
+        },
+        "vs_null_60_pp": null,
+        "w30_pct": null,
+        "w60_pct": null,
+        "w90_pct": null,
+        "kill_flag": false
+      },
+      {
+        "book_id": "b6_neutral",
+        "title": "Book 6 bottom-up, neutral tilts (no model)",
+        "hypothesis": "Book 6's construction with every sector tilt at 1.0, run live beside Book 6: the line the model tilt must beat by more than the random band (the bounds study of 26 Oct 2026 found no pack field beat it; the TWR line cannot judge the tilt, Book 6 \u2212 b6_neutral and the sector-call scorecard can).",
+        "kind": "benchmark",
+        "costs": true,
+        "started_on": "2026-10-23",
+        "as_of": "2026-10-23",
+        "n_dates": 0,
+        "nav_inr": 1000000.0,
+        "cash_pct": 100.0,
+        "n_positions": 0,
+        "n_pending": 22,
+        "twr_pct": null,
+        "max_dd_pct": 0.0,
+        "turnover_pct": 0.0,
+        "hit_rate": null,
+        "n_sells": 0,
+        "fees_inr": 0.0,
+        "slippage_inr": 0.0,
+        "excess": {
+          "10d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          },
+          "20d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          }
+        },
+        "vs_null_60_pp": null,
+        "w30_pct": null,
+        "w60_pct": null,
+        "w90_pct": null,
+        "kill_flag": false
+      },
+      {
+        "book_id": "bench_nifty500",
+        "title": "NIFTY 500 (^CRSLDX)",
+        "kind": "series",
+        "costs": false,
+        "started_on": "2026-10-23",
+        "as_of": "2026-10-23",
+        "n_dates": 0,
+        "twr_pct": 0.0,
+        "max_dd_pct": 0.0,
+        "turnover_pct": null,
+        "hit_rate": null,
+        "n_sells": 0,
+        "nav_inr": null,
+        "excess": {},
+        "vs_null_60_pp": null,
+        "kill_flag": null,
+        "w30_pct": null,
+        "w60_pct": null,
+        "w90_pct": null
+      },
+      {
+        "book_id": "bench_ew",
+        "title": "Equal-weight universe (the null)",
+        "kind": "series",
+        "costs": false,
+        "started_on": "2026-10-23",
+        "as_of": "2026-10-23",
+        "n_dates": 0,
+        "twr_pct": 0.0,
+        "max_dd_pct": 0.0,
+        "turnover_pct": null,
+        "hit_rate": null,
+        "n_sells": 0,
+        "nav_inr": null,
+        "excess": {},
+        "vs_null_60_pp": null,
+        "kill_flag": null,
+        "w30_pct": null,
+        "w60_pct": null,
+        "w90_pct": null
+      },
+      {
+        "book_id": "bench_buyhold",
+        "title": "Buy-and-hold of every name the engine touched",
+        "kind": "series",
+        "costs": false,
+        "started_on": "2026-10-23",
+        "as_of": "2026-10-23",
+        "n_dates": 0,
+        "twr_pct": 0.0,
+        "max_dd_pct": 0.0,
+        "turnover_pct": null,
+        "hit_rate": null,
+        "n_sells": 0,
+        "nav_inr": null,
+        "excess": {},
+        "vs_null_60_pp": null,
+        "kill_flag": null,
+        "w30_pct": null,
+        "w60_pct": null,
+        "w90_pct": null
+      }
+    ],
+    "nav_lines": {
+      "book1_engine": [
+        {
+          "date": "2026-10-23",
+          "value": 100.0
+        }
+      ],
+      "book2_ai_v2": [
+        {
+          "date": "2026-10-23",
+          "value": 100.0
+        }
+      ],
+      "book3_fundamental": [
+        {
+          "date": "2026-10-23",
+          "value": 100.0
+        }
+      ],
+      "book4_fund_momentum": [
+        {
+          "date": "2026-10-23",
+          "value": 100.0
+        }
+      ],
+      "book5_tech_pullback": [
+        {
+          "date": "2026-10-23",
+          "value": 100.0
+        }
+      ],
+      "book6_macro_sector": [
+        {
+          "date": "2026-10-23",
+          "value": 100.0
+        }
+      ],
+      "bench_momentum": [
+        {
+          "date": "2026-10-23",
+          "value": 100.0
+        }
+      ],
+      "quality_factor": [
+        {
+          "date": "2026-10-23",
+          "value": 100.0
+        }
+      ],
+      "multifactor": [
+        {
+          "date": "2026-10-23",
+          "value": 100.0
+        }
+      ],
+      "book3_v1": [
+        {
+          "date": "2026-10-23",
+          "value": 100.0
+        }
+      ],
+      "b6_neutral": [
+        {
+          "date": "2026-10-23",
+          "value": 100.0
+        }
+      ],
+      "bench_nifty500": [
+        {
+          "date": "2026-10-23",
+          "value": 100.0
+        }
+      ],
+      "bench_ew": [
+        {
+          "date": "2026-10-23",
+          "value": 100.0
+        }
+      ],
+      "bench_buyhold": [
+        {
+          "date": "2026-10-23",
+          "value": 100.0
+        }
+      ]
+    },
+    "books": [
+      {
+        "book_id": "book1_engine",
+        "title": "Engine as it is (control)",
+        "hypothesis": "Production as it runs today: four agents per name, trader proposal, risk and tax checks, the entry gate. Entries on confirmation, exits on breakdowns.",
+        "kind": "book",
+        "costs": true,
+        "rules": {
+          "orders": "the engine's own pending_orders, verbatim",
+          "fills": "next open after decided_date through the shared cost model",
+          "seed": "live paper_portfolio.json on the first run",
+          "drift": "logged; resynced after two consecutive runs of the same drift"
+        }
+      },
+      {
+        "book_id": "book2_ai_v2",
+        "title": "AI-first, rebuilt (v2 briefing + guardrails)",
+        "hypothesis": "With the right facts in front of it and the toxic actions fenced off, the AI's discretion adds value.",
+        "kind": "book",
+        "costs": true,
+        "rules": {
+          "source": "proposal_v2_final of the night's decisions records (AIWM_BRIEFING=v2)",
+          "max_names": 30,
+          "sizing": "agreement 3 -> 1/30 of NAV, 2 -> half, <2 -> no entry / no top-up; x overlay (half while NIFTY 500 < 200-day SMA); the engine's qty is not used",
+          "agreement": "true values of agreement_v2 (fundamental, sentiment, timing ok_now), else the proposal's agreement field",
+          "exits": "SELL closes; TRIM sells half; exit_reason_kind recorded, not re-judged (G3 fenced it)",
+          "hold": "HOLD never trades; HOLD with pending_condition is recorded",
+          "rechecks": "anti-chase on the panel (G1 may lack a price state), the book's own 20-session re-entry block (G4 reads the engine's lots), capacity and cash; G2/G3 taken as fenced; overlay applied once to the weight (G5 halved the engine's qty, unused here)",
+          "v2_absent": "no v2 keys in the records -> no orders, notes.v2 = 'absent'"
+        }
+      },
+      {
+        "book_id": "book3_fundamental",
+        "title": "Fundamental grades \u2192 rules",
+        "hypothesis": "Strong growers that are not yet decelerating, held whole and long: the one filter with measured forward information (+2.5 pp at 60 sessions, +5.6 pp at 120 vs the equal-weight universe in the point-in-time study), alone \u2014 kept at target weight and re-qualified every 120 sessions.",
+        "kind": "book",
+        "costs": true,
+        "rules": {
+          "max_names": 30,
+          "weight": "overlay/30 (target; see overlay)",
+          "eligible": "growth == strong, risk != high, data_quality != poor, revenue growth not decelerating (newest results period's YoY revenue growth >= the preceding period's, from the filing extracts; a missing number passes)",
+          "rank": "revenue acceleration (highest first), then revenue growth, then symbol",
+          "entry": "next open, once the newest results filing is >= 5 sessions old; skipped when up > 5% over 5 sessions; slots freed by sells are refilled from the eligible list the same session",
+          "hold": "re-judged every session on the latest view (refreshed on each results filing); topped up toward target when below 75% of target and cash allows (anti-chase applies; entries are funded first); re-qualification review every 120 sessions since entry (then since the last review): must still pass growth == strong, risk != high, revenue growth not decelerating (a missing number passes), else sold \u2014 a name failing the gate but not deteriorated is sold only at this review, never earlier",
+          "exit": "growth -> weak, risk -> high, sentiment bearish with conviction >= 0.5, or the 120-session review failing (growth not strong, risk high or decelerating); between reviews never for decelerating, never for timing, never on missing data",
+          "overlay": "target exposure 1.0 above / 0.5 below the equal-weight large-cap proxy's 200-day SMA (state confirmed over 5 consecutive sessions), applied to the whole book: every target weight is exposure/N and holdings are rebalanced toward it on the session the state flips (band +/-25%); this book trims on the flip down and tops up any session",
+          "rebalance_band": 0.25,
+          "review_sessions": 120,
+          "reentry_block_sessions": 20,
+          "min_sessions_after_results": 5
+        }
+      },
+      {
+        "book_id": "book4_fund_momentum",
+        "title": "Fundamental grades \u2229 momentum, 200-day overlay",
+        "hypothesis": "Our two independent signals (text and price) together: strong, non-decelerating growers that are also in a price uptrend; the most evidence-backed construct.",
+        "kind": "book",
+        "costs": true,
+        "rules": {
+          "signal": "monthly \u2014 first session on/after the month's last weekday (start date counts)",
+          "max_names": 30,
+          "weight": "overlay/30",
+          "sell_rank": 60,
+          "rebalance_band": 0.25,
+          "reentry_block_sessions": 20,
+          "overlay": "target exposure 1.0 above / 0.5 below the equal-weight large-cap proxy's 200-day SMA (state confirmed over 5 consecutive sessions), applied to the whole book: every target weight is exposure/N and holdings are rebalanced toward it on the session the state flips (band +/-25%); between signal dates the book holds except on a flip, when survivors are rebalanced (no entries or exits)",
+          "anti_chase": true,
+          "universe": "close > own 200-day SMA, 12-1 momentum known AND the shared fundamental filter (growth == strong, risk != high, data_quality != poor, revenue growth not decelerating (newest results period's YoY revenue growth >= the preceding period's, from the filing extracts; a missing number passes))",
+          "rank": "12-1 momentum (close[t-21]/close[t-252] - 1), descending",
+          "exit": "rank > 60, close < 200-day SMA, fundamental deterioration (growth -> weak / risk -> high)",
+          "entry": "new entries wait until the newest results filing is >= 5 sessions old; holdings are never sold for timing",
+          "min_sessions_after_results": 5
+        }
+      },
+      {
+        "book_id": "book5_tech_pullback",
+        "title": "Technical pullback in uptrends",
+        "hypothesis": "Technicals the right way round in a mean-reverting tape: buy the dip in a leader and give it time \u2014 a 10-session minimum hold and a 20-session cap keep the edge from being traded away in charges.",
+        "kind": "book",
+        "costs": true,
+        "rules": {
+          "max_names": 25,
+          "weight": "1/25",
+          "universe": "close > 200-day SMA and 12-1 momentum in the top 20% of names with momentum",
+          "entry": "5-session return <= -4% or close < 20-day SMA; ranked by momentum (strongest first)",
+          "hold": "minimum 10 sessions from the fill (the stop still applies)",
+          "exit": "after the minimum hold, close >= 20-day SMA or 20 sessions held; -10% from the fill price at any time",
+          "turnover_target": "<= 12x a year",
+          "reentry_block_sessions": 20,
+          "overlay": "none"
+        }
+      },
+      {
+        "book_id": "book6_macro_sector",
+        "title": "Macro + fundamental, sector rotation",
+        "hypothesis": "Top-down sector timing adds to the bottom-up filter (strong, non-decelerating growers). Judged against b6_neutral \u2014 the same construction with every tilt at 1.0 \u2014 by more than the random band, plus the sector-call scorecard at one month (>= 60% hit, >= +1 pp per call, model months only); at least 6-8 monthly calls before any judgement, two quarters the floor.",
+        "kind": "book",
+        "costs": true,
+        "rules": {
+          "signal": "monthly \u2014 first session of the calendar month (or the first run after it); one sector_strategist call; none on other days or in a dry run",
+          "tilt_cadence": "monthly",
+          "tilt": "per sector in [0.5, 2.0], clamped; sum of |change| per signal capped at 1.0; weights normalised to 1 over sectors with eligible names (neutral = equal share); fallback = the standing tilt (neutral at first)",
+          "model_env": "AIWM_MODEL_SECTOR_STRATEGIST (default AIWM_MODEL_DEFAULT)",
+          "eligible": "the shared fundamental filter: growth == strong, risk != high, data_quality != poor, revenue growth not decelerating (newest results period's YoY revenue growth >= the preceding period's, from the filing extracts; a missing number passes); ranked by revenue acceleration (highest first), then revenue growth, then symbol",
+          "slots": "30 slots apportioned over the active sectors by largest remainder on w_s x 30 (sum = 30 exactly), with hysteresis: a sector's count changes only when its exact share moves > 0.5 slot from its current allocation; weight w_s / k_s each, capped at 2/30",
+          "overlay": "target exposure 1.0 above / 0.5 below the equal-weight large-cap proxy's 200-day SMA (state confirmed over 5 consecutive sessions), applied to the whole book: every target weight is exposure/N and holdings are rebalanced toward it on the session the state flips (band +/-25%); rebalanced on the monthly signal date and on the flip",
+          "entry": "next open, once the newest results filing is >= 5 sessions old; skipped when up > 5% over 5 sessions or exited in the last 20 sessions",
+          "exit": "fundamental deterioration (growth -> weak / risk -> high), or a tilt cut dropping k_s below the names held (lowest-ranked sold first); never on missing data, decelerating growth or timing",
+          "min_sessions_after_results": 5,
+          "rebalance": "signal dates and the session the overlay flips; survivors outside +/-25% of target",
+          "attribution": "monthly Brinson vs the equal-weight universe + sector-call scorecard per signal at +5 / +21 / +63 sessions (the 1m row judges; leaderboard key book6_attribution)",
+          "judge": "Book 6 minus b6_neutral (the same construction, every tilt 1.0, zero LLM) must exceed the random band; scorecard at 1m >= 60% hit and >= +1 pp per call, over- and under-weights each above their own null (~45% / ~55%), model months only; at least 6-8 monthly calls before any judgement (two quarters is the floor)"
+        }
+      },
+      {
+        "book_id": "bench_momentum",
+        "title": "Pure 12-1 momentum rules",
+        "hypothesis": "Book 4 without the fundamental filter: what price alone buys.",
+        "kind": "benchmark",
+        "costs": true,
+        "rules": {
+          "signal": "monthly \u2014 first session on/after the month's last weekday (start date counts)",
+          "max_names": 30,
+          "weight": "overlay/30",
+          "sell_rank": 60,
+          "rebalance_band": 0.25,
+          "reentry_block_sessions": 20,
+          "overlay": "target exposure 1.0 above / 0.5 below the equal-weight large-cap proxy's 200-day SMA (state confirmed over 5 consecutive sessions), applied to the whole book: every target weight is exposure/N and holdings are rebalanced toward it on the session the state flips (band +/-25%); between signal dates the book holds except on a flip, when survivors are rebalanced (no entries or exits)",
+          "anti_chase": true,
+          "universe": "close > own 200-day SMA, 12-1 momentum known",
+          "rank": "12-1 momentum (close[t-21]/close[t-252] - 1), descending",
+          "exit": "rank > 60, close < 200-day SMA"
+        }
+      },
+      {
+        "book_id": "quality_factor",
+        "title": "Quality factor (mechanical)",
+        "hypothesis": "Quality from the filings alone \u2014 ROCE, margin, leverage, cash conversion, growth consistency, accruals \u2014 top 30, monthly, with the index overlay.",
+        "kind": "benchmark",
+        "costs": true,
+        "rules": {
+          "signal": "monthly \u2014 first session on/after the month's last weekday (start date counts)",
+          "max_names": 30,
+          "weight": "overlay/30",
+          "sell_rank": 60,
+          "rebalance_band": 0.25,
+          "reentry_block_sessions": 20,
+          "overlay": "target exposure 1.0 above / 0.5 below the equal-weight large-cap proxy's 200-day SMA (state confirmed over 5 consecutive sessions), applied to the whole book: every target weight is exposure/N and holdings are rebalanced toward it on the session the state flips (band +/-25%); between signal dates the book holds except on a flip, when survivors are rebalanced (no entries or exits)",
+          "anti_chase": false,
+          "rank": "composite z-score of the quality metrics (see docs/books.md), descending",
+          "exit": "rank > 60"
+        }
+      },
+      {
+        "book_id": "multifactor",
+        "title": "Multifactor (quality + momentum + low vol + value)",
+        "hypothesis": "Equal-weighted z-score composite of quality, 12-1 momentum, low 60-day volatility and earnings yield \u2014 top 30, monthly, with the index overlay.",
+        "kind": "benchmark",
+        "costs": true,
+        "rules": {
+          "signal": "monthly \u2014 first session on/after the month's last weekday (start date counts)",
+          "max_names": 30,
+          "weight": "overlay/30",
+          "sell_rank": 60,
+          "rebalance_band": 0.25,
+          "reentry_block_sessions": 20,
+          "overlay": "target exposure 1.0 above / 0.5 below the equal-weight large-cap proxy's 200-day SMA (state confirmed over 5 consecutive sessions), applied to the whole book: every target weight is exposure/N and holdings are rebalanced toward it on the session the state flips (band +/-25%); between signal dates the book holds except on a flip, when survivors are rebalanced (no entries or exits)",
+          "anti_chase": false,
+          "rank": "mean z of quality composite, 12-1 momentum, -60d volatility, earnings yield (value optional), descending",
+          "exit": "rank > 60"
+        }
+      },
+      {
+        "book_id": "book3_v1",
+        "title": "Fundamental grades \u2192 rules, old filter (a)",
+        "hypothesis": "The pre-c1 Book 3 \u2014 moderate growers and the conviction leg, no acceleration leg \u2014 run live beside Book 3 to settle c1 vs (a) out of sample (the first 98-session replay had (a) ahead).",
+        "kind": "benchmark",
+        "costs": true,
+        "rules": {
+          "max_names": 30,
+          "weight": "overlay/30 (target; see overlay)",
+          "eligible": "growth in {strong, moderate}, risk != high, data_quality != poor, conviction >= 0.5 (fundamental_filter_v1, the original rule (a))",
+          "rank": "growth grade (strong first), then conviction, then symbol",
+          "entry": "next open; skipped when up > 5% over 5 sessions (no results-timing leg); slots freed by sells are refilled the same session",
+          "hold": "re-judged every session on the latest view (refreshed on each results filing); topped up toward target when below 75% of target and cash allows (anti-chase applies; entries are funded first); re-qualification review every 120 sessions since entry (then since the last review): must still pass growth in {strong, moderate}, risk != high, conviction >= 0.5 (rule (a) without the data-quality leg), else sold \u2014 a name failing the gate but not deteriorated is sold only at this review, never earlier",
+          "exit": "growth -> weak, risk -> high, sentiment bearish with conviction >= 0.5, or the 120-session review failing (rule (a) no longer met); between reviews never for decelerating, never for timing, never on missing data",
+          "overlay": "target exposure 1.0 above / 0.5 below the equal-weight large-cap proxy's 200-day SMA (state confirmed over 5 consecutive sessions), applied to the whole book: every target weight is exposure/N and holdings are rebalanced toward it on the session the state flips (band +/-25%); this book trims on the flip down and tops up any session",
+          "rebalance_band": 0.25,
+          "review_sessions": 120,
+          "reentry_block_sessions": 20,
+          "min_sessions_after_results": 0,
+          "review_gate": "growth in {strong, moderate}, risk != high, conviction >= 0.5"
+        }
+      },
+      {
+        "book_id": "b6_neutral",
+        "title": "Book 6 bottom-up, neutral tilts (no model)",
+        "hypothesis": "Book 6's construction with every sector tilt at 1.0, run live beside Book 6: the line the model tilt must beat by more than the random band (the bounds study of 26 Oct 2026 found no pack field beat it; the TWR line cannot judge the tilt, Book 6 \u2212 b6_neutral and the sector-call scorecard can).",
+        "kind": "benchmark",
+        "costs": true,
+        "rules": {
+          "signal": "monthly signal date recorded (rebalance cadence); NO sector_strategist call",
+          "tilt_cadence": "monthly",
+          "tilt": "1.0 for every sector, always (neutral = equal share over the sectors with eligible names or a holding)",
+          "model_env": "none (zero-LLM)",
+          "eligible": "the shared fundamental filter: growth == strong, risk != high, data_quality != poor, revenue growth not decelerating (newest results period's YoY revenue growth >= the preceding period's, from the filing extracts; a missing number passes); ranked by revenue acceleration (highest first), then revenue growth, then symbol",
+          "slots": "30 slots apportioned over the active sectors by largest remainder on w_s x 30 (sum = 30 exactly), with hysteresis: a sector's count changes only when its exact share moves > 0.5 slot from its current allocation; weight w_s / k_s each, capped at 2/30",
+          "overlay": "target exposure 1.0 above / 0.5 below the equal-weight large-cap proxy's 200-day SMA (state confirmed over 5 consecutive sessions), applied to the whole book: every target weight is exposure/N and holdings are rebalanced toward it on the session the state flips (band +/-25%); rebalanced on the monthly signal date and on the flip",
+          "entry": "next open, once the newest results filing is >= 5 sessions old; skipped when up > 5% over 5 sessions or exited in the last 20 sessions",
+          "exit": "fundamental deterioration (growth -> weak / risk -> high), or a tilt cut dropping k_s below the names held (lowest-ranked sold first); never on missing data, decelerating growth or timing",
+          "min_sessions_after_results": 5,
+          "rebalance": "signal dates and the session the overlay flips; survivors outside +/-25% of target",
+          "attribution": "monthly Brinson vs the equal-weight universe (leaderboard key b6_neutral_attribution); no sector calls, so no scorecard",
+          "judge": "the comparator for Book 6: Book 6 \u2212 b6_neutral is the tilt's contribution"
+        }
+      }
+    ],
+    "kill_rule": "more than 10 points behind the equal-weight null on a rolling 60-date basis, twice in a row",
+    "promote_rule": "best book at 90 dates, if ahead of both benchmarks",
+    "inputs": {
+      "as_of": "2026-10-23",
+      "overlay_reference": "ew_proxy",
+      "proxy_names": 100,
+      "fundamentals_source": "db+traces",
+      "n_fundamentals": 502,
+      "n_decisions": 500,
+      "n_bearish_flags": 14,
+      "live_book": "2026-10-26",
+      "quality_coverage": {
+        "roce_pct": 226,
+        "pat_margin_pct": 493,
+        "neg_net_debt_ebitda": 387,
+        "cash_conversion": 444,
+        "growth_consistency": 497,
+        "neg_accruals": 0,
+        "ttm_pat": 476,
+        "market_cap": 502
+      },
+      "macro_snapshot": "2026-10-23",
+      "macro_error": null,
+      "sector_flows": null
+    },
+    "book6_attribution": {
+      "brinson": {
+        "months": [],
+        "total": {
+          "allocation_pp": 0,
+          "selection_pp": 0,
+          "interaction_pp": 0,
+          "active_pp": 0,
+          "n_months": 0
+        },
+        "method": "Brinson-Fachler vs the equal-weight universe, start-of-month holdings held through the month; Cash is a sector with zero return and zero benchmark weight"
+      },
+      "sector_calls": {
+        "n_calls": 6,
+        "n_overweight": 2,
+        "n_underweight": 4,
+        "horizons": {
+          "1w": {
+            "sessions": 5,
+            "n": 0,
+            "hit_rate": null,
+            "mean_pp": null,
+            "overweight": {
+              "n": 0,
+              "hit_rate": null,
+              "mean_pp": null
+            },
+            "underweight": {
+              "n": 0,
+              "hit_rate": null,
+              "mean_pp": null
+            },
+            "by_sector": {}
+          },
+          "1m": {
+            "sessions": 21,
+            "n": 0,
+            "hit_rate": null,
+            "mean_pp": null,
+            "overweight": {
+              "n": 0,
+              "hit_rate": null,
+              "mean_pp": null
+            },
+            "underweight": {
+              "n": 0,
+              "hit_rate": null,
+              "mean_pp": null
+            },
+            "by_sector": {}
+          },
+          "1q": {
+            "sessions": 63,
+            "n": 0,
+            "hit_rate": null,
+            "mean_pp": null,
+            "overweight": {
+              "n": 0,
+              "hit_rate": null,
+              "mean_pp": null
+            },
+            "underweight": {
+              "n": 0,
+              "hit_rate": null,
+              "mean_pp": null
+            },
+            "by_sector": {}
+          }
+        }
+      },
+      "judging_horizon": "1m",
+      "n_signals": 1,
+      "n_model_signals": 1,
+      "tilt_cadence": "monthly",
+      "tilt_period": "2026-10",
+      "n_tilt_weeks": 1,
+      "n_model_weeks": 1,
+      "current_tilts": {
+        "Auto": 1.0417,
+        "Consumer Discr.": 1.0417,
+        "Energy": 1.0,
+        "FMCG": 0.9583,
+        "Financials": 1.0,
+        "Healthcare": 1.1667,
+        "IT": 1.125,
+        "Industrials": 0.9167,
+        "Materials": 0.875,
+        "Real Estate": 0.8333,
+        "Telecom": 1.0,
+        "Utilities": 0.7917
+      },
+      "tilt_week": "2026-10",
+      "since_start_twr_pp": null,
+      "last_60_dates_twr_pp": null,
+      "vs_neutral": null
+    }
+  }
 }
