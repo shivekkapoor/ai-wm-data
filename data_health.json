@@ -1,6 +1,6 @@
 {
  "as_of": "2026-10-29",
- "generated_at": "2026-10-29T09:33:06Z",
+ "generated_at": "2026-10-29T12:32:22Z",
  "overall": "RED",
  "alerts": [
   "Engine output: 199 decisions on 2026-10-29",
@@ -84,7 +84,7 @@
      "label": "filings read",
      "value": "79% current",
      "status": "YELLOW",
-     "detail": "expected Q1 FY27: 393 current, 76 behind, 0 with an unread filing (0 PDFs)",
+     "detail": "expected Q1 FY27: 393 current, 75 behind, 0 with an unread filing (0 PDFs)",
      "dimension": "fresh"
     },
     {
@@ -96,9 +96,9 @@
     },
     {
      "label": "repair loop",
-     "value": "+3 names since the last run",
+     "value": "+2 names since the last run",
      "status": "GREEN",
-     "detail": "76 still to repair; ~26 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
+     "detail": "75 still to repair; ~38 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
      "dimension": "used"
     },
     {
@@ -140,7 +140,7 @@
      "label": "latest period",
      "value": "FY26 on 453 rows",
      "status": "GREEN",
-     "detail": "FY26:453; FY25:24; Q1 FY27:12; H1 FY27:3",
+     "detail": "FY26:453; FY25:24; Q1 FY27:12; H1 FY27:4",
      "dimension": "fresh"
     },
     {
@@ -225,25 +225,25 @@
   {
    "pillar": "Sentiment / news",
    "status": "YELLOW",
-   "headline": "newest headline 2026-10-26; 100% typed",
+   "headline": "newest headline 2026-10-29; 100% typed",
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-10-26 (3d)",
-     "status": "YELLOW",
+     "value": "2026-10-29 (0d)",
+     "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "263",
+     "value": "278",
      "status": "YELLOW",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "2004/2006 (100%)",
+     "value": "2234/2234 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
