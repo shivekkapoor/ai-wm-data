@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T23:16:25.235175+05:30",
+  "generated_at": "2026-10-29T23:17:47.257953+05:30",
   "portfolio": {
     "cash_inr": 100158.58,
     "invested_inr": 835346.94,
@@ -112765,7 +112765,7 @@
         "nav_inr": 1000751.53,
         "cash_pct": 96.6,
         "n_positions": 3,
-        "n_pending": 2,
+        "n_pending": 1,
         "twr_pct": 0.08,
         "max_dd_pct": 0.0,
         "turnover_pct": 3.3,
@@ -113529,13 +113529,13 @@
       "fundamentals_source": "db+traces",
       "n_fundamentals": 502,
       "n_decisions": 500,
-      "n_bearish_flags": 14,
+      "n_bearish_flags": 21,
       "live_book": "2026-10-29",
       "quality_coverage": {
-        "roce_pct": 231,
+        "roce_pct": 233,
         "pat_margin_pct": 493,
-        "neg_net_debt_ebitda": 391,
-        "cash_conversion": 447,
+        "neg_net_debt_ebitda": 393,
+        "cash_conversion": 448,
         "growth_consistency": 497,
         "neg_accruals": 0,
         "ttm_pat": 476,
