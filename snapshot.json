@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-10-30T05:41:26.155110+05:30",
+  "generated_at": "2026-10-30T13:00:58.285879+05:30",
   "portfolio": {
     "cash_inr": 100158.58,
     "invested_inr": 835346.94,
-    "current_holdings_value": 826419.45,
-    "total_value_inr": 926578.03,
+    "current_holdings_value": 836702.73,
+    "total_value_inr": 936861.31,
     "initial_capital": 1000000.0,
     "total_deposited_inr": 1000000.0,
     "deposits": [
@@ -17,12 +17,12 @@
         "amount": 500000
       }
     ],
-    "total_pnl_inr": -73421.97,
-    "total_pnl_pct": -7.46,
+    "total_pnl_inr": -63138.69,
+    "total_pnl_pct": -6.43,
     "inception_date": "2026-06-04",
-    "day_change_pct": 3.6,
-    "twr_pct": -7.46,
-    "money_weighted_pct": -7.34,
+    "day_change_pct": 4.75,
+    "twr_pct": -6.43,
+    "money_weighted_pct": -6.31,
     "return_method": "time_weighted",
     "twr_pct_v2": -9.23,
     "nav_history_v2": [
@@ -443,7 +443,7 @@
       "available": false,
       "twr_pct_v2": -9.23
     },
-    "cash_pct": 10.8,
+    "cash_pct": 10.7,
     "last_run_date": "2026-10-29",
     "holdings": [
       {
@@ -452,10 +452,10 @@
         "sector": "Healthcare",
         "qty": 16,
         "avg_cost": 2859.09,
-        "ltp": 3049.0,
-        "value_inr": 48784.0,
-        "pnl_inr": 3038.6,
-        "pnl_pct": 6.64,
+        "ltp": 3083.6,
+        "value_inr": 49337.6,
+        "pnl_inr": 3592.2,
+        "pnl_pct": 7.85,
         "buy_date": "2026-10-29"
       },
       {
@@ -464,10 +464,10 @@
         "sector": "Healthcare",
         "qty": 13,
         "avg_cost": 3096.25,
-        "ltp": 3459.8,
-        "value_inr": 44977.4,
-        "pnl_inr": 4726.18,
-        "pnl_pct": 11.74,
+        "ltp": 3533.4,
+        "value_inr": 45934.2,
+        "pnl_inr": 5682.98,
+        "pnl_pct": 14.12,
         "buy_date": "2026-10-29"
       },
       {
@@ -476,10 +476,10 @@
         "sector": "Healthcare",
         "qty": 27,
         "avg_cost": 1659.44,
-        "ltp": 1644.8,
-        "value_inr": 44409.6,
-        "pnl_inr": -395.23,
-        "pnl_pct": -0.88,
+        "ltp": 1680.5,
+        "value_inr": 45373.5,
+        "pnl_inr": 568.67,
+        "pnl_pct": 1.27,
         "buy_date": "2026-10-29"
       },
       {
@@ -488,22 +488,10 @@
         "sector": "IT",
         "qty": 18,
         "avg_cost": 2193.73,
-        "ltp": 2460.0,
-        "value_inr": 44280.0,
-        "pnl_inr": 4792.88,
-        "pnl_pct": 12.14,
-        "buy_date": "2026-10-29"
-      },
-      {
-        "symbol": "CUB",
-        "name": "City Union Bank",
-        "sector": "Financials",
-        "qty": 202,
-        "avg_cost": 229.53,
-        "ltp": 215.0,
-        "value_inr": 43430.0,
-        "pnl_inr": -2934.82,
-        "pnl_pct": -6.33,
+        "ltp": 2516.8,
+        "value_inr": 45302.4,
+        "pnl_inr": 5815.28,
+        "pnl_pct": 14.73,
         "buy_date": "2026-10-29"
       },
       {
@@ -512,10 +500,22 @@
         "sector": "Healthcare",
         "qty": 36,
         "avg_cost": 1069.51,
-        "ltp": 1175.5,
-        "value_inr": 42318.0,
-        "pnl_inr": 3815.64,
-        "pnl_pct": 9.91,
+        "ltp": 1240.8,
+        "value_inr": 44668.8,
+        "pnl_inr": 6166.44,
+        "pnl_pct": 16.02,
+        "buy_date": "2026-10-29"
+      },
+      {
+        "symbol": "CUB",
+        "name": "City Union Bank",
+        "sector": "Financials",
+        "qty": 202,
+        "avg_cost": 229.53,
+        "ltp": 217.55,
+        "value_inr": 43945.1,
+        "pnl_inr": -2419.72,
+        "pnl_pct": -5.22,
         "buy_date": "2026-10-29"
       },
       {
@@ -524,10 +524,10 @@
         "sector": "Financials",
         "qty": 36,
         "avg_cost": 1109.38,
-        "ltp": 1122.0,
-        "value_inr": 40392.0,
-        "pnl_inr": 454.4,
-        "pnl_pct": 1.14,
+        "ltp": 1083.7,
+        "value_inr": 39013.2,
+        "pnl_inr": -924.4,
+        "pnl_pct": -2.31,
         "buy_date": "2026-10-29"
       },
       {
@@ -536,10 +536,10 @@
         "sector": "Utilities",
         "qty": 92,
         "avg_cost": 417.27,
-        "ltp": 411.15,
-        "value_inr": 37825.8,
-        "pnl_inr": -563.28,
-        "pnl_pct": -1.47,
+        "ltp": 406.0,
+        "value_inr": 37352.0,
+        "pnl_inr": -1037.08,
+        "pnl_pct": -2.7,
         "buy_date": "2026-10-29"
       },
       {
@@ -548,10 +548,10 @@
         "sector": "Industrials",
         "qty": 7,
         "avg_cost": 4930.75,
-        "ltp": 4850.0,
-        "value_inr": 33950.0,
-        "pnl_inr": -565.25,
-        "pnl_pct": -1.64,
+        "ltp": 4844.7,
+        "value_inr": 33912.9,
+        "pnl_inr": -602.35,
+        "pnl_pct": -1.75,
         "buy_date": "2026-10-29"
       },
       {
@@ -560,10 +560,10 @@
         "sector": "Consumer Discr.",
         "qty": 20,
         "avg_cost": 1758.32,
-        "ltp": 1690.6,
-        "value_inr": 33812.0,
-        "pnl_inr": -1354.33,
-        "pnl_pct": -3.85,
+        "ltp": 1670.0,
+        "value_inr": 33400.0,
+        "pnl_inr": -1766.33,
+        "pnl_pct": -5.02,
         "buy_date": "2026-10-29"
       },
       {
@@ -572,10 +572,10 @@
         "sector": "Financials",
         "qty": 450,
         "avg_cost": 85.71,
-        "ltp": 73.53,
-        "value_inr": 33088.5,
-        "pnl_inr": -5482.56,
-        "pnl_pct": -14.21,
+        "ltp": 72.48,
+        "value_inr": 32616.0,
+        "pnl_inr": -5955.06,
+        "pnl_pct": -15.44,
         "buy_date": "2026-10-29"
       },
       {
@@ -584,10 +584,10 @@
         "sector": "Industrials",
         "qty": 20,
         "avg_cost": 1566.56,
-        "ltp": 1559.9,
-        "value_inr": 31198.0,
-        "pnl_inr": -133.3,
-        "pnl_pct": -0.43,
+        "ltp": 1587.0,
+        "value_inr": 31740.0,
+        "pnl_inr": 408.7,
+        "pnl_pct": 1.3,
         "buy_date": "2026-10-29"
       },
       {
@@ -596,10 +596,10 @@
         "sector": "IT",
         "qty": 15,
         "avg_cost": 1940.94,
-        "ltp": 1961.9,
-        "value_inr": 29428.5,
-        "pnl_inr": 314.42,
-        "pnl_pct": 1.08,
+        "ltp": 2041.0,
+        "value_inr": 30615.0,
+        "pnl_inr": 1500.92,
+        "pnl_pct": 5.16,
         "buy_date": "2026-10-29"
       },
       {
@@ -608,10 +608,10 @@
         "sector": "FMCG",
         "qty": 80,
         "avg_cost": 377.39,
-        "ltp": 360.0,
-        "value_inr": 28800.0,
-        "pnl_inr": -1391.09,
-        "pnl_pct": -4.61,
+        "ltp": 367.55,
+        "value_inr": 29404.0,
+        "pnl_inr": -787.09,
+        "pnl_pct": -2.61,
         "buy_date": "2026-10-29"
       },
       {
@@ -620,22 +620,10 @@
         "sector": "Financials",
         "qty": 60,
         "avg_cost": 438.22,
-        "ltp": 440.0,
-        "value_inr": 26400.0,
-        "pnl_inr": 106.86,
-        "pnl_pct": 0.41,
-        "buy_date": "2026-10-29"
-      },
-      {
-        "symbol": "CASTROLIND",
-        "name": "Castrol India",
-        "sector": "Energy",
-        "qty": 130,
-        "avg_cost": 199.09,
-        "ltp": 188.9,
-        "value_inr": 24557.0,
-        "pnl_inr": -1324.62,
-        "pnl_pct": -5.12,
+        "ltp": 461.75,
+        "value_inr": 27705.0,
+        "pnl_inr": 1411.86,
+        "pnl_pct": 5.37,
         "buy_date": "2026-10-29"
       },
       {
@@ -644,10 +632,22 @@
         "sector": "IT",
         "qty": 17,
         "avg_cost": 1382.79,
-        "ltp": 1400.5,
-        "value_inr": 23808.5,
-        "pnl_inr": 301.05,
-        "pnl_pct": 1.28,
+        "ltp": 1443.9,
+        "value_inr": 24546.3,
+        "pnl_inr": 1038.85,
+        "pnl_pct": 4.42,
+        "buy_date": "2026-10-29"
+      },
+      {
+        "symbol": "CASTROLIND",
+        "name": "Castrol India",
+        "sector": "Energy",
+        "qty": 130,
+        "avg_cost": 199.09,
+        "ltp": 188.0,
+        "value_inr": 24440.0,
+        "pnl_inr": -1441.62,
+        "pnl_pct": -5.57,
         "buy_date": "2026-10-29"
       },
       {
@@ -656,10 +656,10 @@
         "sector": "Financials",
         "qty": 100,
         "avg_cost": 234.89,
-        "ltp": 231.82,
-        "value_inr": 23182.0,
-        "pnl_inr": -306.74,
-        "pnl_pct": -1.31,
+        "ltp": 240.78,
+        "value_inr": 24078.0,
+        "pnl_inr": 589.26,
+        "pnl_pct": 2.51,
         "buy_date": "2026-10-29"
       },
       {
@@ -668,10 +668,10 @@
         "sector": "Financials",
         "qty": 60,
         "avg_cost": 340.9,
-        "ltp": 350.2,
-        "value_inr": 21012.0,
-        "pnl_inr": 557.87,
-        "pnl_pct": 2.73,
+        "ltp": 355.9,
+        "value_inr": 21354.0,
+        "pnl_inr": 899.87,
+        "pnl_pct": 4.4,
         "buy_date": "2026-10-29"
       },
       {
@@ -680,10 +680,10 @@
         "sector": "Financials",
         "qty": 24,
         "avg_cost": 830.98,
-        "ltp": 839.8,
-        "value_inr": 20155.2,
-        "pnl_inr": 211.68,
-        "pnl_pct": 1.06,
+        "ltp": 873.45,
+        "value_inr": 20962.8,
+        "pnl_inr": 1019.28,
+        "pnl_pct": 5.11,
         "buy_date": "2026-10-29"
       },
       {
@@ -692,10 +692,10 @@
         "sector": "Energy",
         "qty": 100,
         "avg_cost": 168.48,
-        "ltp": 164.78,
-        "value_inr": 16478.0,
-        "pnl_inr": -370.42,
-        "pnl_pct": -2.2,
+        "ltp": 167.81,
+        "value_inr": 16781.0,
+        "pnl_inr": -67.42,
+        "pnl_pct": -0.4,
         "buy_date": "2026-10-29"
       },
       {
@@ -704,10 +704,10 @@
         "sector": "Consumer Discr.",
         "qty": 5,
         "avg_cost": 2877.74,
-        "ltp": 2913.9,
-        "value_inr": 14569.5,
-        "pnl_inr": 180.81,
-        "pnl_pct": 1.26,
+        "ltp": 3039.1,
+        "value_inr": 15195.5,
+        "pnl_inr": 806.81,
+        "pnl_pct": 5.61,
         "buy_date": "2026-10-29"
       },
       {
@@ -716,10 +716,10 @@
         "sector": "Healthcare",
         "qty": 10,
         "avg_cost": 1386.37,
-        "ltp": 1365.6,
-        "value_inr": 13656.0,
-        "pnl_inr": -207.75,
-        "pnl_pct": -1.5,
+        "ltp": 1375.6,
+        "value_inr": 13756.0,
+        "pnl_inr": -107.75,
+        "pnl_pct": -0.78,
         "buy_date": "2026-10-29"
       },
       {
@@ -728,10 +728,10 @@
         "sector": "IT",
         "qty": 7,
         "avg_cost": 1611.04,
-        "ltp": 1776.6,
-        "value_inr": 12436.2,
-        "pnl_inr": 1158.89,
-        "pnl_pct": 10.28,
+        "ltp": 1801.4,
+        "value_inr": 12609.8,
+        "pnl_inr": 1332.5,
+        "pnl_pct": 11.82,
         "buy_date": "2026-10-29"
       },
       {
@@ -740,10 +740,10 @@
         "sector": "FMCG",
         "qty": 30,
         "avg_cost": 528.3,
-        "ltp": 404.5,
-        "value_inr": 12135.0,
-        "pnl_inr": -3713.95,
-        "pnl_pct": -23.43,
+        "ltp": 400.1,
+        "value_inr": 12003.0,
+        "pnl_inr": -3845.95,
+        "pnl_pct": -24.27,
         "buy_date": "2026-10-29"
       },
       {
@@ -752,22 +752,10 @@
         "sector": "Materials",
         "qty": 11,
         "avg_cost": 1078.72,
-        "ltp": 893.75,
-        "value_inr": 9831.25,
-        "pnl_inr": -2034.71,
-        "pnl_pct": -17.15,
-        "buy_date": "2026-10-29"
-      },
-      {
-        "symbol": "REDINGTON",
-        "name": "Redington",
-        "sector": "Industrials",
-        "qty": 26,
-        "avg_cost": 394.56,
-        "ltp": 351.4,
-        "value_inr": 9136.4,
-        "pnl_inr": -1122.18,
-        "pnl_pct": -10.94,
+        "ltp": 887.75,
+        "value_inr": 9765.25,
+        "pnl_inr": -2100.71,
+        "pnl_pct": -17.7,
         "buy_date": "2026-10-29"
       },
       {
@@ -776,10 +764,22 @@
         "sector": "Energy",
         "qty": 20,
         "avg_cost": 479.48,
-        "ltp": 447.5,
-        "value_inr": 8950.0,
-        "pnl_inr": -639.58,
-        "pnl_pct": -6.67,
+        "ltp": 449.6,
+        "value_inr": 8992.0,
+        "pnl_inr": -597.58,
+        "pnl_pct": -6.23,
+        "buy_date": "2026-10-29"
+      },
+      {
+        "symbol": "REDINGTON",
+        "name": "Redington",
+        "sector": "Industrials",
+        "qty": 26,
+        "avg_cost": 394.56,
+        "ltp": 334.15,
+        "value_inr": 8687.9,
+        "pnl_inr": -1570.68,
+        "pnl_pct": -15.31,
         "buy_date": "2026-10-29"
       },
       {
@@ -788,10 +788,10 @@
         "sector": "Financials",
         "qty": 17,
         "avg_cost": 516.82,
-        "ltp": 430.5,
-        "value_inr": 7318.5,
-        "pnl_inr": -1467.4,
-        "pnl_pct": -16.7,
+        "ltp": 428.4,
+        "value_inr": 7282.8,
+        "pnl_inr": -1503.1,
+        "pnl_pct": -17.11,
         "buy_date": "2026-10-29"
       },
       {
@@ -800,10 +800,10 @@
         "sector": "Industrials",
         "qty": 7,
         "avg_cost": 1233.23,
-        "ltp": 1022.8,
-        "value_inr": 7159.6,
-        "pnl_inr": -1473.02,
-        "pnl_pct": -17.06,
+        "ltp": 1005.3,
+        "value_inr": 7037.1,
+        "pnl_inr": -1595.52,
+        "pnl_pct": -18.48,
         "buy_date": "2026-10-29"
       },
       {
@@ -812,10 +812,10 @@
         "sector": "Auto",
         "qty": 37,
         "avg_cost": 143.64,
-        "ltp": 160.33,
-        "value_inr": 5932.21,
-        "pnl_inr": 617.61,
-        "pnl_pct": 11.62,
+        "ltp": 157.59,
+        "value_inr": 5830.83,
+        "pnl_inr": 516.23,
+        "pnl_pct": 9.71,
         "buy_date": "2026-10-29"
       },
       {
@@ -824,10 +824,10 @@
         "sector": "Industrials",
         "qty": 11,
         "avg_cost": 636.79,
-        "ltp": 513.7,
-        "value_inr": 5650.7,
-        "pnl_inr": -1354.0,
-        "pnl_pct": -19.33,
+        "ltp": 510.05,
+        "value_inr": 5610.55,
+        "pnl_inr": -1394.15,
+        "pnl_pct": -19.9,
         "buy_date": "2026-10-29"
       },
       {
@@ -836,10 +836,10 @@
         "sector": "Industrials",
         "qty": 4,
         "avg_cost": 1421.7,
-        "ltp": 1324.7,
-        "value_inr": 5298.8,
-        "pnl_inr": -388.01,
-        "pnl_pct": -6.82,
+        "ltp": 1320.2,
+        "value_inr": 5280.8,
+        "pnl_inr": -406.01,
+        "pnl_pct": -7.14,
         "buy_date": "2026-10-29"
       },
       {
@@ -848,10 +848,10 @@
         "sector": "Materials",
         "qty": 1,
         "avg_cost": 6812.52,
-        "ltp": 5225.5,
-        "value_inr": 5225.5,
-        "pnl_inr": -1587.02,
-        "pnl_pct": -23.3,
+        "ltp": 5029.5,
+        "value_inr": 5029.5,
+        "pnl_inr": -1783.02,
+        "pnl_pct": -26.17,
         "buy_date": "2026-10-29"
       },
       {
@@ -860,10 +860,10 @@
         "sector": "Financials",
         "qty": 39,
         "avg_cost": 116.83,
-        "ltp": 120.31,
-        "value_inr": 4692.09,
-        "pnl_inr": 135.54,
-        "pnl_pct": 2.97,
+        "ltp": 123.84,
+        "value_inr": 4829.76,
+        "pnl_inr": 273.21,
+        "pnl_pct": 6.0,
         "buy_date": "2026-10-29"
       },
       {
@@ -872,10 +872,10 @@
         "sector": "Healthcare",
         "qty": 1,
         "avg_cost": 4393.7,
-        "ltp": 4557.0,
-        "value_inr": 4557.0,
-        "pnl_inr": 163.3,
-        "pnl_pct": 3.72,
+        "ltp": 4644.6,
+        "value_inr": 4644.6,
+        "pnl_inr": 250.9,
+        "pnl_pct": 5.71,
         "buy_date": "2026-10-29"
       },
       {
@@ -884,10 +884,10 @@
         "sector": "Consumer Discr.",
         "qty": 1,
         "avg_cost": 4580.64,
-        "ltp": 4337.9,
-        "value_inr": 4337.9,
-        "pnl_inr": -242.74,
-        "pnl_pct": -5.3,
+        "ltp": 4462.0,
+        "value_inr": 4462.0,
+        "pnl_inr": -118.64,
+        "pnl_pct": -2.59,
         "buy_date": "2026-10-29"
       },
       {
@@ -896,10 +896,10 @@
         "sector": "FMCG",
         "qty": 8,
         "avg_cost": 441.17,
-        "ltp": 385.8,
-        "value_inr": 3086.4,
-        "pnl_inr": -442.95,
-        "pnl_pct": -12.55,
+        "ltp": 380.25,
+        "value_inr": 3042.0,
+        "pnl_inr": -487.35,
+        "pnl_pct": -13.81,
         "buy_date": "2026-10-29"
       },
       {
@@ -908,10 +908,10 @@
         "sector": "Financials",
         "qty": 2,
         "avg_cost": 84.08,
-        "ltp": 79.95,
-        "value_inr": 159.9,
-        "pnl_inr": -8.27,
-        "pnl_pct": -4.92,
+        "ltp": 80.77,
+        "value_inr": 161.54,
+        "pnl_inr": -6.63,
+        "pnl_pct": -3.94,
         "buy_date": "2026-10-29"
       }
     ],
@@ -58777,11 +58777,11 @@
         "stop_loss": null
       },
       "fundamental": {
-        "thesis": "Apar Industries is India's largest conductor manufacturer with leading positions in cables, transformer oils, and specialty lubricants, well-placed to benefit from the government's \u20b99 lakh cr T&D investment cycle \u2014 yet PDF-confirmed multi-quarter data reveal a deteriorating quality-of-growth story: PAT margin compressed 90 bps from 5.2% (Q1FY26) to 4.3% (FY26 full year) even as revenue growth decelerated from +27.3% to +23.3% over the same window, and the order-book-to-revenue ratio has collapsed from 0.7\u00d7 to 0.335\u00d7, signalling sharply reduced forward revenue visibility for an order-book-driven industrial. Using EV/EBITDA as the primary yardstick for this capital-intensive business (per the Sector Card), the stock trades at 32\u00d7 EV/EBITDA and 59\u00d7 trailing P/E \u2014 P68 and P77 percentile vs broad peers, commanding +38% and +68% premiums to median respectively, with the price already ~13% above the sell-side mean target of \u20b915,398 at 90% of its 52-week range \u2014 unambiguously expensive for a business with compressing margins and thinning order cover. The primary risk is the compounding of extreme balance-sheet leverage (D/E 17.72) with declining order-book cover and margin erosion: a capex-cycle pause, cost spike from rising crude, or any refinancing stress in a RISK_OFF environment could trigger the 30\u201350% de-rating that historically characterises over-valued industrial cycle names.",
+        "thesis": "Apar Industries is a leading Indian maker of power conductors, transformer and specialty oils, and cables, and it benefits directly from the power-transmission capex cycle; its conductor order book reached a record \u20b912,025 cr (+67.2% YoY), and Q2 new orders rose 123% to \u20b94,775 cr. Q2 FY27 revenue grew 21.3% YoY to \u20b96,931 cr, and H1 revenue grew 25.0% to \u20b913,522 cr, in line with the steady +22-25% run-rate of the last four periods; H1 PAT jumped 77.7% to \u20b9915 cr as PAT margin widened from 4.8% to 6.8% and EBITDA margin from 9.2% to 11.8%. The growth is coming from price and mix rather than volume: conductor volumes fell 8.0% and oil volumes fell 16.9% in H1, and earnings did not convert to cash, with H1 operating cash flow at -\u20b9863 cr (-0.94x PAT) after roughly \u20b9900 cr of inventory and \u20b9450 cr of receivables build, partly funded by a \u20b92,500 cr QIP. On valuation (EV/EBITDA as the primary yardstick for this capital-intensive name, cross-checked against P/E), it trades at 32.2x EV/EBITDA, 59.2x trailing P/E (above the 28-45x Industrials range) and 12.9x P/B, at P77-P90 versus the market, near 90% of its 52-week range, and about 3% above the mean sell-side target, so I grade it expensive despite strong delivery; the yfinance dividend yield (34%) and debt/equity (17.72) figures look like unit errors and are ignored. The biggest risk is a de-rating if margins built on high metal and base-oil prices normalise while volumes keep shrinking and US exports keep falling (-29.7% in Q2), which would expose the weak cash conversion at a premium multiple in a risk-off market.",
         "valuation_grade": "expensive",
-        "growth_grade": "moderate",
+        "growth_grade": "strong",
         "risk_grade": "high",
-        "conviction": 0.62,
+        "conviction": 0.55,
         "from_cache": true
       },
       "peer_valuation": {
@@ -72485,11 +72485,11 @@
         "stop_loss": null
       },
       "fundamental": {
-        "thesis": "CAMS is India's largest registrar and transfer agent for mutual funds (~70% market share), a capital-light quasi-monopoly whose revenue is directly proportional to equity AUM and transaction volumes \u2014 it earns a toll on India's mutual-fund ecosystem. Q1FY27 showed a clear re-acceleration after a soft FY26 mid-stretch: revenue grew +11.5% YoY to \u20b9395 cr and PAT grew +17.4% YoY to \u20b9128 cr, reversing the Q2FY26 PAT contraction of -6.1%; PAT margin expanded to a fresh high of 32.4% from a 29.6% trough, while EBITDA margin also nudged up \u2014 the multi-quarter direction is now firmly improving even if growth remains below FY25's stellar +25% revenue and +33% PAT pace. Valuation yardstick used: EV/EBITDA and forward P/E for this capital-light services model (P/B is inflated by high ROE and not the right lens); trailing P/E of 43.6\u00d7 sits above the broad-market median of 35.2\u00d7 (P64 rank), EV/EBITDA of 27.6\u00d7 is a modest 18% premium to the 23.3\u00d7 median (P60 rank), and forward P/E of 32.2\u00d7 \u2014 a meaningful 26% discount to trailing \u2014 reflects priced-in earnings growth from a high-ROE (38.7%) platform; grade: fair, near a 52-week high (84% of range) which limits near-term entry margin of safety. The biggest near-term risk is the RISK_OFF macro regime: AUM growth has already decelerated from 24% (FY25) to 16% (Q2FY26), FII net outflows of -\u20b944,013 cr over 30 days threaten equity AUM, and a sustained market correction would compress CAMS fee revenue with no offsetting diversification \u2014 the D/E of 4.86 (likely Ind AS 116 lease liabilities, but worth monitoring) adds a secondary watch item.",
+        "thesis": "CAMS is India's largest mutual-fund registrar and transfer agent (RTA), an asset-light, fee-based capital-markets infrastructure business whose revenue tracks industry mutual-fund AUM and transaction volumes. Derived Q2 FY27 revenue was about \u20b9415 cr (+10% YoY vs \u20b9377 cr) and PAT about \u20b9130 cr (+13% YoY; the company's press release states +14.4% consolidated). Revenue growth has accelerated from +3.2% in Q2 FY26 to the +10-11% range over the last two quarters, though it eased slightly from Q1's +11.5%, and PAT margin has expanded from 29.6% to about 31%, backed by a 48% H1 EBITDA margin and 0.98x cash conversion. On an AUM-linked earnings yardstick rather than lender P/B, trailing P/E of 43.6x and forward P/E of 32.2x (EV/EBITDA 27.6x, P64 vs the broad market) look fair for a 39%-ROE, net-cash franchise, but the stock sits at 84% of its 52-week range and consensus EPS estimates have been trimmed about 1% over 30 days, so near-term upside looks limited. The main risk is that revenue is pure equity-market beta: in a risk-off tape with heavy FII selling, falling equity AUM or slowing SIP flows would compress fees, and the latest available AUM-growth KPI already slowed from 22% to 16%.",
         "valuation_grade": "fair",
         "growth_grade": "moderate",
         "risk_grade": "medium",
-        "conviction": 0.52,
+        "conviction": 0.55,
         "from_cache": true
       },
       "peer_valuation": {
@@ -76993,11 +76993,11 @@
         "stop_loss": null
       },
       "fundamental": {
-        "thesis": "Jyoti CNC Automation is a mid-cap precision CNC machine-tool manufacturer serving aerospace, defence, and industrial markets domestically and via European (Huron Graffenstaden SAS, France) and newly-minted Chinese (Huron Shanghai) subsidiaries. Q1FY27 revenue grew a healthy +24% YoY to \u20b9508 cr, but PAT fell -20% YoY to \u20b957 cr as finance costs doubled to \u20b924 cr and the French subsidiary reported a \u20b930 cr loss, continuing a clear multi-quarter margin deterioration: EBITDA margin has contracted from 29.4% (Q1FY26) to 22.2% (Q1FY27) and PAT margin from 17.4% to 11.2% over the same window. At trailing P/E of 47.4\u00d7 (above the 28\u201345\u00d7 Industrials sector upper bound) and EV/EBITDA of 31.6\u00d7 \u2014 with FCF deeply negative (\u20b9-269 cr in FY26) and cash conversion near zero (CFO/PAT 0.16\u00d7) \u2014 the stock screens expensive for a business whose earnings are currently shrinking in absolute terms despite top-line growth. The biggest near-term risk is the active French judicial investigation against Huron Graffenstaden SAS for alleged dual-use technology export violations, which has triggered \u20ac3.02 mn fund seizures, property seizures, management restrictions, and export-license controls \u2014 a contingent liability and operational disruption that cannot yet be quantified from disclosed filings.",
-        "valuation_grade": "expensive",
+        "thesis": "Jyoti CNC Automation is a mid-cap Indian maker of CNC machine tools and metal-cutting systems, and it also owns the French machine-tool maker Huron Graffenstaden. In Q1FY27 revenue grew +24.0% YoY to \u20b9508 cr, speeding up from +13.3% in Q1FY26 and +17.9% in Q2FY26. Profit moved the other way: PAT fell -20.0% YoY to \u20b957 cr, and PAT margin dropped from 17.4% to 11.2% over the window while EBITDA margin fell from 29.4% to 22.2%. The drivers were finance costs doubling to \u20b924 cr and a \u20b930 cr loss at Huron Graffenstaden. Earnings are also not turning into cash: FY26 free cash flow was -\u20b9269 cr and cash from operations covered only 0.16x of PAT. On valuation I used EV/EBITDA as the main yardstick, since this is a capital-intensive order-execution business. At 31.6x EV/EBITDA, 35.7% above the broad-market median of 23.3x (P67), and with trailing P/E of 47.4x just above the 28\u201345x Industrials band, the stock grades fair, leaning expensive. Forward P/E of 28.3x builds in an earnings recovery that the falling margins do not yet support. No order-book or order-inflow data was provided, so revenue visibility, the key sector metric, cannot be checked. Q2FY27 results on 3 Nov 2026 are the near-term test of whether margins stabilise.",
+        "valuation_grade": "fair",
         "growth_grade": "moderate",
         "risk_grade": "high",
-        "conviction": 0.5,
+        "conviction": 0.45,
         "from_cache": true
       },
       "earnings_surprise": {
@@ -104105,11 +104105,11 @@
         "stop_loss": null
       },
       "fundamental": {
-        "thesis": "Abbott India is India's leading domestic-formulations pharma company (Abbott Laboratories subsidiary), concentrated in chronic therapies \u2014 metabolics, CNS, women's health, GI \u2014 with strong brand equity and no US generic/tariff exposure, making it the sector card's 'safe template.' FY26 annual revenue grew +8.1% YoY to \u20b96,929 cr with PAT rising +9.7% to \u20b91,552 cr at a 22.4% PAT margin, which is positive but below the 10\u201312% chronic-led growth norm for India branded-formulations; Q1FY27 results were filed on 2026-08-12 but not yet extracted into the trend table, so quarterly trajectory \u2014 acceleration or deceleration \u2014 cannot be confirmed from official numbers. Trailing P/E of 35.78\u00d7 sits at the lower end of the pharma 28\u201340\u00d7 benchmark range (grading FAIR; yardstick: P/E for branded-formulations rather than EV/EBITDA), and forward P/E at 28.77\u00d7 implies expected earnings growth \u2014 a positive signal \u2014 though the stock is at only 8.4% of its 52-week \u20b925,150\u2013\u20b937,000 range, a ~28% drawdown from peak that could be value or falling knife until the selloff driver is understood. A Company Secretary resignation filed September 2026 introduces governance uncertainty, and the D/E of 3.6 is abnormally high for traditionally debt-free Abbott India \u2014 likely Ind AS 116 lease distortion but unverified \u2014 warranting caution before committing capital.",
+        "thesis": "Abbott India is the listed Indian arm of a global healthcare group and sells mainly branded medicines in India, the sector card's 'safe template' with no direct exposure to the US tariff on patented drugs. The only official figures available are full-year FY26: revenue \u20b96,929 cr (+8.1% YoY) and PAT \u20b91,552 cr (+9.7% YoY), giving a healthy 22.4% PAT margin, but cash conversion was only 0.85x CFO/PAT. Q1FY27 has not been extracted from filings, and the yfinance quarterly rows (about \u20b9930 cr per quarter) do not reconcile with the annual total, so quarterly direction cannot be verified and I have ignored those rows. On trailing P/E, the right yardstick for an India branded-formulations company, the stock trades at 35.8x. That sits inside the 28\u201340x pharma range, so valuation is fair, with forward P/E of 28.8x implying expected earnings growth and the price near its 52-week low (8.4% of range) offering a better entry point. The ratio feed looks unreliable (a 201% dividend yield and D/E of 3.6 are implausible for this cash-rich company), and the key near-term risk is the Q2FY27 result on 5 Nov, which could confirm or break the steady high-single-digit growth story.",
         "valuation_grade": "fair",
         "growth_grade": "moderate",
         "risk_grade": "medium",
-        "conviction": 0.42,
+        "conviction": 0.4,
         "from_cache": true
       },
       "earnings_surprise": {
@@ -104461,11 +104461,11 @@
         "stop_loss": null
       },
       "fundamental": {
-        "thesis": "Granules India is a vertically integrated pharmaceutical manufacturer (API \u2192 finished dosages \u2192 CDMO) with significant US generics exposure, now consolidating international acquisitions (Senn Chemicals AG, Granules Pharmaceuticals GmbH/Canada) to build a peptide-CDMO segment. Q1FY27 revenue grew +21.5% YoY and PAT surged +59.8% YoY, capping a sustained recovery arc \u2014 PAT margins have expanded five consecutive periods from a 9.3% trough in Q1FY26 to 12.2% in Q1FY27, and EBITDA margins have similarly drifted up to 23.2%, all consistent with management's 22\u201323% EBITDA guidance and complex-generics mix-shift thesis; revenue growth has re-accelerated from near-zero (FY25: -0.6%) to a steady ~20%+ run-rate over the past three reported periods. Trailing P/E of 33.43\u00d7 sits inside the pharma sector benchmark of 28\u201340\u00d7 at the peer median (P47 rank) and forward P/E of 22.64\u00d7 confirms earnings growth is expected, while EV/EBITDA of 18.03\u00d7 is actually at a 23% discount to the broad peer median (P35) \u2014 grading as fair; however, the stock at 97.3% of its 52-week range is priced for continued execution with limited cushion for negative surprises. The single greatest fundamental risk is the outstanding USFDA warning letter at the Gagillapur facility (manufacturing voluntarily paused since September 2024, remediation still ongoing with external consultants) which blocks 9 pending US product launches and would materially impair the US generics growth narrative if clearance is delayed beyond FY27.",
+        "thesis": "Granules India is a mid-cap generics maker selling paracetamol/metformin-type APIs, intermediates and finished doses, mainly to the US. It is building complex-generics and peptide CDMO lines, the latter helped by the Senn Chemicals acquisition. In Q1FY27 revenue grew +21.5% YoY, the fourth straight quarter near or above +20% after a flat FY25 (+2.5% in Q1FY26, then +34.2%, +22.0% and +19.7% for FY26), and PAT margin widened steadily from 9.3% to 12.2% with EBITDA margin at 23.2%. The +59.8% PAT jump is flattered by a weak Q1FY26 base that carried a \u20b9159 cr settlement charge, and absolute rupee figures are unreliable because the trend table, yfinance and P/S-implied revenue disagree on units, so only growth rates and margins are relied on here. On valuation, trailing P/E of 33.4x sits inside the 28\u201340x pharma band and near the broad-market median (P47), while EV/EBITDA of 18.0x is a 23% discount to the market median and forward P/E of 22.6x implies further earnings growth, so the grade is fair. The stock sits at 97% of its 52-week range, consensus upside is only about 7%, and 30-day EPS revisions have edged down (-1.8%). The biggest risk is the unresolved USFDA warning letter at Gagillapur, which is holding back 9 US launches, alongside Q2 results due 2 Nov 2026, pending warrant dilution and elevated post-acquisition finance costs.",
         "valuation_grade": "fair",
         "growth_grade": "strong",
         "risk_grade": "high",
-        "conviction": 0.55,
+        "conviction": 0.45,
         "from_cache": true
       },
       "earnings_surprise": {
@@ -104937,11 +104937,11 @@
         "stop_loss": null
       },
       "fundamental": {
-        "thesis": "Rainbow Children's Medicare is India's leading listed specialty pediatric and women's health hospital chain (~14 hospitals, majority in South India / Hyderabad), with a strong brand in high-acuity neonatal and tertiary-care commanding structural pricing power over undifferentiated competitors. FY26 revenue grew +12.4% YoY to \u20b91,703 cr (PAT \u20b9282 cr, +15.3%), but growth has decelerated materially from +16.9% in FY25, with intra-year quarterly prints falling to +6.5% in Q2FY26 before a partial recovery to +11.9% in Q3FY26; Q1FY27 numbers were filed in July 2026 but are absent from the extracted trend table, leaving the current trajectory critically incomplete. Using EV/EBITDA as the primary yardstick for this capital-intensive hospital model (per sector card guidance), RAINBOW trades at 26.1\u00d7 vs a broad-market peer median of 23.3\u00d7 (P59) \u2014 fair; trailing P/E of 51.3\u00d7 exceeds the 28\u201340\u00d7 healthcare benchmark and sits at P70 vs peers, but forward P/E of 36.5\u00d7 (P77 vs peers) implies the market has already priced in ~40% earnings growth, leaving limited margin of safety if deceleration persists. EBITDA margins contracted from 35% (Q1FY26) to 32% (FY26) while a freshly appointed CFO (Sep-2026) adds management continuity risk \u2014 both compounded by RISK_OFF macro and midcap liquidity constraints.",
+        "thesis": "Rainbow Children's Medicare runs a chain of hospitals focused on paediatric and maternity care, a niche where it is a leading specialist. It earns from bed occupancy and revenue per bed, not drug exports, so the US pharma tariff overhang does not apply. The latest quarter extracted from official filings is Q3FY26: revenue of \u20b9445 cr (+11.9% YoY) and PAT of \u20b974 cr (+7.2% YoY, 16.6% margin). Read in time order, quarterly revenue growth has picked up from +6.9% (Q1FY26) to +6.5% (Q2FY26) to +11.9% (Q3FY26), with FY26 at +12.4%. The pre-computed 'decelerating' label mostly reflects comparison with FY25's +16.9%. EBITDA margin has slipped from 35.0% to 33.0% over the same quarters, likely from new-hospital ramp-up costs. The Q1FY27 row is blank and the yfinance quarterly rows are clearly wrong (revenue around \u20b960 cr), so the most recent two quarters cannot be verified. On EV/EBITDA, the right yardstick for a capital-intensive hospital operator, the stock trades at 26.1x, near the broad-market median of 23.3x (P59) and reasonable for hospital chains, which justifies 'fair'. Trailing P/E of 51.3x looks rich against the 28-40x healthcare range, but forward P/E of 36.5x implies roughly 40% expected earnings growth that new-hospital ramp-ups must deliver. The biggest near-term risk is the Q2FY27 results due on 31 Oct 2026, a binary event with consensus EPS estimates trimmed slightly (-0.9% over 30 days) while 13 of 14 analysts rate it a buy.",
         "valuation_grade": "fair",
         "growth_grade": "moderate",
-        "risk_grade": "high",
-        "conviction": 0.4,
+        "risk_grade": "medium",
+        "conviction": 0.35,
         "from_cache": true
       },
       "earnings_surprise": {
@@ -109432,11 +109432,11 @@
         "stop_loss": null
       },
       "fundamental": {
-        "thesis": "Aarti Industries is India's largest benzene-based specialty chemicals manufacturer, with long-term supply contracts across agrochemicals, pharma, and polymers, and is a structural China+1 beneficiary with Phase I of Zone IV capacity now commissioned (Sept 2026). Q1FY27 confirmed an accelerating post-destocking recovery \u2014 revenue grew +41.3% YoY to \u20b92,630 cr while PAT surged +260.5% to \u20b9155 cr, with PAT margin expanding from a trough of 2.3% (Q3FY25) through 5.3% (Q3FY26) to 5.9% now, and EBITDA margin reaching 14.5%; the direction of change is unambiguously positive across 4+ periods. Using EV/EBITDA (the appropriate yardstick for capital-intensive specialty chemicals per the sector card), at 19.4\u00d7 vs broad-market peer median of 23.3\u00d7 (P40 rank), valuation is FAIR; forward P/E of 24\u00d7 meaningfully below trailing 42\u00d7 confirms the market is pricing in earnings normalisation, but a ROE of only 7.2% against P/B of 2.95\u00d7 means the valuation premium is not yet quality-justified. The dominant near-term risk is today's Board meeting (October 1) to deliberate capital raising options, which threatens meaningful equity dilution at a time of high leverage, tight current ratio (0.82), negative EPS estimate revisions (-1.9% over 90 days), and rising crude \u2014 a direct benzene feedstock cost headwind.",
-        "valuation_grade": "fair",
-        "growth_grade": "strong",
+        "thesis": "Aarti Industries is a mid-cap benzene-based specialty chemicals maker that is recovering from destocking. It has a new supply agreement with a global specialty chemical company, disclosed on 2026-10-13, and stands to gain from China+1 sourcing. In Q1FY27 revenue rose 41.3% YoY to \u20b92,630 cr and PAT rose 260.5% to \u20b9155 cr, with PAT margin up from 2.3% to 5.9%. Much of that jump is a recovery from a very weak Q1FY26 base, and the 'accelerating' signal in the trend table mixes annual and quarterly rows, so the true run-rate is less certain. yfinance also shows a materially lower revenue figure (\u20b91,532 cr), and that mismatch is unresolved. Valuation is graded on EV/EBITDA, the yardstick for cyclical chemicals. At 19.4\u00d7, against the sector card's 5\u20138\u00d7 mid-cycle norm, and with trailing P/E at 42\u00d7 against a 12\u201322\u00d7 Materials benchmark, the stock looks expensive. It also trades at 80% of its 52-week range despite only 7.2% ROE, though the forward P/E of 24\u00d7 does price in earnings growth. The biggest risk is that Q2FY27 results, due today (2026-10-30) and not yet in this data, fail to sustain the margin recovery. That risk is compounded by stretched working capital, sell-side EPS estimates being trimmed (FY 90-day change \u22122.1%), and macro headwinds from rising crude and a weak rupee.",
+        "valuation_grade": "expensive",
+        "growth_grade": "moderate",
         "risk_grade": "high",
-        "conviction": 0.52,
+        "conviction": 0.45,
         "from_cache": true
       },
       "earnings_surprise": {
@@ -111510,20 +111510,12 @@
     {
       "symbol": "^NSEI",
       "name": "Nifty 50",
-      "current_level": 22698.85,
-      "ret_1d_pct": -0.224,
-      "ret_5d_pct": -0.493,
-      "ret_30d_pct": -2.988,
-      "since_start_pct": -3.065,
+      "current_level": 23102.05,
+      "ret_1d_pct": 0.721,
+      "ret_5d_pct": 2.221,
+      "ret_30d_pct": -0.498,
+      "since_start_pct": -1.343,
       "history": [
-        {
-          "date": "2026-06-19",
-          "level": 24013.1
-        },
-        {
-          "date": "2026-06-22",
-          "level": 24102.9
-        },
         {
           "date": "2026-06-23",
           "level": 23824.1
@@ -111875,26 +111867,26 @@
         {
           "date": "2026-10-28",
           "level": 22698.85
+        },
+        {
+          "date": "2026-10-29",
+          "level": 22936.75
+        },
+        {
+          "date": "2026-10-30",
+          "level": 23102.05
         }
       ]
     },
     {
       "symbol": "^CRSLDX",
       "name": "Nifty 500",
-      "current_level": 21727.45,
-      "ret_1d_pct": -0.034,
-      "ret_5d_pct": -0.506,
-      "ret_30d_pct": -4.981,
-      "since_start_pct": -3.424,
+      "current_level": 21958.1,
+      "ret_1d_pct": 0.076,
+      "ret_5d_pct": 2.476,
+      "ret_30d_pct": -2.547,
+      "since_start_pct": -2.398,
       "history": [
-        {
-          "date": "2026-06-19",
-          "level": 23144.2
-        },
-        {
-          "date": "2026-06-22",
-          "level": 23261.85
-        },
         {
           "date": "2026-06-23",
           "level": 23010.95
@@ -112246,6 +112238,14 @@
         {
           "date": "2026-10-28",
           "level": 21727.45
+        },
+        {
+          "date": "2026-10-29",
+          "level": 21941.5
+        },
+        {
+          "date": "2026-10-30",
+          "level": 21958.1
         }
       ]
     }
@@ -112255,23 +112255,23 @@
     "universe_size": 501,
     "data_sources": 7,
     "today": {
-      "agent_analyses": 1,
-      "tokens": 18427,
-      "words": 13820
+      "agent_analyses": 2,
+      "tokens": 36764,
+      "words": 27573
     },
     "cumulative": {
-      "agent_analyses": 12799,
-      "tokens": 227129287,
-      "words": 170346965,
-      "data_points": 908517148,
+      "agent_analyses": 12800,
+      "tokens": 227147624,
+      "words": 170360718,
+      "data_points": 908590496,
       "documents_deep_read": 8000,
-      "filings_indexed": 33431,
+      "filings_indexed": 33474,
       "headlines_analyzed": 77980,
       "events_classified": 60888,
-      "fundamental_records": 6291,
+      "fundamental_records": 6416,
       "price_observations": 204400,
-      "data_bytes": 15318328348,
-      "data_mb": 15318.3,
+      "data_bytes": 15318401696,
+      "data_mb": 15318.4,
       "data_gb": 15.318
     }
   },
