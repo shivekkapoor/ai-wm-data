@@ -1,6 +1,6 @@
 {
  "as_of": "2026-10-30",
- "generated_at": "2026-10-30T10:24:03Z",
+ "generated_at": "2026-10-30T13:15:02Z",
  "overall": "RED",
  "alerts": [
   "Engine output: 498 decisions on 2026-10-30",
@@ -38,8 +38,8 @@
    "unread": 0
   },
   "reads_today": {
-   "accepted": 14,
-   "attempted": 38
+   "accepted": 15,
+   "attempted": 40
   },
   "stale_sessions": 3,
   "stale": []
@@ -108,7 +108,7 @@
     },
     {
      "label": "reads today",
-     "value": "14 accepted / 38 attempted",
+     "value": "15 accepted / 40 attempted",
      "status": "GREEN",
      "detail": "extraction attempts receipted today (UTC) by the 17:00 prep and the weekend backlog job",
      "dimension": "used"
@@ -122,7 +122,7 @@
     },
     {
      "label": "rows flagged",
-     "value": "23 (4.6%)",
+     "value": "22 (4.4%)",
      "status": "GREEN",
      "detail": "failed a validation gate or an independent cross-check",
      "dimension": "correct"
@@ -157,9 +157,9 @@
     },
     {
      "label": "vs independent income statement",
-     "value": "84.5% reconciled",
+     "value": "84.7% reconciled",
      "status": "YELLOW",
-     "detail": "275 agree within 5%, 145 documented definition gaps, 77 unexplained",
+     "detail": "274 agree within 5%, 147 documented definition gaps, 76 unexplained",
      "dimension": "verified"
     }
    ]
@@ -222,26 +222,26 @@
   },
   {
    "pillar": "Sentiment / news",
-   "status": "YELLOW",
-   "headline": "newest headline 2026-10-29; 100% typed",
+   "status": "GREEN",
+   "headline": "newest headline 2026-10-30; 100% typed",
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-10-29 (1d)",
+     "value": "2026-10-30 (0d)",
      "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "274",
-     "status": "YELLOW",
+     "value": "328",
+     "status": "GREEN",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "2000/2000 (100%)",
+     "value": "3180/3180 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
