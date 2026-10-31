@@ -1,6 +1,6 @@
 {
- "as_of": "2026-10-31",
- "generated_at": "2026-10-31T09:38:41Z",
+ "as_of": "2026-11-01",
+ "generated_at": "2026-10-31T19:21:13Z",
  "overall": "RED",
  "alerts": [
   "Engine output: 498 decisions on 2026-10-30",
@@ -38,8 +38,8 @@
    "unread": 0
   },
   "reads_today": {
-   "accepted": 114,
-   "attempted": 114
+   "accepted": 0,
+   "attempted": 0
   },
   "stale_sessions": 3,
   "stale": []
@@ -61,7 +61,7 @@
      "label": "last real decision",
      "value": "2026-10-30",
      "status": "GREEN",
-     "detail": "1d ago",
+     "detail": "2d ago",
      "dimension": "fresh"
     },
     {
@@ -108,7 +108,7 @@
     },
     {
      "label": "reads today",
-     "value": "114 accepted / 114 attempted",
+     "value": "0 accepted / 0 attempted",
      "status": "GREEN",
      "detail": "extraction attempts receipted today (UTC) by the 17:00 prep and the weekend backlog job",
      "dimension": "used"
@@ -150,7 +150,7 @@
     },
     {
      "label": "cached view age",
-     "value": "median 31d, p90 161d",
+     "value": "median 32d, p90 162d",
      "status": "RED",
      "detail": "762 views older than 90 days (2858 cached)",
      "dimension": "used"
@@ -222,13 +222,13 @@
   },
   {
    "pillar": "Sentiment / news",
-   "status": "GREEN",
+   "status": "YELLOW",
    "headline": "newest headline 2026-10-30; 100% typed",
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-10-30 (1d)",
-     "status": "GREEN",
+     "value": "2026-10-30 (2d)",
+     "status": "YELLOW",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
@@ -241,7 +241,7 @@
     },
     {
      "label": "headlines typed",
-     "value": "3144/3145 (100%)",
+     "value": "3104/3105 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
@@ -269,7 +269,7 @@
    "metrics": [
     {
      "label": "snapshot date",
-     "value": "2026-10-31 (0d)",
+     "value": "2026-10-31 (1d)",
      "status": "GREEN",
      "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
      "dimension": "fresh"
@@ -297,8 +297,8 @@
     },
     {
      "label": "regime the agents read",
-     "value": "RISK_OFF (1d)",
-     "status": "GREEN",
+     "value": "RISK_OFF (2d)",
+     "status": "YELLOW",
      "detail": "the database snapshot every trader prompt opens with",
      "dimension": "used"
     },
