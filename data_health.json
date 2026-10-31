@@ -1,11 +1,11 @@
 {
- "as_of": "2026-10-30",
- "generated_at": "2026-10-30T13:15:02Z",
+ "as_of": "2026-10-31",
+ "generated_at": "2026-10-31T09:38:41Z",
  "overall": "RED",
  "alerts": [
   "Engine output: 498 decisions on 2026-10-30",
   "Fundamentals: 169/478 names analysed with a fresh fundamental view; 79.4% of filings read",
-  "Macro: macro snapshot 2026-10-30"
+  "Macro: macro snapshot 2026-10-31"
  ],
  "engine": {
   "date": "2026-10-30",
@@ -38,8 +38,8 @@
    "unread": 0
   },
   "reads_today": {
-   "accepted": 15,
-   "attempted": 40
+   "accepted": 114,
+   "attempted": 114
   },
   "stale_sessions": 3,
   "stale": []
@@ -61,7 +61,7 @@
      "label": "last real decision",
      "value": "2026-10-30",
      "status": "GREEN",
-     "detail": "0d ago",
+     "detail": "1d ago",
      "dimension": "fresh"
     },
     {
@@ -94,9 +94,9 @@
     },
     {
      "label": "repair loop",
-     "value": "+1 names since the last run",
-     "status": "GREEN",
-     "detail": "69 still to repair; ~69 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
+     "value": "+0 names since the last run",
+     "status": "RED",
+     "detail": "69 still to repair. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
      "dimension": "used"
     },
     {
@@ -108,7 +108,7 @@
     },
     {
      "label": "reads today",
-     "value": "15 accepted / 40 attempted",
+     "value": "114 accepted / 114 attempted",
      "status": "GREEN",
      "detail": "extraction attempts receipted today (UTC) by the 17:00 prep and the weekend backlog job",
      "dimension": "used"
@@ -150,7 +150,7 @@
     },
     {
      "label": "cached view age",
-     "value": "median 30d, p90 160d",
+     "value": "median 31d, p90 161d",
      "status": "RED",
      "detail": "762 views older than 90 days (2858 cached)",
      "dimension": "used"
@@ -171,9 +171,9 @@
    "metrics": [
     {
      "label": "newest bar",
-     "value": "2026-10-29",
+     "value": "2026-10-30",
      "status": "GREEN",
-     "detail": "502 series; median series ends 2026-10-29",
+     "detail": "502 series; median series ends 2026-10-30",
      "dimension": "fresh"
     },
     {
@@ -227,21 +227,21 @@
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-10-30 (0d)",
+     "value": "2026-10-30 (1d)",
      "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "328",
+     "value": "333",
      "status": "GREEN",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "3180/3180 (100%)",
+     "value": "3144/3145 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
@@ -265,11 +265,11 @@
   {
    "pillar": "Macro",
    "status": "RED",
-   "headline": "macro snapshot 2026-10-30",
+   "headline": "macro snapshot 2026-10-31",
    "metrics": [
     {
      "label": "snapshot date",
-     "value": "2026-10-30 (0d)",
+     "value": "2026-10-31 (0d)",
      "status": "GREEN",
      "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
      "dimension": "fresh"
@@ -297,7 +297,7 @@
     },
     {
      "label": "regime the agents read",
-     "value": "RISK_OFF (0d)",
+     "value": "RISK_OFF (1d)",
      "status": "GREEN",
      "detail": "the database snapshot every trader prompt opens with",
      "dimension": "used"
