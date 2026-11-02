@@ -1,18 +1,18 @@
 {
  "as_of": "2026-11-02",
- "generated_at": "2026-11-02T02:36:39Z",
+ "generated_at": "2026-11-02T12:15:32Z",
  "overall": "RED",
  "alerts": [
-  "Engine output: 225 decisions on 2026-11-02",
-  "Fundamentals: 31/65 names analysed with a fresh fundamental view; 79.4% of filings read",
+  "Engine output: 445 decisions on 2026-11-02",
+  "Fundamentals: 31/65 names analysed with a fresh fundamental view; 79.8% of filings read",
   "Macro: macro snapshot 2026-11-02"
  ],
  "engine": {
   "date": "2026-11-02",
-  "real": 225,
+  "real": 445,
   "errors": 0,
-  "gated": 280,
-  "other": 2,
+  "gated": 560,
+  "other": 5,
   "top_error": "",
   "last_real_date": "2026-11-02"
  },
@@ -38,8 +38,8 @@
    "unread": 0
   },
   "reads_today": {
-   "accepted": 12,
-   "attempted": 17
+   "accepted": 39,
+   "attempted": 59
   },
   "stale_sessions": 3,
   "stale": []
@@ -48,11 +48,11 @@
   {
    "pillar": "Engine output",
    "status": "RED",
-   "headline": "225 decisions on 2026-11-02",
+   "headline": "445 decisions on 2026-11-02",
    "metrics": [
     {
      "label": "decisions (latest run)",
-     "value": "225 real / 0 errors / 280 gated",
+     "value": "445 real / 0 errors / 560 gated",
      "status": "GREEN",
      "detail": "run of 2026-11-02",
      "dimension": "used"
@@ -66,7 +66,7 @@
     },
     {
      "label": "trader traces (same date)",
-     "value": "65 traces / 225 decisions",
+     "value": "285 traces / 445 decisions",
      "status": "RED",
      "detail": "decisions without a matching trader call \u2014 trace log missing?",
      "dimension": "verified"
@@ -76,13 +76,13 @@
   {
    "pillar": "Fundamentals",
    "status": "RED",
-   "headline": "31/65 names analysed with a fresh fundamental view; 79.4% of filings read",
+   "headline": "31/65 names analysed with a fresh fundamental view; 79.8% of filings read",
    "metrics": [
     {
      "label": "filings read",
-     "value": "79% current",
+     "value": "80% current",
      "status": "YELLOW",
-     "detail": "expected Q1 FY27: 397 current, 68 behind, 0 with an unread filing (0 PDFs)",
+     "detail": "expected Q1 FY27: 399 current, 66 behind, 0 with an unread filing (0 PDFs)",
      "dimension": "fresh"
     },
     {
@@ -94,9 +94,9 @@
     },
     {
      "label": "repair loop",
-     "value": "+1 names since the last run",
+     "value": "+3 names since the last run",
      "status": "GREEN",
-     "detail": "68 still to repair; ~68 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
+     "detail": "66 still to repair; ~22 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
      "dimension": "used"
     },
     {
@@ -108,7 +108,7 @@
     },
     {
      "label": "reads today",
-     "value": "12 accepted / 17 attempted",
+     "value": "39 accepted / 59 attempted",
      "status": "GREEN",
      "detail": "extraction attempts receipted today (UTC) by the 17:00 prep and the weekend backlog job",
      "dimension": "used"
@@ -152,7 +152,7 @@
      "label": "cached view age",
      "value": "median 32d, p90 161d",
      "status": "RED",
-     "detail": "762 views older than 90 days (2957 cached)",
+     "detail": "762 views older than 90 days (3000 cached)",
      "dimension": "used"
     },
     {
@@ -222,26 +222,26 @@
   },
   {
    "pillar": "Sentiment / news",
-   "status": "YELLOW",
-   "headline": "newest headline 2026-10-30; 100% typed",
+   "status": "GREEN",
+   "headline": "newest headline 2026-11-02; 100% typed",
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-10-30 (3d)",
-     "status": "YELLOW",
+     "value": "2026-11-02 (0d)",
+     "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "332",
+     "value": "334",
      "status": "GREEN",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "3037/3038 (100%)",
+     "value": "3133/3133 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
