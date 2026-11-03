@@ -1,18 +1,18 @@
 {
  "as_of": "2026-11-03",
- "generated_at": "2026-11-03T01:54:48Z",
+ "generated_at": "2026-11-03T12:17:12Z",
  "overall": "RED",
  "alerts": [
-  "Engine output: 220 decisions on 2026-11-03",
+  "Engine output: 441 decisions on 2026-11-03",
   "Fundamentals: 15/36 names analysed with a fresh fundamental view; 79.8% of filings read",
   "Macro: macro snapshot 2026-11-03"
  ],
  "engine": {
   "date": "2026-11-03",
-  "real": 220,
+  "real": 441,
   "errors": 0,
-  "gated": 280,
-  "other": 2,
+  "gated": 560,
+  "other": 5,
   "top_error": "",
   "last_real_date": "2026-11-03"
  },
@@ -38,8 +38,8 @@
    "unread": 0
   },
   "reads_today": {
-   "accepted": 3,
-   "attempted": 4
+   "accepted": 8,
+   "attempted": 21
   },
   "stale_sessions": 3,
   "stale": []
@@ -48,11 +48,11 @@
   {
    "pillar": "Engine output",
    "status": "RED",
-   "headline": "220 decisions on 2026-11-03",
+   "headline": "441 decisions on 2026-11-03",
    "metrics": [
     {
      "label": "decisions (latest run)",
-     "value": "220 real / 0 errors / 280 gated",
+     "value": "441 real / 0 errors / 560 gated",
      "status": "GREEN",
      "detail": "run of 2026-11-03",
      "dimension": "used"
@@ -66,7 +66,7 @@
     },
     {
      "label": "trader traces (same date)",
-     "value": "36 traces / 220 decisions",
+     "value": "256 traces / 441 decisions",
      "status": "RED",
      "detail": "decisions without a matching trader call \u2014 trace log missing?",
      "dimension": "verified"
@@ -108,7 +108,7 @@
     },
     {
      "label": "reads today",
-     "value": "3 accepted / 4 attempted",
+     "value": "8 accepted / 21 attempted",
      "status": "GREEN",
      "detail": "extraction attempts receipted today (UTC) by the 17:00 prep and the weekend backlog job",
      "dimension": "used"
@@ -152,7 +152,7 @@
      "label": "cached view age",
      "value": "median 33d, p90 162d",
      "status": "RED",
-     "detail": "762 views older than 90 days (3105 cached)",
+     "detail": "762 views older than 90 days (3114 cached)",
      "dimension": "used"
     },
     {
@@ -166,14 +166,14 @@
   },
   {
    "pillar": "Technicals",
-   "status": "YELLOW",
+   "status": "GREEN",
    "headline": "35/36 names analysed on technicals",
    "metrics": [
     {
      "label": "newest bar",
-     "value": "2026-10-30",
-     "status": "YELLOW",
-     "detail": "502 series; median series ends 2026-10-30",
+     "value": "2026-11-02",
+     "status": "GREEN",
+     "detail": "502 series; median series ends 2026-11-02",
      "dimension": "fresh"
     },
     {
@@ -223,25 +223,25 @@
   {
    "pillar": "Sentiment / news",
    "status": "GREEN",
-   "headline": "newest headline 2026-11-02; 99% typed",
+   "headline": "newest headline 2026-11-03; 88% typed",
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-11-02 (1d)",
+     "value": "2026-11-03 (0d)",
      "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "358",
+     "value": "364",
      "status": "GREEN",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "3657/3695 (99%)",
+     "value": "3638/4133 (88%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
