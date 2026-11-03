@@ -6485,8 +6485,8 @@
    "latest_results_title": "Unaudited Financial results for Q2 & H1 FY27",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "Q1 FY27",
-   "latest_extracted_filing_date": "2026-08-10",
+   "latest_extracted_period": "H1 FY27",
+   "latest_extracted_filing_date": "2026-11-02",
    "latest_extract_written": "2026-11-03",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
@@ -6949,8 +6949,8 @@
    "latest_results_title": "Result Release in relation to the Unaudited Financial Results for the quarter and six months ended September 30, 2026",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "Q1 FY27",
-   "latest_extracted_filing_date": "2026-08-03",
+   "latest_extracted_period": "H1 FY27",
+   "latest_extracted_filing_date": "2026-11-02",
    "latest_extract_written": "2026-11-03",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
@@ -8018,13 +8018,13 @@
  "previous": {
   "as_of": "2026-11-03",
   "counts": {
-   "current": 399,
-   "behind": 66,
-   "unread": 0,
-   "annual_behind": 34,
+   "current": 398,
+   "behind": 65,
+   "unread": 1,
+   "annual_behind": 35,
    "no_filing": 1
   },
-  "pct_current": 79.8
+  "pct_current": 79.6
  },
- "repaired_since_previous": 0
+ "repaired_since_previous": 1
 }
