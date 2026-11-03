@@ -1,20 +1,20 @@
 {
- "as_of": "2026-11-02",
- "generated_at": "2026-11-02T12:15:32Z",
+ "as_of": "2026-11-03",
+ "generated_at": "2026-11-03T00:11:16Z",
  "overall": "RED",
  "alerts": [
-  "Engine output: 445 decisions on 2026-11-02",
+  "Engine output: 183 decisions on 2026-11-03",
   "Fundamentals: 31/65 names analysed with a fresh fundamental view; 79.8% of filings read",
-  "Macro: macro snapshot 2026-11-02"
+  "Macro: macro snapshot 2026-11-03"
  ],
  "engine": {
-  "date": "2026-11-02",
-  "real": 445,
+  "date": "2026-11-03",
+  "real": 183,
   "errors": 0,
-  "gated": 560,
-  "other": 5,
+  "gated": 280,
+  "other": 0,
   "top_error": "",
-  "last_real_date": "2026-11-02"
+  "last_real_date": "2026-11-03"
  },
  "last_run": {
   "date": "2026-11-02",
@@ -38,8 +38,8 @@
    "unread": 0
   },
   "reads_today": {
-   "accepted": 39,
-   "attempted": 59
+   "accepted": 0,
+   "attempted": 0
   },
   "stale_sessions": 3,
   "stale": []
@@ -48,25 +48,25 @@
   {
    "pillar": "Engine output",
    "status": "RED",
-   "headline": "445 decisions on 2026-11-02",
+   "headline": "183 decisions on 2026-11-03",
    "metrics": [
     {
      "label": "decisions (latest run)",
-     "value": "445 real / 0 errors / 560 gated",
+     "value": "183 real / 0 errors / 280 gated",
      "status": "GREEN",
-     "detail": "run of 2026-11-02",
+     "detail": "run of 2026-11-03",
      "dimension": "used"
     },
     {
      "label": "last real decision",
-     "value": "2026-11-02",
+     "value": "2026-11-03",
      "status": "GREEN",
      "detail": "0d ago",
      "dimension": "fresh"
     },
     {
      "label": "trader traces (same date)",
-     "value": "285 traces / 445 decisions",
+     "value": "0 traces / 183 decisions",
      "status": "RED",
      "detail": "decisions without a matching trader call \u2014 trace log missing?",
      "dimension": "verified"
@@ -82,7 +82,7 @@
      "label": "filings read",
      "value": "80% current",
      "status": "YELLOW",
-     "detail": "expected Q1 FY27: 399 current, 66 behind, 0 with an unread filing (0 PDFs)",
+     "detail": "expected Q1 FY27: 399 current, 65 behind, 0 with an unread filing (0 PDFs)",
      "dimension": "fresh"
     },
     {
@@ -94,9 +94,9 @@
     },
     {
      "label": "repair loop",
-     "value": "+3 names since the last run",
-     "status": "GREEN",
-     "detail": "66 still to repair; ~22 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
+     "value": "+0 names since the last run",
+     "status": "RED",
+     "detail": "65 still to repair. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
      "dimension": "used"
     },
     {
@@ -108,7 +108,7 @@
     },
     {
      "label": "reads today",
-     "value": "39 accepted / 59 attempted",
+     "value": "0 accepted / 0 attempted",
      "status": "GREEN",
      "detail": "extraction attempts receipted today (UTC) by the 17:00 prep and the weekend backlog job",
      "dimension": "used"
@@ -138,7 +138,7 @@
      "label": "latest period",
      "value": "FY26 on 453 rows",
      "status": "GREEN",
-     "detail": "FY26:453; FY25:24; Q1 FY27:10; H1 FY27:7",
+     "detail": "FY26:453; FY25:24; Q1 FY27:9; H1 FY27:7",
      "dimension": "fresh"
     },
     {
@@ -150,9 +150,9 @@
     },
     {
      "label": "cached view age",
-     "value": "median 32d, p90 161d",
+     "value": "median 33d, p90 162d",
      "status": "RED",
-     "detail": "762 views older than 90 days (3000 cached)",
+     "detail": "762 views older than 90 days (3091 cached)",
      "dimension": "used"
     },
     {
@@ -166,13 +166,13 @@
   },
   {
    "pillar": "Technicals",
-   "status": "GREEN",
+   "status": "YELLOW",
    "headline": "64/65 names analysed on technicals",
    "metrics": [
     {
      "label": "newest bar",
      "value": "2026-10-30",
-     "status": "GREEN",
+     "status": "YELLOW",
      "detail": "502 series; median series ends 2026-10-30",
      "dimension": "fresh"
     },
@@ -223,25 +223,25 @@
   {
    "pillar": "Sentiment / news",
    "status": "GREEN",
-   "headline": "newest headline 2026-11-02; 100% typed",
+   "headline": "newest headline 2026-11-02; 99% typed",
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-11-02 (0d)",
+     "value": "2026-11-02 (1d)",
      "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "334",
+     "value": "358",
      "status": "GREEN",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "3133/3133 (100%)",
+     "value": "3677/3718 (99%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
@@ -265,11 +265,11 @@
   {
    "pillar": "Macro",
    "status": "RED",
-   "headline": "macro snapshot 2026-11-02",
+   "headline": "macro snapshot 2026-11-03",
    "metrics": [
     {
      "label": "snapshot date",
-     "value": "2026-11-02 (0d)",
+     "value": "2026-11-03 (0d)",
      "status": "GREEN",
      "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
      "dimension": "fresh"
