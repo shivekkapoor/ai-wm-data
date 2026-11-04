@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04T00:40:45.806126+05:30",
+  "generated_at": "2026-11-04T06:24:07.829036+05:30",
   "portfolio": {
     "cash_inr": 120686.36,
     "invested_inr": 813557.94,
@@ -24,7 +24,7 @@
     "twr_pct": -6.36,
     "money_weighted_pct": -6.24,
     "return_method": "time_weighted",
-    "twr_pct_v2": -6.78,
+    "twr_pct_v2": -6.35,
     "nav_history_v2": [
       {
         "date": "2026-06-02",
@@ -457,11 +457,15 @@
       {
         "date": "2026-10-30",
         "value": 933441.54
+      },
+      {
+        "date": "2026-11-02",
+        "value": 937668.57
       }
     ],
     "nav_v2_reconcile": {
       "available": false,
-      "twr_pct_v2": -6.78
+      "twr_pct_v2": -6.35
     },
     "cash_pct": 12.9,
     "last_run_date": "2026-11-03",
@@ -973,33 +977,42 @@
   "macro": {
     "regime": "RISK_OFF",
     "position_size_multiplier": 0.7,
-    "vix": 15.3000001907349,
+    "vix": 15.5,
     "vix_signal": "moderate",
-    "inr_usd": 94.8899993896484,
+    "inr_usd": 94.7254028320312,
     "inr_signal": "stable",
-    "crude_usd": 96.25,
+    "crude_usd": 96.6100006103516,
     "crude_signal": "rising",
-    "fii_flow_cr": 2754.1713817305,
+    "fii_flow_cr": 3714.13375486213,
     "fii_signal": "buying",
-    "nifty100_momentum": "sideways",
+    "nifty100_momentum": "bullish",
     "rbi_repo_pct": 6.0,
     "sector_tilts": {
       "Financials": "neutral",
       "IT": "overweight",
-      "Energy": "underweight",
+      "Energy": "neutral",
       "FMCG": "neutral",
       "Auto": "neutral",
-      "Healthcare": "overweight",
+      "Healthcare": "neutral",
       "Industrials": "underweight",
       "Materials": "underweight",
-      "Utilities": "underweight",
-      "Telecom": "neutral",
+      "Utilities": "neutral",
+      "Telecom": "overweight",
       "Consumer Discr.": "underweight",
       "Real Estate": "underweight"
     },
-    "reasoning": "Sustained FII selling (-28,355 cr, from the 16-session flow table because the rolling 30-day signal is null) sets a RISK_OFF regime, and the +3,115 cr latest print is treated as one-day noise; heavy FII index-futures shorts (L/S 0.12), narrow breadth (19% above 50-DMA), $96 crude, a firmer DXY, 4.89% US yields and weak global equities reinforce it. The multiplier sits at the top of the RISK_OFF band because VIX of 15.3 triggers no override, the INR is stable, DIIs have absorbed the selling (+44,607 cr), and NIFTY valuations are low (P/E at the 11th percentile), with the 1.40 PCR also a possible contrarian sign. Tilts follow the rotation map: IT (rising delivery) and Healthcare lead and benefit from a weak INR, though the Nasdaq's -7.6% 20-day drop is a risk for IT, while Telecom and FMCG stay neutral on falling delivery, and Financials and Auto stay neutral because their improvement is marginal with flat delivery. Weakening and lagging sectors are underweight, with low conviction on Consumer Discr. given its nearly flat momentum and rising delivery; RBI repo inputs conflict (6.0% vs 5.5%), so no rate-based tilt to Financials is applied.",
-    "snapshot_date": "2026-11-03",
+    "reasoning": "FII flows show sustained selling (-21,518 cr, on only 17 sessions of data rather than a full 30d; the rolling field is null), and the positive latest day does not flip the regime, while rising crude, a strengthening DXY, a 4.95% US 10Y, a weak Nasdaq (-8.1% over 20d) and narrow breadth (25% above 50-DMA) support RISK_OFF despite the NIFTY 100's +3.7% 20-day gain. The multiplier sits at the top of the 0.5-0.7 range because VIX is moderate at 15.5 with no override, INR is stable, DIIs have absorbed the selling (+40,928 cr), valuations are low (P/E 14th percentile), and extreme FII index-futures shorts (L/S 0.14) and a 1.50 PCR leave short-covering risk. IT and Telecom are overweight as LEADING sectors with rising delivery, though IT carries Nasdaq and yield risk and BHARTIARTL reports on 2026-11-05, while Industrials, Materials and Real Estate (LAGGING) and Consumer Discr. (WEAKENING) are underweight; Healthcare and Energy stay neutral rather than underweight because their RS is still solid and their fade is slight. Inputs conflict on latest-day FII flow (+3,714 vs +6,837 cr) and RBI repo (6.0% vs 5.5%), so no rate-based Financials tilt is applied and these feeds should be checked.",
+    "snapshot_date": "2026-11-04",
     "history": [
+      {
+        "date": "2026-11-04",
+        "regime": "RISK_OFF",
+        "multiplier": 0.7,
+        "vix": 15.5,
+        "inr_usd": 94.7254028320312,
+        "crude_usd": 96.6100006103516,
+        "fii_flow_cr": 3714.13375486213
+      },
       {
         "date": "2026-11-03",
         "regime": "RISK_OFF",
@@ -1260,15 +1273,6 @@
         "inr_usd": 95.745002746582,
         "crude_usd": 101.110000610352,
         "fii_flow_cr": -2398.8802230215
-      },
-      {
-        "date": "2026-09-17",
-        "regime": "NEUTRAL",
-        "multiplier": 0.85,
-        "vix": 12.289999961853,
-        "inr_usd": 95.9300003051758,
-        "crude_usd": 100.199996948242,
-        "fii_flow_cr": -2488.66899541281
       }
     ]
   },
@@ -110487,34 +110491,34 @@
   },
   "sector_flows": {
     "computed_date": "2026-11-04",
-    "benchmark_ret_5d_pct": 2.19,
-    "benchmark_ret_1d_pct": 1.21,
+    "benchmark_ret_5d_pct": 2.48,
+    "benchmark_ret_1d_pct": 1.8,
     "sectors": {
       "Energy": {
         "sector": "Energy",
-        "ret_5d_pct": 0.15,
-        "ret_1d_pct": 2.04,
-        "rel_5d_pct": -2.04,
+        "ret_5d_pct": 0.46,
+        "ret_1d_pct": 2.97,
+        "rel_5d_pct": -2.02,
         "stocks_count": 17,
-        "stocks_advancing_pct": 58.8,
+        "stocks_advancing_pct": 76.5,
         "signal": "outflow",
         "computed_date": "2026-11-04"
       },
       "Financials": {
         "sector": "Financials",
-        "ret_5d_pct": 2.2,
-        "ret_1d_pct": 1.08,
-        "rel_5d_pct": 0.01,
+        "ret_5d_pct": 1.89,
+        "ret_1d_pct": 1.48,
+        "rel_5d_pct": -0.59,
         "stocks_count": 101,
-        "stocks_advancing_pct": 69.3,
+        "stocks_advancing_pct": 71.3,
         "signal": "neutral",
         "computed_date": "2026-11-04"
       },
       "IT": {
         "sector": "IT",
-        "ret_5d_pct": -0.7,
-        "ret_1d_pct": 0.18,
-        "rel_5d_pct": -2.89,
+        "ret_5d_pct": -0.39,
+        "ret_1d_pct": 0.94,
+        "rel_5d_pct": -2.87,
         "stocks_count": 27,
         "stocks_advancing_pct": 48.1,
         "signal": "strong_outflow",
@@ -110522,91 +110526,91 @@
       },
       "Telecom": {
         "sector": "Telecom",
-        "ret_5d_pct": 0.38,
-        "ret_1d_pct": 1.35,
-        "rel_5d_pct": -1.81,
+        "ret_5d_pct": 1.33,
+        "ret_1d_pct": 3.83,
+        "rel_5d_pct": -1.15,
         "stocks_count": 10,
         "stocks_advancing_pct": 70.0,
-        "signal": "outflow",
+        "signal": "neutral",
         "computed_date": "2026-11-04"
       },
       "Industrials": {
         "sector": "Industrials",
-        "ret_5d_pct": 1.6,
-        "ret_1d_pct": 1.22,
-        "rel_5d_pct": -0.59,
+        "ret_5d_pct": 2.3,
+        "ret_1d_pct": 2.41,
+        "rel_5d_pct": -0.18,
         "stocks_count": 93,
-        "stocks_advancing_pct": 67.7,
+        "stocks_advancing_pct": 69.9,
         "signal": "neutral",
         "computed_date": "2026-11-04"
       },
       "FMCG": {
         "sector": "FMCG",
-        "ret_5d_pct": 2.75,
-        "ret_1d_pct": 1.87,
-        "rel_5d_pct": 0.56,
+        "ret_5d_pct": 1.77,
+        "ret_1d_pct": 1.54,
+        "rel_5d_pct": -0.71,
         "stocks_count": 29,
-        "stocks_advancing_pct": 79.3,
+        "stocks_advancing_pct": 65.5,
         "signal": "neutral",
         "computed_date": "2026-11-04"
       },
       "Auto": {
         "sector": "Auto",
-        "ret_5d_pct": 4.23,
-        "ret_1d_pct": 1.82,
-        "rel_5d_pct": 2.04,
+        "ret_5d_pct": 4.35,
+        "ret_1d_pct": 2.65,
+        "rel_5d_pct": 1.88,
         "stocks_count": 39,
-        "stocks_advancing_pct": 87.2,
+        "stocks_advancing_pct": 84.6,
         "signal": "inflow",
         "computed_date": "2026-11-04"
       },
       "Healthcare": {
         "sector": "Healthcare",
-        "ret_5d_pct": 3.94,
-        "ret_1d_pct": 0.85,
-        "rel_5d_pct": 1.75,
+        "ret_5d_pct": 4.73,
+        "ret_1d_pct": 0.31,
+        "rel_5d_pct": 2.25,
         "stocks_count": 49,
-        "stocks_advancing_pct": 83.7,
+        "stocks_advancing_pct": 89.8,
         "signal": "inflow",
         "computed_date": "2026-11-04"
       },
       "Materials": {
         "sector": "Materials",
-        "ret_5d_pct": 1.14,
-        "ret_1d_pct": 1.34,
-        "rel_5d_pct": -1.05,
+        "ret_5d_pct": 0.98,
+        "ret_1d_pct": 2.16,
+        "rel_5d_pct": -1.5,
         "stocks_count": 56,
         "stocks_advancing_pct": 67.9,
-        "signal": "neutral",
+        "signal": "outflow",
         "computed_date": "2026-11-04"
       },
       "Utilities": {
         "sector": "Utilities",
-        "ret_5d_pct": 5.4,
-        "ret_1d_pct": 0.45,
-        "rel_5d_pct": 3.21,
+        "ret_5d_pct": 7.6,
+        "ret_1d_pct": 2.9,
+        "rel_5d_pct": 5.12,
         "stocks_count": 17,
-        "stocks_advancing_pct": 82.4,
+        "stocks_advancing_pct": 100.0,
         "signal": "strong_inflow",
         "computed_date": "2026-11-04"
       },
       "Consumer Discr.": {
         "sector": "Consumer Discr.",
-        "ret_5d_pct": 2.51,
-        "ret_1d_pct": 1.42,
-        "rel_5d_pct": 0.32,
+        "ret_5d_pct": 3.25,
+        "ret_1d_pct": 1.36,
+        "rel_5d_pct": 0.77,
         "stocks_count": 52,
-        "stocks_advancing_pct": 71.2,
+        "stocks_advancing_pct": 80.8,
         "signal": "neutral",
         "computed_date": "2026-11-04"
       },
       "Real Estate": {
         "sector": "Real Estate",
-        "ret_5d_pct": 1.32,
-        "ret_1d_pct": 0.8,
-        "rel_5d_pct": -0.87,
+        "ret_5d_pct": 1.92,
+        "ret_1d_pct": 1.02,
+        "rel_5d_pct": -0.56,
         "stocks_count": 11,
-        "stocks_advancing_pct": 54.5,
+        "stocks_advancing_pct": 63.6,
         "signal": "neutral",
         "computed_date": "2026-11-04"
       }
@@ -110616,11 +110620,11 @@
     "symbol": "OWN_CAPWT",
     "name": "Nifty 150 (our universe)",
     "synthetic": true,
-    "current_level": 299.13,
-    "ret_1d_pct": 1.152,
-    "ret_5d_pct": 3.568,
-    "ret_30d_pct": -1.899,
-    "since_start_pct": 1.579,
+    "current_level": 299.2,
+    "ret_1d_pct": 1.176,
+    "ret_5d_pct": 3.593,
+    "ret_30d_pct": -1.875,
+    "since_start_pct": 1.604,
     "history": [
       {
         "date": "2026-06-30",
@@ -110980,7 +110984,7 @@
       },
       {
         "date": "2026-11-03",
-        "level": 299.13
+        "level": 299.2
       }
     ]
   },
@@ -110989,11 +110993,11 @@
       "symbol": "OWN_CAPWT",
       "name": "Nifty 150 (our universe)",
       "synthetic": true,
-      "current_level": 299.13,
-      "ret_1d_pct": 1.152,
-      "ret_5d_pct": 3.568,
-      "ret_30d_pct": -1.899,
-      "since_start_pct": 1.579,
+      "current_level": 299.2,
+      "ret_1d_pct": 1.176,
+      "ret_5d_pct": 3.593,
+      "ret_30d_pct": -1.875,
+      "since_start_pct": 1.604,
       "history": [
         {
           "date": "2026-06-30",
@@ -111353,7 +111357,7 @@
         },
         {
           "date": "2026-11-03",
-          "level": 299.13
+          "level": 299.2
         }
       ]
     },
@@ -112105,34 +112109,34 @@
     "universe_size": 501,
     "data_sources": 7,
     "today": {
-      "agent_analyses": 0,
-      "tokens": 0,
-      "words": 0
+      "agent_analyses": 1,
+      "tokens": 19542,
+      "words": 14656
     },
     "cumulative": {
-      "agent_analyses": 19069,
-      "tokens": 353320987,
-      "words": 264990740,
-      "data_points": 1413283948,
+      "agent_analyses": 17999,
+      "tokens": 326055975,
+      "words": 244541981,
+      "data_points": 1304223900,
       "documents_deep_read": 8535,
-      "filings_indexed": 34522,
-      "headlines_analyzed": 82225,
-      "events_classified": 65275,
-      "fundamental_records": 6868,
+      "filings_indexed": 34530,
+      "headlines_analyzed": 82628,
+      "events_classified": 65970,
+      "fundamental_records": 6875,
       "price_observations": 204400,
-      "data_bytes": 3509538751,
-      "data_mb": 3509.5,
-      "data_gb": 3.51
+      "data_bytes": 1791617630,
+      "data_mb": 1791.6,
+      "data_gb": 1.792
     }
   },
   "scorecard": {
     "ready": true,
-    "matured_rows_10d": 59319,
+    "matured_rows_10d": 60259,
     "min_required": 50,
     "headline_horizon": 10,
     "horizons": {
       "5": {
-        "matured_rows": 67575,
+        "matured_rows": 67863,
         "by_pillar": {
           "forecast": {
             "n": 908,
@@ -112143,34 +112147,34 @@
             "mean_fwd_ret_when_bearish": 0.007833612870260208
           },
           "fundamental": {
-            "n": 16240,
-            "n_directional": 10232,
+            "n": 16312,
+            "n_directional": 10272,
             "ic": null,
-            "hit_rate": 0.5209147771696638,
+            "hit_rate": 0.5209306853582555,
             "mean_fwd_ret_when_bullish": null,
             "mean_fwd_ret_when_bearish": null
           },
           "sentiment": {
-            "n": 16787,
-            "n_directional": 9694,
+            "n": 16859,
+            "n_directional": 9725,
             "ic": null,
-            "hit_rate": 0.518671343098824,
+            "hit_rate": 0.5187660668380463,
             "mean_fwd_ret_when_bullish": null,
             "mean_fwd_ret_when_bearish": null
           },
           "technical": {
-            "n": 16820,
-            "n_directional": 5442,
+            "n": 16892,
+            "n_directional": 5455,
             "ic": null,
-            "hit_rate": 0.4996324880558618,
+            "hit_rate": 0.4989917506874427,
             "mean_fwd_ret_when_bullish": null,
             "mean_fwd_ret_when_bearish": null
           },
           "trader": {
-            "n": 16820,
-            "n_directional": 1039,
+            "n": 16892,
+            "n_directional": 1040,
             "ic": null,
-            "hit_rate": 0.4475457170356112,
+            "hit_rate": 0.4480769230769231,
             "mean_fwd_ret_when_bullish": null,
             "mean_fwd_ret_when_bearish": null
           }
@@ -112182,12 +112186,12 @@
             "mean_fwd_ret": null
           },
           "BUY": {
-            "n": 475,
-            "hit_rate": 0.3684210526315789,
+            "n": 476,
+            "hit_rate": 0.3697478991596639,
             "mean_fwd_ret": null
           },
           "HOLD": {
-            "n": 15781,
+            "n": 15852,
             "hit_rate": null,
             "mean_fwd_ret": null
           },
@@ -112214,8 +112218,8 @@
             "mean_fwd_ret": 0.00020660079346777747
           },
           "sentiment": {
-            "n": 272,
-            "hit_rate": 0.4411764705882353,
+            "n": 273,
+            "hit_rate": 0.4432234432234432,
             "mean_fwd_ret": null
           },
           "technical": {
@@ -112226,7 +112230,7 @@
         }
       },
       "10": {
-        "matured_rows": 59319,
+        "matured_rows": 60259,
         "by_pillar": {
           "forecast": {
             "n": 908,
@@ -112237,70 +112241,70 @@
             "mean_fwd_ret_when_bearish": 0.013446683997484242
           },
           "fundamental": {
-            "n": 14176,
-            "n_directional": 9005,
-            "ic": 0.021996314425207716,
-            "hit_rate": 0.5083842309827873,
-            "mean_fwd_ret_when_bullish": -0.0076383293251421035,
-            "mean_fwd_ret_when_bearish": -0.009562886995084702
+            "n": 14411,
+            "n_directional": 9157,
+            "ic": 0.02091272367671014,
+            "hit_rate": 0.5081358523533909,
+            "mean_fwd_ret_when_bullish": -0.007970554423162123,
+            "mean_fwd_ret_when_bearish": -0.00971213493485174
           },
           "sentiment": {
-            "n": 14723,
-            "n_directional": 8846,
-            "ic": -0.0040210613956144815,
-            "hit_rate": 0.5174089984173638,
-            "mean_fwd_ret_when_bullish": -0.00745619309950342,
-            "mean_fwd_ret_when_bearish": -0.007361506390542049
+            "n": 14958,
+            "n_directional": 8968,
+            "ic": -0.005208116682900252,
+            "hit_rate": 0.5178412132024978,
+            "mean_fwd_ret_when_bullish": -0.007661413551076726,
+            "mean_fwd_ret_when_bearish": -0.007477501484596678
           },
           "technical": {
-            "n": 14756,
-            "n_directional": 5060,
-            "ic": -0.004432898547980698,
-            "hit_rate": 0.5096837944664032,
-            "mean_fwd_ret_when_bullish": -0.008972609861222535,
-            "mean_fwd_ret_when_bearish": -0.008187958363214077
+            "n": 14991,
+            "n_directional": 5146,
+            "ic": -0.004370947052907466,
+            "hit_rate": 0.5102992615623786,
+            "mean_fwd_ret_when_bullish": -0.009041422826754138,
+            "mean_fwd_ret_when_bearish": -0.00825363859668068
           },
           "trader": {
-            "n": 14756,
-            "n_directional": 1006,
-            "ic": -0.002952413993193002,
-            "hit_rate": 0.44930417495029823,
-            "mean_fwd_ret_when_bullish": -0.00909627353112713,
-            "mean_fwd_ret_when_bearish": -0.0068771053123241385
+            "n": 14991,
+            "n_directional": 1017,
+            "ic": -0.0036489869645525913,
+            "hit_rate": 0.4473942969518191,
+            "mean_fwd_ret_when_bullish": -0.009061605678412748,
+            "mean_fwd_ret_when_bearish": -0.006099462870870823
           }
         },
         "by_action": {
           "ADD": {
-            "n": 225,
-            "hit_rate": 0.36444444444444446,
-            "mean_fwd_ret": -0.011576918291385534
+            "n": 227,
+            "hit_rate": 0.3656387665198238,
+            "mean_fwd_ret": -0.011414978688274133
           },
           "BUY": {
-            "n": 469,
-            "hit_rate": 0.39445628997867804,
-            "mean_fwd_ret": -0.007906198752751562
+            "n": 474,
+            "hit_rate": 0.39451476793248946,
+            "mean_fwd_ret": -0.007934568393099384
           },
           "HOLD": {
-            "n": 13750,
+            "n": 13974,
             "hit_rate": null,
-            "mean_fwd_ret": -0.008961317018167155
+            "mean_fwd_ret": -0.009126327513111666
           },
           "SELL": {
-            "n": 134,
-            "hit_rate": 0.5970149253731343,
-            "mean_fwd_ret": -0.00666551030158568
+            "n": 136,
+            "hit_rate": 0.5882352941176471,
+            "mean_fwd_ret": -0.006204978719846939
           },
           "TRIM": {
-            "n": 178,
-            "hit_rate": 0.5842696629213483,
-            "mean_fwd_ret": -0.007036395938385675
+            "n": 180,
+            "hit_rate": 0.5777777777777777,
+            "mean_fwd_ret": -0.006019739784977758
           }
         },
         "by_driver": {
           "fundamental": {
-            "n": 130,
-            "hit_rate": 0.4230769230769231,
-            "mean_fwd_ret": -0.007525779346128682
+            "n": 133,
+            "hit_rate": 0.42105263157894735,
+            "mean_fwd_ret": -0.006670772279978556
           },
           "override": {
             "n": 33,
@@ -112308,19 +112312,19 @@
             "mean_fwd_ret": -0.006964676672925686
           },
           "sentiment": {
-            "n": 264,
-            "hit_rate": 0.48863636363636365,
-            "mean_fwd_ret": -0.005091768157032451
+            "n": 269,
+            "hit_rate": 0.483271375464684,
+            "mean_fwd_ret": -0.0046824633870585185
           },
           "technical": {
-            "n": 563,
-            "hit_rate": 0.42628774422735344,
-            "mean_fwd_ret": -0.010800243592676591
+            "n": 566,
+            "hit_rate": 0.42579505300353354,
+            "mean_fwd_ret": -0.01073757075351499
           }
         }
       },
       "20": {
-        "matured_rows": 52303,
+        "matured_rows": 53047,
         "by_pillar": {
           "forecast": {
             "n": 908,
@@ -112331,69 +112335,69 @@
             "mean_fwd_ret_when_bearish": 0.012496970559476265
           },
           "fundamental": {
-            "n": 12422,
-            "n_directional": 7966,
+            "n": 12608,
+            "n_directional": 8079,
             "ic": null,
-            "hit_rate": 0.506276675872458,
+            "hit_rate": 0.5062507736105953,
             "mean_fwd_ret_when_bullish": null,
             "mean_fwd_ret_when_bearish": null
           },
           "sentiment": {
-            "n": 12969,
-            "n_directional": 7973,
+            "n": 13155,
+            "n_directional": 8059,
             "ic": null,
-            "hit_rate": 0.5192524771102471,
+            "hit_rate": 0.5196674525375357,
             "mean_fwd_ret_when_bullish": null,
             "mean_fwd_ret_when_bearish": null
           },
           "technical": {
-            "n": 13002,
-            "n_directional": 4364,
+            "n": 13188,
+            "n_directional": 4464,
             "ic": null,
-            "hit_rate": 0.516269477543538,
+            "hit_rate": 0.5174731182795699,
             "mean_fwd_ret_when_bullish": null,
             "mean_fwd_ret_when_bearish": null
           },
           "trader": {
-            "n": 13002,
-            "n_directional": 934,
+            "n": 13188,
+            "n_directional": 947,
             "ic": null,
-            "hit_rate": 0.4593147751605996,
+            "hit_rate": 0.4604012671594509,
             "mean_fwd_ret_when_bullish": null,
             "mean_fwd_ret_when_bearish": null
           }
         },
         "by_action": {
           "ADD": {
-            "n": 212,
-            "hit_rate": 0.3160377358490566,
+            "n": 215,
+            "hit_rate": 0.31627906976744186,
             "mean_fwd_ret": null
           },
           "BUY": {
-            "n": 453,
-            "hit_rate": 0.37748344370860926,
+            "n": 455,
+            "hit_rate": 0.378021978021978,
             "mean_fwd_ret": null
           },
           "HOLD": {
-            "n": 12068,
+            "n": 12241,
             "hit_rate": null,
             "mean_fwd_ret": null
           },
           "SELL": {
-            "n": 116,
-            "hit_rate": 0.603448275862069,
-            "mean_fwd_ret": -0.010485199893023074
+            "n": 117,
+            "hit_rate": 0.6068376068376068,
+            "mean_fwd_ret": -0.010466004069108751
           },
           "TRIM": {
-            "n": 153,
-            "hit_rate": 0.7581699346405228,
+            "n": 160,
+            "hit_rate": 0.75,
             "mean_fwd_ret": null
           }
         },
         "by_driver": {
           "fundamental": {
-            "n": 117,
-            "hit_rate": 0.4188034188034188,
+            "n": 120,
+            "hit_rate": 0.425,
             "mean_fwd_ret": null
           },
           "override": {
@@ -112407,8 +112411,8 @@
             "mean_fwd_ret": null
           },
           "technical": {
-            "n": 518,
-            "hit_rate": 0.4266409266409266,
+            "n": 528,
+            "hit_rate": 0.42803030303030304,
             "mean_fwd_ret": null
           }
         }
