@@ -1553,12 +1553,12 @@
   {
    "symbol": "LUPIN",
    "expected_period": "Q1 FY27",
-   "latest_results_filing": "2026-08-06",
-   "latest_results_title": "Approval of the Unaudited Standalone and Consolidated Financial Results of the Company for the quarter ended June 30, 20",
+   "latest_results_filing": "2026-11-04",
+   "latest_results_title": "Unaudited Standalone and Consolidated Financial Results for the quarter and half year ended September 30, 2026.",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "Q1 FY27",
-   "latest_extracted_filing_date": "2026-08-06",
+   "latest_extracted_period": "H1 FY27",
+   "latest_extracted_filing_date": "2026-11-04",
    "latest_extract_written": "2026-11-04",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
@@ -3154,7 +3154,7 @@
    "symbol": "MCX",
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-11-03",
-   "latest_results_title": "The Board of Directors of the Company at its Meeting held today, inter-alia, has approved the Un-audited Financial Resul",
+   "latest_results_title": "Financial Results for the quarter and half year ended September 30, 2026.",
    "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": null,
@@ -4017,8 +4017,8 @@
   {
    "symbol": "HEG",
    "expected_period": "Q1 FY27",
-   "latest_results_filing": "2026-11-03",
-   "latest_results_title": "Outcome of Board Meeting",
+   "latest_results_filing": "2026-11-04",
+   "latest_results_title": "Press Release in relation to Q2 and H1 FY27 financial results and other matters relating to capacity expansion of Anode ",
    "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "H1 FY27",
@@ -6498,7 +6498,7 @@
    "symbol": "ASAHIINDIA",
    "expected_period": "Q1 FY27",
    "latest_results_filing": "2026-11-03",
-   "latest_results_title": "Un-audited financial results (Standalone & Consolidated) for the quarter and half year ended 30th September, 2026",
+   "latest_results_title": "Outcome of Board Meeting",
    "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "H1 FY27",
@@ -8018,13 +8018,13 @@
  "previous": {
   "as_of": "2026-11-04",
   "counts": {
-   "current": 398,
-   "behind": 65,
-   "unread": 1,
+   "current": 401,
+   "behind": 63,
+   "unread": 0,
    "annual_behind": 35,
    "no_filing": 1
   },
-  "pct_current": 79.6
+  "pct_current": 80.2
  },
- "repaired_since_previous": 3
+ "repaired_since_previous": 0
 }
