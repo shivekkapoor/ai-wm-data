@@ -193,8 +193,8 @@
   {
    "symbol": "M&M",
    "expected_period": "Q1 FY27",
-   "latest_results_filing": "2026-07-30",
-   "latest_results_title": "Mahindra & Mahindra Limited has informed the Exchange regarding a press release dated 30th July 2026, titled \"Press Rele",
+   "latest_results_filing": "2026-11-05",
+   "latest_results_title": "Mahindra & Mahindra Limited has informed the Exchange regarding a press release dated November 05, 2026, titled \"Press R",
    "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "Q1 FY27",
@@ -325,8 +325,8 @@
    "latest_results_title": "Outcome of the Board Meeting",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "Q1 FY27",
-   "latest_extracted_filing_date": "2026-08-07",
+   "latest_extracted_period": "H1 FY27",
+   "latest_extracted_filing_date": "2026-11-05",
    "latest_extract_written": "2026-11-06",
    "expected_annual": "FY26",
    "latest_annual_period": null,
@@ -8016,7 +8016,7 @@
   }
  ],
  "previous": {
-  "as_of": "2026-11-04",
+  "as_of": "2026-11-06",
   "counts": {
    "current": 401,
    "behind": 63,

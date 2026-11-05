@@ -1,12 +1,12 @@
 {
  "as_of": "2026-11-06",
- "generated_at": "2026-11-05T19:07:02Z",
+ "generated_at": "2026-11-05T23:43:21Z",
  "overall": "RED",
  "alerts": [
   "Engine output: 367 decisions on 2026-11-05",
   "Fundamentals: 49/145 names analysed with a fresh fundamental view; 80.2% of filings read",
-  "Sentiment / news: newest headline 2026-11-03; 100% typed",
-  "Macro: macro snapshot 2026-11-05"
+  "Sentiment / news: newest headline 2026-11-05; 100% typed",
+  "Macro: macro snapshot 2026-11-06"
  ],
  "engine": {
   "date": "2026-11-05",
@@ -217,7 +217,7 @@
      "label": "vs the exchange's own bhavcopy",
      "value": "100.0% agreed",
      "status": "GREEN",
-     "detail": "1491 bar-checks over 5 days, 0 corrected",
+     "detail": "1988 bar-checks over 5 days, 0 corrected",
      "dimension": "verified"
     }
    ]
@@ -225,25 +225,25 @@
   {
    "pillar": "Sentiment / news",
    "status": "RED",
-   "headline": "newest headline 2026-11-03; 100% typed",
+   "headline": "newest headline 2026-11-05; 100% typed",
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-11-03 (3d)",
-     "status": "YELLOW",
+     "value": "2026-11-05 (1d)",
+     "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "350",
+     "value": "359",
      "status": "GREEN",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "3694/3700 (100%)",
+     "value": "4001/4005 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
@@ -267,11 +267,11 @@
   {
    "pillar": "Macro",
    "status": "RED",
-   "headline": "macro snapshot 2026-11-05",
+   "headline": "macro snapshot 2026-11-06",
    "metrics": [
     {
      "label": "snapshot date",
-     "value": "2026-11-05 (1d)",
+     "value": "2026-11-06 (0d)",
      "status": "GREEN",
      "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
      "dimension": "fresh"
