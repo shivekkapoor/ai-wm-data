@@ -1,33 +1,31 @@
 {
- "as_of": "2026-11-06",
- "generated_at": "2026-11-06T12:36:27Z",
+ "as_of": "2026-11-07",
+ "generated_at": "2026-11-07T11:21:27Z",
  "overall": "RED",
  "alerts": [
-  "Fundamentals: 100/220 names analysed with a fresh fundamental view; 81.2% of filings read",
-  "Macro: macro snapshot 2026-11-06"
+  "Fundamentals: 66/152 names analysed with a fresh fundamental view; 81.2% of filings read",
+  "Macro: macro snapshot 2026-11-07"
  ],
  "engine": {
   "date": "2026-11-06",
-  "real": 423,
-  "errors": 13,
-  "gated": 560,
-  "other": 6,
-  "top_error": "cli-unavailable: claude CLI failed for fundamental_analyst and the API fallback is disabled (sentine",
+  "real": 577,
+  "errors": 81,
+  "gated": 840,
+  "other": 8,
+  "top_error": "cli-unavailable: claude CLI failed for sentiment_analyst and the API fallback is disabled (sentinel ",
   "last_real_date": "2026-11-06"
  },
  "last_run": {
   "date": "2026-11-06",
-  "names_analysed": 220,
+  "names_analysed": 152,
   "agent_calls": {
    "macro_indicator_extractor": 1,
-   "sentiment_analyst": 220,
-   "technical_analyst": 220,
-   "timing_analyst": 220,
-   "trader": 220,
-   "trader_v2": 220,
-   "fundamental_analyst": 100,
-   "devils_advocate": 1,
-   "conviction_ranker": 224
+   "sentiment_analyst": 155,
+   "technical_analyst": 153,
+   "timing_analyst": 152,
+   "trader": 152,
+   "trader_v2": 151,
+   "fundamental_analyst": 66
   }
  },
  "read_receipts": {
@@ -40,8 +38,8 @@
    "unread": 0
   },
   "reads_today": {
-   "accepted": 53,
-   "attempted": 92
+   "accepted": 0,
+   "attempted": 0
   },
   "stale_sessions": 3,
   "stale": []
@@ -50,25 +48,25 @@
   {
    "pillar": "Engine output",
    "status": "GREEN",
-   "headline": "423 decisions on 2026-11-06",
+   "headline": "577 decisions on 2026-11-06",
    "metrics": [
     {
      "label": "decisions (latest run)",
-     "value": "423 real / 13 errors / 560 gated",
+     "value": "577 real / 81 errors / 840 gated",
      "status": "GREEN",
-     "detail": "run of 2026-11-06; top error: cli-unavailable: claude CLI failed for fundamental_analyst and the API fallback is disabled (sentine",
+     "detail": "run of 2026-11-06; top error: cli-unavailable: claude CLI failed for sentiment_analyst and the API fallback is disabled (sentinel ",
      "dimension": "used"
     },
     {
      "label": "last real decision",
      "value": "2026-11-06",
      "status": "GREEN",
-     "detail": "0d ago",
+     "detail": "1d ago",
      "dimension": "fresh"
     },
     {
      "label": "trader traces (same date)",
-     "value": "427 traces / 423 decisions",
+     "value": "579 traces / 577 decisions",
      "status": "GREEN",
      "detail": "each decision has a trader trace from the same run",
      "dimension": "verified"
@@ -78,7 +76,7 @@
   {
    "pillar": "Fundamentals",
    "status": "RED",
-   "headline": "100/220 names analysed with a fresh fundamental view; 81.2% of filings read",
+   "headline": "66/152 names analysed with a fresh fundamental view; 81.2% of filings read",
    "metrics": [
     {
      "label": "filings read",
@@ -96,9 +94,9 @@
     },
     {
      "label": "repair loop",
-     "value": "+6 names since the last run",
-     "status": "GREEN",
-     "detail": "58 still to repair; ~10 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
+     "value": "+0 names since the last run",
+     "status": "RED",
+     "detail": "58 still to repair. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
      "dimension": "used"
     },
     {
@@ -110,7 +108,7 @@
     },
     {
      "label": "reads today",
-     "value": "53 accepted / 92 attempted",
+     "value": "0 accepted / 0 attempted",
      "status": "GREEN",
      "detail": "extraction attempts receipted today (UTC) by the 17:00 prep and the weekend backlog job",
      "dimension": "used"
@@ -140,21 +138,21 @@
      "label": "latest period",
      "value": "FY26 on 453 rows",
      "status": "GREEN",
-     "detail": "FY26:453; FY25:24; H1 FY27:10; Q1 FY27:6",
+     "detail": "FY26:453; FY25:24; H1 FY27:11; Q1 FY27:5",
      "dimension": "fresh"
     },
     {
      "label": "agent ran",
-     "value": "100/220 names",
+     "value": "66/152 names",
      "status": "GREEN",
      "detail": "last run 2026-11-06: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
      "dimension": "used"
     },
     {
      "label": "cached view age",
-     "value": "median 35d, p90 163d",
+     "value": "median 36d, p90 164d",
      "status": "RED",
-     "detail": "762 views older than 90 days (3482 cached)",
+     "detail": "762 views older than 90 days (3512 cached)",
      "dimension": "used"
     },
     {
@@ -169,13 +167,13 @@
   {
    "pillar": "Technicals",
    "status": "GREEN",
-   "headline": "220/220 names analysed on technicals",
+   "headline": "153/152 names analysed on technicals",
    "metrics": [
     {
      "label": "newest bar",
-     "value": "2026-11-05",
+     "value": "2026-11-06",
      "status": "GREEN",
-     "detail": "502 series; median series ends 2026-11-05",
+     "detail": "502 series; median series ends 2026-11-06",
      "dimension": "fresh"
     },
     {
@@ -208,7 +206,7 @@
     },
     {
      "label": "agent ran",
-     "value": "220/220 names",
+     "value": "153/152 names",
      "status": "GREEN",
      "detail": "last run 2026-11-06",
      "dimension": "used"
@@ -225,32 +223,32 @@
   {
    "pillar": "Sentiment / news",
    "status": "GREEN",
-   "headline": "newest headline 2026-11-06; 98% typed",
+   "headline": "newest headline 2026-11-06; 100% typed",
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-11-06 (0d)",
+     "value": "2026-11-06 (1d)",
      "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "353",
+     "value": "349",
      "status": "GREEN",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "3797/3891 (98%)",
+     "value": "3860/3872 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
     },
     {
      "label": "agent ran",
-     "value": "220/220 names",
+     "value": "155/152 names",
      "status": "GREEN",
      "detail": "last run 2026-11-06",
      "dimension": "used"
@@ -267,11 +265,11 @@
   {
    "pillar": "Macro",
    "status": "RED",
-   "headline": "macro snapshot 2026-11-06",
+   "headline": "macro snapshot 2026-11-07",
    "metrics": [
     {
      "label": "snapshot date",
-     "value": "2026-11-06 (0d)",
+     "value": "2026-11-07 (0d)",
      "status": "GREEN",
      "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
      "dimension": "fresh"
@@ -299,7 +297,7 @@
     },
     {
      "label": "regime the agents read",
-     "value": "NEUTRAL (0d)",
+     "value": "NEUTRAL (1d)",
      "status": "GREEN",
      "detail": "the database snapshot every trader prompt opens with",
      "dimension": "used"
