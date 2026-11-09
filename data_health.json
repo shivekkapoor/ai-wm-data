@@ -1,10 +1,10 @@
 {
- "as_of": "2026-11-08",
- "generated_at": "2026-11-07T19:30:14Z",
+ "as_of": "2026-11-09",
+ "generated_at": "2026-11-09T09:40:19Z",
  "overall": "RED",
  "alerts": [
   "Fundamentals: 66/152 names analysed with a fresh fundamental view; 81.2% of filings read",
-  "Macro: macro snapshot 2026-11-07"
+  "Macro: macro snapshot 2026-11-09"
  ],
  "engine": {
   "date": "2026-11-06",
@@ -61,7 +61,7 @@
      "label": "last real decision",
      "value": "2026-11-06",
      "status": "GREEN",
-     "detail": "2d ago",
+     "detail": "3d ago",
      "dimension": "fresh"
     },
     {
@@ -150,9 +150,9 @@
     },
     {
      "label": "cached view age",
-     "value": "median 37d, p90 165d",
+     "value": "median 38d, p90 166d",
      "status": "RED",
-     "detail": "762 views older than 90 days (3512 cached)",
+     "detail": "762 views older than 90 days (3517 cached)",
      "dimension": "used"
     },
     {
@@ -227,21 +227,21 @@
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-11-06 (2d)",
+     "value": "2026-11-06 (3d)",
      "status": "YELLOW",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "349",
+     "value": "346",
      "status": "GREEN",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "3835/3847 (100%)",
+     "value": "3621/3633 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
@@ -265,11 +265,11 @@
   {
    "pillar": "Macro",
    "status": "RED",
-   "headline": "macro snapshot 2026-11-07",
+   "headline": "macro snapshot 2026-11-09",
    "metrics": [
     {
      "label": "snapshot date",
-     "value": "2026-11-07 (1d)",
+     "value": "2026-11-09 (0d)",
      "status": "GREEN",
      "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
      "dimension": "fresh"
@@ -297,8 +297,8 @@
     },
     {
      "label": "regime the agents read",
-     "value": "NEUTRAL (2d)",
-     "status": "YELLOW",
+     "value": "NEUTRAL (0d)",
+     "status": "GREEN",
      "detail": "the database snapshot every trader prompt opens with",
      "dimension": "used"
     },
