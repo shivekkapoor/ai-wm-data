@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-10T14:54:39.067296+05:30",
+  "generated_at": "2026-11-10T14:55:41.909172+05:30",
   "portfolio": {
     "cash_inr": 18387.32,
     "invested_inr": 917718.8,
@@ -113144,7 +113144,7 @@
         "slippage_inr": 533.57,
         "excess": {
           "10d": {
-            "mean_pp": 0.24,
+            "mean_pp": 0.25,
             "t": null,
             "n": 30,
             "n_dates": 1
@@ -113254,7 +113254,7 @@
         "nav_inr": 1009626.06,
         "cash_pct": 73.0,
         "n_positions": 22,
-        "n_pending": 6,
+        "n_pending": 8,
         "twr_pct": 0.96,
         "max_dd_pct": -0.08,
         "turnover_pct": 26.2,
@@ -113264,7 +113264,7 @@
         "slippage_inr": 245.13,
         "excess": {
           "10d": {
-            "mean_pp": 1.64,
+            "mean_pp": 1.65,
             "t": null,
             "n": 3,
             "n_dates": 1
@@ -113304,7 +113304,7 @@
         "slippage_inr": 437.99,
         "excess": {
           "10d": {
-            "mean_pp": 2.18,
+            "mean_pp": 2.19,
             "t": null,
             "n": 30,
             "n_dates": 1
@@ -113464,7 +113464,7 @@
         "slippage_inr": 469.09,
         "excess": {
           "10d": {
-            "mean_pp": -2.43,
+            "mean_pp": -2.42,
             "t": null,
             "n": 30,
             "n_dates": 1
@@ -113504,7 +113504,7 @@
         "slippage_inr": 406.0,
         "excess": {
           "10d": {
-            "mean_pp": 1.0,
+            "mean_pp": 1.01,
             "t": null,
             "n": 22,
             "n_dates": 1
@@ -113551,7 +113551,7 @@
         "started_on": "2026-10-23",
         "as_of": "2026-11-09",
         "n_dates": 12,
-        "twr_pct": 8.25,
+        "twr_pct": 8.24,
         "max_dd_pct": -1.57,
         "turnover_pct": null,
         "hit_rate": null,
@@ -114096,7 +114096,7 @@
         },
         {
           "date": "2026-11-09",
-          "value": 108.245
+          "value": 108.241
         }
       ],
       "bench_buyhold": [
@@ -114399,10 +114399,10 @@
       "as_of": "2026-11-09",
       "overlay_reference": "ew_proxy",
       "proxy_names": 100,
-      "fundamentals_source": "db",
+      "fundamentals_source": "db+traces",
       "n_fundamentals": 502,
       "n_decisions": 499,
-      "n_bearish_flags": 0,
+      "n_bearish_flags": 15,
       "live_book": "2026-11-10",
       "quality_coverage": {
         "roce_pct": 257,
@@ -114559,12 +114559,12 @@
             "from": "2026-11-02",
             "to": "2026-11-09",
             "n_holdings": 23,
-            "allocation_pp": -2.998,
-            "selection_pp": -0.285,
-            "interaction_pp": 0.222,
-            "active_pp": -3.061,
+            "allocation_pp": -2.995,
+            "selection_pp": -0.281,
+            "interaction_pp": 0.219,
+            "active_pp": -3.057,
             "book_bh_pp": 1.651,
-            "bench_ew_pp": 4.712,
+            "bench_ew_pp": 4.708,
             "book_twr_pp": 1.755,
             "residual_pp": 0.105,
             "by_sector": {
@@ -114582,7 +114582,7 @@
                 "bench_w": 0.0,
                 "book_r": 0.0,
                 "bench_r": 0.0,
-                "allocation": -3.013,
+                "allocation": -3.011,
                 "selection": 0.0,
                 "interaction": 0.0
               },
@@ -114591,7 +114591,7 @@
                 "bench_w": 0.1038,
                 "book_r": 3.302,
                 "bench_r": 5.014,
-                "allocation": -0.014,
+                "allocation": -0.015,
                 "selection": -0.178,
                 "interaction": 0.081
               },
@@ -114617,9 +114617,9 @@
                 "book_w": 0.0562,
                 "bench_w": 0.2016,
                 "book_r": 6.662,
-                "bench_r": 6.834,
-                "allocation": -0.308,
-                "selection": -0.035,
+                "bench_r": 6.832,
+                "allocation": -0.309,
+                "selection": -0.034,
                 "interaction": 0.025
               },
               "Healthcare": {
@@ -114644,10 +114644,10 @@
                 "book_w": 0.0473,
                 "bench_w": 0.1856,
                 "book_r": 1.15,
-                "bench_r": 3.1,
-                "allocation": 0.223,
-                "selection": -0.362,
-                "interaction": 0.27
+                "bench_r": 3.08,
+                "allocation": 0.225,
+                "selection": -0.358,
+                "interaction": 0.267
               },
               "Materials": {
                 "book_w": 0.0435,
@@ -114681,7 +114681,7 @@
                 "bench_w": 0.0339,
                 "book_r": 2.161,
                 "bench_r": 2.161,
-                "allocation": 0.087,
+                "allocation": 0.086,
                 "selection": 0.0,
                 "interaction": -0.0
               }
@@ -114689,10 +114689,10 @@
           }
         ],
         "total": {
-          "allocation_pp": -4.526,
-          "selection_pp": -0.285,
-          "interaction_pp": 0.222,
-          "active_pp": -4.589,
+          "allocation_pp": -4.523,
+          "selection_pp": -0.281,
+          "interaction_pp": 0.219,
+          "active_pp": -4.585,
           "n_months": 2
         },
         "method": "Brinson-Fachler vs the equal-weight universe, start-of-month holdings held through the month; Cash is a sector with zero return and zero benchmark weight"
