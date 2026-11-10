@@ -1,18 +1,18 @@
 {
- "as_of": "2026-11-10",
- "generated_at": "2026-11-10T05:11:52Z",
+ "as_of": "2026-11-11",
+ "generated_at": "2026-11-10T19:32:55Z",
  "overall": "RED",
  "alerts": [
   "Fundamentals: 0/15 names analysed with a fresh fundamental view; 81.4% of filings read",
-  "Macro: macro snapshot 2026-11-10"
+  "Macro: macro snapshot 2026-11-11"
  ],
  "engine": {
   "date": "2026-11-10",
-  "real": 215,
-  "errors": 4,
-  "gated": 280,
-  "other": 2,
-  "top_error": "no feature row",
+  "real": 595,
+  "errors": 60,
+  "gated": 840,
+  "other": 8,
+  "top_error": "cli-unavailable: claude CLI failed for sentiment_analyst and the API fallback is disabled (sentinel ",
   "last_real_date": "2026-11-10"
  },
  "last_run": {
@@ -37,7 +37,7 @@
   },
   "reads_today": {
    "accepted": 0,
-   "attempted": 6
+   "attempted": 0
   },
   "stale_sessions": 3,
   "stale": []
@@ -46,25 +46,25 @@
   {
    "pillar": "Engine output",
    "status": "GREEN",
-   "headline": "215 decisions on 2026-11-10",
+   "headline": "595 decisions on 2026-11-10",
    "metrics": [
     {
      "label": "decisions (latest run)",
-     "value": "215 real / 4 errors / 280 gated",
+     "value": "595 real / 60 errors / 840 gated",
      "status": "GREEN",
-     "detail": "run of 2026-11-10; top error: no feature row",
+     "detail": "run of 2026-11-10; top error: cli-unavailable: claude CLI failed for sentiment_analyst and the API fallback is disabled (sentinel ",
      "dimension": "used"
     },
     {
      "label": "last real decision",
      "value": "2026-11-10",
      "status": "GREEN",
-     "detail": "0d ago",
+     "detail": "1d ago",
      "dimension": "fresh"
     },
     {
      "label": "trader traces (same date)",
-     "value": "235 traces / 215 decisions",
+     "value": "619 traces / 595 decisions",
      "status": "GREEN",
      "detail": "each decision has a trader trace from the same run",
      "dimension": "verified"
@@ -106,8 +106,8 @@
     },
     {
      "label": "reads today",
-     "value": "0 accepted / 6 attempted",
-     "status": "YELLOW",
+     "value": "0 accepted / 0 attempted",
+     "status": "GREEN",
      "detail": "extraction attempts receipted today (UTC) by the 17:00 prep and the weekend backlog job",
      "dimension": "used"
     },
@@ -136,7 +136,7 @@
      "label": "latest period",
      "value": "FY26 on 453 rows",
      "status": "GREEN",
-     "detail": "FY26:453; FY25:24; H1 FY27:11; Q1 FY27:5",
+     "detail": "FY26:453; FY25:24; H1 FY27:12; Q1 FY27:4",
      "dimension": "fresh"
     },
     {
@@ -148,9 +148,9 @@
     },
     {
      "label": "cached view age",
-     "value": "median 36d, p90 158d",
+     "value": "median 36d, p90 159d",
      "status": "RED",
-     "detail": "762 views older than 90 days (3624 cached)",
+     "detail": "762 views older than 90 days (3682 cached)",
      "dimension": "used"
     },
     {
@@ -225,21 +225,21 @@
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-11-09 (1d)",
-     "status": "GREEN",
+     "value": "2026-11-09 (2d)",
+     "status": "YELLOW",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "356",
+     "value": "352",
      "status": "GREEN",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "4252/4258 (100%)",
+     "value": "4017/4022 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
@@ -263,11 +263,11 @@
   {
    "pillar": "Macro",
    "status": "RED",
-   "headline": "macro snapshot 2026-11-10",
+   "headline": "macro snapshot 2026-11-11",
    "metrics": [
     {
      "label": "snapshot date",
-     "value": "2026-11-10 (0d)",
+     "value": "2026-11-11 (0d)",
      "status": "GREEN",
      "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
      "dimension": "fresh"
@@ -295,7 +295,7 @@
     },
     {
      "label": "regime the agents read",
-     "value": "RISK_ON (0d)",
+     "value": "RISK_ON (1d)",
      "status": "GREEN",
      "detail": "the database snapshot every trader prompt opens with",
      "dimension": "used"
