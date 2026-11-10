@@ -1,32 +1,29 @@
 {
  "as_of": "2026-11-10",
- "generated_at": "2026-11-10T00:16:56Z",
+ "generated_at": "2026-11-10T05:11:52Z",
  "overall": "RED",
  "alerts": [
-  "Engine output: 201 decisions on 2026-11-10",
-  "Fundamentals: 0/2 names analysed with a fresh fundamental view; 81.4% of filings read",
-  "Technicals: 1/2 names analysed on technicals",
-  "Sentiment / news: newest headline 2026-11-09; 100% typed",
+  "Fundamentals: 0/15 names analysed with a fresh fundamental view; 81.4% of filings read",
   "Macro: macro snapshot 2026-11-10"
  ],
  "engine": {
   "date": "2026-11-10",
-  "real": 201,
+  "real": 215,
   "errors": 4,
   "gated": 280,
-  "other": 0,
+  "other": 2,
   "top_error": "no feature row",
   "last_real_date": "2026-11-10"
  },
  "last_run": {
   "date": "2026-11-10",
-  "names_analysed": 2,
+  "names_analysed": 15,
   "agent_calls": {
-   "timing_analyst": 2,
-   "trader": 2,
-   "trader_v2": 2,
-   "sentiment_analyst": 1,
-   "technical_analyst": 1
+   "timing_analyst": 15,
+   "trader": 15,
+   "trader_v2": 15,
+   "sentiment_analyst": 14,
+   "technical_analyst": 14
   }
  },
  "read_receipts": {
@@ -40,7 +37,7 @@
   },
   "reads_today": {
    "accepted": 0,
-   "attempted": 0
+   "attempted": 6
   },
   "stale_sessions": 3,
   "stale": []
@@ -48,12 +45,12 @@
  "pillars": [
   {
    "pillar": "Engine output",
-   "status": "RED",
-   "headline": "201 decisions on 2026-11-10",
+   "status": "GREEN",
+   "headline": "215 decisions on 2026-11-10",
    "metrics": [
     {
      "label": "decisions (latest run)",
-     "value": "201 real / 4 errors / 280 gated",
+     "value": "215 real / 4 errors / 280 gated",
      "status": "GREEN",
      "detail": "run of 2026-11-10; top error: no feature row",
      "dimension": "used"
@@ -67,9 +64,9 @@
     },
     {
      "label": "trader traces (same date)",
-     "value": "2 traces / 201 decisions",
-     "status": "RED",
-     "detail": "decisions without a matching trader call \u2014 trace log missing?",
+     "value": "235 traces / 215 decisions",
+     "status": "GREEN",
+     "detail": "each decision has a trader trace from the same run",
      "dimension": "verified"
     }
    ]
@@ -77,7 +74,7 @@
   {
    "pillar": "Fundamentals",
    "status": "RED",
-   "headline": "0/2 names analysed with a fresh fundamental view; 81.4% of filings read",
+   "headline": "0/15 names analysed with a fresh fundamental view; 81.4% of filings read",
    "metrics": [
     {
      "label": "filings read",
@@ -109,8 +106,8 @@
     },
     {
      "label": "reads today",
-     "value": "0 accepted / 0 attempted",
-     "status": "GREEN",
+     "value": "0 accepted / 6 attempted",
+     "status": "YELLOW",
      "detail": "extraction attempts receipted today (UTC) by the 17:00 prep and the weekend backlog job",
      "dimension": "used"
     },
@@ -144,7 +141,7 @@
     },
     {
      "label": "agent ran",
-     "value": "0/2 names",
+     "value": "0/15 names",
      "status": "RED",
      "detail": "last run 2026-11-10: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
      "dimension": "used"
@@ -153,7 +150,7 @@
      "label": "cached view age",
      "value": "median 36d, p90 158d",
      "status": "RED",
-     "detail": "762 views older than 90 days (3623 cached)",
+     "detail": "762 views older than 90 days (3624 cached)",
      "dimension": "used"
     },
     {
@@ -167,8 +164,8 @@
   },
   {
    "pillar": "Technicals",
-   "status": "RED",
-   "headline": "1/2 names analysed on technicals",
+   "status": "YELLOW",
+   "headline": "14/15 names analysed on technicals",
    "metrics": [
     {
      "label": "newest bar",
@@ -207,8 +204,8 @@
     },
     {
      "label": "agent ran",
-     "value": "1/2 names",
-     "status": "RED",
+     "value": "14/15 names",
+     "status": "YELLOW",
      "detail": "last run 2026-11-10",
      "dimension": "used"
     },
@@ -223,7 +220,7 @@
   },
   {
    "pillar": "Sentiment / news",
-   "status": "RED",
+   "status": "YELLOW",
    "headline": "newest headline 2026-11-09; 100% typed",
    "metrics": [
     {
@@ -242,15 +239,15 @@
     },
     {
      "label": "headlines typed",
-     "value": "4306/4312 (100%)",
+     "value": "4252/4258 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
     },
     {
      "label": "agent ran",
-     "value": "1/2 names",
-     "status": "RED",
+     "value": "14/15 names",
+     "status": "YELLOW",
      "detail": "last run 2026-11-10",
      "dimension": "used"
     },
