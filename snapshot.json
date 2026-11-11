@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T00:18:10.159578+05:30",
+  "generated_at": "2026-11-11T06:21:41.750631+05:30",
   "portfolio": {
     "cash_inr": 18387.32,
     "invested_inr": 917718.8,
@@ -1087,18 +1087,18 @@
   "macro": {
     "regime": "RISK_ON",
     "position_size_multiplier": 0.9,
-    "vix": 17.4699993133545,
+    "vix": 17.4200000762939,
     "vix_signal": "moderate",
     "inr_usd": 93.9179992675781,
     "inr_signal": "strengthening",
-    "crude_usd": 87.6399993896484,
-    "crude_signal": "rising",
+    "crude_usd": 86.2300033569336,
+    "crude_signal": "stable",
     "fii_flow_cr": 6936.19477921082,
     "fii_signal": "buying",
     "nifty100_momentum": "bullish",
     "rbi_repo_pct": 6.0,
     "sector_tilts": {
-      "Financials": "neutral",
+      "Financials": "overweight",
       "IT": "overweight",
       "Energy": "neutral",
       "FMCG": "underweight",
@@ -1111,9 +1111,18 @@
       "Consumer Discr.": "underweight",
       "Real Estate": "overweight"
     },
-    "reasoning": "RISK_ON with a trimmed multiplier. FIIs have bought a sustained +51,996 cr over 30 days (latest day +7,212), NIFTY 100 is up 10.7% over 20 days, the INR is strengthening, US yields are falling and VIX is moderate at 17.5. Size stays at the bottom of the RISK_ON band for four reasons: VIX sits at the 86th percentile of its 2-year range, the global tape is weak (Nasdaq -7.5% and Nikkei -18% over 20 days, US VIX +33%), FIIs hold large net-short index futures (L/S 0.37), and breadth is only middling (51% above the 50-DMA) while DIIs sell into the rally. Tilts follow the rotation map: overweight the LEADING groups IT (rising delivery), Healthcare, Auto and Real Estate (falling yields help). Underweight the LAGGING groups plus Consumer Discretionary, where rising crude hurts paints and aviation. Energy is neutral because rising crude splits upstream and OMC outcomes. Data note: the RBI repo is reported as both 6.0% and 5.5%, so financials stay neutral rather than leaning on a rate-cut thesis.",
-    "snapshot_date": "2026-11-10",
+    "reasoning": "FIIs are buying on a sustained basis (+51,996 cr over 30 days, latest day +7,212 cr), NIFTY 100 is up 10.7% over 20 days, the INR is strengthening, crude and DXY are stable, and gold and US yields are falling. Together that meets the RISK_ON criteria, and with VIX at a moderate 17.4 no hard rule overrides it. Size is capped at 0.9 rather than 1.0 for four reasons: VIX sits at its 86th percentile over two years; FIIs are heavily net-short index futures (L/S 0.37), which suggests hedged longs; breadth is middling at 51% above the 50-DMA; and the global tape is weak (Nasdaq -7.9%, Nikkei -14.9% over 20 days) while DIIs are selling into FII buying. Tilts follow the rotation map: overweight the LEADING sectors IT and Real Estate (rising delivery), plus Auto and Healthcare. Financials are overweight on falling yields and an easing RBI, though the data conflicts on the repo rate (6.0% in the headline vs 5.5% in the indicators). Lagging sectors (Industrials, FMCG, Telecom, Materials) and fading Consumer Discretionary are underweight.",
+    "snapshot_date": "2026-11-11",
     "history": [
+      {
+        "date": "2026-11-11",
+        "regime": "RISK_ON",
+        "multiplier": 0.9,
+        "vix": 17.4200000762939,
+        "inr_usd": 93.9179992675781,
+        "crude_usd": 86.2300033569336,
+        "fii_flow_cr": 6936.19477921082
+      },
       {
         "date": "2026-11-10",
         "regime": "RISK_ON",
@@ -1374,15 +1383,6 @@
         "inr_usd": 95.7300033569336,
         "crude_usd": 91.9300003051758,
         "fii_flow_cr": -1945.91703385468
-      },
-      {
-        "date": "2026-09-23",
-        "regime": "NEUTRAL",
-        "multiplier": 0.85,
-        "vix": 11.25,
-        "inr_usd": 95.5800018310547,
-        "crude_usd": 90.3499984741211,
-        "fii_flow_cr": -2359.96114826103
       }
     ]
   },
@@ -56055,11 +56055,12 @@
         "stop_loss": 4790.0
       },
       "fundamental": {
-        "thesis": "HAL is India's main state-owned maker of military aircraft and helicopters, with a Q4FY26 order book of about \u20b92.55 lakh cr, or 7.7x revenue, and FY26 order inflow of about \u20b997,028 cr (period label inferred), giving multi-year visibility. Q1FY27 revenue rose 14.4% YoY to \u20b95,515 cr and PAT rose 14.9% to \u20b91,590 cr (28.8% margin), an apparent acceleration from about +7% in FY26, but this is one seasonally small quarter and the pre-computed trend signals rely on inconsistent rows (for example, Q4FY26 revenue of \u20b933,050 cr looks like the full year, and Q1FY26 PAT of \u20b9138 cr conflicts with the +14.9% growth), so I do not treat the margin expansion as proven. On EV/EBITDA, supported by order-book cover as the sector card directs, valuation is fair rather than the 'cheap' peer verdict: 29.0x is 14.7% below the 34.0x sector median but only P35, and while trailing P/E of 31.1x is P6 among peers, it sits within the 28-45x sector range and forward P/E is P24. The biggest risks are the governance gap from too few independent directors, which left the Audit Committee non-functional from 5 April 2026 in the latest filing, and the 12 November results, which will test whether Q1's growth and margins hold.",
+        "thesis": "Hindustan Aeronautics is India's main state-owned military aircraft and helicopter maker, with an order book of Rs 254,538 cr, about 7.7x FY26 revenue of roughly Rs 33,050 cr (filed as Q4FY26), after Rs 97,028 cr of inflows. Q1FY27 revenue rose 14.4% YoY to Rs 5,515 cr and PAT rose 14.9% to Rs 1,590 cr, faster than FY26 revenue growth of about 7%, but that is one seasonally small quarter (about 17% of FY26 revenue), and the table's accelerating revenue and expanding margin signals are unreliable: the FY26, 9MFY26 and H1FY26 rows look corrupted, and Q1FY26 PAT of Rs 138 cr conflicts with the roughly Rs 1,384 cr implied by the reported growth, which puts PAT margin flat at about 28.7-28.8%. Using EV/EBITDA and order cover as the yardstick, valuation is fair rather than cheap: EV/EBITDA of 29.0x is 14.7% below the 34.0x peer median (P35), while trailing P/E of 31.1x is P6 among peers but within the 28-45x sector range, and forward P/E of 25.4x implies earnings growth; the stock's roughly 46% position in its 52-week range also conflicts with the +12.6% upside to the consensus target, so that upside figure should not be relied on. The biggest risk is whether the large order book converts into revenue on time, and the Q2 results due at the 12 November board meeting are the next test, alongside the board-composition non-compliance that left the Audit Committee non-functional from 5 April 2026.",
         "valuation_grade": "fair",
         "growth_grade": "moderate",
         "risk_grade": "medium",
-        "conviction": 0.4
+        "conviction": 0.45,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-27",
@@ -57940,11 +57941,12 @@
         "stop_loss": 81.5
       },
       "fundamental": {
-        "thesis": "Bank of Maharashtra is a mid-sized, 73.6% government-owned public sector bank with a strong low-cost deposit base (FY26 CASA 52.51%) and high FY26 profitability (ROA 1.86%, NIM 3.91%). Standalone Q2 FY27 figures were not extracted, but PAT growth improved from +27.2% in FY26 to +31.1% in H1 FY27 (Rs 4,160 cr), while gross NPA fell from 1.45% to 1.25%, net NPA held near 0.12%, and management kept its 18% FY27 credit growth guidance; the pre-computed revenue signal of 'accelerating' is unreliable because H1 revenue of Rs 18,799 cr (+18.6%) and FY26 revenue of Rs 13,664 cr (+17.1%) appear to use different definitions and the direction is mislabelled. Using the P/B-plus-ROE yardstick for lenders, valuation is fair: P/B of 2.07x sits between the desk's cheap and expensive thresholds, though ROE of 22.7% supports a premium, while the 9.81x trailing P/E and 'cheap' peer verdict get little weight because the peer set is the broad market rather than banks, and the stock appears to sit near its 52-week high. The biggest risk is that margins and asset quality weaken as rapid loan growth seasons, and the latest NIM and CASA figures needed to check this were not available, so conviction stays moderate.",
+        "thesis": "Bank of Maharashtra is a government-controlled (73.6%) mid-size public sector bank with a strong low-cost deposit base (FY26 CASA 52.51%), good asset quality (gross NPA down from 1.45% in FY26 to 1.25% in H1 FY27, net NPA 0.12%, coverage about 98.5%) and FY26 loan growth of 21.74%. H1 FY27 revenue rose 18.6% YoY to Rs 18,799 cr and PAT rose 31.1% to Rs 4,160 cr, but standalone Q2 figures were not extracted, and the 'accelerating' signal is unreliable because it compares a half-year with a full-year figure of only Rs 13,664 cr that appears to use a different revenue definition, while management's maintained 18% FY27 credit growth guidance implies slower growth than FY26. Using the P/B + ROE yardstick for lenders rather than P/E, valuation is fair: 2.07x book with a 22.7% ROE is attractive relative to returns but above the under-1.5x cheap threshold, the stock sits at 95.7% of its 52-week range, and the broad-market peer rank is a weak comparison for a bank, although FY-EPS estimates rose 11.3% over 30 days on thin coverage of 4 analysts. The biggest risk is that fast loan growth with an 86.48% advances-to-deposits ratio squeezes margins or weakens credit quality as new loans season, and the latest NIM trend cannot be confirmed because only the FY26 figure of 3.91% is available.",
         "valuation_grade": "fair",
         "growth_grade": "strong",
         "risk_grade": "medium",
-        "conviction": 0.45
+        "conviction": 0.45,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-27",
@@ -67154,7 +67156,8 @@
         "valuation_grade": "fair",
         "growth_grade": "strong",
         "risk_grade": "medium",
-        "conviction": 0.55
+        "conviction": 0.55,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-27",
@@ -67984,7 +67987,8 @@
         "valuation_grade": "fair",
         "growth_grade": "moderate",
         "risk_grade": "medium",
-        "conviction": 0.35
+        "conviction": 0.35,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-27",
@@ -69342,7 +69346,8 @@
         "valuation_grade": "expensive",
         "growth_grade": "moderate",
         "risk_grade": "medium",
-        "conviction": 0.35
+        "conviction": 0.35,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-27",
@@ -70850,7 +70855,8 @@
         "valuation_grade": "expensive",
         "growth_grade": "weak",
         "risk_grade": "medium",
-        "conviction": 0.5
+        "conviction": 0.5,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-22",
@@ -72384,7 +72390,8 @@
         "valuation_grade": "fair",
         "growth_grade": "strong",
         "risk_grade": "medium",
-        "conviction": 0.45
+        "conviction": 0.45,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-27",
@@ -74674,7 +74681,8 @@
         "valuation_grade": "fair",
         "growth_grade": "strong",
         "risk_grade": "high",
-        "conviction": 0.45
+        "conviction": 0.45,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-23",
@@ -77496,7 +77504,8 @@
         "valuation_grade": "fair",
         "growth_grade": "moderate",
         "risk_grade": "medium",
-        "conviction": 0.4
+        "conviction": 0.4,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-08-06",
@@ -83921,7 +83930,8 @@
         "valuation_grade": "fair",
         "growth_grade": "moderate",
         "risk_grade": "medium",
-        "conviction": 0.4
+        "conviction": 0.4,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-27",
@@ -85724,7 +85734,8 @@
         "valuation_grade": "fair",
         "growth_grade": "strong",
         "risk_grade": "medium",
-        "conviction": 0.4
+        "conviction": 0.4,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-28",
@@ -86237,7 +86248,8 @@
         "valuation_grade": "fair",
         "growth_grade": "moderate",
         "risk_grade": "medium",
-        "conviction": 0.4
+        "conviction": 0.4,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-27",
@@ -87057,7 +87069,8 @@
         "valuation_grade": "fair",
         "growth_grade": "strong",
         "risk_grade": "medium",
-        "conviction": 0.55
+        "conviction": 0.55,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-27",
@@ -88445,7 +88458,8 @@
         "valuation_grade": "expensive",
         "growth_grade": "weak",
         "risk_grade": "high",
-        "conviction": 0.5
+        "conviction": 0.5,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-20",
@@ -91796,11 +91810,12 @@
         "stop_loss": null
       },
       "fundamental": {
-        "thesis": "Maruti Suzuki is India's largest passenger-car maker and also a major exporter, with 1,379,378 units sold in H1 FY27, of which 232,855 were exports. H1 FY27 revenue rose 31.0% YoY to Rs 100,575 cr, with growth building from +12.7% in Q2 FY26 through +17.0% (9M) and +20.2% (FY26), but this was unprofitable growth: PAT fell 18.3% to Rs 5,767 cr after +7.3%, +4.0% and +1.0%, and PAT margin dropped from about 8.2-8.3% to 5.7%, while average selling price stayed roughly flat (Rs 729,370 vs Rs 729,189 in Q2 FY26), so growth is coming from volume rather than pricing; the Q2 FY27 row is blank, the yfinance Q2 revenue of Rs 40,432 cr does not reconcile with H1, and the FY26, 9M and Q2 FY26 rupee figures appear to be understated tenfold, which I inferred from volumes x selling price and corrected only in the margin and trend reads. Using the sector card's P/E yardstick for carmakers, cross-checked with EV/EBITDA, the stock is fair: 27.64x trailing P/E sits near the top of the 18-30x norm and matches the peer median of 27.1x (P60), and 18.32x EV/EBITDA is exactly at the peer median (P50), though my rough trailing-profit estimate of about Rs 13,150 cr implies closer to 31x, and the 20.82x forward P/E needs profit of about Rs 19,700 cr, roughly 50% higher. Being near the 52-week low (19.5% of range) helps risk/reward, but the biggest risk is that margins do not recover while crude rises, and sell-side upside looks overstated because the quoted +22% implies a price of about Rs 11,880, below the 52-week low, whereas the market cap implies about Rs 13,000, or roughly +11% to the mean target (the 107% dividend yield is also clearly a data error and was ignored).",
+        "thesis": "Maruti Suzuki is India's largest passenger-car maker and, per its own October filing, the country's top EV exporter. The fundamentals data is unreliable: the 1H FY26 row, the guidance and the sector KPIs (JPY figures, motorcycles, marine) belong to parent Suzuki Motor Corporation, not Maruti, and the Q2FY27 quarterly row is blank. The one row that looks like Maruti, H1FY27, shows revenue of \u20b9100,575 cr (+31.0% YoY) but PAT of \u20b95,767 cr (-18.3% YoY), with PAT margin down to 5.7%, so growth is not reaching profit. On valuation, a trailing P/E of 27.6x and EV/EBITDA of 18.3x sit at the peer median (P60 and P50) and inside the 18-30x OEM band from the sector card, which grades as fair; the stock trades at 19.5% of its 52-week range and analysts have cut next-year estimates by 7.5% in 30 days and 8.4% in 90 days. The biggest risk is that the market prices further profit downgrades while 35 of 40 analysts still rate it buy, and the clean quarterly figures needed to confirm or reject this are missing.",
         "valuation_grade": "fair",
         "growth_grade": "moderate",
         "risk_grade": "medium",
-        "conviction": 0.4
+        "conviction": 0.3,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-27",
@@ -94473,7 +94488,8 @@
         "valuation_grade": "expensive",
         "growth_grade": "moderate",
         "risk_grade": "medium",
-        "conviction": 0.4
+        "conviction": 0.4,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-27",
@@ -95387,11 +95403,12 @@
         "stop_loss": null
       },
       "fundamental": {
-        "thesis": "Mazagon Dock is a defence shipbuilder that builds naval frigates and submarines for the Indian Navy, with a \u20b916,443 cr order book that covers about 3.05x H1 revenue but only about 1.3x estimated trailing annual revenue, so visibility is much thinner than the headline suggests. H1 FY27 revenue fell 3.0% YoY to \u20b95,389 cr and PAT fell 25.4% to \u20b9897 cr, with EBITDA margin down from 28.6% to 22.1%; growth slowed from +6.0% revenue and +22.0% PAT in Q1, which implies by my estimate that Q2 revenue fell about 11% and PAT roughly halved, though this rests on prior-year rows that appear misprinted by 10x and yfinance Q2 revenue (\u20b91,287 cr) conflicts with the H1 total, so standalone Q2 needs PDF verification. Using the sector card's order-book and EV/EBITDA yardstick, I grade valuation as expensive: EV/EBITDA of 38.45x is about 65% above the broad-market median of 23.3x (P79) and P/B of 10.48x is at P84, even though trailing P/E of 39.5x sits inside the 28-45x sector range, and the peer set is only a broad-market fallback; the FY EPS estimate has also been cut 14.8% in 30 days, which makes the 31.1x forward P/E less reliable, and the +20.4% upside shown against the \u20b92,160 mean target looks wrong because the 52-week data implies a price near \u20b92,520, above that target. The biggest risk is further de-rating if earnings keep falling and the order book is not replenished, while FY26's negative cash conversion (-1.25x CFO/PAT, from a row that also looks unreliable), the unread 2 November rumour-verification filing and the conflict between the 4.48 debt/equity figure and the reported zero-debt balance sheet all need checking.",
+        "thesis": "Mazagon Dock is a major Indian defence shipbuilder of naval frigates and submarines, with a net worth of Rs 10,684 cr and a reported Rs 16,443 cr order book. H1 FY27 revenue fell 3.0% YoY to Rs 5,389 cr and PAT fell 25.4% to Rs 897 cr, with EBITDA margin down from 28.6% to 22.1%; by my derivation, revenue growth went from +6% in Q1 to about -11% in Q2 (about Rs 2,605 cr), and PAT growth from +22% to about -54% (about Rs 348 cr), a 13.4% margin, though the Q2 revenue is an estimate because the Q1 row is blank and the FY26, Q2FY26 and Q1 FY26 rows appear understated about 10x (Q1 and Q2 FY26 sum to one-tenth of the reported Rs 5,555 cr and Rs 1,202 cr H1 base). Using EV/EBITDA plus order cover as the yardstick, the stock looks expensive: EV/EBITDA of 38.5x is at P79 of a broad-market peer set (no tight peers, so a weak comparison) and P/B is 10.5x, while the 39.5x trailing P/E sits inside the 28-45x sector range and the 31.1x forward P/E assumes a rebound even as FY-EPS estimates were cut 14.8% in 30 days. The biggest risk is that the true order cover is only about 1.3-1.5x annual revenue, not the 3.05x shown (that figure uses half-year revenue), and I ignored three inputs that do not reconcile or could not be read: the +21% target upside implies a price of about Rs 1,785, below the Rs 2,057 52-week low (the range position implies about Rs 2,530, making the Rs 2,160 target about 15% downside), the 4.48 debt/equity conflicts with the zero-debt claim and may be a percentage, and the 2 November rumour-verification filing's content was not provided.",
         "valuation_grade": "expensive",
         "growth_grade": "weak",
         "risk_grade": "high",
-        "conviction": 0.55
+        "conviction": 0.5,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-28",
@@ -95850,7 +95867,8 @@
         "valuation_grade": "fair",
         "growth_grade": "moderate",
         "risk_grade": "high",
-        "conviction": 0.55
+        "conviction": 0.55,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-08-13",
@@ -96070,7 +96088,8 @@
         "valuation_grade": "fair",
         "growth_grade": "weak",
         "risk_grade": "medium",
-        "conviction": 0.45
+        "conviction": 0.45,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-31",
@@ -96306,7 +96325,8 @@
         "valuation_grade": "fair",
         "growth_grade": "weak",
         "risk_grade": "high",
-        "conviction": 0.35
+        "conviction": 0.35,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-27",
@@ -96543,7 +96563,8 @@
         "valuation_grade": "fair",
         "growth_grade": "strong",
         "risk_grade": "medium",
-        "conviction": 0.55
+        "conviction": 0.55,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-28",
@@ -96661,7 +96682,8 @@
         "valuation_grade": "expensive",
         "growth_grade": "strong",
         "risk_grade": "high",
-        "conviction": 0.45
+        "conviction": 0.45,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-28",
@@ -97339,7 +97361,8 @@
         "valuation_grade": "fair",
         "growth_grade": "moderate",
         "risk_grade": "high",
-        "conviction": 0.2
+        "conviction": 0.2,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-29",
@@ -97441,7 +97464,8 @@
         "valuation_grade": "expensive",
         "growth_grade": "moderate",
         "risk_grade": "medium",
-        "conviction": 0.5
+        "conviction": 0.5,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-28",
@@ -97662,7 +97686,8 @@
         "valuation_grade": "fair",
         "growth_grade": "moderate",
         "risk_grade": "medium",
-        "conviction": 0.45
+        "conviction": 0.45,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-27",
@@ -97780,7 +97805,8 @@
         "valuation_grade": "cheap",
         "growth_grade": "weak",
         "risk_grade": "high",
-        "conviction": 0.4
+        "conviction": 0.4,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-08-12",
@@ -99154,7 +99180,8 @@
         "valuation_grade": "expensive",
         "growth_grade": "moderate",
         "risk_grade": "high",
-        "conviction": 0.5
+        "conviction": 0.5,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-27",
@@ -99847,7 +99874,8 @@
         "valuation_grade": "expensive",
         "growth_grade": "moderate",
         "risk_grade": "medium",
-        "conviction": 0.4
+        "conviction": 0.4,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-27",
@@ -100776,7 +100804,8 @@
         "valuation_grade": "expensive",
         "growth_grade": "strong",
         "risk_grade": "high",
-        "conviction": 0.4
+        "conviction": 0.4,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-28",
@@ -101304,7 +101333,8 @@
         "valuation_grade": "fair",
         "growth_grade": "moderate",
         "risk_grade": "medium",
-        "conviction": 0.45
+        "conviction": 0.45,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-08-07",
@@ -101422,7 +101452,8 @@
         "valuation_grade": "cheap",
         "growth_grade": "moderate",
         "risk_grade": "medium",
-        "conviction": 0.35
+        "conviction": 0.35,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-28",
@@ -102272,7 +102303,8 @@
         "valuation_grade": "expensive",
         "growth_grade": "moderate",
         "risk_grade": "high",
-        "conviction": 0.4
+        "conviction": 0.4,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-29",
@@ -102390,7 +102422,8 @@
         "valuation_grade": "expensive",
         "growth_grade": "strong",
         "risk_grade": "medium",
-        "conviction": 0.55
+        "conviction": 0.55,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-27",
@@ -102981,7 +103014,8 @@
         "valuation_grade": "expensive",
         "growth_grade": "moderate",
         "risk_grade": "high",
-        "conviction": 0.5
+        "conviction": 0.5,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-11-02",
@@ -103626,7 +103660,8 @@
         "valuation_grade": "cheap",
         "growth_grade": "weak",
         "risk_grade": "high",
-        "conviction": 0.45
+        "conviction": 0.45,
+        "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-10-27",
@@ -111131,14 +111166,14 @@
   },
   "sector_flows": {
     "computed_date": "2026-11-11",
-    "benchmark_ret_5d_pct": 4.7,
-    "benchmark_ret_1d_pct": 0.88,
+    "benchmark_ret_5d_pct": 4.71,
+    "benchmark_ret_1d_pct": 0.89,
     "sectors": {
       "Energy": {
         "sector": "Energy",
         "ret_5d_pct": 4.39,
         "ret_1d_pct": 0.82,
-        "rel_5d_pct": -0.31,
+        "rel_5d_pct": -0.32,
         "stocks_count": 17,
         "stocks_advancing_pct": 70.6,
         "signal": "neutral",
@@ -111147,8 +111182,8 @@
       "Financials": {
         "sector": "Financials",
         "ret_5d_pct": 6.84,
-        "ret_1d_pct": 0.85,
-        "rel_5d_pct": 2.14,
+        "ret_1d_pct": 0.88,
+        "rel_5d_pct": 2.13,
         "stocks_count": 101,
         "stocks_advancing_pct": 93.1,
         "signal": "inflow",
@@ -111158,7 +111193,7 @@
         "sector": "IT",
         "ret_5d_pct": 0.62,
         "ret_1d_pct": -0.17,
-        "rel_5d_pct": -4.08,
+        "rel_5d_pct": -4.09,
         "stocks_count": 27,
         "stocks_advancing_pct": 59.3,
         "signal": "strong_outflow",
@@ -111168,7 +111203,7 @@
         "sector": "Telecom",
         "ret_5d_pct": 1.25,
         "ret_1d_pct": -0.28,
-        "rel_5d_pct": -3.45,
+        "rel_5d_pct": -3.46,
         "stocks_count": 10,
         "stocks_advancing_pct": 50.0,
         "signal": "strong_outflow",
@@ -111176,9 +111211,9 @@
       },
       "Industrials": {
         "sector": "Industrials",
-        "ret_5d_pct": 3.09,
-        "ret_1d_pct": 1.45,
-        "rel_5d_pct": -1.61,
+        "ret_5d_pct": 3.15,
+        "ret_1d_pct": 1.46,
+        "rel_5d_pct": -1.56,
         "stocks_count": 93,
         "stocks_advancing_pct": 73.1,
         "signal": "outflow",
@@ -111188,7 +111223,7 @@
         "sector": "FMCG",
         "ret_5d_pct": 5.94,
         "ret_1d_pct": 0.68,
-        "rel_5d_pct": 1.24,
+        "rel_5d_pct": 1.23,
         "stocks_count": 29,
         "stocks_advancing_pct": 96.6,
         "signal": "neutral",
@@ -111198,7 +111233,7 @@
         "sector": "Auto",
         "ret_5d_pct": 5.81,
         "ret_1d_pct": 0.85,
-        "rel_5d_pct": 1.12,
+        "rel_5d_pct": 1.1,
         "stocks_count": 39,
         "stocks_advancing_pct": 87.2,
         "signal": "neutral",
@@ -111208,7 +111243,7 @@
         "sector": "Healthcare",
         "ret_5d_pct": 5.03,
         "ret_1d_pct": 1.99,
-        "rel_5d_pct": 0.33,
+        "rel_5d_pct": 0.32,
         "stocks_count": 49,
         "stocks_advancing_pct": 85.7,
         "signal": "neutral",
@@ -111218,7 +111253,7 @@
         "sector": "Materials",
         "ret_5d_pct": 4.41,
         "ret_1d_pct": 0.43,
-        "rel_5d_pct": -0.29,
+        "rel_5d_pct": -0.31,
         "stocks_count": 56,
         "stocks_advancing_pct": 91.1,
         "signal": "neutral",
@@ -111228,7 +111263,7 @@
         "sector": "Utilities",
         "ret_5d_pct": 2.16,
         "ret_1d_pct": 0.67,
-        "rel_5d_pct": -2.54,
+        "rel_5d_pct": -2.55,
         "stocks_count": 17,
         "stocks_advancing_pct": 82.4,
         "signal": "strong_outflow",
@@ -111238,7 +111273,7 @@
         "sector": "Consumer Discr.",
         "ret_5d_pct": 5.01,
         "ret_1d_pct": 0.56,
-        "rel_5d_pct": 0.31,
+        "rel_5d_pct": 0.3,
         "stocks_count": 52,
         "stocks_advancing_pct": 88.5,
         "signal": "neutral",
@@ -111248,7 +111283,7 @@
         "sector": "Real Estate",
         "ret_5d_pct": 7.52,
         "ret_1d_pct": -0.26,
-        "rel_5d_pct": 2.82,
+        "rel_5d_pct": 2.81,
         "stocks_count": 11,
         "stocks_advancing_pct": 100.0,
         "signal": "strong_inflow",
@@ -111260,11 +111295,11 @@
     "symbol": "OWN_CAPWT",
     "name": "Nifty 150 (our universe)",
     "synthetic": true,
-    "current_level": 313.81,
+    "current_level": 313.8,
     "ret_1d_pct": 1.49,
     "ret_5d_pct": 5.009,
     "ret_30d_pct": 5.758,
-    "since_start_pct": 6.633,
+    "since_start_pct": 6.629,
     "history": [
       {
         "date": "2026-07-07",
@@ -111284,7 +111319,7 @@
       },
       {
         "date": "2026-07-13",
-        "level": 307.27
+        "level": 307.28
       },
       {
         "date": "2026-07-14",
@@ -111292,31 +111327,31 @@
       },
       {
         "date": "2026-07-15",
-        "level": 306.55
+        "level": 306.54
       },
       {
         "date": "2026-07-16",
-        "level": 306.24
+        "level": 306.23
       },
       {
         "date": "2026-07-17",
-        "level": 307.2
+        "level": 307.19
       },
       {
         "date": "2026-07-20",
-        "level": 308.01
+        "level": 308.0
       },
       {
         "date": "2026-07-21",
-        "level": 308.51
+        "level": 308.5
       },
       {
         "date": "2026-07-22",
-        "level": 305.9
+        "level": 305.89
       },
       {
         "date": "2026-07-23",
-        "level": 303.75
+        "level": 303.74
       },
       {
         "date": "2026-07-24",
@@ -111324,7 +111359,7 @@
       },
       {
         "date": "2026-07-27",
-        "level": 306.19
+        "level": 306.18
       },
       {
         "date": "2026-07-28",
@@ -111332,27 +111367,27 @@
       },
       {
         "date": "2026-07-29",
-        "level": 308.49
+        "level": 308.48
       },
       {
         "date": "2026-07-30",
-        "level": 308.27
+        "level": 308.26
       },
       {
         "date": "2026-07-31",
-        "level": 310.23
+        "level": 310.22
       },
       {
         "date": "2026-08-03",
-        "level": 314.79
+        "level": 314.78
       },
       {
         "date": "2026-08-04",
-        "level": 313.22
+        "level": 313.21
       },
       {
         "date": "2026-08-05",
-        "level": 314.1
+        "level": 314.09
       },
       {
         "date": "2026-08-06",
@@ -111364,51 +111399,51 @@
       },
       {
         "date": "2026-08-10",
-        "level": 314.65
+        "level": 314.64
       },
       {
         "date": "2026-08-11",
-        "level": 314.09
+        "level": 314.08
       },
       {
         "date": "2026-08-12",
-        "level": 314.2
+        "level": 314.19
       },
       {
         "date": "2026-08-13",
-        "level": 314.12
+        "level": 314.11
       },
       {
         "date": "2026-08-14",
-        "level": 313.41
+        "level": 313.4
       },
       {
         "date": "2026-08-17",
-        "level": 312.99
+        "level": 312.98
       },
       {
         "date": "2026-08-18",
-        "level": 311.88
+        "level": 311.87
       },
       {
         "date": "2026-08-19",
-        "level": 310.81
+        "level": 310.8
       },
       {
         "date": "2026-08-20",
-        "level": 312.4
+        "level": 312.39
       },
       {
         "date": "2026-08-21",
-        "level": 312.73
+        "level": 312.72
       },
       {
         "date": "2026-08-24",
-        "level": 312.5
+        "level": 312.49
       },
       {
         "date": "2026-08-25",
-        "level": 313.91
+        "level": 313.9
       },
       {
         "date": "2026-08-26",
@@ -111416,27 +111451,27 @@
       },
       {
         "date": "2026-08-27",
-        "level": 312.55
+        "level": 312.54
       },
       {
         "date": "2026-08-28",
-        "level": 313.12
+        "level": 313.11
       },
       {
         "date": "2026-08-31",
-        "level": 311.44
+        "level": 311.43
       },
       {
         "date": "2026-09-01",
-        "level": 310.08
+        "level": 310.07
       },
       {
         "date": "2026-09-02",
-        "level": 309.0
+        "level": 308.99
       },
       {
         "date": "2026-09-03",
-        "level": 309.56
+        "level": 309.55
       },
       {
         "date": "2026-09-04",
@@ -111448,11 +111483,11 @@
       },
       {
         "date": "2026-09-08",
-        "level": 308.01
+        "level": 308.0
       },
       {
         "date": "2026-09-09",
-        "level": 306.63
+        "level": 306.62
       },
       {
         "date": "2026-09-10",
@@ -111468,19 +111503,19 @@
       },
       {
         "date": "2026-09-15",
-        "level": 299.26
+        "level": 299.25
       },
       {
         "date": "2026-09-16",
-        "level": 299.84
+        "level": 299.83
       },
       {
         "date": "2026-09-17",
-        "level": 301.76
+        "level": 301.75
       },
       {
         "date": "2026-09-18",
-        "level": 304.87
+        "level": 304.86
       },
       {
         "date": "2026-09-21",
@@ -111492,15 +111527,15 @@
       },
       {
         "date": "2026-09-23",
-        "level": 305.97
+        "level": 305.96
       },
       {
         "date": "2026-09-24",
-        "level": 301.1
+        "level": 301.09
       },
       {
         "date": "2026-09-25",
-        "level": 301.85
+        "level": 301.84
       },
       {
         "date": "2026-09-28",
@@ -111508,15 +111543,15 @@
       },
       {
         "date": "2026-09-29",
-        "level": 294.8
+        "level": 294.79
       },
       {
         "date": "2026-09-30",
-        "level": 294.76
+        "level": 294.75
       },
       {
         "date": "2026-10-01",
-        "level": 291.48
+        "level": 291.47
       },
       {
         "date": "2026-10-02",
@@ -111528,43 +111563,43 @@
       },
       {
         "date": "2026-10-06",
-        "level": 296.12
+        "level": 296.11
       },
       {
         "date": "2026-10-07",
-        "level": 294.05
+        "level": 294.04
       },
       {
         "date": "2026-10-08",
-        "level": 287.75
+        "level": 287.74
       },
       {
         "date": "2026-10-09",
-        "level": 291.01
+        "level": 291.0
       },
       {
         "date": "2026-10-12",
-        "level": 290.63
+        "level": 290.62
       },
       {
         "date": "2026-10-13",
-        "level": 294.28
+        "level": 294.27
       },
       {
         "date": "2026-10-14",
-        "level": 294.21
+        "level": 294.2
       },
       {
         "date": "2026-10-15",
-        "level": 295.19
+        "level": 295.18
       },
       {
         "date": "2026-10-16",
-        "level": 296.31
+        "level": 296.3
       },
       {
         "date": "2026-10-19",
-        "level": 293.48
+        "level": 293.47
       },
       {
         "date": "2026-10-21",
@@ -111572,7 +111607,7 @@
       },
       {
         "date": "2026-10-22",
-        "level": 288.37
+        "level": 288.36
       },
       {
         "date": "2026-10-23",
@@ -111584,11 +111619,11 @@
       },
       {
         "date": "2026-10-27",
-        "level": 288.71
+        "level": 288.7
       },
       {
         "date": "2026-10-28",
-        "level": 288.51
+        "level": 288.5
       },
       {
         "date": "2026-10-29",
@@ -111596,7 +111631,7 @@
       },
       {
         "date": "2026-10-30",
-        "level": 290.2
+        "level": 290.19
       },
       {
         "date": "2026-11-02",
@@ -111604,7 +111639,7 @@
       },
       {
         "date": "2026-11-03",
-        "level": 298.84
+        "level": 298.83
       },
       {
         "date": "2026-11-04",
@@ -111612,19 +111647,19 @@
       },
       {
         "date": "2026-11-05",
-        "level": 308.59
+        "level": 308.58
       },
       {
         "date": "2026-11-06",
-        "level": 310.41
+        "level": 310.4
       },
       {
         "date": "2026-11-08",
-        "level": 309.2
+        "level": 309.19
       },
       {
         "date": "2026-11-09",
-        "level": 313.81
+        "level": 313.8
       }
     ]
   },
@@ -111633,11 +111668,11 @@
       "symbol": "OWN_CAPWT",
       "name": "Nifty 150 (our universe)",
       "synthetic": true,
-      "current_level": 313.81,
+      "current_level": 313.8,
       "ret_1d_pct": 1.49,
       "ret_5d_pct": 5.009,
       "ret_30d_pct": 5.758,
-      "since_start_pct": 6.633,
+      "since_start_pct": 6.629,
       "history": [
         {
           "date": "2026-07-07",
@@ -111657,7 +111692,7 @@
         },
         {
           "date": "2026-07-13",
-          "level": 307.27
+          "level": 307.28
         },
         {
           "date": "2026-07-14",
@@ -111665,31 +111700,31 @@
         },
         {
           "date": "2026-07-15",
-          "level": 306.55
+          "level": 306.54
         },
         {
           "date": "2026-07-16",
-          "level": 306.24
+          "level": 306.23
         },
         {
           "date": "2026-07-17",
-          "level": 307.2
+          "level": 307.19
         },
         {
           "date": "2026-07-20",
-          "level": 308.01
+          "level": 308.0
         },
         {
           "date": "2026-07-21",
-          "level": 308.51
+          "level": 308.5
         },
         {
           "date": "2026-07-22",
-          "level": 305.9
+          "level": 305.89
         },
         {
           "date": "2026-07-23",
-          "level": 303.75
+          "level": 303.74
         },
         {
           "date": "2026-07-24",
@@ -111697,7 +111732,7 @@
         },
         {
           "date": "2026-07-27",
-          "level": 306.19
+          "level": 306.18
         },
         {
           "date": "2026-07-28",
@@ -111705,27 +111740,27 @@
         },
         {
           "date": "2026-07-29",
-          "level": 308.49
+          "level": 308.48
         },
         {
           "date": "2026-07-30",
-          "level": 308.27
+          "level": 308.26
         },
         {
           "date": "2026-07-31",
-          "level": 310.23
+          "level": 310.22
         },
         {
           "date": "2026-08-03",
-          "level": 314.79
+          "level": 314.78
         },
         {
           "date": "2026-08-04",
-          "level": 313.22
+          "level": 313.21
         },
         {
           "date": "2026-08-05",
-          "level": 314.1
+          "level": 314.09
         },
         {
           "date": "2026-08-06",
@@ -111737,51 +111772,51 @@
         },
         {
           "date": "2026-08-10",
-          "level": 314.65
+          "level": 314.64
         },
         {
           "date": "2026-08-11",
-          "level": 314.09
+          "level": 314.08
         },
         {
           "date": "2026-08-12",
-          "level": 314.2
+          "level": 314.19
         },
         {
           "date": "2026-08-13",
-          "level": 314.12
+          "level": 314.11
         },
         {
           "date": "2026-08-14",
-          "level": 313.41
+          "level": 313.4
         },
         {
           "date": "2026-08-17",
-          "level": 312.99
+          "level": 312.98
         },
         {
           "date": "2026-08-18",
-          "level": 311.88
+          "level": 311.87
         },
         {
           "date": "2026-08-19",
-          "level": 310.81
+          "level": 310.8
         },
         {
           "date": "2026-08-20",
-          "level": 312.4
+          "level": 312.39
         },
         {
           "date": "2026-08-21",
-          "level": 312.73
+          "level": 312.72
         },
         {
           "date": "2026-08-24",
-          "level": 312.5
+          "level": 312.49
         },
         {
           "date": "2026-08-25",
-          "level": 313.91
+          "level": 313.9
         },
         {
           "date": "2026-08-26",
@@ -111789,27 +111824,27 @@
         },
         {
           "date": "2026-08-27",
-          "level": 312.55
+          "level": 312.54
         },
         {
           "date": "2026-08-28",
-          "level": 313.12
+          "level": 313.11
         },
         {
           "date": "2026-08-31",
-          "level": 311.44
+          "level": 311.43
         },
         {
           "date": "2026-09-01",
-          "level": 310.08
+          "level": 310.07
         },
         {
           "date": "2026-09-02",
-          "level": 309.0
+          "level": 308.99
         },
         {
           "date": "2026-09-03",
-          "level": 309.56
+          "level": 309.55
         },
         {
           "date": "2026-09-04",
@@ -111821,11 +111856,11 @@
         },
         {
           "date": "2026-09-08",
-          "level": 308.01
+          "level": 308.0
         },
         {
           "date": "2026-09-09",
-          "level": 306.63
+          "level": 306.62
         },
         {
           "date": "2026-09-10",
@@ -111841,19 +111876,19 @@
         },
         {
           "date": "2026-09-15",
-          "level": 299.26
+          "level": 299.25
         },
         {
           "date": "2026-09-16",
-          "level": 299.84
+          "level": 299.83
         },
         {
           "date": "2026-09-17",
-          "level": 301.76
+          "level": 301.75
         },
         {
           "date": "2026-09-18",
-          "level": 304.87
+          "level": 304.86
         },
         {
           "date": "2026-09-21",
@@ -111865,15 +111900,15 @@
         },
         {
           "date": "2026-09-23",
-          "level": 305.97
+          "level": 305.96
         },
         {
           "date": "2026-09-24",
-          "level": 301.1
+          "level": 301.09
         },
         {
           "date": "2026-09-25",
-          "level": 301.85
+          "level": 301.84
         },
         {
           "date": "2026-09-28",
@@ -111881,15 +111916,15 @@
         },
         {
           "date": "2026-09-29",
-          "level": 294.8
+          "level": 294.79
         },
         {
           "date": "2026-09-30",
-          "level": 294.76
+          "level": 294.75
         },
         {
           "date": "2026-10-01",
-          "level": 291.48
+          "level": 291.47
         },
         {
           "date": "2026-10-02",
@@ -111901,43 +111936,43 @@
         },
         {
           "date": "2026-10-06",
-          "level": 296.12
+          "level": 296.11
         },
         {
           "date": "2026-10-07",
-          "level": 294.05
+          "level": 294.04
         },
         {
           "date": "2026-10-08",
-          "level": 287.75
+          "level": 287.74
         },
         {
           "date": "2026-10-09",
-          "level": 291.01
+          "level": 291.0
         },
         {
           "date": "2026-10-12",
-          "level": 290.63
+          "level": 290.62
         },
         {
           "date": "2026-10-13",
-          "level": 294.28
+          "level": 294.27
         },
         {
           "date": "2026-10-14",
-          "level": 294.21
+          "level": 294.2
         },
         {
           "date": "2026-10-15",
-          "level": 295.19
+          "level": 295.18
         },
         {
           "date": "2026-10-16",
-          "level": 296.31
+          "level": 296.3
         },
         {
           "date": "2026-10-19",
-          "level": 293.48
+          "level": 293.47
         },
         {
           "date": "2026-10-21",
@@ -111945,7 +111980,7 @@
         },
         {
           "date": "2026-10-22",
-          "level": 288.37
+          "level": 288.36
         },
         {
           "date": "2026-10-23",
@@ -111957,11 +111992,11 @@
         },
         {
           "date": "2026-10-27",
-          "level": 288.71
+          "level": 288.7
         },
         {
           "date": "2026-10-28",
-          "level": 288.51
+          "level": 288.5
         },
         {
           "date": "2026-10-29",
@@ -111969,7 +112004,7 @@
         },
         {
           "date": "2026-10-30",
-          "level": 290.2
+          "level": 290.19
         },
         {
           "date": "2026-11-02",
@@ -111977,7 +112012,7 @@
         },
         {
           "date": "2026-11-03",
-          "level": 298.84
+          "level": 298.83
         },
         {
           "date": "2026-11-04",
@@ -111985,19 +112020,19 @@
         },
         {
           "date": "2026-11-05",
-          "level": 308.59
+          "level": 308.58
         },
         {
           "date": "2026-11-06",
-          "level": 310.41
+          "level": 310.4
         },
         {
           "date": "2026-11-08",
-          "level": 309.2
+          "level": 309.19
         },
         {
           "date": "2026-11-09",
-          "level": 313.81
+          "level": 313.8
         }
       ]
     },
@@ -112749,24 +112784,24 @@
     "universe_size": 501,
     "data_sources": 7,
     "today": {
-      "agent_analyses": 0,
-      "tokens": 0,
-      "words": 0
+      "agent_analyses": 1,
+      "tokens": 19711,
+      "words": 14783
     },
     "cumulative": {
-      "agent_analyses": 26440,
-      "tokens": 517641402,
-      "words": 388231051,
-      "data_points": 2070565608,
+      "agent_analyses": 26552,
+      "tokens": 519326362,
+      "words": 389494771,
+      "data_points": 2077305448,
       "documents_deep_read": 8823,
-      "filings_indexed": 35988,
-      "headlines_analyzed": 85320,
-      "events_classified": 68961,
-      "fundamental_records": 7557,
+      "filings_indexed": 36025,
+      "headlines_analyzed": 85545,
+      "events_classified": 69233,
+      "fundamental_records": 7574,
       "price_observations": 204400,
-      "data_bytes": 3615955296,
-      "data_mb": 3616.0,
-      "data_gb": 3.616
+      "data_bytes": 17968516648,
+      "data_mb": 17968.5,
+      "data_gb": 17.969
     }
   },
   "scorecard": {
