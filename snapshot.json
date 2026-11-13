@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-13T14:46:41.886762+05:30",
+  "generated_at": "2026-11-13T14:49:30.227573+05:30",
   "portfolio": {
     "cash_inr": 25403.14,
     "invested_inr": 911273.37,
-    "current_holdings_value": 939919.22,
-    "total_value_inr": 965322.35,
+    "current_holdings_value": 939826.25,
+    "total_value_inr": 965229.39,
     "initial_capital": 1000000.0,
     "total_deposited_inr": 1000000.0,
     "deposits": [
@@ -17,12 +17,12 @@
         "amount": 500000
       }
     ],
-    "total_pnl_inr": -34677.65,
-    "total_pnl_pct": -3.59,
+    "total_pnl_inr": -34770.61,
+    "total_pnl_pct": -3.6,
     "inception_date": "2026-06-04",
-    "day_change_pct": 2.49,
-    "twr_pct": -3.59,
-    "money_weighted_pct": -3.47,
+    "day_change_pct": 2.48,
+    "twr_pct": -3.6,
+    "money_weighted_pct": -3.48,
     "return_method": "time_weighted",
     "twr_pct_v2": -3.28,
     "nav_history_v2": [
@@ -500,10 +500,10 @@
         "sector": "Financials",
         "qty": 202,
         "avg_cost": 229.53,
-        "ltp": 233.27,
-        "value_inr": 47120.54,
-        "pnl_inr": 755.72,
-        "pnl_pct": 1.63,
+        "ltp": 233.12,
+        "value_inr": 47090.24,
+        "pnl_inr": 725.42,
+        "pnl_pct": 1.56,
         "buy_date": "2026-11-13"
       },
       {
@@ -512,10 +512,10 @@
         "sector": "Healthcare",
         "qty": 14,
         "avg_cost": 2859.09,
-        "ltp": 3345.9,
-        "value_inr": 46842.6,
-        "pnl_inr": 6815.37,
-        "pnl_pct": 17.03,
+        "ltp": 3342.0,
+        "value_inr": 46788.0,
+        "pnl_inr": 6760.78,
+        "pnl_pct": 16.89,
         "buy_date": "2026-11-13"
       },
       {
@@ -524,10 +524,10 @@
         "sector": "Healthcare",
         "qty": 25,
         "avg_cost": 1659.44,
-        "ltp": 1820.5,
-        "value_inr": 45512.5,
-        "pnl_inr": 4026.55,
-        "pnl_pct": 9.71,
+        "ltp": 1820.0,
+        "value_inr": 45500.0,
+        "pnl_inr": 4014.05,
+        "pnl_pct": 9.68,
         "buy_date": "2026-11-13"
       },
       {
@@ -536,10 +536,10 @@
         "sector": "IT",
         "qty": 18,
         "avg_cost": 2193.73,
-        "ltp": 2412.2,
-        "value_inr": 43419.6,
-        "pnl_inr": 3932.48,
-        "pnl_pct": 9.96,
+        "ltp": 2411.0,
+        "value_inr": 43398.0,
+        "pnl_inr": 3910.88,
+        "pnl_pct": 9.9,
         "buy_date": "2026-11-13"
       },
       {
@@ -548,10 +548,10 @@
         "sector": "Healthcare",
         "qty": 13,
         "avg_cost": 3096.25,
-        "ltp": 3270.5,
-        "value_inr": 42516.5,
-        "pnl_inr": 2265.28,
-        "pnl_pct": 5.63,
+        "ltp": 3271.5,
+        "value_inr": 42529.5,
+        "pnl_inr": 2278.28,
+        "pnl_pct": 5.66,
         "buy_date": "2026-11-13"
       },
       {
@@ -560,10 +560,10 @@
         "sector": "Financials",
         "qty": 36,
         "avg_cost": 1109.38,
-        "ltp": 1117.0,
-        "value_inr": 40212.0,
-        "pnl_inr": 274.4,
-        "pnl_pct": 0.69,
+        "ltp": 1117.6,
+        "value_inr": 40233.6,
+        "pnl_inr": 296.0,
+        "pnl_pct": 0.74,
         "buy_date": "2026-11-13"
       },
       {
@@ -572,10 +572,10 @@
         "sector": "Utilities",
         "qty": 92,
         "avg_cost": 417.27,
-        "ltp": 415.0,
-        "value_inr": 38180.0,
-        "pnl_inr": -209.08,
-        "pnl_pct": -0.54,
+        "ltp": 414.95,
+        "value_inr": 38175.4,
+        "pnl_inr": -213.68,
+        "pnl_pct": -0.56,
         "buy_date": "2026-11-13"
       },
       {
@@ -584,10 +584,10 @@
         "sector": "Consumer Discr.",
         "qty": 20,
         "avg_cost": 1758.32,
-        "ltp": 1741.7,
-        "value_inr": 34834.0,
-        "pnl_inr": -332.33,
-        "pnl_pct": -0.95,
+        "ltp": 1742.4,
+        "value_inr": 34848.0,
+        "pnl_inr": -318.33,
+        "pnl_pct": -0.91,
         "buy_date": "2026-11-13"
       },
       {
@@ -596,10 +596,10 @@
         "sector": "Industrials",
         "qty": 7,
         "avg_cost": 4930.75,
-        "ltp": 4786.1,
-        "value_inr": 33502.7,
-        "pnl_inr": -1012.55,
-        "pnl_pct": -2.93,
+        "ltp": 4784.9,
+        "value_inr": 33494.3,
+        "pnl_inr": -1020.95,
+        "pnl_pct": -2.96,
         "buy_date": "2026-11-13"
       },
       {
@@ -608,10 +608,10 @@
         "sector": "IT",
         "qty": 15,
         "avg_cost": 1940.94,
-        "ltp": 2038.7,
-        "value_inr": 30580.5,
-        "pnl_inr": 1466.41,
-        "pnl_pct": 5.04,
+        "ltp": 2041.0,
+        "value_inr": 30615.0,
+        "pnl_inr": 1500.92,
+        "pnl_pct": 5.16,
         "buy_date": "2026-11-13"
       },
       {
@@ -620,10 +620,10 @@
         "sector": "Industrials",
         "qty": 20,
         "avg_cost": 1566.56,
-        "ltp": 1523.1,
-        "value_inr": 30462.0,
-        "pnl_inr": -869.3,
-        "pnl_pct": -2.77,
+        "ltp": 1519.8,
+        "value_inr": 30396.0,
+        "pnl_inr": -935.3,
+        "pnl_pct": -2.99,
         "buy_date": "2026-11-13"
       },
       {
@@ -632,10 +632,10 @@
         "sector": "Financials",
         "qty": 60,
         "avg_cost": 438.22,
-        "ltp": 488.5,
-        "value_inr": 29310.0,
-        "pnl_inr": 3016.86,
-        "pnl_pct": 11.47,
+        "ltp": 488.55,
+        "value_inr": 29313.0,
+        "pnl_inr": 3019.86,
+        "pnl_pct": 11.49,
         "buy_date": "2026-11-13"
       },
       {
@@ -644,10 +644,10 @@
         "sector": "Financials",
         "qty": 100,
         "avg_cost": 234.89,
-        "ltp": 273.45,
-        "value_inr": 27345.0,
-        "pnl_inr": 3856.26,
-        "pnl_pct": 16.42,
+        "ltp": 273.32,
+        "value_inr": 27332.0,
+        "pnl_inr": 3843.26,
+        "pnl_pct": 16.36,
         "buy_date": "2026-11-13"
       },
       {
@@ -656,10 +656,10 @@
         "sector": "Consumer Discr.",
         "qty": 30,
         "avg_cost": 889.24,
-        "ltp": 888.2,
-        "value_inr": 26646.0,
-        "pnl_inr": -31.33,
-        "pnl_pct": -0.12,
+        "ltp": 887.75,
+        "value_inr": 26632.5,
+        "pnl_inr": -44.83,
+        "pnl_pct": -0.17,
         "buy_date": "2026-11-13"
       },
       {
@@ -668,10 +668,10 @@
         "sector": "Industrials",
         "qty": 6,
         "avg_cost": 3941.57,
-        "ltp": 4140.3,
-        "value_inr": 24841.8,
-        "pnl_inr": 1192.38,
-        "pnl_pct": 5.04,
+        "ltp": 4142.0,
+        "value_inr": 24852.0,
+        "pnl_inr": 1202.58,
+        "pnl_pct": 5.09,
         "buy_date": "2026-11-13"
       },
       {
@@ -680,10 +680,10 @@
         "sector": "IT",
         "qty": 17,
         "avg_cost": 1382.79,
-        "ltp": 1372.5,
-        "value_inr": 23332.5,
-        "pnl_inr": -174.95,
-        "pnl_pct": -0.74,
+        "ltp": 1373.6,
+        "value_inr": 23351.2,
+        "pnl_inr": -156.25,
+        "pnl_pct": -0.66,
         "buy_date": "2026-11-13"
       },
       {
@@ -692,10 +692,10 @@
         "sector": "Financials",
         "qty": 60,
         "avg_cost": 340.9,
-        "ltp": 381.4,
-        "value_inr": 22884.0,
-        "pnl_inr": 2429.87,
-        "pnl_pct": 11.88,
+        "ltp": 381.6,
+        "value_inr": 22896.0,
+        "pnl_inr": 2441.87,
+        "pnl_pct": 11.94,
         "buy_date": "2026-11-13"
       },
       {
@@ -704,10 +704,10 @@
         "sector": "Consumer Discr.",
         "qty": 130,
         "avg_cost": 174.86,
-        "ltp": 173.5,
-        "value_inr": 22555.0,
-        "pnl_inr": -177.41,
-        "pnl_pct": -0.78,
+        "ltp": 173.49,
+        "value_inr": 22553.7,
+        "pnl_inr": -178.71,
+        "pnl_pct": -0.79,
         "buy_date": "2026-11-13"
       },
       {
@@ -716,10 +716,10 @@
         "sector": "Financials",
         "qty": 24,
         "avg_cost": 830.98,
-        "ltp": 930.4,
-        "value_inr": 22329.6,
-        "pnl_inr": 2386.08,
-        "pnl_pct": 11.96,
+        "ltp": 930.65,
+        "value_inr": 22335.6,
+        "pnl_inr": 2392.08,
+        "pnl_pct": 11.99,
         "buy_date": "2026-11-13"
       },
       {
@@ -728,10 +728,10 @@
         "sector": "Energy",
         "qty": 120,
         "avg_cost": 173.41,
-        "ltp": 178.63,
-        "value_inr": 21435.6,
-        "pnl_inr": 626.01,
-        "pnl_pct": 3.01,
+        "ltp": 178.75,
+        "value_inr": 21450.0,
+        "pnl_inr": 640.41,
+        "pnl_pct": 3.08,
         "buy_date": "2026-11-13"
       },
       {
@@ -740,10 +740,10 @@
         "sector": "Healthcare",
         "qty": 15,
         "avg_cost": 1360.68,
-        "ltp": 1378.3,
-        "value_inr": 20674.5,
-        "pnl_inr": 264.3,
-        "pnl_pct": 1.29,
+        "ltp": 1376.6,
+        "value_inr": 20649.0,
+        "pnl_inr": 238.8,
+        "pnl_pct": 1.17,
         "buy_date": "2026-11-13"
       },
       {
@@ -752,10 +752,10 @@
         "sector": "Auto",
         "qty": 6,
         "avg_cost": 3426.71,
-        "ltp": 3344.8,
-        "value_inr": 20068.8,
-        "pnl_inr": -491.47,
-        "pnl_pct": -2.39,
+        "ltp": 3344.1,
+        "value_inr": 20064.6,
+        "pnl_inr": -495.67,
+        "pnl_pct": -2.41,
         "buy_date": "2026-11-13"
       },
       {
@@ -764,10 +764,10 @@
         "sector": "Financials",
         "qty": 7,
         "avg_cost": 2548.57,
-        "ltp": 2840.9,
-        "value_inr": 19886.3,
-        "pnl_inr": 2046.28,
-        "pnl_pct": 11.47,
+        "ltp": 2841.7,
+        "value_inr": 19891.9,
+        "pnl_inr": 2051.88,
+        "pnl_pct": 11.5,
         "buy_date": "2026-11-13"
       },
       {
@@ -776,10 +776,10 @@
         "sector": "Energy",
         "qty": 100,
         "avg_cost": 168.48,
-        "ltp": 187.0,
-        "value_inr": 18700.0,
-        "pnl_inr": 1851.58,
-        "pnl_pct": 10.99,
+        "ltp": 186.94,
+        "value_inr": 18694.0,
+        "pnl_inr": 1845.58,
+        "pnl_pct": 10.95,
         "buy_date": "2026-11-13"
       },
       {
@@ -788,10 +788,10 @@
         "sector": "Financials",
         "qty": 225,
         "avg_cost": 85.71,
-        "ltp": 79.96,
-        "value_inr": 17991.0,
-        "pnl_inr": -1294.53,
-        "pnl_pct": -6.71,
+        "ltp": 79.99,
+        "value_inr": 17997.75,
+        "pnl_inr": -1287.78,
+        "pnl_pct": -6.68,
         "buy_date": "2026-11-13"
       },
       {
@@ -800,10 +800,10 @@
         "sector": "Consumer Discr.",
         "qty": 5,
         "avg_cost": 2877.74,
-        "ltp": 3150.1,
-        "value_inr": 15750.5,
-        "pnl_inr": 1361.81,
-        "pnl_pct": 9.46,
+        "ltp": 3155.0,
+        "value_inr": 15775.0,
+        "pnl_inr": 1386.31,
+        "pnl_pct": 9.63,
         "buy_date": "2026-11-13"
       },
       {
@@ -812,10 +812,10 @@
         "sector": "FMCG",
         "qty": 40,
         "avg_cost": 377.39,
-        "ltp": 382.1,
-        "value_inr": 15284.0,
-        "pnl_inr": 188.46,
-        "pnl_pct": 1.25,
+        "ltp": 381.95,
+        "value_inr": 15278.0,
+        "pnl_inr": 182.46,
+        "pnl_pct": 1.21,
         "buy_date": "2026-11-13"
       },
       {
@@ -824,10 +824,10 @@
         "sector": "Healthcare",
         "qty": 10,
         "avg_cost": 1386.37,
-        "ltp": 1398.6,
-        "value_inr": 13986.0,
-        "pnl_inr": 122.25,
-        "pnl_pct": 0.88,
+        "ltp": 1398.0,
+        "value_inr": 13980.0,
+        "pnl_inr": 116.25,
+        "pnl_pct": 0.84,
         "buy_date": "2026-11-13"
       },
       {
@@ -836,10 +836,10 @@
         "sector": "FMCG",
         "qty": 30,
         "avg_cost": 528.3,
-        "ltp": 431.95,
-        "value_inr": 12958.5,
-        "pnl_inr": -2890.45,
-        "pnl_pct": -18.24,
+        "ltp": 432.25,
+        "value_inr": 12967.5,
+        "pnl_inr": -2881.45,
+        "pnl_pct": -18.18,
         "buy_date": "2026-11-13"
       },
       {
@@ -848,10 +848,10 @@
         "sector": "IT",
         "qty": 7,
         "avg_cost": 1611.04,
-        "ltp": 1769.7,
-        "value_inr": 12387.9,
-        "pnl_inr": 1110.59,
-        "pnl_pct": 9.85,
+        "ltp": 1771.1,
+        "value_inr": 12397.7,
+        "pnl_inr": 1120.39,
+        "pnl_pct": 9.93,
         "buy_date": "2026-11-13"
       },
       {
@@ -860,10 +860,10 @@
         "sector": "Materials",
         "qty": 11,
         "avg_cost": 1078.72,
-        "ltp": 944.8,
-        "value_inr": 10392.8,
-        "pnl_inr": -1473.16,
-        "pnl_pct": -12.42,
+        "ltp": 945.5,
+        "value_inr": 10400.5,
+        "pnl_inr": -1465.46,
+        "pnl_pct": -12.35,
         "buy_date": "2026-11-13"
       },
       {
@@ -872,10 +872,10 @@
         "sector": "Healthcare",
         "qty": 8,
         "avg_cost": 1069.51,
-        "ltp": 1189.2,
-        "value_inr": 9513.6,
-        "pnl_inr": 957.52,
-        "pnl_pct": 11.19,
+        "ltp": 1189.0,
+        "value_inr": 9512.0,
+        "pnl_inr": 955.92,
+        "pnl_pct": 11.17,
         "buy_date": "2026-11-13"
       },
       {
@@ -884,10 +884,10 @@
         "sector": "Industrials",
         "qty": 26,
         "avg_cost": 394.56,
-        "ltp": 349.15,
-        "value_inr": 9077.9,
-        "pnl_inr": -1180.68,
-        "pnl_pct": -11.51,
+        "ltp": 348.8,
+        "value_inr": 9068.8,
+        "pnl_inr": -1189.78,
+        "pnl_pct": -11.6,
         "buy_date": "2026-11-13"
       },
       {
@@ -896,10 +896,10 @@
         "sector": "Energy",
         "qty": 20,
         "avg_cost": 479.48,
-        "ltp": 443.0,
-        "value_inr": 8860.0,
-        "pnl_inr": -729.58,
-        "pnl_pct": -7.61,
+        "ltp": 442.4,
+        "value_inr": 8848.0,
+        "pnl_inr": -741.58,
+        "pnl_pct": -7.73,
         "buy_date": "2026-11-13"
       },
       {
@@ -908,10 +908,10 @@
         "sector": "Industrials",
         "qty": 7,
         "avg_cost": 1233.23,
-        "ltp": 1177.0,
-        "value_inr": 8239.0,
-        "pnl_inr": -393.62,
-        "pnl_pct": -4.56,
+        "ltp": 1177.55,
+        "value_inr": 8242.85,
+        "pnl_inr": -389.77,
+        "pnl_pct": -4.52,
         "buy_date": "2026-11-13"
       },
       {
@@ -920,10 +920,10 @@
         "sector": "Industrials",
         "qty": 28,
         "avg_cost": 287.44,
-        "ltp": 289.8,
-        "value_inr": 8114.4,
-        "pnl_inr": 66.16,
-        "pnl_pct": 0.82,
+        "ltp": 290.15,
+        "value_inr": 8124.2,
+        "pnl_inr": 75.96,
+        "pnl_pct": 0.94,
         "buy_date": "2026-11-13"
       },
       {
@@ -932,10 +932,10 @@
         "sector": "Financials",
         "qty": 17,
         "avg_cost": 516.82,
-        "ltp": 431.2,
-        "value_inr": 7330.4,
-        "pnl_inr": -1455.49,
-        "pnl_pct": -16.57,
+        "ltp": 431.15,
+        "value_inr": 7329.55,
+        "pnl_inr": -1456.35,
+        "pnl_pct": -16.58,
         "buy_date": "2026-11-13"
       },
       {
@@ -944,10 +944,10 @@
         "sector": "Financials",
         "qty": 48,
         "avg_cost": 118.56,
-        "ltp": 143.62,
-        "value_inr": 6893.76,
-        "pnl_inr": 1202.65,
-        "pnl_pct": 21.13,
+        "ltp": 143.45,
+        "value_inr": 6885.6,
+        "pnl_inr": 1194.49,
+        "pnl_pct": 20.99,
         "buy_date": "2026-11-13"
       },
       {
@@ -956,10 +956,10 @@
         "sector": "Energy",
         "qty": 35,
         "avg_cost": 199.09,
-        "ltp": 190.15,
-        "value_inr": 6655.25,
-        "pnl_inr": -312.88,
-        "pnl_pct": -4.49,
+        "ltp": 190.11,
+        "value_inr": 6653.85,
+        "pnl_inr": -314.28,
+        "pnl_pct": -4.51,
         "buy_date": "2026-11-13"
       },
       {
@@ -968,10 +968,10 @@
         "sector": "Industrials",
         "qty": 11,
         "avg_cost": 636.79,
-        "ltp": 586.45,
-        "value_inr": 6450.95,
-        "pnl_inr": -553.75,
-        "pnl_pct": -7.91,
+        "ltp": 585.85,
+        "value_inr": 6444.35,
+        "pnl_inr": -560.35,
+        "pnl_pct": -8.0,
         "buy_date": "2026-11-13"
       },
       {
@@ -992,10 +992,10 @@
         "sector": "Auto",
         "qty": 37,
         "avg_cost": 143.64,
-        "ltp": 164.4,
-        "value_inr": 6082.8,
-        "pnl_inr": 768.2,
-        "pnl_pct": 14.45,
+        "ltp": 164.37,
+        "value_inr": 6081.69,
+        "pnl_inr": 767.09,
+        "pnl_pct": 14.43,
         "buy_date": "2026-11-13"
       },
       {
@@ -1004,10 +1004,10 @@
         "sector": "Industrials",
         "qty": 4,
         "avg_cost": 1421.7,
-        "ltp": 1343.6,
-        "value_inr": 5374.4,
-        "pnl_inr": -312.41,
-        "pnl_pct": -5.49,
+        "ltp": 1343.8,
+        "value_inr": 5375.2,
+        "pnl_inr": -311.61,
+        "pnl_pct": -5.48,
         "buy_date": "2026-11-13"
       },
       {
@@ -1016,10 +1016,10 @@
         "sector": "Materials",
         "qty": 1,
         "avg_cost": 6812.52,
-        "ltp": 5161.5,
-        "value_inr": 5161.5,
-        "pnl_inr": -1651.02,
-        "pnl_pct": -24.24,
+        "ltp": 5165.0,
+        "value_inr": 5165.0,
+        "pnl_inr": -1647.52,
+        "pnl_pct": -24.18,
         "buy_date": "2026-11-13"
       },
       {
@@ -1028,10 +1028,10 @@
         "sector": "Consumer Discr.",
         "qty": 1,
         "avg_cost": 4580.64,
-        "ltp": 4850.0,
-        "value_inr": 4850.0,
-        "pnl_inr": 269.36,
-        "pnl_pct": 5.88,
+        "ltp": 4849.3,
+        "value_inr": 4849.3,
+        "pnl_inr": 268.66,
+        "pnl_pct": 5.87,
         "buy_date": "2026-11-13"
       },
       {
@@ -1040,10 +1040,10 @@
         "sector": "Healthcare",
         "qty": 1,
         "avg_cost": 4393.7,
-        "ltp": 4672.0,
-        "value_inr": 4672.0,
-        "pnl_inr": 278.3,
-        "pnl_pct": 6.33,
+        "ltp": 4662.5,
+        "value_inr": 4662.5,
+        "pnl_inr": 268.8,
+        "pnl_pct": 6.12,
         "buy_date": "2026-11-13"
       },
       {
@@ -1052,10 +1052,10 @@
         "sector": "FMCG",
         "qty": 8,
         "avg_cost": 441.17,
-        "ltp": 424.7,
-        "value_inr": 3397.6,
-        "pnl_inr": -131.75,
-        "pnl_pct": -3.73,
+        "ltp": 425.0,
+        "value_inr": 3400.0,
+        "pnl_inr": -129.35,
+        "pnl_pct": -3.67,
         "buy_date": "2026-11-13"
       },
       {
@@ -1064,10 +1064,10 @@
         "sector": "Financials",
         "qty": 3,
         "avg_cost": 340.44,
-        "ltp": 359.4,
-        "value_inr": 1078.2,
-        "pnl_inr": 56.88,
-        "pnl_pct": 5.57,
+        "ltp": 359.55,
+        "value_inr": 1078.65,
+        "pnl_inr": 57.33,
+        "pnl_pct": 5.61,
         "buy_date": "2026-11-13"
       }
     ],
@@ -111059,11 +111059,11 @@
     "symbol": "OWN_CAPWT",
     "name": "Nifty 150 (our universe)",
     "synthetic": true,
-    "current_level": 317.62,
-    "ret_1d_pct": 0.35,
-    "ret_5d_pct": 2.965,
-    "ret_30d_pct": 7.796,
-    "since_start_pct": 7.957,
+    "current_level": 317.61,
+    "ret_1d_pct": 0.346,
+    "ret_5d_pct": 2.961,
+    "ret_30d_pct": 7.793,
+    "since_start_pct": 7.954,
     "history": [
       {
         "date": "2026-07-09",
@@ -111423,7 +111423,7 @@
       },
       {
         "date": "2026-11-12",
-        "level": 317.62
+        "level": 317.61
       }
     ]
   },
@@ -111432,11 +111432,11 @@
       "symbol": "OWN_CAPWT",
       "name": "Nifty 150 (our universe)",
       "synthetic": true,
-      "current_level": 317.62,
-      "ret_1d_pct": 0.35,
-      "ret_5d_pct": 2.965,
-      "ret_30d_pct": 7.796,
-      "since_start_pct": 7.957,
+      "current_level": 317.61,
+      "ret_1d_pct": 0.346,
+      "ret_5d_pct": 2.961,
+      "ret_30d_pct": 7.793,
+      "since_start_pct": 7.954,
       "history": [
         {
           "date": "2026-07-09",
@@ -111796,18 +111796,18 @@
         },
         {
           "date": "2026-11-12",
-          "level": 317.62
+          "level": 317.61
         }
       ]
     },
     {
       "symbol": "^NSEI",
       "name": "Nifty 50",
-      "current_level": 25109.75,
-      "ret_1d_pct": -0.749,
-      "ret_5d_pct": 2.336,
-      "ret_30d_pct": 10.537,
-      "since_start_pct": 7.231,
+      "current_level": 25116.2,
+      "ret_1d_pct": -0.724,
+      "ret_5d_pct": 2.362,
+      "ret_30d_pct": 10.565,
+      "since_start_pct": 7.258,
       "history": [
         {
           "date": "2026-07-07",
@@ -112167,18 +112167,18 @@
         },
         {
           "date": "2026-11-13",
-          "level": 25109.75
+          "level": 25116.2
         }
       ]
     },
     {
       "symbol": "^CRSLDX",
       "name": "Nifty 500",
-      "current_level": 23707.5,
-      "ret_1d_pct": -0.663,
-      "ret_5d_pct": 2.079,
-      "ret_30d_pct": 7.269,
-      "since_start_pct": 5.377,
+      "current_level": 23713.3,
+      "ret_1d_pct": -0.639,
+      "ret_5d_pct": 2.104,
+      "ret_30d_pct": 7.295,
+      "since_start_pct": 5.403,
       "history": [
         {
           "date": "2026-07-07",
@@ -112538,7 +112538,7 @@
         },
         {
           "date": "2026-11-13",
-          "level": 23707.5
+          "level": 23713.3
         }
       ]
     }
@@ -112860,8 +112860,8 @@
     "note": "Forward returns measured from next-day open. Leak-free, post-cutoff. One regime so far \u2014 read as early signal, not verdict."
   },
   "books": {
-    "as_of": "2026-11-11",
-    "generated_at": "2026-11-12",
+    "as_of": "2026-11-12",
+    "generated_at": "2026-11-13",
     "leaderboard": [
       {
         "book_id": "book5_tech_pullback",
@@ -112870,15 +112870,15 @@
         "kind": "book",
         "costs": true,
         "started_on": "2026-10-23",
-        "as_of": "2026-11-11",
-        "n_dates": 8,
-        "nav_inr": 1080540.48,
-        "cash_pct": 46.2,
+        "as_of": "2026-11-12",
+        "n_dates": 9,
+        "nav_inr": 1087438.66,
+        "cash_pct": 45.9,
         "n_positions": 15,
-        "n_pending": 2,
-        "twr_pct": 8.05,
+        "n_pending": 4,
+        "twr_pct": 8.74,
         "max_dd_pct": -1.14,
-        "turnover_pct": 226.4,
+        "turnover_pct": 225.7,
         "hit_rate": 0.857,
         "n_sells": 21,
         "fees_inr": 2693.63,
@@ -112910,13 +112910,13 @@
         "kind": "book",
         "costs": true,
         "started_on": "2026-10-23",
-        "as_of": "2026-11-11",
-        "n_dates": 8,
-        "nav_inr": 966168.98,
+        "as_of": "2026-11-12",
+        "n_dates": 9,
+        "nav_inr": 967269.15,
         "cash_pct": 14.4,
         "n_positions": 39,
         "n_pending": 2,
-        "twr_pct": 6.31,
+        "twr_pct": 6.43,
         "max_dd_pct": -0.4,
         "turnover_pct": 6.4,
         "hit_rate": 0.6,
@@ -112950,15 +112950,15 @@
         "kind": "book",
         "costs": true,
         "started_on": "2026-10-23",
-        "as_of": "2026-11-11",
-        "n_dates": 8,
-        "nav_inr": 1031244.23,
-        "cash_pct": 24.6,
+        "as_of": "2026-11-12",
+        "n_dates": 9,
+        "nav_inr": 1035557.01,
+        "cash_pct": 24.5,
         "n_positions": 30,
-        "n_pending": 9,
-        "twr_pct": 3.12,
+        "n_pending": 11,
+        "twr_pct": 3.56,
         "max_dd_pct": -0.4,
-        "turnover_pct": 83.3,
+        "turnover_pct": 83.1,
         "hit_rate": 0.667,
         "n_sells": 3,
         "fees_inr": 999.15,
@@ -112990,15 +112990,15 @@
         "kind": "book",
         "costs": true,
         "started_on": "2026-10-23",
-        "as_of": "2026-11-11",
-        "n_dates": 8,
-        "nav_inr": 1022819.17,
+        "as_of": "2026-11-12",
+        "n_dates": 9,
+        "nav_inr": 1024397.47,
         "cash_pct": 55.9,
         "n_positions": 26,
         "n_pending": 0,
-        "twr_pct": 2.28,
+        "twr_pct": 2.44,
         "max_dd_pct": -0.3,
-        "turnover_pct": 48.9,
+        "turnover_pct": 48.8,
         "hit_rate": 0.667,
         "n_sells": 3,
         "fees_inr": 584.09,
@@ -113030,13 +113030,13 @@
         "kind": "book",
         "costs": true,
         "started_on": "2026-10-23",
-        "as_of": "2026-11-11",
-        "n_dates": 8,
-        "nav_inr": 1021971.36,
-        "cash_pct": 66.8,
+        "as_of": "2026-11-12",
+        "n_dates": 9,
+        "nav_inr": 1024259.26,
+        "cash_pct": 66.7,
         "n_positions": 20,
         "n_pending": 0,
-        "twr_pct": 2.2,
+        "twr_pct": 2.43,
         "max_dd_pct": -0.29,
         "turnover_pct": 31.3,
         "hit_rate": null,
@@ -113070,15 +113070,15 @@
         "kind": "book",
         "costs": true,
         "started_on": "2026-10-23",
-        "as_of": "2026-11-11",
-        "n_dates": 8,
-        "nav_inr": 1016962.18,
-        "cash_pct": 56.8,
+        "as_of": "2026-11-12",
+        "n_dates": 9,
+        "nav_inr": 1018271.08,
+        "cash_pct": 56.7,
         "n_positions": 25,
-        "n_pending": 6,
-        "twr_pct": 1.7,
+        "n_pending": 7,
+        "twr_pct": 1.83,
         "max_dd_pct": -0.08,
-        "turnover_pct": 42.0,
+        "turnover_pct": 41.9,
         "hit_rate": null,
         "n_sells": 0,
         "fees_inr": 502.19,
@@ -113110,15 +113110,15 @@
         "kind": "benchmark",
         "costs": true,
         "started_on": "2026-10-23",
-        "as_of": "2026-11-11",
-        "n_dates": 8,
-        "nav_inr": 1046270.26,
-        "cash_pct": 53.4,
+        "as_of": "2026-11-12",
+        "n_dates": 9,
+        "nav_inr": 1051228.8,
+        "cash_pct": 53.2,
         "n_positions": 28,
         "n_pending": 0,
-        "twr_pct": 4.63,
+        "twr_pct": 5.12,
         "max_dd_pct": -0.49,
-        "turnover_pct": 43.1,
+        "turnover_pct": 42.9,
         "hit_rate": null,
         "n_sells": 0,
         "fees_inr": 523.92,
@@ -113144,21 +113144,61 @@
         "kill_flag": false
       },
       {
+        "book_id": "growth_screen",
+        "title": "Growth screen (ranked by PAT growth)",
+        "hypothesis": "Avoid what the grades call losers (high risk, weak growth, poor data, decelerating), then buy the highest reported revenue growth \u2014 the one fundamental the winners forensic found on the winners' side \u2014 with Book 3's construction.",
+        "kind": "benchmark",
+        "costs": true,
+        "started_on": "2026-10-29",
+        "as_of": "2026-11-12",
+        "n_dates": 8,
+        "nav_inr": 1050210.92,
+        "cash_pct": 15.8,
+        "n_positions": 30,
+        "n_pending": 6,
+        "twr_pct": 5.02,
+        "max_dd_pct": -0.34,
+        "turnover_pct": 94.6,
+        "hit_rate": 1.0,
+        "n_sells": 4,
+        "fees_inr": 1141.55,
+        "slippage_inr": 869.0,
+        "excess": {
+          "10d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          },
+          "20d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          }
+        },
+        "vs_null_60_pp": null,
+        "w30_pct": null,
+        "w60_pct": null,
+        "w90_pct": null,
+        "kill_flag": false
+      },
+      {
         "book_id": "book3_v1",
         "title": "Fundamental grades \u2192 rules, old filter (a)",
         "hypothesis": "The pre-c1 Book 3 \u2014 moderate growers and the conviction leg, no acceleration leg \u2014 run live beside Book 3 to settle c1 vs (a) out of sample (the first 98-session replay had (a) ahead).",
         "kind": "benchmark",
         "costs": true,
         "started_on": "2026-10-23",
-        "as_of": "2026-11-11",
-        "n_dates": 8,
-        "nav_inr": 1043911.6,
-        "cash_pct": 24.0,
+        "as_of": "2026-11-12",
+        "n_dates": 9,
+        "nav_inr": 1046980.29,
+        "cash_pct": 23.9,
         "n_positions": 30,
-        "n_pending": 8,
-        "twr_pct": 4.39,
+        "n_pending": 10,
+        "twr_pct": 4.7,
         "max_dd_pct": -0.25,
-        "turnover_pct": 82.9,
+        "turnover_pct": 82.7,
         "hit_rate": 0.333,
         "n_sells": 3,
         "fees_inr": 1002.0,
@@ -113190,15 +113230,15 @@
         "kind": "benchmark",
         "costs": true,
         "started_on": "2026-10-23",
-        "as_of": "2026-11-11",
-        "n_dates": 8,
-        "nav_inr": 1040596.99,
+        "as_of": "2026-11-12",
+        "n_dates": 9,
+        "nav_inr": 1040956.62,
         "cash_pct": 50.0,
         "n_positions": 29,
         "n_pending": 0,
-        "twr_pct": 4.06,
+        "twr_pct": 4.1,
         "max_dd_pct": -0.11,
-        "turnover_pct": 47.0,
+        "turnover_pct": 46.9,
         "hit_rate": null,
         "n_sells": 0,
         "fees_inr": 570.56,
@@ -113224,61 +113264,21 @@
         "kill_flag": false
       },
       {
-        "book_id": "growth_screen",
-        "title": "Growth screen (ranked by PAT growth)",
-        "hypothesis": "Avoid what the grades call losers (high risk, weak growth, poor data, decelerating), then buy the highest reported revenue growth \u2014 the one fundamental the winners forensic found on the winners' side \u2014 with Book 3's construction.",
-        "kind": "benchmark",
-        "costs": true,
-        "started_on": "2026-10-29",
-        "as_of": "2026-11-11",
-        "n_dates": 7,
-        "nav_inr": 1039278.21,
-        "cash_pct": 16.0,
-        "n_positions": 30,
-        "n_pending": 5,
-        "twr_pct": 3.93,
-        "max_dd_pct": -0.34,
-        "turnover_pct": 94.9,
-        "hit_rate": 1.0,
-        "n_sells": 4,
-        "fees_inr": 1141.55,
-        "slippage_inr": 869.0,
-        "excess": {
-          "10d": {
-            "mean_pp": null,
-            "t": null,
-            "n": 0,
-            "n_dates": 0
-          },
-          "20d": {
-            "mean_pp": null,
-            "t": null,
-            "n": 0,
-            "n_dates": 0
-          }
-        },
-        "vs_null_60_pp": null,
-        "w30_pct": null,
-        "w60_pct": null,
-        "w90_pct": null,
-        "kill_flag": false
-      },
-      {
         "book_id": "bench_momentum",
         "title": "Pure 12-1 momentum rules",
         "hypothesis": "Book 4 without the fundamental filter: what price alone buys.",
         "kind": "benchmark",
         "costs": true,
         "started_on": "2026-10-23",
-        "as_of": "2026-11-11",
-        "n_dates": 8,
-        "nav_inr": 1037543.93,
-        "cash_pct": 49.5,
+        "as_of": "2026-11-12",
+        "n_dates": 9,
+        "nav_inr": 1039079.66,
+        "cash_pct": 49.4,
         "n_positions": 30,
         "n_pending": 0,
-        "twr_pct": 3.75,
+        "twr_pct": 3.91,
         "max_dd_pct": -0.83,
-        "turnover_pct": 47.6,
+        "turnover_pct": 47.5,
         "hit_rate": null,
         "n_sells": 0,
         "fees_inr": 578.27,
@@ -113310,15 +113310,15 @@
         "kind": "benchmark",
         "costs": true,
         "started_on": "2026-10-23",
-        "as_of": "2026-11-11",
-        "n_dates": 8,
-        "nav_inr": 1024314.62,
-        "cash_pct": 55.6,
+        "as_of": "2026-11-12",
+        "n_dates": 9,
+        "nav_inr": 1026026.01,
+        "cash_pct": 55.5,
         "n_positions": 25,
         "n_pending": 0,
-        "twr_pct": 2.43,
+        "twr_pct": 2.6,
         "max_dd_pct": -0.32,
-        "turnover_pct": 48.8,
+        "turnover_pct": 48.7,
         "hit_rate": 0.5,
         "n_sells": 2,
         "fees_inr": 583.56,
@@ -113349,9 +113349,9 @@
         "kind": "series",
         "costs": false,
         "started_on": "2026-10-23",
-        "as_of": "2026-11-11",
-        "n_dates": 13,
-        "twr_pct": 10.98,
+        "as_of": "2026-11-12",
+        "n_dates": 14,
+        "twr_pct": 11.38,
         "max_dd_pct": -0.21,
         "turnover_pct": null,
         "hit_rate": null,
@@ -113370,9 +113370,9 @@
         "kind": "series",
         "costs": false,
         "started_on": "2026-10-23",
-        "as_of": "2026-11-11",
-        "n_dates": 13,
-        "twr_pct": 9.41,
+        "as_of": "2026-11-12",
+        "n_dates": 14,
+        "twr_pct": 10.14,
         "max_dd_pct": -1.57,
         "turnover_pct": null,
         "hit_rate": null,
@@ -113391,9 +113391,9 @@
         "kind": "series",
         "costs": false,
         "started_on": "2026-10-23",
-        "as_of": "2026-11-11",
-        "n_dates": 13,
-        "twr_pct": 8.47,
+        "as_of": "2026-11-12",
+        "n_dates": 14,
+        "twr_pct": 8.52,
         "max_dd_pct": -0.55,
         "turnover_pct": null,
         "hit_rate": null,
@@ -113444,6 +113444,10 @@
         {
           "date": "2026-11-11",
           "value": 106.308
+        },
+        {
+          "date": "2026-11-12",
+          "value": 106.429
         }
       ],
       "book2_ai_v2": [
@@ -113482,6 +113486,10 @@
         {
           "date": "2026-11-11",
           "value": 101.696
+        },
+        {
+          "date": "2026-11-12",
+          "value": 101.827
         }
       ],
       "book3_fundamental": [
@@ -113520,6 +113528,10 @@
         {
           "date": "2026-11-11",
           "value": 103.124
+        },
+        {
+          "date": "2026-11-12",
+          "value": 103.556
         }
       ],
       "book4_fund_momentum": [
@@ -113558,6 +113570,10 @@
         {
           "date": "2026-11-11",
           "value": 102.197
+        },
+        {
+          "date": "2026-11-12",
+          "value": 102.426
         }
       ],
       "book5_tech_pullback": [
@@ -113596,6 +113612,10 @@
         {
           "date": "2026-11-11",
           "value": 108.054
+        },
+        {
+          "date": "2026-11-12",
+          "value": 108.744
         }
       ],
       "book6_macro_sector": [
@@ -113634,6 +113654,10 @@
         {
           "date": "2026-11-11",
           "value": 102.282
+        },
+        {
+          "date": "2026-11-12",
+          "value": 102.44
         }
       ],
       "bench_momentum": [
@@ -113672,6 +113696,10 @@
         {
           "date": "2026-11-11",
           "value": 103.754
+        },
+        {
+          "date": "2026-11-12",
+          "value": 103.908
         }
       ],
       "quality_factor": [
@@ -113710,6 +113738,10 @@
         {
           "date": "2026-11-11",
           "value": 104.627
+        },
+        {
+          "date": "2026-11-12",
+          "value": 105.123
         }
       ],
       "multifactor": [
@@ -113748,6 +113780,10 @@
         {
           "date": "2026-11-11",
           "value": 104.06
+        },
+        {
+          "date": "2026-11-12",
+          "value": 104.096
         }
       ],
       "book3_v1": [
@@ -113786,6 +113822,10 @@
         {
           "date": "2026-11-11",
           "value": 104.391
+        },
+        {
+          "date": "2026-11-12",
+          "value": 104.698
         }
       ],
       "b6_neutral": [
@@ -113824,6 +113864,10 @@
         {
           "date": "2026-11-11",
           "value": 102.431
+        },
+        {
+          "date": "2026-11-12",
+          "value": 102.603
         }
       ],
       "growth_screen": [
@@ -113858,6 +113902,10 @@
         {
           "date": "2026-11-11",
           "value": 103.928
+        },
+        {
+          "date": "2026-11-12",
+          "value": 105.021
         }
       ],
       "bench_nifty500": [
@@ -113916,6 +113964,10 @@
         {
           "date": "2026-11-11",
           "value": 110.975
+        },
+        {
+          "date": "2026-11-12",
+          "value": 111.379
         }
       ],
       "bench_ew": [
@@ -113974,6 +114026,10 @@
         {
           "date": "2026-11-11",
           "value": 109.407
+        },
+        {
+          "date": "2026-11-12",
+          "value": 110.144
         }
       ],
       "bench_buyhold": [
@@ -114032,6 +114088,10 @@
         {
           "date": "2026-11-11",
           "value": 108.474
+        },
+        {
+          "date": "2026-11-12",
+          "value": 108.52
         }
       ]
     },
@@ -114277,25 +114337,25 @@
     "kill_rule": "more than 10 points behind the equal-weight null on a rolling 60-date basis, twice in a row",
     "promote_rule": "best book at 90 dates, if ahead of both benchmarks",
     "inputs": {
-      "as_of": "2026-11-11",
+      "as_of": "2026-11-12",
       "overlay_reference": "ew_proxy",
       "proxy_names": 100,
       "fundamentals_source": "db+traces",
       "n_fundamentals": 502,
-      "n_decisions": 499,
-      "n_bearish_flags": 10,
-      "live_book": "2026-11-12",
+      "n_decisions": 500,
+      "n_bearish_flags": 19,
+      "live_book": "2026-11-13",
       "quality_coverage": {
-        "roce_pct": 260,
+        "roce_pct": 262,
         "pat_margin_pct": 493,
-        "neg_net_debt_ebitda": 401,
-        "cash_conversion": 454,
+        "neg_net_debt_ebitda": 403,
+        "cash_conversion": 455,
         "growth_consistency": 497,
         "neg_accruals": 0,
-        "ttm_pat": 476,
+        "ttm_pat": 477,
         "market_cap": 502
       },
-      "macro_snapshot": "2026-11-11",
+      "macro_snapshot": "2026-11-12",
       "macro_error": null,
       "sector_flows": null
     },
@@ -114438,131 +114498,131 @@
           {
             "month": "2026-11",
             "from": "2026-11-02",
-            "to": "2026-11-11",
+            "to": "2026-11-12",
             "n_holdings": 23,
-            "allocation_pp": -3.738,
-            "selection_pp": -1.454,
-            "interaction_pp": 0.919,
-            "active_pp": -4.274,
-            "book_bh_pp": 1.563,
-            "bench_ew_pp": 5.837,
-            "book_twr_pp": 1.606,
-            "residual_pp": 0.043,
+            "allocation_pp": -4.246,
+            "selection_pp": -1.377,
+            "interaction_pp": 0.807,
+            "active_pp": -4.817,
+            "book_bh_pp": 1.734,
+            "bench_ew_pp": 6.551,
+            "book_twr_pp": 1.763,
+            "residual_pp": 0.029,
             "by_sector": {
               "Auto": {
                 "book_w": 0.0387,
                 "bench_w": 0.0778,
-                "book_r": 8.89,
-                "bench_r": 7.335,
-                "allocation": -0.059,
-                "selection": 0.121,
-                "interaction": -0.061
+                "book_r": 7.785,
+                "bench_r": 8.002,
+                "allocation": -0.057,
+                "selection": -0.017,
+                "interaction": 0.009
               },
               "Cash": {
-                "book_w": 0.6395,
+                "book_w": 0.6397,
                 "bench_w": 0.0,
                 "book_r": 0.0,
                 "bench_r": 0.0,
-                "allocation": -3.733,
+                "allocation": -4.191,
                 "selection": 0.0,
                 "interaction": 0.0
               },
               "Consumer Discr.": {
                 "book_w": 0.0563,
                 "bench_w": 0.1038,
-                "book_r": 1.649,
-                "bench_r": 5.92,
-                "allocation": -0.004,
-                "selection": -0.443,
-                "interaction": 0.203
+                "book_r": 2.067,
+                "bench_r": 6.616,
+                "allocation": -0.003,
+                "selection": -0.472,
+                "interaction": 0.216
               },
               "Energy": {
                 "book_w": 0.0195,
                 "bench_w": 0.0339,
-                "book_r": 7.288,
-                "bench_r": 5.964,
-                "allocation": -0.002,
-                "selection": 0.045,
-                "interaction": -0.019
+                "book_r": 6.164,
+                "bench_r": 5.249,
+                "allocation": 0.019,
+                "selection": 0.031,
+                "interaction": -0.013
               },
               "FMCG": {
                 "book_w": 0.0173,
                 "bench_w": 0.0579,
-                "book_r": 9.32,
-                "bench_r": 6.844,
-                "allocation": -0.041,
-                "selection": 0.143,
-                "interaction": -0.1
+                "book_r": 9.661,
+                "bench_r": 7.174,
+                "allocation": -0.025,
+                "selection": 0.144,
+                "interaction": -0.101
               },
               "Financials": {
                 "book_w": 0.0562,
                 "bench_w": 0.2016,
-                "book_r": 7.349,
-                "bench_r": 8.513,
-                "allocation": -0.389,
-                "selection": -0.235,
-                "interaction": 0.169
+                "book_r": 9.771,
+                "bench_r": 10.163,
+                "allocation": -0.525,
+                "selection": -0.079,
+                "interaction": 0.057
               },
               "Healthcare": {
                 "book_w": 0.054,
                 "bench_w": 0.0978,
-                "book_r": 4.051,
-                "bench_r": 5.206,
-                "allocation": 0.028,
-                "selection": -0.113,
-                "interaction": 0.051
+                "book_r": 2.934,
+                "bench_r": 5.501,
+                "allocation": 0.046,
+                "selection": -0.251,
+                "interaction": 0.113
               },
               "IT": {
                 "book_w": 0.0277,
                 "bench_w": 0.0539,
-                "book_r": 1.073,
-                "bench_r": 0.601,
-                "allocation": 0.137,
-                "selection": 0.025,
-                "interaction": -0.012
+                "book_r": 1.884,
+                "bench_r": 1.001,
+                "allocation": 0.146,
+                "selection": 0.048,
+                "interaction": -0.023
               },
               "Industrials": {
-                "book_w": 0.0473,
+                "book_w": 0.0471,
                 "bench_w": 0.1856,
-                "book_r": 1.021,
-                "bench_r": 4.199,
-                "allocation": 0.227,
-                "selection": -0.59,
-                "interaction": 0.44
+                "book_r": 1.854,
+                "bench_r": 4.757,
+                "allocation": 0.248,
+                "selection": -0.539,
+                "interaction": 0.402
               },
               "Materials": {
                 "book_w": 0.0435,
                 "bench_w": 0.1118,
-                "book_r": 2.589,
-                "bench_r": 6.238,
-                "allocation": -0.027,
-                "selection": -0.408,
-                "interaction": 0.249
+                "book_r": 4.17,
+                "bench_r": 6.332,
+                "allocation": 0.015,
+                "selection": -0.242,
+                "interaction": 0.148
               },
               "Real Estate": {
                 "book_w": 0.0,
                 "bench_w": 0.022,
-                "book_r": 7.509,
-                "bench_r": 7.509,
-                "allocation": -0.037,
+                "book_r": 12.823,
+                "bench_r": 12.823,
+                "allocation": -0.138,
                 "selection": 0.0,
                 "interaction": -0.0
               },
               "Telecom": {
                 "book_w": 0.0,
                 "bench_w": 0.02,
-                "book_r": 2.88,
-                "bench_r": 2.88,
-                "allocation": 0.059,
+                "book_r": 2.119,
+                "bench_r": 2.119,
+                "allocation": 0.088,
                 "selection": 0.0,
                 "interaction": -0.0
               },
               "Utilities": {
                 "book_w": 0.0,
                 "bench_w": 0.0339,
-                "book_r": 2.832,
-                "bench_r": 2.832,
-                "allocation": 0.102,
+                "book_r": 2.729,
+                "bench_r": 2.729,
+                "allocation": 0.13,
                 "selection": 0.0,
                 "interaction": -0.0
               }
@@ -114570,10 +114630,10 @@
           }
         ],
         "total": {
-          "allocation_pp": -5.266,
-          "selection_pp": -1.454,
-          "interaction_pp": 0.919,
-          "active_pp": -5.802,
+          "allocation_pp": -5.774,
+          "selection_pp": -1.377,
+          "interaction_pp": 0.807,
+          "active_pp": -6.345,
           "n_months": 2
         },
         "method": "Brinson-Fachler vs the equal-weight universe, start-of-month holdings held through the month; Cash is a sector with zero return and zero benchmark weight"
@@ -114699,15 +114759,15 @@
         "Utilities": 0.8
       },
       "tilt_week": "2026-11",
-      "since_start_twr_pp": 2.282,
+      "since_start_twr_pp": 2.44,
       "last_60_dates_twr_pp": null,
       "vs_neutral": {
         "since": "2026-10-23",
-        "to": "2026-11-11",
-        "n_dates": 9,
-        "book_pp": 2.282,
-        "neutral_pp": 2.431,
-        "delta_pp": -0.15
+        "to": "2026-11-12",
+        "n_dates": 10,
+        "book_pp": 2.44,
+        "neutral_pp": 2.603,
+        "delta_pp": -0.163
       }
     }
   }
