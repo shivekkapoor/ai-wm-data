@@ -1,35 +1,33 @@
 {
- "as_of": "2026-11-15",
- "generated_at": "2026-11-14T22:30:23Z",
+ "as_of": "2026-11-16",
+ "generated_at": "2026-11-15T18:57:02Z",
  "overall": "RED",
  "alerts": [
-  "Engine output: 211 decisions on 2026-11-15",
-  "Fundamentals: 48/211 names analysed with a fresh fundamental view; 63.8% of filings read",
-  "Macro: macro snapshot 2026-11-15"
+  "Engine output: 605 decisions on 2026-11-15",
+  "Fundamentals: 49/199 names analysed with a fresh fundamental view; 64.0% of filings read",
+  "Macro: macro snapshot 2026-11-16"
  ],
  "engine": {
   "date": "2026-11-15",
-  "real": 211,
+  "real": 605,
   "errors": 1,
-  "gated": 288,
-  "other": 3,
+  "gated": 890,
+  "other": 9,
   "top_error": "cli-unavailable: claude CLI failed for trader and the API fallback is disabled (sentinel ANTHROPIC_A",
   "last_real_date": "2026-11-15"
  },
  "last_run": {
-  "date": "2026-11-14",
-  "names_analysed": 211,
+  "date": "2026-11-15",
+  "names_analysed": 199,
   "agent_calls": {
    "macro_indicator_extractor": 1,
-   "macro_strategist": 1,
-   "sentiment_analyst": 212,
-   "technical_analyst": 212,
-   "timing_analyst": 212,
-   "trader": 211,
-   "trader_v2": 211,
-   "fundamental_analyst": 48,
-   "devils_advocate": 3,
-   "conviction_ranker": 215
+   "sentiment_analyst": 199,
+   "technical_analyst": 199,
+   "timing_analyst": 199,
+   "trader": 199,
+   "trader_v2": 199,
+   "fundamental_analyst": 49,
+   "conviction_ranker": 203
   }
  },
  "read_receipts": {
@@ -52,11 +50,11 @@
   {
    "pillar": "Engine output",
    "status": "RED",
-   "headline": "211 decisions on 2026-11-15",
+   "headline": "605 decisions on 2026-11-15",
    "metrics": [
     {
      "label": "decisions (latest run)",
-     "value": "211 real / 1 errors / 288 gated",
+     "value": "605 real / 1 errors / 890 gated",
      "status": "GREEN",
      "detail": "run of 2026-11-15; top error: cli-unavailable: claude CLI failed for trader and the API fallback is disabled (sentinel ANTHROPIC_A",
      "dimension": "used"
@@ -65,12 +63,12 @@
      "label": "last real decision",
      "value": "2026-11-15",
      "status": "GREEN",
-     "detail": "0d ago",
+     "detail": "1d ago",
      "dimension": "fresh"
     },
     {
      "label": "trader traces (same date)",
-     "value": "0 traces / 211 decisions",
+     "value": "398 traces / 605 decisions",
      "status": "RED",
      "detail": "decisions without a matching trader call \u2014 trace log missing?",
      "dimension": "verified"
@@ -80,13 +78,13 @@
   {
    "pillar": "Fundamentals",
    "status": "RED",
-   "headline": "48/211 names analysed with a fresh fundamental view; 63.8% of filings read",
+   "headline": "49/199 names analysed with a fresh fundamental view; 64.0% of filings read",
    "metrics": [
     {
      "label": "filings read",
      "value": "64% current",
      "status": "RED",
-     "detail": "expected Q2 FY27: 319 current, 149 behind, 0 with an unread filing (0 PDFs)",
+     "detail": "expected Q2 FY27: 320 current, 148 behind, 0 with an unread filing (0 PDFs)",
      "dimension": "fresh"
     },
     {
@@ -98,9 +96,9 @@
     },
     {
      "label": "repair loop",
-     "value": "-89 names since the last run",
-     "status": "RED",
-     "detail": "149 still to repair. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
+     "value": "+4 names since the last run",
+     "status": "GREEN",
+     "detail": "148 still to repair; ~37 run(s) to clear at this rate. The extractor works the ledger's own list, biggest first \u2014 measuring a stale filing does not read it",
      "dimension": "used"
     },
     {
@@ -147,16 +145,16 @@
     },
     {
      "label": "agent ran",
-     "value": "48/211 names",
+     "value": "49/199 names",
      "status": "GREEN",
-     "detail": "last run 2026-11-14: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
+     "detail": "last run 2026-11-15: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
      "dimension": "used"
     },
     {
      "label": "cached view age",
-     "value": "median 26d, p90 163d",
+     "value": "median 27d, p90 164d",
      "status": "RED",
-     "detail": "762 views older than 90 days (4037 cached)",
+     "detail": "766 views older than 90 days (4039 cached)",
      "dimension": "used"
     },
     {
@@ -171,7 +169,7 @@
   {
    "pillar": "Technicals",
    "status": "GREEN",
-   "headline": "212/211 names analysed on technicals",
+   "headline": "199/199 names analysed on technicals",
    "metrics": [
     {
      "label": "newest bar",
@@ -210,9 +208,9 @@
     },
     {
      "label": "agent ran",
-     "value": "212/211 names",
+     "value": "199/199 names",
      "status": "GREEN",
-     "detail": "last run 2026-11-14",
+     "detail": "last run 2026-11-15",
      "dimension": "used"
     },
     {
@@ -231,7 +229,7 @@
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-11-13 (2d)",
+     "value": "2026-11-13 (3d)",
      "status": "YELLOW",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
@@ -245,16 +243,16 @@
     },
     {
      "label": "headlines typed",
-     "value": "4431/4431 (100%)",
+     "value": "4319/4319 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
     },
     {
      "label": "agent ran",
-     "value": "212/211 names",
+     "value": "199/199 names",
      "status": "GREEN",
-     "detail": "last run 2026-11-14",
+     "detail": "last run 2026-11-15",
      "dimension": "used"
     },
     {
@@ -269,11 +267,11 @@
   {
    "pillar": "Macro",
    "status": "RED",
-   "headline": "macro snapshot 2026-11-15",
+   "headline": "macro snapshot 2026-11-16",
    "metrics": [
     {
      "label": "snapshot date",
-     "value": "2026-11-15 (0d)",
+     "value": "2026-11-16 (0d)",
      "status": "GREEN",
      "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
      "dimension": "fresh"
@@ -301,7 +299,7 @@
     },
     {
      "label": "regime the agents read",
-     "value": "RISK_ON (0d)",
+     "value": "RISK_ON (1d)",
      "status": "GREEN",
      "detail": "the database snapshot every trader prompt opens with",
      "dimension": "used"
