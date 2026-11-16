@@ -1,33 +1,31 @@
 {
  "as_of": "2026-11-16",
- "generated_at": "2026-11-15T18:57:02Z",
+ "generated_at": "2026-11-16T00:06:47Z",
  "overall": "RED",
  "alerts": [
-  "Engine output: 605 decisions on 2026-11-15",
-  "Fundamentals: 49/199 names analysed with a fresh fundamental view; 64.0% of filings read",
+  "Engine output: 106 decisions on 2026-11-16",
+  "Fundamentals: 1/13 names analysed with a fresh fundamental view; 64.0% of filings read",
   "Macro: macro snapshot 2026-11-16"
  ],
  "engine": {
-  "date": "2026-11-15",
-  "real": 605,
-  "errors": 1,
-  "gated": 890,
-  "other": 9,
-  "top_error": "cli-unavailable: claude CLI failed for trader and the API fallback is disabled (sentinel ANTHROPIC_A",
-  "last_real_date": "2026-11-15"
+  "date": "2026-11-16",
+  "real": 106,
+  "errors": 0,
+  "gated": 390,
+  "other": 3,
+  "top_error": "",
+  "last_real_date": "2026-11-16"
  },
  "last_run": {
   "date": "2026-11-15",
-  "names_analysed": 199,
+  "names_analysed": 13,
   "agent_calls": {
-   "macro_indicator_extractor": 1,
-   "sentiment_analyst": 199,
-   "technical_analyst": 199,
-   "timing_analyst": 199,
-   "trader": 199,
-   "trader_v2": 199,
-   "fundamental_analyst": 49,
-   "conviction_ranker": 203
+   "sentiment_analyst": 13,
+   "technical_analyst": 13,
+   "timing_analyst": 13,
+   "trader": 13,
+   "trader_v2": 13,
+   "fundamental_analyst": 1
   }
  },
  "read_receipts": {
@@ -50,25 +48,25 @@
   {
    "pillar": "Engine output",
    "status": "RED",
-   "headline": "605 decisions on 2026-11-15",
+   "headline": "106 decisions on 2026-11-16",
    "metrics": [
     {
      "label": "decisions (latest run)",
-     "value": "605 real / 1 errors / 890 gated",
+     "value": "106 real / 0 errors / 390 gated",
      "status": "GREEN",
-     "detail": "run of 2026-11-15; top error: cli-unavailable: claude CLI failed for trader and the API fallback is disabled (sentinel ANTHROPIC_A",
+     "detail": "run of 2026-11-16",
      "dimension": "used"
     },
     {
      "label": "last real decision",
-     "value": "2026-11-15",
+     "value": "2026-11-16",
      "status": "GREEN",
-     "detail": "1d ago",
+     "detail": "0d ago",
      "dimension": "fresh"
     },
     {
      "label": "trader traces (same date)",
-     "value": "398 traces / 605 decisions",
+     "value": "0 traces / 106 decisions",
      "status": "RED",
      "detail": "decisions without a matching trader call \u2014 trace log missing?",
      "dimension": "verified"
@@ -78,7 +76,7 @@
   {
    "pillar": "Fundamentals",
    "status": "RED",
-   "headline": "49/199 names analysed with a fresh fundamental view; 64.0% of filings read",
+   "headline": "1/13 names analysed with a fresh fundamental view; 64.0% of filings read",
    "metrics": [
     {
      "label": "filings read",
@@ -145,8 +143,8 @@
     },
     {
      "label": "agent ran",
-     "value": "49/199 names",
-     "status": "GREEN",
+     "value": "1/13 names",
+     "status": "YELLOW",
      "detail": "last run 2026-11-15: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
      "dimension": "used"
     },
@@ -154,7 +152,7 @@
      "label": "cached view age",
      "value": "median 27d, p90 164d",
      "status": "RED",
-     "detail": "766 views older than 90 days (4039 cached)",
+     "detail": "766 views older than 90 days (4071 cached)",
      "dimension": "used"
     },
     {
@@ -169,7 +167,7 @@
   {
    "pillar": "Technicals",
    "status": "GREEN",
-   "headline": "199/199 names analysed on technicals",
+   "headline": "13/13 names analysed on technicals",
    "metrics": [
     {
      "label": "newest bar",
@@ -208,7 +206,7 @@
     },
     {
      "label": "agent ran",
-     "value": "199/199 names",
+     "value": "13/13 names",
      "status": "GREEN",
      "detail": "last run 2026-11-15",
      "dimension": "used"
@@ -243,14 +241,14 @@
     },
     {
      "label": "headlines typed",
-     "value": "4319/4319 (100%)",
+     "value": "4302/4302 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
     },
     {
      "label": "agent ran",
-     "value": "199/199 names",
+     "value": "13/13 names",
      "status": "GREEN",
      "detail": "last run 2026-11-15",
      "dimension": "used"
@@ -299,7 +297,7 @@
     },
     {
      "label": "regime the agents read",
-     "value": "RISK_ON (1d)",
+     "value": "RISK_ON (0d)",
      "status": "GREEN",
      "detail": "the database snapshot every trader prompt opens with",
      "dimension": "used"
