@@ -1,6 +1,6 @@
 {
  "as_of": "2026-11-17",
- "generated_at": "2026-11-16T22:35:25Z",
+ "generated_at": "2026-11-16T23:47:08Z",
  "overall": "RED",
  "alerts": [
   "Engine output: 117 decisions on 2026-11-17",
@@ -243,7 +243,7 @@
     },
     {
      "label": "headlines typed",
-     "value": "4009/4009 (100%)",
+     "value": "4120/4132 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
