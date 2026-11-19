@@ -1,6 +1,6 @@
 {
  "as_of": "2026-11-19",
- "generated_at": "2026-11-19T10:51:26Z",
+ "generated_at": "2026-11-19T12:45:37Z",
  "overall": "RED",
  "alerts": [
   "Engine output: 214 decisions on 2026-11-19",
@@ -225,26 +225,26 @@
   {
    "pillar": "Sentiment / news",
    "status": "YELLOW",
-   "headline": "newest headline 2026-11-17; 100% typed",
+   "headline": "newest headline 2026-11-19; 58% typed",
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-11-17 (2d)",
-     "status": "YELLOW",
+     "value": "2026-11-19 (0d)",
+     "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
     },
     {
      "label": "names with news",
-     "value": "327",
+     "value": "419",
      "status": "GREEN",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "3293/3300 (100%)",
-     "status": "GREEN",
+     "value": "3072/5327 (58%)",
+     "status": "YELLOW",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
     },
