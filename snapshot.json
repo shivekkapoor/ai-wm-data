@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T04:58:02.912044+05:30",
+  "generated_at": "2026-11-20T05:00:32.281096+05:30",
   "portfolio": {
     "cash_inr": 126.74,
     "invested_inr": 934940.27,
@@ -113175,7 +113175,7 @@
   },
   "books": {
     "as_of": "2026-11-19",
-    "generated_at": "2026-11-19",
+    "generated_at": "2026-11-20",
     "leaderboard": [
       {
         "book_id": "book5_tech_pullback",
@@ -113229,7 +113229,7 @@
         "nav_inr": 968801.49,
         "cash_pct": 0.0,
         "n_positions": 48,
-        "n_pending": 0,
+        "n_pending": 1,
         "twr_pct": 6.15,
         "max_dd_pct": -1.22,
         "turnover_pct": 13.1,
@@ -114861,8 +114861,8 @@
       "fundamentals_source": "db+traces",
       "n_fundamentals": 502,
       "n_decisions": 500,
-      "n_bearish_flags": 6,
-      "live_book": "2026-11-19",
+      "n_bearish_flags": 11,
+      "live_book": "2026-11-20",
       "quality_coverage": {
         "roce_pct": 263,
         "pat_margin_pct": 493,
@@ -114875,7 +114875,7 @@
       },
       "macro_snapshot": "2026-11-19",
       "macro_error": null,
-      "sector_flows": "2026-11-19"
+      "sector_flows": null
     },
     "book6_attribution": {
       "brinson": {
