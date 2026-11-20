@@ -4,13 +4,13 @@
  "expected_annual": "FY26",
  "universe": 500,
  "counts": {
-  "current": 321,
-  "behind": 147,
+  "current": 322,
+  "behind": 146,
   "unread": 0,
   "annual_behind": 31,
   "no_filing": 1
  },
- "pct_current": 64.2,
+ "pct_current": 64.4,
  "pct_unread": 0.0,
  "unread_docs_total": 0,
  "rows": [
@@ -4437,12 +4437,12 @@
    "latest_results_title": "Outcome of Board Meeting",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "Q1 FY27",
-   "latest_extracted_filing_date": "2026-08-11",
+   "latest_extracted_period": "H1 FY27",
+   "latest_extracted_filing_date": "2026-11-12",
    "latest_extract_written": "2026-11-20",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "behind",
+   "status": "current",
    "latest_filing_sha16": null,
    "latest_filing_receipt": null
   },
@@ -8018,13 +8018,13 @@
  "previous": {
   "as_of": "2026-11-20",
   "counts": {
-   "current": 321,
-   "behind": 147,
+   "current": 322,
+   "behind": 146,
    "unread": 0,
    "annual_behind": 31,
    "no_filing": 1
   },
-  "pct_current": 64.2
+  "pct_current": 64.4
  },
  "repaired_since_previous": 0
 }
