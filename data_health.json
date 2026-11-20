@@ -1,12 +1,12 @@
 {
  "as_of": "2026-11-20",
- "generated_at": "2026-11-19T18:44:49Z",
+ "generated_at": "2026-11-20T00:06:41Z",
  "overall": "RED",
  "alerts": [
   "Engine output: 360 decisions on 2026-11-19",
   "Fundamentals: 4/146 names analysed with a fresh fundamental view; 64.2% of filings read",
-  "Sentiment / news: newest headline 2026-11-19; 64% typed",
-  "Macro: macro snapshot 2026-11-19"
+  "Sentiment / news: newest headline 2026-11-19; 98% typed",
+  "Macro: macro snapshot 2026-11-20"
  ],
  "engine": {
   "date": "2026-11-19",
@@ -154,7 +154,7 @@
      "label": "cached view age",
      "value": "median 31d, p90 168d",
      "status": "RED",
-     "detail": "766 views older than 90 days (4101 cached)",
+     "detail": "766 views older than 90 days (4105 cached)",
      "dimension": "used"
     },
     {
@@ -225,7 +225,7 @@
   {
    "pillar": "Sentiment / news",
    "status": "RED",
-   "headline": "newest headline 2026-11-19; 64% typed",
+   "headline": "newest headline 2026-11-19; 98% typed",
    "metrics": [
     {
      "label": "newest headline",
@@ -236,15 +236,15 @@
     },
     {
      "label": "names with news",
-     "value": "418",
+     "value": "473",
      "status": "GREEN",
      "detail": "of the 500 universe",
      "dimension": "fresh"
     },
     {
      "label": "headlines typed",
-     "value": "3211/4993 (64%)",
-     "status": "YELLOW",
+     "value": "4953/5035 (98%)",
+     "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
     },
@@ -267,11 +267,11 @@
   {
    "pillar": "Macro",
    "status": "RED",
-   "headline": "macro snapshot 2026-11-19",
+   "headline": "macro snapshot 2026-11-20",
    "metrics": [
     {
      "label": "snapshot date",
-     "value": "2026-11-19 (1d)",
+     "value": "2026-11-20 (0d)",
      "status": "GREEN",
      "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
      "dimension": "fresh"
@@ -299,7 +299,7 @@
     },
     {
      "label": "regime the agents read",
-     "value": "RISK_ON (1d)",
+     "value": "NEUTRAL (0d)",
      "status": "GREEN",
      "detail": "the database snapshot every trader prompt opens with",
      "dimension": "used"
