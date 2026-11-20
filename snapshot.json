@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-20T06:42:09.619068+05:30",
+  "generated_at": "2026-11-20T06:44:35.584177+05:30",
   "portfolio": {
     "cash_inr": 126.74,
     "invested_inr": 934940.27,
@@ -113359,7 +113359,7 @@
         "nav_inr": 1024354.06,
         "cash_pct": 8.3,
         "n_positions": 30,
-        "n_pending": 8,
+        "n_pending": 7,
         "twr_pct": 2.44,
         "max_dd_pct": -2.14,
         "turnover_pct": 99.5,
@@ -114911,7 +114911,7 @@
       "fundamentals_source": "db+traces",
       "n_fundamentals": 502,
       "n_decisions": 500,
-      "n_bearish_flags": 11,
+      "n_bearish_flags": 4,
       "live_book": "2026-11-20",
       "quality_coverage": {
         "roce_pct": 263,
