@@ -1,32 +1,31 @@
 {
  "as_of": "2026-11-23",
- "generated_at": "2026-11-22T21:57:16Z",
+ "generated_at": "2026-11-23T01:48:24Z",
  "overall": "RED",
  "alerts": [
-  "Engine output: 98 decisions on 2026-11-23",
-  "Fundamentals: 3/99 names analysed with a fresh fundamental view; 71.6% of filings read",
+  "Engine output: 174 decisions on 2026-11-23",
+  "Fundamentals: 2/56 names analysed with a fresh fundamental view; 71.6% of filings read",
   "Macro: macro snapshot 2026-11-23"
  ],
  "engine": {
   "date": "2026-11-23",
-  "real": 98,
+  "real": 174,
   "errors": 0,
-  "gated": 401,
-  "other": 2,
+  "gated": 824,
+  "other": 4,
   "top_error": "",
   "last_real_date": "2026-11-23"
  },
  "last_run": {
-  "date": "2026-11-22",
-  "names_analysed": 99,
+  "date": "2026-11-23",
+  "names_analysed": 56,
   "agent_calls": {
-   "macro_strategist": 1,
-   "sentiment_analyst": 99,
-   "technical_analyst": 99,
-   "timing_analyst": 99,
-   "trader": 99,
-   "trader_v2": 99,
-   "fundamental_analyst": 3
+   "trader_v2": 57,
+   "sentiment_analyst": 56,
+   "technical_analyst": 56,
+   "timing_analyst": 56,
+   "trader": 56,
+   "fundamental_analyst": 2
   }
  },
  "read_receipts": {
@@ -49,11 +48,11 @@
   {
    "pillar": "Engine output",
    "status": "RED",
-   "headline": "98 decisions on 2026-11-23",
+   "headline": "174 decisions on 2026-11-23",
    "metrics": [
     {
      "label": "decisions (latest run)",
-     "value": "98 real / 0 errors / 401 gated",
+     "value": "174 real / 0 errors / 824 gated",
      "status": "GREEN",
      "detail": "run of 2026-11-23",
      "dimension": "used"
@@ -67,7 +66,7 @@
     },
     {
      "label": "trader traces (same date)",
-     "value": "0 traces / 98 decisions",
+     "value": "56 traces / 174 decisions",
      "status": "RED",
      "detail": "decisions without a matching trader call \u2014 trace log missing?",
      "dimension": "verified"
@@ -77,7 +76,7 @@
   {
    "pillar": "Fundamentals",
    "status": "RED",
-   "headline": "3/99 names analysed with a fresh fundamental view; 71.6% of filings read",
+   "headline": "2/56 names analysed with a fresh fundamental view; 71.6% of filings read",
    "metrics": [
     {
      "label": "filings read",
@@ -144,16 +143,16 @@
     },
     {
      "label": "agent ran",
-     "value": "3/99 names",
+     "value": "2/56 names",
      "status": "RED",
-     "detail": "last run 2026-11-22: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
+     "detail": "last run 2026-11-23: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
      "dimension": "used"
     },
     {
      "label": "cached view age",
      "value": "median 34d, p90 158d",
      "status": "RED",
-     "detail": "766 views older than 90 days (4129 cached)",
+     "detail": "766 views older than 90 days (4130 cached)",
      "dimension": "used"
     },
     {
@@ -168,7 +167,7 @@
   {
    "pillar": "Technicals",
    "status": "GREEN",
-   "headline": "99/99 names analysed on technicals",
+   "headline": "56/56 names analysed on technicals",
    "metrics": [
     {
      "label": "newest bar",
@@ -207,9 +206,9 @@
     },
     {
      "label": "agent ran",
-     "value": "99/99 names",
+     "value": "56/56 names",
      "status": "GREEN",
-     "detail": "last run 2026-11-22",
+     "detail": "last run 2026-11-23",
      "dimension": "used"
     },
     {
@@ -242,16 +241,16 @@
     },
     {
      "label": "headlines typed",
-     "value": "4614/4627 (100%)",
+     "value": "4602/4615 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
     },
     {
      "label": "agent ran",
-     "value": "99/99 names",
+     "value": "56/56 names",
      "status": "GREEN",
-     "detail": "last run 2026-11-22",
+     "detail": "last run 2026-11-23",
      "dimension": "used"
     },
     {
