@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T02:00:43.936081+05:30",
+  "generated_at": "2026-11-25T02:04:17.344913+05:30",
   "portfolio": {
     "cash_inr": 10152.26,
     "invested_inr": 925759.11,
@@ -108157,288 +108157,6 @@
         "peer_count": 473
       }
     },
-    "SAREGAMA": {
-      "fundamental": {
-        "thesis": "Saregama owns one of India's largest music catalogues and earns from licensing it to streaming, short-video and broadcast platforms, alongside film/video content and live events; it is a mid-cap content franchise that yfinance mislabels as Telecom. The Q2FY27 results announcement (4 Nov 2026) shows revenue from operations of \u20b9314.3 cr, up 37% YoY, adjusted EBITDA of \u20b9118 cr (+39%) and PBT of \u20b985.8 cr (+43%). That is a sharp rebound from FY26, when revenue fell 15.9% to \u20b9985 cr, although PAT margin did improve from 18.4% in H1FY26 to 21.0% for full-year FY26. On valuation, using EV/EBITDA and P/E against the broad market because there are no tight listed peers, the stock trades at 25.5x EV/EBITDA (P58) and 43.9x trailing P/E (P64), with a 32.3x forward P/E implying expected earnings growth, so it is fairly valued with modest upside. The biggest risk is cash conversion: CFO/PAT was only 0.48x in FY26 and free cash flow was negative (\u20b9-114 cr) because of heavy spending on acquiring catalogue and content, and the 37% jump is a single quarter off a weak base.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.45,
-        "from_cache": true
-      },
-      "earnings_surprise": {
-        "filing_date": "2026-11-05",
-        "document_kind": "financial_results",
-        "days_since_filing": 20,
-        "reaction_1d_pct": -2.69,
-        "reaction_2d_pct": 1.73,
-        "surprise": "inline",
-        "freshness": "high"
-      },
-      "peer_valuation": {
-        "sector": "Consumer Discr.",
-        "as_of": "2026-11-25",
-        "metrics": {
-          "trailing_pe": {
-            "stock_value": 43.9,
-            "sector_median": 35.2,
-            "pct_rank": 64.2,
-            "premium_pct": 24.8,
-            "label": "fair",
-            "cheapest_peers": [
-              "ZFCVINDIA",
-              "IDEA"
-            ],
-            "priciest_peers": [
-              "NSLNISP",
-              "PTCIL"
-            ],
-            "peer_count": 473
-          },
-          "forward_pe": {
-            "stock_value": 32.3,
-            "sector_median": 23.2,
-            "pct_rank": 68.8,
-            "premium_pct": 39.0,
-            "label": "fair",
-            "cheapest_peers": [
-              "CHENNPETRO",
-              "MRPL"
-            ],
-            "priciest_peers": [
-              "DEVYANI",
-              "NYKAA"
-            ],
-            "peer_count": 472
-          },
-          "pb_ratio": {
-            "stock_value": 5.8,
-            "sector_median": 4.6,
-            "pct_rank": 60.1,
-            "premium_pct": 26.5,
-            "label": "fair",
-            "cheapest_peers": [
-              "GICRE",
-              "RPOWER"
-            ],
-            "priciest_peers": [
-              "ANANDRATHI",
-              "FACT"
-            ],
-            "peer_count": 490
-          },
-          "ev_ebitda": {
-            "stock_value": 25.5,
-            "sector_median": 23.3,
-            "pct_rank": 57.5,
-            "premium_pct": 9.2,
-            "label": "fair",
-            "cheapest_peers": [
-              "BBTC",
-              "NIACL"
-            ],
-            "priciest_peers": [
-              "FIRSTCRY",
-              "BDL"
-            ],
-            "peer_count": 403
-          }
-        },
-        "verdict": "fair",
-        "pe_pct_rank": 64.2,
-        "pe_premium_pct": 24.8,
-        "pe_sector_median": 35.2,
-        "peer_count": 473
-      }
-    },
-    "HEG": {
-      "fundamental": {
-        "thesis": "After the HEG Composite Scheme took effect on 1 Sep 2026, H.E.G. no longer holds the graphite electrode business, which was moved into a separately listed HEG Limited. What remains is a mix of businesses at very different stages: 292 MW of debt-free green power (mostly hydro, about \u20b9300 cr of stable yearly cash flow), a 20,000 MT anode plant under construction (61% done, COD June 2027), early-stage battery storage (BESS) and a planned graphene project. Q2 FY27 revenue from continuing operations was \u20b9430 cr with PAT of \u20b9209 cr (a 48.6% margin), and H1 FY27 revenue was \u20b9726 cr with PAT of \u20b9269 cr (37.1%) and EBITDA margin of 60.4%. The trend table's 'accelerating growth, expanding margins' signals compare the old electrode-heavy business with the new hydro-heavy one, so they don't hold, and no clean YoY growth figure can be computed. I graded valuation on EV/EBITDA, the right yardstick for a capital-intensive business: at 19.0x it is about 19% below the broad-market median, and trailing P/E of 27.3x sits just under the 28\u201345x Industrials range, so the stock is fair rather than cheap, especially with ROE of only 7.3% against P/B of 2.2x. The forward P/E of 18.1x and rising FY estimates (+6.7% over 90 days) suggest earnings growth is expected, but that depends on anode projects that don't produce revenue until mid-2027.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "high",
-        "conviction": 0.35,
-        "from_cache": true
-      },
-      "earnings_surprise": {
-        "filing_date": "2026-11-04",
-        "document_kind": "financial_results",
-        "days_since_filing": 21,
-        "reaction_1d_pct": 22.75,
-        "reaction_2d_pct": 22.11,
-        "surprise": "positive_surprise",
-        "freshness": "high"
-      },
-      "peer_valuation": {
-        "sector": "Industrials",
-        "as_of": "2026-11-25",
-        "metrics": {
-          "trailing_pe": {
-            "stock_value": 27.3,
-            "sector_median": 35.2,
-            "pct_rank": 34.5,
-            "premium_pct": -22.5,
-            "label": "fair",
-            "cheapest_peers": [
-              "ZFCVINDIA",
-              "IDEA"
-            ],
-            "priciest_peers": [
-              "NSLNISP",
-              "PTCIL"
-            ],
-            "peer_count": 473
-          },
-          "forward_pe": {
-            "stock_value": 18.1,
-            "sector_median": 23.2,
-            "pct_rank": 32.3,
-            "premium_pct": -22.1,
-            "label": "fair",
-            "cheapest_peers": [
-              "CHENNPETRO",
-              "MRPL"
-            ],
-            "priciest_peers": [
-              "DEVYANI",
-              "NYKAA"
-            ],
-            "peer_count": 472
-          },
-          "pb_ratio": {
-            "stock_value": 2.2,
-            "sector_median": 4.6,
-            "pct_rank": 21.9,
-            "premium_pct": -52.7,
-            "label": "cheap",
-            "cheapest_peers": [
-              "GICRE",
-              "RPOWER"
-            ],
-            "priciest_peers": [
-              "ANANDRATHI",
-              "FACT"
-            ],
-            "peer_count": 490
-          },
-          "ev_ebitda": {
-            "stock_value": 19.0,
-            "sector_median": 23.3,
-            "pct_rank": 38.1,
-            "premium_pct": -18.7,
-            "label": "fair",
-            "cheapest_peers": [
-              "BBTC",
-              "NIACL"
-            ],
-            "priciest_peers": [
-              "FIRSTCRY",
-              "BDL"
-            ],
-            "peer_count": 403
-          }
-        },
-        "verdict": "fair",
-        "pe_pct_rank": 34.5,
-        "pe_premium_pct": -22.5,
-        "pe_sector_median": 35.2,
-        "peer_count": 473
-      }
-    },
-    "BLUEJET": {
-      "fundamental": {
-        "thesis": "Blue Jet Healthcare is a mid-cap contract manufacturer (CDMO) that makes contrast-media intermediates and high-intensity sweeteners for a small group of global pharma customers, so it benefits from companies moving supply away from China. The latest quarter cannot be checked against official filings: the extracted trend table is internally inconsistent (FY26 revenue shows \u20b9103 cr while 9MFY26 shows \u20b9713 cr), no Q1/Q2 FY27 figures were extracted from the PDFs, and the only Q2FY27 figures (revenue \u20b9193 cr, PAT \u20b9103 cr, a 53% margin) come from unverified yfinance data and look implausibly high, so the growth direction cannot be stated reliably. On valuation, I used EV/EBITDA, the sector card's yardstick for a capital-intensive CDMO: 35.8x is at the 75th percentile of the market, 54% above the 23.3x median, and trailing P/E of 42.5x sits above the 28\u201340x pharma range, so the stock looks expensive. The 29.5x forward P/E suggests the market already expects earnings growth, and the consensus target is only about 4% above the current price. The biggest risk is lumpy, concentrated CDMO revenue combined with rising raw-material costs, and management has given no guidance; it relies on customer price increases starting in Q3 FY27 to protect margins.",
-        "valuation_grade": "expensive",
-        "growth_grade": "moderate",
-        "risk_grade": "high",
-        "conviction": 0.2,
-        "from_cache": true
-      },
-      "earnings_surprise": {
-        "filing_date": "2026-11-06",
-        "document_kind": "financial_results",
-        "days_since_filing": 19,
-        "reaction_1d_pct": -5.69,
-        "reaction_2d_pct": -5.69,
-        "surprise": "negative_surprise",
-        "freshness": "high"
-      },
-      "peer_valuation": {
-        "sector": "Healthcare",
-        "as_of": "2026-11-25",
-        "metrics": {
-          "trailing_pe": {
-            "stock_value": 42.5,
-            "sector_median": 35.2,
-            "pct_rank": 63.1,
-            "premium_pct": 21.0,
-            "label": "fair",
-            "cheapest_peers": [
-              "ZFCVINDIA",
-              "IDEA"
-            ],
-            "priciest_peers": [
-              "NSLNISP",
-              "PTCIL"
-            ],
-            "peer_count": 473
-          },
-          "forward_pe": {
-            "stock_value": 29.5,
-            "sector_median": 23.2,
-            "pct_rank": 65.0,
-            "premium_pct": 27.0,
-            "label": "fair",
-            "cheapest_peers": [
-              "CHENNPETRO",
-              "MRPL"
-            ],
-            "priciest_peers": [
-              "DEVYANI",
-              "NYKAA"
-            ],
-            "peer_count": 472
-          },
-          "pb_ratio": {
-            "stock_value": 7.3,
-            "sector_median": 4.6,
-            "pct_rank": 68.7,
-            "premium_pct": 59.2,
-            "label": "fair",
-            "cheapest_peers": [
-              "GICRE",
-              "RPOWER"
-            ],
-            "priciest_peers": [
-              "ANANDRATHI",
-              "FACT"
-            ],
-            "peer_count": 490
-          },
-          "ev_ebitda": {
-            "stock_value": 35.8,
-            "sector_median": 23.3,
-            "pct_rank": 75.1,
-            "premium_pct": 53.7,
-            "label": "expensive",
-            "cheapest_peers": [
-              "BBTC",
-              "NIACL"
-            ],
-            "priciest_peers": [
-              "FIRSTCRY",
-              "BDL"
-            ],
-            "peer_count": 403
-          }
-        },
-        "verdict": "fair",
-        "pe_pct_rank": 63.1,
-        "pe_premium_pct": 21.0,
-        "pe_sector_median": 35.2,
-        "peer_count": 473
-      }
-    },
     "EMMVEE": {
       "fundamental": {
         "thesis": "Emmvee is an integrated solar module and cell maker with 10.3 GW of installed module capacity, 2.94 GW of TOPCon cell capacity and an order book of 10.4 GW. It is tagged Industrials/IT in our data, but it really trades on the solar-manufacturing cycle. In H1 FY27, revenue rose 45.1% YoY to \u20b93,132 cr and PAT rose 79.1% to \u20b9762 cr, a 24.3% PAT margin. Growth is clearly slowing from the +116% revenue growth of FY26. EBITDA margin is flat at around 35%, and new orders in Q2 were only 1.5 GW against 10.3 GW of module capacity running at 44% utilisation. No separate quarterly breakdown was available, so these are half-year figures. On the yardstick for capital-intensive businesses, it looks cheap: EV/EBITDA is 13.4x (P21, 42% below the broad-market median of 23.3x), trailing P/E is 19.5x (below the 28\u201345x Industrials range) and forward P/E is 13.7x. That multiple is being applied to what look like peak-cycle 35% EBITDA margins, and the stock is already at 90% of its 52-week range. The biggest risk is earnings quality. Cash from operations covered only 0.54x of PAT in H1 and 0.18x in FY26, free cash flow in FY26 was -\u20b9453 cr, and analysts have cut next-year EPS estimates by 12.5% in the last 30 days. Together these suggest margins may fall back as module supply catches up.",
@@ -108595,21 +108313,21 @@
         "peer_count": 0
       }
     },
-    "NSLNISP": {
+    "JAINREC": {
       "fundamental": {
-        "thesis": "NMDC Steel runs a single integrated 3 MTPA steel plant at Nagarnar, demerged from NMDC; the government owns 50.79% and a strategic sale is still pending. It is a newly commissioned mill that is still ramping up, and it is moving from heavy losses to roughly breakeven: in Q1FY27 revenue rose 8.8% YoY to \u20b93,662 cr and PAT nearly doubled (+97.6%) to \u20b951 cr. That is a 1.4% PAT margin and a 12.1% EBITDA margin, up from -35.8% and -37.9% in Q3FY25. Revenue growth has slowed from +128.9% to +8.8% because the ramp-up base effect is fading. I graded valuation on EV/EBITDA, the yardstick the sector card sets for steel cyclicals, and ignored the trailing P/E of 235.6x because it is meaningless when earnings are near zero. EV/EBITDA is 11.7x, well above the 5\u20138x mid-cycle norm for steel mills, and a P/B of 1.05x is not cheap for a business earning 0.4% ROE, so I rate it expensive on fundamentals even though it looks cheap against the broad market (P17 on EV/EBITDA, P3 on P/B). The biggest caveat is that the Q2FY27 results filed on 12-Nov-2026 have not been extracted yet, so this view rests on Q1FY27 data that may be stale.",
+        "thesis": "Jain Resource Recycling is a non-ferrous metal recycler that makes copper, lead and aluminium from scrap. It is a commodity-spread business, recently listed, and copper is now about two-thirds of its revenue. Revenue is growing fast, but much of that comes from copper prices and profit is not keeping up. H1 FY27 revenue rose 65.5% YoY to \u20b96,061 cr while PAT rose only 3.1% to \u20b9160 cr. Taking Q1 out of H1 suggests Q2 FY27 revenue of about \u20b93,337 cr (around +58% YoY, slower than Q1's +75.9%) and PAT of about \u20b991 cr, which is roughly 8% lower than a year ago. EBITDA margin has fallen from 7.0% (9M FY26) to 5.7% (Q1) to 4.5% (H1), and PAT margin from 4.4% to about 2.7%. I graded valuation on EV/EBITDA because the sector card says to judge cyclical, commodity-spread businesses that way. On that measure the stock looks expensive. EV/EBITDA is 25.1\u00d7, against roughly 5\u20138\u00d7 for cyclicals at mid-cycle, and trailing P/E is 35.8\u00d7, against a 12\u201322\u00d7 Materials benchmark. The 19.9\u00d7 forward P/E depends on earnings growth, but analysts have cut those estimates by about 19% over the last 90 days. The biggest risk is that margins keep shrinking while net debt is high (about 3.3\u00d7 EBITDA, debt/equity about 82%). If copper prices or recycling spreads reverse, earnings could fall sharply.",
         "valuation_grade": "expensive",
         "growth_grade": "moderate",
         "risk_grade": "high",
-        "conviction": 0.3,
+        "conviction": 0.5,
         "from_cache": true
       },
       "earnings_surprise": {
-        "filing_date": "2026-11-13",
+        "filing_date": "2026-11-03",
         "document_kind": "financial_results",
-        "days_since_filing": 12,
-        "reaction_1d_pct": -1.87,
-        "reaction_2d_pct": -1.87,
+        "days_since_filing": 22,
+        "reaction_1d_pct": 1.58,
+        "reaction_2d_pct": 1.67,
         "surprise": "inline",
         "freshness": "high"
       },
@@ -108618,88 +108336,10 @@
         "as_of": "2026-11-25",
         "metrics": {
           "trailing_pe": {
-            "stock_value": 235.6,
+            "stock_value": 35.8,
             "sector_median": 35.2,
-            "pct_rank": 99.8,
-            "premium_pct": 569.7,
-            "label": "expensive",
-            "cheapest_peers": [
-              "ZFCVINDIA",
-              "IDEA"
-            ],
-            "priciest_peers": [
-              "DELHIVERY",
-              "PTCIL"
-            ],
-            "peer_count": 473
-          },
-          "pb_ratio": {
-            "stock_value": 1.1,
-            "sector_median": 4.6,
-            "pct_rank": 3.3,
-            "premium_pct": -77.2,
-            "label": "cheap",
-            "cheapest_peers": [
-              "GICRE",
-              "RPOWER"
-            ],
-            "priciest_peers": [
-              "ANANDRATHI",
-              "FACT"
-            ],
-            "peer_count": 490
-          },
-          "ev_ebitda": {
-            "stock_value": 11.7,
-            "sector_median": 23.3,
-            "pct_rank": 16.7,
-            "premium_pct": -49.9,
-            "label": "cheap",
-            "cheapest_peers": [
-              "BBTC",
-              "NIACL"
-            ],
-            "priciest_peers": [
-              "FIRSTCRY",
-              "BDL"
-            ],
-            "peer_count": 403
-          }
-        },
-        "verdict": "expensive",
-        "pe_pct_rank": 99.8,
-        "pe_premium_pct": 569.7,
-        "pe_sector_median": 35.2,
-        "peer_count": 473
-      }
-    },
-    "ZEEL": {
-      "fundamental": {
-        "thesis": "Zee Entertainment is India's second-largest broadcast media group (~50 TV channels plus the ZEE5 OTT platform), structurally pressured by the secular migration to streaming and left exposed after the Jiostar/Sony merger collapsed; it now carries substantial governance and legal overhangs that suppress any re-rating. FY26 annual revenue declined 1.9% YoY to \u20b97,567 Cr while PAT collapsed 82.8% to \u20b9120 Cr, compressing PAT margin to 1.6% and EBITDA margin to a catastrophic 2.6% (from 13.4% in FY25) \u2014 the multi-quarter trajectory shows revenue decelerating and margins contracting across every available period with no stabilisation evident in filings. Forward P/E of 13.42\u00d7 (P19 vs broad-market peers, -42% below median) and P/B of 0.9\u00d7 (P2 vs peers, -80% below median) both screen as unambiguously cheap; EV/EBITDA of 23\u00d7 looks deceptively at median but is computed on severely depressed EBITDA \u2014 on normalised 12-13% margins the implied EV/EBITDA would be sub-5\u00d7, confirming franchise-level cheapness if operational recovery is achievable. The single largest risk to the recovery thesis is the IDBI Bank insolvency petition (filed September 2025) seeking NCLT-admitted CIRP initiation, which if granted would be existential for the business regardless of underlying brand and content-IP value.",
-        "valuation_grade": "cheap",
-        "growth_grade": "weak",
-        "risk_grade": "high",
-        "conviction": 0.33,
-        "from_cache": true
-      },
-      "earnings_surprise": {
-        "filing_date": "2026-10-30",
-        "document_kind": "financial_results",
-        "days_since_filing": 26,
-        "reaction_1d_pct": -12.66,
-        "reaction_2d_pct": -12.66,
-        "surprise": "negative_surprise",
-        "freshness": "high"
-      },
-      "peer_valuation": {
-        "sector": "Consumer Discr.",
-        "as_of": "2026-11-25",
-        "metrics": {
-          "trailing_pe": {
-            "stock_value": 39.6,
-            "sector_median": 35.2,
-            "pct_rank": 58.3,
-            "premium_pct": 12.7,
+            "pct_rank": 51.5,
+            "premium_pct": 1.7,
             "label": "fair",
             "cheapest_peers": [
               "ZFCVINDIA",
@@ -108712,11 +108352,11 @@
             "peer_count": 473
           },
           "forward_pe": {
-            "stock_value": 13.4,
+            "stock_value": 19.9,
             "sector_median": 23.2,
-            "pct_rank": 19.1,
-            "premium_pct": -42.2,
-            "label": "cheap",
+            "pct_rank": 37.8,
+            "premium_pct": -14.1,
+            "label": "fair",
             "cheapest_peers": [
               "CHENNPETRO",
               "MRPL"
@@ -108728,11 +108368,11 @@
             "peer_count": 472
           },
           "pb_ratio": {
-            "stock_value": 0.9,
+            "stock_value": 8.8,
             "sector_median": 4.6,
-            "pct_rank": 2.2,
-            "premium_pct": -80.5,
-            "label": "cheap",
+            "pct_rank": 76.7,
+            "premium_pct": 91.1,
+            "label": "expensive",
             "cheapest_peers": [
               "GICRE",
               "RPOWER"
@@ -108744,10 +108384,10 @@
             "peer_count": 490
           },
           "ev_ebitda": {
-            "stock_value": 23.3,
+            "stock_value": 25.1,
             "sector_median": 23.3,
-            "pct_rank": 50.2,
-            "premium_pct": 0.1,
+            "pct_rank": 56.0,
+            "premium_pct": 7.7,
             "label": "fair",
             "cheapest_peers": [
               "BBTC",
@@ -108761,8 +108401,508 @@
           }
         },
         "verdict": "fair",
-        "pe_pct_rank": 58.3,
-        "pe_premium_pct": 12.7,
+        "pe_pct_rank": 51.5,
+        "pe_premium_pct": 1.7,
+        "pe_sector_median": 35.2,
+        "peer_count": 473
+      }
+    },
+    "OLAELEC": {
+      "fundamental": {
+        "thesis": "Ola Electric makes electric two-wheelers and is building its own battery cells, but it is losing market share and still makes heavy losses in an e-2W market that is growing about 6.5% penetration. In the latest quarter with verified filing figures (Q1 FY27), revenue fell 45.0% YoY to \u20b9455 cr and the net loss was \u20b9336 cr. The pace of revenue decline has eased only slightly (from -49.7% in Q1 FY26 to -45.0%), while PAT margin got worse, from -51.7% to -73.8%, and EBITDA margin from -20.4% to -29.9%. The unverified yfinance figure for Q2 FY27 (revenue \u20b9295 cr, loss \u20b9362 cr) points to a further drop in sales, but the Q2 results filed on 12 Nov have not yet been extracted, so this is not confirmed. Because the company is not making a profit, P/E means nothing here, so I graded valuation on EV/sales and growth delivery. At about 8.3x price/sales and 5.6x P/B, with revenue shrinking, ROE at -43% and negative EV/EBITDA, the stock is expensive. Sell-side analysts agree: 7 of 8 rate it sell, and FY EPS estimates have been cut 12% over 90 days. The biggest risk is that revenue keeps shrinking while cash burn continues. That would use up the IPO/QIP cash and force more dilution or borrowing on top of a balance sheet that already carries debt.",
+        "valuation_grade": "expensive",
+        "growth_grade": "weak",
+        "risk_grade": "high",
+        "conviction": 0.55,
+        "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-11-13",
+        "document_kind": "financial_results",
+        "days_since_filing": 12,
+        "reaction_1d_pct": -5.62,
+        "reaction_2d_pct": -5.62,
+        "surprise": "negative_surprise",
+        "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Auto",
+        "as_of": "2026-11-25",
+        "metrics": {
+          "pb_ratio": {
+            "stock_value": 5.6,
+            "sector_median": 4.6,
+            "pct_rank": 57.5,
+            "premium_pct": 21.0,
+            "label": "fair",
+            "cheapest_peers": [
+              "GICRE",
+              "RPOWER"
+            ],
+            "priciest_peers": [
+              "ANANDRATHI",
+              "FACT"
+            ],
+            "peer_count": 490
+          }
+        },
+        "verdict": "unknown",
+        "pe_pct_rank": null,
+        "pe_premium_pct": null,
+        "pe_sector_median": null,
+        "peer_count": 0
+      }
+    },
+    "SAGILITY": {
+      "fundamental": {
+        "thesis": "Sagility is a mid-cap healthcare outsourcing company. About 90% of revenue comes from US health insurers (payers) and about 10% from hospitals and other providers. It is tagged IT here, but its demand comes from US healthcare operations, not tech spending. In Q2FY27 revenue was \u20b92,032 cr, up 22.5% YoY, and PAT was \u20b9284 cr, up 13.3%. Growth has slowed from +35.7% (Q3FY26) to +29.1% (FY26) to +25.0% (H1) to +22.5%, and constant-currency growth is only about 12%, so roughly half the headline growth comes from the weak rupee. Reported PAT margin fell to 14.0% from 15.1% a year ago, and adjusted PAT grew only 8.1% even though adjusted EBITDA margin reached a six-quarter high of 26.3%. On valuation, using P/E and EV/EBITDA, the trailing P/E of 21.5x is below the IT sector's 22\u201330x range and sits at about the 24th percentile of the broad market (there are no close peers in the universe). EV/EBITDA is 11.4x, forward P/E is 15.4x, and cash conversion is strong (CFO/PAT 1.27x), so the stock looks cheap. The biggest risk is client concentration: the top 3 clients are 60% of revenue and the top 10 are 84%, and voluntary attrition is high at 25.7%. Losing or repricing a single large client could hurt badly. The yfinance dividend yield (44%) and debt/equity (11.5) figures look like unit errors, so I ignored them.",
+        "valuation_grade": "cheap",
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.55,
+        "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-10-22",
+        "document_kind": "financial_results",
+        "days_since_filing": 34,
+        "reaction_1d_pct": -0.52,
+        "reaction_2d_pct": 0.2,
+        "surprise": "inline",
+        "freshness": "medium"
+      },
+      "peer_valuation": {
+        "sector": "IT",
+        "as_of": "2026-11-25",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 21.5,
+            "sector_median": 35.2,
+            "pct_rank": 24.4,
+            "premium_pct": -38.8,
+            "label": "cheap",
+            "cheapest_peers": [
+              "ZFCVINDIA",
+              "IDEA"
+            ],
+            "priciest_peers": [
+              "NSLNISP",
+              "PTCIL"
+            ],
+            "peer_count": 473
+          },
+          "forward_pe": {
+            "stock_value": 15.3,
+            "sector_median": 23.2,
+            "pct_rank": 25.1,
+            "premium_pct": -33.9,
+            "label": "fair",
+            "cheapest_peers": [
+              "CHENNPETRO",
+              "MRPL"
+            ],
+            "priciest_peers": [
+              "DEVYANI",
+              "NYKAA"
+            ],
+            "peer_count": 472
+          },
+          "pb_ratio": {
+            "stock_value": 2.1,
+            "sector_median": 4.6,
+            "pct_rank": 20.9,
+            "premium_pct": -53.4,
+            "label": "cheap",
+            "cheapest_peers": [
+              "GICRE",
+              "RPOWER"
+            ],
+            "priciest_peers": [
+              "ANANDRATHI",
+              "FACT"
+            ],
+            "peer_count": 490
+          },
+          "ev_ebitda": {
+            "stock_value": 11.4,
+            "sector_median": 23.3,
+            "pct_rank": 15.7,
+            "premium_pct": -51.2,
+            "label": "cheap",
+            "cheapest_peers": [
+              "BBTC",
+              "NIACL"
+            ],
+            "priciest_peers": [
+              "FIRSTCRY",
+              "BDL"
+            ],
+            "peer_count": 403
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 24.4,
+        "pe_premium_pct": -38.8,
+        "pe_sector_median": 35.2,
+        "peer_count": 473
+      }
+    },
+    "RPOWER": {
+      "fundamental": {
+        "thesis": "Reliance Power is a leveraged private power producer with about 5.3 GW of operating capacity, anchored by the Sasan ultra-mega plant (92% PLF) and Rosa, and with a 4.8 GW renewable/hydro pipeline that is currently locked. It is not a regulated-ROE utility like NTPC or POWERGRID. H1 FY27 revenue was \u20b93,786 cr (-1.9% YoY) and PAT was \u20b995 cr (-28.2% YoY). Subtracting Q1 (\u20b91,956 cr revenue / \u20b965 cr PAT) gives an implied Q2 FY27 of about \u20b91,830 cr revenue (-7.3% YoY vs \u20b91,974 cr) and about \u20b930 cr PAT (down from \u20b987 cr), so growth slowed from +12.2% a year ago to negative, and PAT margin shrank to about 1.6% even though EBITDA margin held near 34%. Using EV/EBITDA, the right yardstick for a capital-intensive power business, the stock trades at 8.3x with P/B 0.69x and forward P/E 5.9x, which is cheap on the numbers and among the cheapest in the broad-market peer set. But with TTM ROE at -2.1% and debt/equity of about 92, the discount looks justified rather than a mispricing. The dominant risk is solvency and governance: the auditors flagged a material going-concern uncertainty, a lender has invoked a \u20b91,892 cr corporate guarantee on SMPL, an insolvency process (CIRP) was started against the parent in June 2026, and the ED's provisional asset attachments now reach parent bank balances, so the strong cash flow from operations (\u20b91,550 cr in H1) may not reach equity holders.",
+        "valuation_grade": "cheap",
+        "growth_grade": "weak",
+        "risk_grade": "high",
+        "conviction": 0.5,
+        "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-11-12",
+        "document_kind": "financial_results",
+        "days_since_filing": 13,
+        "reaction_1d_pct": -3.99,
+        "reaction_2d_pct": -6.47,
+        "surprise": "negative_surprise",
+        "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Utilities",
+        "as_of": "2026-11-25",
+        "metrics": {
+          "forward_pe": {
+            "stock_value": 5.9,
+            "sector_median": 23.2,
+            "pct_rank": 1.7,
+            "premium_pct": -74.6,
+            "label": "cheap",
+            "cheapest_peers": [
+              "CHENNPETRO",
+              "MRPL"
+            ],
+            "priciest_peers": [
+              "DEVYANI",
+              "NYKAA"
+            ],
+            "peer_count": 472
+          },
+          "pb_ratio": {
+            "stock_value": 0.7,
+            "sector_median": 4.6,
+            "pct_rank": 0.2,
+            "premium_pct": -85.0,
+            "label": "cheap",
+            "cheapest_peers": [
+              "GICRE",
+              "BANKINDIA"
+            ],
+            "priciest_peers": [
+              "ANANDRATHI",
+              "FACT"
+            ],
+            "peer_count": 490
+          },
+          "ev_ebitda": {
+            "stock_value": 8.3,
+            "sector_median": 23.3,
+            "pct_rank": 7.5,
+            "premium_pct": -64.2,
+            "label": "cheap",
+            "cheapest_peers": [
+              "BBTC",
+              "NIACL"
+            ],
+            "priciest_peers": [
+              "FIRSTCRY",
+              "BDL"
+            ],
+            "peer_count": 403
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 1.7,
+        "pe_premium_pct": -74.6,
+        "pe_sector_median": 23.2,
+        "peer_count": 472
+      }
+    },
+    "CHAMBLFERT": {
+      "fundamental": {
+        "thesis": "Chambal Fertilizers is one of India's largest private urea makers. It also sells traded and complex fertilisers and crop-protection products, and it has just started a new Technical Ammonium Nitrate (TAN) plant at Gadepan from August 20, 2026. Its earnings depend heavily on the government subsidy rules (New Urea Policy 2015 and NBS). Growth is going the wrong way: Q1FY27 revenue was \u20b95,027 cr, down 11.8% YoY, and PAT was \u20b9524 cr, down 4.6%, after FY26 grew 25% on traded complex fertilisers. Q2FY27 PAT margin slipped to about 9.0% from 10.4% in Q1, but the Q2 revenue figure was not extracted from the filing and the yfinance quarterly rows (Q2 revenue \u20b94,367 cr) do not match the PDF figures, so the latest-quarter picture is only partly confirmed. I graded this as a capital-intensive commodity business on EV/EBITDA, which at 7.3x sits at the low end of the 5\u20138x mid-cycle range for cyclicals. Trailing P/E of 9.9x is below the 12\u201322x Materials benchmark, ROE is 20.5%, net debt is slightly negative (the 10.27 'debt/equity' looks like a percentage, given 48x interest coverage), and the stock is in the bottom decile of the broad market on every multiple, so the verdict is cheap. Cash conversion is the biggest worry: FY26 operating cash flow covered only 0.07x of PAT and receivables jumped from \u20b9368 cr to \u20b92,075 cr, which looks like delayed subsidy payments and makes the reported earnings less solid than they appear.",
+        "valuation_grade": "cheap",
+        "growth_grade": "weak",
+        "risk_grade": "medium",
+        "conviction": 0.45,
+        "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-11-03",
+        "document_kind": "financial_results",
+        "days_since_filing": 22,
+        "reaction_1d_pct": 7.03,
+        "reaction_2d_pct": 5.43,
+        "surprise": "positive_surprise",
+        "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Materials",
+        "as_of": "2026-11-25",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 9.9,
+            "sector_median": 35.2,
+            "pct_rank": 5.9,
+            "premium_pct": -71.9,
+            "label": "cheap",
+            "cheapest_peers": [
+              "ZFCVINDIA",
+              "IDEA"
+            ],
+            "priciest_peers": [
+              "NSLNISP",
+              "PTCIL"
+            ],
+            "peer_count": 473
+          },
+          "forward_pe": {
+            "stock_value": 9.7,
+            "sector_median": 23.2,
+            "pct_rank": 7.9,
+            "premium_pct": -58.3,
+            "label": "cheap",
+            "cheapest_peers": [
+              "CHENNPETRO",
+              "MRPL"
+            ],
+            "priciest_peers": [
+              "DEVYANI",
+              "NYKAA"
+            ],
+            "peer_count": 472
+          },
+          "pb_ratio": {
+            "stock_value": 1.9,
+            "sector_median": 4.6,
+            "pct_rank": 15.5,
+            "premium_pct": -59.9,
+            "label": "cheap",
+            "cheapest_peers": [
+              "GICRE",
+              "RPOWER"
+            ],
+            "priciest_peers": [
+              "ANANDRATHI",
+              "FACT"
+            ],
+            "peer_count": 490
+          },
+          "ev_ebitda": {
+            "stock_value": 7.3,
+            "sector_median": 23.3,
+            "pct_rank": 4.7,
+            "premium_pct": -68.6,
+            "label": "cheap",
+            "cheapest_peers": [
+              "BBTC",
+              "NIACL"
+            ],
+            "priciest_peers": [
+              "FIRSTCRY",
+              "BDL"
+            ],
+            "peer_count": 403
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 5.9,
+        "pe_premium_pct": -71.9,
+        "pe_sector_median": 35.2,
+        "peer_count": 473
+      }
+    },
+    "RITES": {
+      "fundamental": {
+        "thesis": "RITES is a government-owned rail and infrastructure consultancy, turnkey-project and rolling-stock export company with a \u20b99,388 cr order book, about 4.0x annual revenue, so revenue is visible for several years. Q2FY27 revenue was flat at \u20b9583 cr (+0.7% YoY), and revenue growth has slowed across recent periods (+10.0% FY26 \u2192 +5.7% Q3FY26 \u2192 +0.7% Q2FY27). PAT fell 8.0% YoY at a 19.5% margin (about \u20b9114 cr), and EBITDA fell 10.5% YoY. Turnkey revenue grew 65.9% and leasing grew 14.5%, but export revenue fell 99% to almost nothing and consultancy fell 4.3%. Q2 order inflow of \u20b9446 cr is low against the book, and only 4% of H1FY26 profit turned into operating cash (CFO/PAT 0.22x), so the deals coming in and the cash coming out both look weak. I graded valuation on EV/EBITDA plus order-book cover, the sector card's measure for order-book businesses. EV/EBITDA is 16.9x, 28% below the broad-market median, and trailing P/E is 24.9x, below the 28\u201345x range for Industrials. That looks like a discount, but it is about right for a low-margin, slowing, PSU consultancy whose earnings estimates have been cut 6% in 90 days, so I call it fair rather than cheap. The biggest risk to this view: the planned H2FY27 recovery in Bangladesh coach exports slips while consultancy keeps shrinking, and the order book doesn't turn into earnings growth.",
+        "valuation_grade": "fair",
+        "growth_grade": "weak",
+        "risk_grade": "medium",
+        "conviction": 0.45,
+        "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-11-05",
+        "document_kind": "financial_results",
+        "days_since_filing": 20,
+        "reaction_1d_pct": -1.22,
+        "reaction_2d_pct": -0.17,
+        "surprise": "inline",
+        "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Industrials",
+        "as_of": "2026-11-25",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 24.9,
+            "sector_median": 35.2,
+            "pct_rank": 30.7,
+            "premium_pct": -29.3,
+            "label": "fair",
+            "cheapest_peers": [
+              "ZFCVINDIA",
+              "IDEA"
+            ],
+            "priciest_peers": [
+              "NSLNISP",
+              "PTCIL"
+            ],
+            "peer_count": 473
+          },
+          "forward_pe": {
+            "stock_value": 18.8,
+            "sector_median": 23.2,
+            "pct_rank": 34.8,
+            "premium_pct": -18.9,
+            "label": "fair",
+            "cheapest_peers": [
+              "CHENNPETRO",
+              "MRPL"
+            ],
+            "priciest_peers": [
+              "DEVYANI",
+              "NYKAA"
+            ],
+            "peer_count": 472
+          },
+          "pb_ratio": {
+            "stock_value": 3.8,
+            "sector_median": 4.6,
+            "pct_rank": 41.3,
+            "premium_pct": -17.4,
+            "label": "fair",
+            "cheapest_peers": [
+              "GICRE",
+              "RPOWER"
+            ],
+            "priciest_peers": [
+              "ANANDRATHI",
+              "FACT"
+            ],
+            "peer_count": 490
+          },
+          "ev_ebitda": {
+            "stock_value": 16.9,
+            "sector_median": 23.3,
+            "pct_rank": 30.6,
+            "premium_pct": -27.7,
+            "label": "fair",
+            "cheapest_peers": [
+              "BBTC",
+              "NIACL"
+            ],
+            "priciest_peers": [
+              "FIRSTCRY",
+              "BDL"
+            ],
+            "peer_count": 403
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 30.7,
+        "pe_premium_pct": -29.3,
+        "pe_sector_median": 35.2,
+        "peer_count": 473
+      }
+    },
+    "PGEL": {
+      "fundamental": {
+        "thesis": "PG Electroplast is a contract manufacturer of room air-conditioners, washing machines, TVs and plastic components for consumer-durable brands, so its earnings depend on brand outsourcing volumes and seasonal cooling demand rather than consumer pricing power. H1 FY27 revenue grew 37.4% YoY to Rs 2,968 cr and PAT grew 28.9% to Rs 90 cr. The implied Q2 FY27 (H1 minus Q1) shows revenue of about Rs 934 cr, up roughly 43% YoY, but PAT of only Rs 13.7 cr, a margin of about 1.5%. EBITDA margin is stuck at 7.7% against 8.5-9.3% a year ago, so growth is coming at thinner profitability, with finance costs up 21% and net debt up from Rs 110 cr to Rs 291 cr. I graded valuation on EV/EBITDA, the right yardstick for this capital-intensive manufacturer: 39.5x sits at the 82nd percentile of the broad market, and trailing P/E of 81.7x is at the 88th percentile, against an ROE of only 6.7% on a P/B of 5.3x, so it is expensive. The forward P/E of 34x prices in a sharp earnings rebound, but sell-side FY EPS estimates have been cut 6% over 90 days. The biggest risk is that thin margins, debt-funded capex and a crude/INR cost squeeze in a risk-off market delay that rebound and trigger a de-rating.",
+        "valuation_grade": "expensive",
+        "growth_grade": "moderate",
+        "risk_grade": "high",
+        "conviction": 0.45,
+        "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-10-27",
+        "document_kind": "financial_results",
+        "days_since_filing": 29,
+        "reaction_1d_pct": 12.93,
+        "reaction_2d_pct": 13.29,
+        "surprise": "positive_surprise",
+        "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Consumer Discr.",
+        "as_of": "2026-11-25",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 81.7,
+            "sector_median": 35.2,
+            "pct_rank": 87.9,
+            "premium_pct": 132.2,
+            "label": "expensive",
+            "cheapest_peers": [
+              "ZFCVINDIA",
+              "IDEA"
+            ],
+            "priciest_peers": [
+              "NSLNISP",
+              "PTCIL"
+            ],
+            "peer_count": 473
+          },
+          "forward_pe": {
+            "stock_value": 34.1,
+            "sector_median": 23.2,
+            "pct_rank": 72.6,
+            "premium_pct": 46.8,
+            "label": "fair",
+            "cheapest_peers": [
+              "CHENNPETRO",
+              "MRPL"
+            ],
+            "priciest_peers": [
+              "DEVYANI",
+              "NYKAA"
+            ],
+            "peer_count": 472
+          },
+          "pb_ratio": {
+            "stock_value": 5.3,
+            "sector_median": 4.6,
+            "pct_rank": 55.2,
+            "premium_pct": 14.8,
+            "label": "fair",
+            "cheapest_peers": [
+              "GICRE",
+              "RPOWER"
+            ],
+            "priciest_peers": [
+              "ANANDRATHI",
+              "FACT"
+            ],
+            "peer_count": 490
+          },
+          "ev_ebitda": {
+            "stock_value": 39.5,
+            "sector_median": 23.3,
+            "pct_rank": 81.6,
+            "premium_pct": 69.3,
+            "label": "expensive",
+            "cheapest_peers": [
+              "BBTC",
+              "NIACL"
+            ],
+            "priciest_peers": [
+              "FIRSTCRY",
+              "BDL"
+            ],
+            "peer_count": 403
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 87.9,
+        "pe_premium_pct": 132.2,
         "pe_sector_median": 35.2,
         "peer_count": 473
       }
@@ -108841,6 +108981,178 @@
         "verdict": "fair",
         "pe_pct_rank": 45.1,
         "pe_premium_pct": -8.6,
+        "pe_sector_median": 35.2,
+        "peer_count": 473
+      }
+    },
+    "HEG": {
+      "fundamental": {
+        "thesis": "After the HEG Composite Scheme took effect on 1 Sep 2026, H.E.G. no longer holds the graphite electrode business, which was moved into a separately listed HEG Limited. What remains is a mix of businesses at very different stages: 292 MW of debt-free green power (mostly hydro, about \u20b9300 cr of stable yearly cash flow), a 20,000 MT anode plant under construction (61% done, COD June 2027), early-stage battery storage (BESS) and a planned graphene project. Q2 FY27 revenue from continuing operations was \u20b9430 cr with PAT of \u20b9209 cr (a 48.6% margin), and H1 FY27 revenue was \u20b9726 cr with PAT of \u20b9269 cr (37.1%) and EBITDA margin of 60.4%. The trend table's 'accelerating growth, expanding margins' signals compare the old electrode-heavy business with the new hydro-heavy one, so they don't hold, and no clean YoY growth figure can be computed. I graded valuation on EV/EBITDA, the right yardstick for a capital-intensive business: at 19.0x it is about 19% below the broad-market median, and trailing P/E of 27.3x sits just under the 28\u201345x Industrials range, so the stock is fair rather than cheap, especially with ROE of only 7.3% against P/B of 2.2x. The forward P/E of 18.1x and rising FY estimates (+6.7% over 90 days) suggest earnings growth is expected, but that depends on anode projects that don't produce revenue until mid-2027.",
+        "valuation_grade": "fair",
+        "growth_grade": "moderate",
+        "risk_grade": "high",
+        "conviction": 0.35,
+        "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-11-04",
+        "document_kind": "financial_results",
+        "days_since_filing": 21,
+        "reaction_1d_pct": 22.75,
+        "reaction_2d_pct": 22.11,
+        "surprise": "positive_surprise",
+        "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Industrials",
+        "as_of": "2026-11-25",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 27.3,
+            "sector_median": 35.2,
+            "pct_rank": 34.5,
+            "premium_pct": -22.5,
+            "label": "fair",
+            "cheapest_peers": [
+              "ZFCVINDIA",
+              "IDEA"
+            ],
+            "priciest_peers": [
+              "NSLNISP",
+              "PTCIL"
+            ],
+            "peer_count": 473
+          },
+          "forward_pe": {
+            "stock_value": 18.1,
+            "sector_median": 23.2,
+            "pct_rank": 32.3,
+            "premium_pct": -22.1,
+            "label": "fair",
+            "cheapest_peers": [
+              "CHENNPETRO",
+              "MRPL"
+            ],
+            "priciest_peers": [
+              "DEVYANI",
+              "NYKAA"
+            ],
+            "peer_count": 472
+          },
+          "pb_ratio": {
+            "stock_value": 2.2,
+            "sector_median": 4.6,
+            "pct_rank": 21.9,
+            "premium_pct": -52.7,
+            "label": "cheap",
+            "cheapest_peers": [
+              "GICRE",
+              "RPOWER"
+            ],
+            "priciest_peers": [
+              "ANANDRATHI",
+              "FACT"
+            ],
+            "peer_count": 490
+          },
+          "ev_ebitda": {
+            "stock_value": 19.0,
+            "sector_median": 23.3,
+            "pct_rank": 38.1,
+            "premium_pct": -18.7,
+            "label": "fair",
+            "cheapest_peers": [
+              "BBTC",
+              "NIACL"
+            ],
+            "priciest_peers": [
+              "FIRSTCRY",
+              "BDL"
+            ],
+            "peer_count": 403
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 34.5,
+        "pe_premium_pct": -22.5,
+        "pe_sector_median": 35.2,
+        "peer_count": 473
+      }
+    },
+    "NSLNISP": {
+      "fundamental": {
+        "thesis": "NMDC Steel runs a single integrated 3 MTPA steel plant at Nagarnar, demerged from NMDC; the government owns 50.79% and a strategic sale is still pending. It is a newly commissioned mill that is still ramping up, and it is moving from heavy losses to roughly breakeven: in Q1FY27 revenue rose 8.8% YoY to \u20b93,662 cr and PAT nearly doubled (+97.6%) to \u20b951 cr. That is a 1.4% PAT margin and a 12.1% EBITDA margin, up from -35.8% and -37.9% in Q3FY25. Revenue growth has slowed from +128.9% to +8.8% because the ramp-up base effect is fading. I graded valuation on EV/EBITDA, the yardstick the sector card sets for steel cyclicals, and ignored the trailing P/E of 235.6x because it is meaningless when earnings are near zero. EV/EBITDA is 11.7x, well above the 5\u20138x mid-cycle norm for steel mills, and a P/B of 1.05x is not cheap for a business earning 0.4% ROE, so I rate it expensive on fundamentals even though it looks cheap against the broad market (P17 on EV/EBITDA, P3 on P/B). The biggest caveat is that the Q2FY27 results filed on 12-Nov-2026 have not been extracted yet, so this view rests on Q1FY27 data that may be stale.",
+        "valuation_grade": "expensive",
+        "growth_grade": "moderate",
+        "risk_grade": "high",
+        "conviction": 0.3,
+        "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-11-13",
+        "document_kind": "financial_results",
+        "days_since_filing": 12,
+        "reaction_1d_pct": -1.87,
+        "reaction_2d_pct": -1.87,
+        "surprise": "inline",
+        "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Materials",
+        "as_of": "2026-11-25",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 235.6,
+            "sector_median": 35.2,
+            "pct_rank": 99.8,
+            "premium_pct": 569.7,
+            "label": "expensive",
+            "cheapest_peers": [
+              "ZFCVINDIA",
+              "IDEA"
+            ],
+            "priciest_peers": [
+              "DELHIVERY",
+              "PTCIL"
+            ],
+            "peer_count": 473
+          },
+          "pb_ratio": {
+            "stock_value": 1.1,
+            "sector_median": 4.6,
+            "pct_rank": 3.3,
+            "premium_pct": -77.2,
+            "label": "cheap",
+            "cheapest_peers": [
+              "GICRE",
+              "RPOWER"
+            ],
+            "priciest_peers": [
+              "ANANDRATHI",
+              "FACT"
+            ],
+            "peer_count": 490
+          },
+          "ev_ebitda": {
+            "stock_value": 11.7,
+            "sector_median": 23.3,
+            "pct_rank": 16.7,
+            "premium_pct": -49.9,
+            "label": "cheap",
+            "cheapest_peers": [
+              "BBTC",
+              "NIACL"
+            ],
+            "priciest_peers": [
+              "FIRSTCRY",
+              "BDL"
+            ],
+            "peer_count": 403
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 99.8,
+        "pe_premium_pct": 569.7,
         "pe_sector_median": 35.2,
         "peer_count": 473
       }
@@ -108939,116 +109251,22 @@
         "peer_count": 473
       }
     },
-    "KEC": {
+    "LINDEINDIA": {
       "fundamental": {
-        "thesis": "KEC International is an RPG-group EPC contractor focused mainly on power transmission, with a smaller cables business. In H1FY27, EPC brought in about \u20b99,537 cr and cables about \u20b91,214 cr, each at roughly a 5% segment margin. The trend is getting worse: revenue growth has slowed from +15.4% (H1FY26) and +12.2% (Q3FY26) to 0.0% in Q1FY27 and -10.2% in Q2FY27 (\u20b95,468 cr). Q2 PAT fell 81.5% YoY to \u20b930 cr, so PAT margin dropped to 0.5% from 2.6%, and EBITDA margin slipped from about 7.1-7.2% to 5.6% in H1. On the capital-intensive yardstick of EV/EBITDA, the stock looks cheap at 10.2x, in the bottom 11% of the broad market (median 23.3x), with trailing P/E at 19.9x against a 28-45x sector range and P/B at 1.8x. But the forward P/E of 11.3x assumes a recovery that analysts are still cutting: FY EPS estimates are down 31% in 30 days and 34% in 90 days. The biggest risk is the balance sheet. H1 free cash flow was -\u20b9527 cr, unbilled contract assets are \u20b912,240 cr, borrowings are about \u20b96,021 cr (debt/equity 1.04), and interest coverage is only 1.59x. Profits are not turning into cash, so this could be a value trap rather than a value buy.",
-        "valuation_grade": "cheap",
-        "growth_grade": "weak",
-        "risk_grade": "high",
-        "conviction": 0.55,
-        "from_cache": true
-      },
-      "earnings_surprise": {
-        "filing_date": "2026-11-04",
-        "document_kind": "financial_results",
-        "days_since_filing": 21,
-        "reaction_1d_pct": 4.22,
-        "reaction_2d_pct": 5.37,
-        "surprise": "positive_surprise",
-        "freshness": "high"
-      },
-      "peer_valuation": {
-        "sector": "Industrials",
-        "as_of": "2026-11-25",
-        "metrics": {
-          "trailing_pe": {
-            "stock_value": 19.9,
-            "sector_median": 35.2,
-            "pct_rank": 22.2,
-            "premium_pct": -43.5,
-            "label": "cheap",
-            "cheapest_peers": [
-              "ZFCVINDIA",
-              "IDEA"
-            ],
-            "priciest_peers": [
-              "NSLNISP",
-              "PTCIL"
-            ],
-            "peer_count": 473
-          },
-          "forward_pe": {
-            "stock_value": 11.3,
-            "sector_median": 23.2,
-            "pct_rank": 12.7,
-            "premium_pct": -51.4,
-            "label": "cheap",
-            "cheapest_peers": [
-              "CHENNPETRO",
-              "MRPL"
-            ],
-            "priciest_peers": [
-              "DEVYANI",
-              "NYKAA"
-            ],
-            "peer_count": 472
-          },
-          "pb_ratio": {
-            "stock_value": 1.8,
-            "sector_median": 4.6,
-            "pct_rank": 14.1,
-            "premium_pct": -61.2,
-            "label": "cheap",
-            "cheapest_peers": [
-              "GICRE",
-              "RPOWER"
-            ],
-            "priciest_peers": [
-              "ANANDRATHI",
-              "FACT"
-            ],
-            "peer_count": 490
-          },
-          "ev_ebitda": {
-            "stock_value": 10.2,
-            "sector_median": 23.3,
-            "pct_rank": 10.9,
-            "premium_pct": -56.0,
-            "label": "cheap",
-            "cheapest_peers": [
-              "BBTC",
-              "NIACL"
-            ],
-            "priciest_peers": [
-              "FIRSTCRY",
-              "BDL"
-            ],
-            "peer_count": 403
-          }
-        },
-        "verdict": "cheap",
-        "pe_pct_rank": 22.2,
-        "pe_premium_pct": -43.5,
-        "pe_sector_median": 35.2,
-        "peer_count": 473
-      }
-    },
-    "JAINREC": {
-      "fundamental": {
-        "thesis": "Jain Resource Recycling is a non-ferrous metal recycler that makes copper, lead and aluminium from scrap. It is a commodity-spread business, recently listed, and copper is now about two-thirds of its revenue. Revenue is growing fast, but much of that comes from copper prices and profit is not keeping up. H1 FY27 revenue rose 65.5% YoY to \u20b96,061 cr while PAT rose only 3.1% to \u20b9160 cr. Taking Q1 out of H1 suggests Q2 FY27 revenue of about \u20b93,337 cr (around +58% YoY, slower than Q1's +75.9%) and PAT of about \u20b991 cr, which is roughly 8% lower than a year ago. EBITDA margin has fallen from 7.0% (9M FY26) to 5.7% (Q1) to 4.5% (H1), and PAT margin from 4.4% to about 2.7%. I graded valuation on EV/EBITDA because the sector card says to judge cyclical, commodity-spread businesses that way. On that measure the stock looks expensive. EV/EBITDA is 25.1\u00d7, against roughly 5\u20138\u00d7 for cyclicals at mid-cycle, and trailing P/E is 35.8\u00d7, against a 12\u201322\u00d7 Materials benchmark. The 19.9\u00d7 forward P/E depends on earnings growth, but analysts have cut those estimates by about 19% over the last 90 days. The biggest risk is that margins keep shrinking while net debt is high (about 3.3\u00d7 EBITDA, debt/equity about 82%). If copper prices or recycling spreads reverse, earnings could fall sharply.",
+        "thesis": "Linde India is a subsidiary of the global Linde group that makes industrial gases and also runs a lower-margin project engineering arm. Gases bring in about 71% of segment revenue at a 26.4% segment margin, while project engineering earns only 9.8%. The latest extracted quarter, Q1FY27, shows revenue of \u20b9694 cr, up 21.6% YoY, but PAT fell 2.4% YoY to \u20b9105 cr. PAT margin has slipped to 15.1% from the low-to-mid 20s in earlier periods, and the H1 EBITDA margin dropped 850 bps to 31.8%. In short, sales are growing faster but that growth is not reaching profit, and heavy capex (about 96% of H1 revenue) pushed free cash flow to -\u20b9647 cr. Industrial gases is a utility-like business, not a steel or cement cyclical, so I graded valuation on EV/EBITDA and peer multiples. EV/EBITDA was not available, so I fell back on peer multiples: trailing P/E of 99.6x, forward P/E of 73.8x and P/B of 12.7x put it at P93/P98/P89 against the broad market, roughly 180-220% above the median, which is clearly expensive. Sell-side next-year EPS estimates have been cut about 14% over the last 30-90 days. The Q2FY27 results (filed 3 Nov) have not been extracted yet, so this view rests on Q1 and H1 data.",
         "valuation_grade": "expensive",
         "growth_grade": "moderate",
         "risk_grade": "high",
-        "conviction": 0.5,
+        "conviction": 0.45,
         "from_cache": true
       },
       "earnings_surprise": {
         "filing_date": "2026-11-03",
         "document_kind": "financial_results",
         "days_since_filing": 22,
-        "reaction_1d_pct": 1.58,
-        "reaction_2d_pct": 1.67,
-        "surprise": "inline",
+        "reaction_1d_pct": 10.98,
+        "reaction_2d_pct": 9.55,
+        "surprise": "positive_surprise",
         "freshness": "high"
       },
       "peer_valuation": {
@@ -109056,11 +109274,11 @@
         "as_of": "2026-11-25",
         "metrics": {
           "trailing_pe": {
-            "stock_value": 35.8,
+            "stock_value": 99.6,
             "sector_median": 35.2,
-            "pct_rank": 51.5,
-            "premium_pct": 1.7,
-            "label": "fair",
+            "pct_rank": 93.0,
+            "premium_pct": 183.1,
+            "label": "expensive",
             "cheapest_peers": [
               "ZFCVINDIA",
               "IDEA"
@@ -109072,11 +109290,11 @@
             "peer_count": 473
           },
           "forward_pe": {
-            "stock_value": 19.9,
+            "stock_value": 73.8,
             "sector_median": 23.2,
-            "pct_rank": 37.8,
-            "premium_pct": -14.1,
-            "label": "fair",
+            "pct_rank": 98.1,
+            "premium_pct": 217.7,
+            "label": "expensive",
             "cheapest_peers": [
               "CHENNPETRO",
               "MRPL"
@@ -109088,10 +109306,10 @@
             "peer_count": 472
           },
           "pb_ratio": {
-            "stock_value": 8.8,
+            "stock_value": 12.7,
             "sector_median": 4.6,
-            "pct_rank": 76.7,
-            "premium_pct": 91.1,
+            "pct_rank": 89.0,
+            "premium_pct": 175.5,
             "label": "expensive",
             "cheapest_peers": [
               "GICRE",
@@ -109102,12 +109320,90 @@
               "FACT"
             ],
             "peer_count": 490
+          }
+        },
+        "verdict": "expensive",
+        "pe_pct_rank": 93.0,
+        "pe_premium_pct": 183.1,
+        "pe_sector_median": 35.2,
+        "peer_count": 473
+      }
+    },
+    "JSWINFRA": {
+      "fundamental": {
+        "thesis": "JSW Infrastructure runs ports with about 186 MTPA of capacity, targeting 400 MTPA by 2030, and is building a fast-growing rail and logistics arm. Q2FY27 revenue grew 17.0% YoY to \u20b91,481 cr, extending a slow slowdown from +20.2% to +18.1% to +17.0% over recent periods. PAT fell 11.1% YoY to \u20b9328 cr, a deeper drop than Q1's -8.2%, as finance costs rose about 125% and the PAT margin shrank from about 29-31% in FY26 to 22.1%; cargo volume growth was only 4% for H1, while logistics revenue grew about 71%. On EV/EBITDA, the right yardstick for a capital-heavy port business, the stock trades at 25.6x, around P58 of the peer set, and its 42.2x trailing P/E sits inside the 28-45x Industrials band, so it is fairly valued. Forward P/E of 27x already assumes a strong earnings rebound, while consensus estimates are being trimmed slightly (-0.4% for FY, -1.8% for next FY). The main risk is that heavy capex and acquisitions keep pushing up interest costs and free cash flow stays negative (\u20b9-384 cr in H1), so earnings per share keep falling, made worse by dilution from the \u20b96,555 cr QIP.",
+        "valuation_grade": "fair",
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.5,
+        "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-10-27",
+        "document_kind": "financial_results",
+        "days_since_filing": 29,
+        "reaction_1d_pct": -0.83,
+        "reaction_2d_pct": 2.03,
+        "surprise": "inline",
+        "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Industrials",
+        "as_of": "2026-11-25",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 42.2,
+            "sector_median": 35.2,
+            "pct_rank": 62.5,
+            "premium_pct": 20.1,
+            "label": "fair",
+            "cheapest_peers": [
+              "ZFCVINDIA",
+              "IDEA"
+            ],
+            "priciest_peers": [
+              "NSLNISP",
+              "PTCIL"
+            ],
+            "peer_count": 473
+          },
+          "forward_pe": {
+            "stock_value": 27.0,
+            "sector_median": 23.2,
+            "pct_rank": 59.0,
+            "premium_pct": 16.3,
+            "label": "fair",
+            "cheapest_peers": [
+              "CHENNPETRO",
+              "MRPL"
+            ],
+            "priciest_peers": [
+              "DEVYANI",
+              "NYKAA"
+            ],
+            "peer_count": 472
+          },
+          "pb_ratio": {
+            "stock_value": 5.9,
+            "sector_median": 4.6,
+            "pct_rank": 60.3,
+            "premium_pct": 27.8,
+            "label": "fair",
+            "cheapest_peers": [
+              "GICRE",
+              "RPOWER"
+            ],
+            "priciest_peers": [
+              "ANANDRATHI",
+              "FACT"
+            ],
+            "peer_count": 490
           },
           "ev_ebitda": {
-            "stock_value": 25.1,
+            "stock_value": 25.6,
             "sector_median": 23.3,
-            "pct_rank": 56.0,
-            "premium_pct": 7.7,
+            "pct_rank": 58.0,
+            "premium_pct": 9.6,
             "label": "fair",
             "cheapest_peers": [
               "BBTC",
@@ -109121,8 +109417,290 @@
           }
         },
         "verdict": "fair",
-        "pe_pct_rank": 51.5,
-        "pe_premium_pct": 1.7,
+        "pe_pct_rank": 62.5,
+        "pe_premium_pct": 20.1,
+        "pe_sector_median": 35.2,
+        "peer_count": 473
+      }
+    },
+    "AFCONS": {
+      "fundamental": {
+        "thesis": "Afcons is a Shapoorji Pallonji-group EPC contractor building metros, tunnels, bridges, marine works and highways, with about 45% of its order book overseas. Revenue fell 6.3% YoY to \u20b92,906 cr in Q2 FY27, better than Q1's -20.2%, but growth has slid from +3.4% in H1 FY26 to -16.6% in H1 FY27, and PAT margin has shrunk from 3.7% to about 1.4% (Q2 PAT \u20b941 cr, down 61%); H1 operating cash flow was negative \u20b9340 cr with free cash flow of about -\u20b91,047 cr. The one bright spot is order intake: \u20b915,968 cr won in H1 against \u20b94,125 cr in all of FY26, lifting the order book to \u20b943,837 cr, about 4x trailing revenue (my calculation; the feed's 15x figure looks wrong). On valuation I used EV/EBITDA, the right yardstick for a contractor: 12.1x is cheap against the broad market (P18), but a 4.7% ROE does not justify 2.15x book and trailing P/E of 46.9x is at the top of the industrials range, so I grade it fair; the biggest risk is that the new orders do not turn into revenue and cash fast enough while arbitration claims (about \u20b9838 cr contested) and interest coverage of only 2.2x strain the balance sheet, a concern backed by sell-side earnings estimates being cut 10-14% over the last 30-90 days.",
+        "valuation_grade": "fair",
+        "growth_grade": "weak",
+        "risk_grade": "high",
+        "conviction": 0.5,
+        "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-11-04",
+        "document_kind": "financial_results",
+        "days_since_filing": 21,
+        "reaction_1d_pct": 3.8,
+        "reaction_2d_pct": 2.12,
+        "surprise": "positive_surprise",
+        "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Industrials",
+        "as_of": "2026-11-25",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 46.9,
+            "sector_median": 35.2,
+            "pct_rank": 66.7,
+            "premium_pct": 33.4,
+            "label": "fair",
+            "cheapest_peers": [
+              "ZFCVINDIA",
+              "IDEA"
+            ],
+            "priciest_peers": [
+              "NSLNISP",
+              "PTCIL"
+            ],
+            "peer_count": 473
+          },
+          "forward_pe": {
+            "stock_value": 19.0,
+            "sector_median": 23.2,
+            "pct_rank": 35.0,
+            "premium_pct": -18.1,
+            "label": "fair",
+            "cheapest_peers": [
+              "CHENNPETRO",
+              "MRPL"
+            ],
+            "priciest_peers": [
+              "DEVYANI",
+              "NYKAA"
+            ],
+            "peer_count": 472
+          },
+          "pb_ratio": {
+            "stock_value": 2.1,
+            "sector_median": 4.6,
+            "pct_rank": 20.9,
+            "premium_pct": -53.4,
+            "label": "cheap",
+            "cheapest_peers": [
+              "GICRE",
+              "RPOWER"
+            ],
+            "priciest_peers": [
+              "ANANDRATHI",
+              "FACT"
+            ],
+            "peer_count": 490
+          },
+          "ev_ebitda": {
+            "stock_value": 12.1,
+            "sector_median": 23.3,
+            "pct_rank": 18.2,
+            "premium_pct": -48.1,
+            "label": "cheap",
+            "cheapest_peers": [
+              "BBTC",
+              "NIACL"
+            ],
+            "priciest_peers": [
+              "FIRSTCRY",
+              "BDL"
+            ],
+            "peer_count": 403
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 66.7,
+        "pe_premium_pct": 33.4,
+        "pe_sector_median": 35.2,
+        "peer_count": 473
+      }
+    },
+    "ERIS": {
+      "fundamental": {
+        "thesis": "Eris Lifesciences is a domestic branded-formulations company focused on chronic therapies such as diabetes and cardiac care, with almost no US-tariff exposure. Revenue growth has picked up from +7.4% YoY in Q1FY26 to +11.0% in Q3FY26 and +13.0% in Q1FY27 (\u20b9873 cr). PAT rose +20.7% to \u20b9142 cr, a 16.3% PAT margin. However, EBITDA grew only +6.4% and EBITDA margin slipped from 35.9% to 34.2% YoY, so the PAT growth comes from below the operating line rather than from better operations. On the healthcare yardstick of P/E cross-checked against EV/EBITDA, the stock looks fair. Trailing P/E is 31.6x, inside the 28-40x pharma range. EV/EBITDA of 18.8x is below the broad-market median of 23.3x (P37), forward P/E of 23.1x implies expected earnings growth, and the stock sits at 34% of its 52-week range. The main risks are working-capital stress and estimates being cut. The current ratio fell to 0.60 from 0.93, collections and inventory turnover both slowed, debt/equity is 0.64, and consensus FY EPS has been cut 7.7% over 90 days while 9 of 10 analysts still rate it a buy. Q2FY27 results come on 26-Oct, so the latest data is one quarter old and a binary event is three days away.",
+        "valuation_grade": "fair",
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.45,
+        "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-10-26",
+        "document_kind": "financial_results",
+        "days_since_filing": 30,
+        "reaction_1d_pct": 9.39,
+        "reaction_2d_pct": 7.29,
+        "surprise": "positive_surprise",
+        "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Healthcare",
+        "as_of": "2026-11-25",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 31.6,
+            "sector_median": 35.2,
+            "pct_rank": 44.5,
+            "premium_pct": -10.2,
+            "label": "fair",
+            "cheapest_peers": [
+              "ZFCVINDIA",
+              "IDEA"
+            ],
+            "priciest_peers": [
+              "NSLNISP",
+              "PTCIL"
+            ],
+            "peer_count": 473
+          },
+          "forward_pe": {
+            "stock_value": 23.1,
+            "sector_median": 23.2,
+            "pct_rank": 49.5,
+            "premium_pct": -0.7,
+            "label": "fair",
+            "cheapest_peers": [
+              "CHENNPETRO",
+              "MRPL"
+            ],
+            "priciest_peers": [
+              "DEVYANI",
+              "NYKAA"
+            ],
+            "peer_count": 472
+          },
+          "pb_ratio": {
+            "stock_value": 5.0,
+            "sector_median": 4.6,
+            "pct_rank": 51.9,
+            "premium_pct": 8.7,
+            "label": "fair",
+            "cheapest_peers": [
+              "GICRE",
+              "RPOWER"
+            ],
+            "priciest_peers": [
+              "ANANDRATHI",
+              "FACT"
+            ],
+            "peer_count": 490
+          },
+          "ev_ebitda": {
+            "stock_value": 18.8,
+            "sector_median": 23.3,
+            "pct_rank": 37.3,
+            "premium_pct": -19.2,
+            "label": "fair",
+            "cheapest_peers": [
+              "BBTC",
+              "NIACL"
+            ],
+            "priciest_peers": [
+              "FIRSTCRY",
+              "BDL"
+            ],
+            "peer_count": 403
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 44.5,
+        "pe_premium_pct": -10.2,
+        "pe_sector_median": 35.2,
+        "peer_count": 473
+      }
+    },
+    "LATENTVIEW": {
+      "fundamental": {
+        "thesis": "Latent View Analytics is a mid-cap data-analytics and AI consulting firm with about 1,800 employees and 40 Fortune 500 clients; it is still growing much faster than tier-1 Indian IT, which is close to flat. Growth is slowing quarter by quarter, though. Revenue growth fell from +27.3% YoY in H1FY26 and +24.3% in FY26 to +14.2% in Q2FY27 (\u20b9294 cr). Q2 PAT was \u20b948 cr (+6.1% YoY), and H1FY27 PAT was flat at -0.8% even though revenue grew 17.7%. Margins are shrinking because employee costs rose 21.8% YoY and now take 68.8% of revenue, and outside Industrials (+21.4%) the segments are barely growing (Financial Services +3.5%, CPG/Retail +2.7%). On valuation I used the IT sector P/E range plus EV/EBITDA. Trailing P/E is 32.3x, a little above the 22\u201330x IT range. Forward P/E is 22.1x and EV/EBITDA is 24.2x, close to the broad-market median (about P50). That makes it fair overall, not cheap, since estimates are being cut. The biggest worry is earnings quality: in H1 only about 26% of profit turned into operating cash (CFO/PAT 0.26x, down from 0.60x), and analysts have cut FY EPS estimates by 6% over 90 days. Both suggest the growth premium could shrink further.",
+        "valuation_grade": "fair",
+        "growth_grade": "moderate",
+        "risk_grade": "high",
+        "conviction": 0.5,
+        "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-10-31",
+        "document_kind": "financial_results",
+        "days_since_filing": 25,
+        "reaction_1d_pct": -3.74,
+        "reaction_2d_pct": -3.74,
+        "surprise": "negative_surprise",
+        "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "IT",
+        "as_of": "2026-11-25",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 32.3,
+            "sector_median": 35.2,
+            "pct_rank": 45.6,
+            "premium_pct": -8.1,
+            "label": "fair",
+            "cheapest_peers": [
+              "ZFCVINDIA",
+              "IDEA"
+            ],
+            "priciest_peers": [
+              "NSLNISP",
+              "PTCIL"
+            ],
+            "peer_count": 473
+          },
+          "forward_pe": {
+            "stock_value": 22.1,
+            "sector_median": 23.2,
+            "pct_rank": 46.7,
+            "premium_pct": -4.8,
+            "label": "fair",
+            "cheapest_peers": [
+              "CHENNPETRO",
+              "MRPL"
+            ],
+            "priciest_peers": [
+              "DEVYANI",
+              "NYKAA"
+            ],
+            "peer_count": 472
+          },
+          "pb_ratio": {
+            "stock_value": 3.6,
+            "sector_median": 4.6,
+            "pct_rank": 40.7,
+            "premium_pct": -20.8,
+            "label": "fair",
+            "cheapest_peers": [
+              "GICRE",
+              "RPOWER"
+            ],
+            "priciest_peers": [
+              "ANANDRATHI",
+              "FACT"
+            ],
+            "peer_count": 490
+          },
+          "ev_ebitda": {
+            "stock_value": 24.2,
+            "sector_median": 23.3,
+            "pct_rank": 52.2,
+            "premium_pct": 3.8,
+            "label": "fair",
+            "cheapest_peers": [
+              "BBTC",
+              "NIACL"
+            ],
+            "priciest_peers": [
+              "FIRSTCRY",
+              "BDL"
+            ],
+            "peer_count": 403
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 45.6,
+        "pe_premium_pct": -8.1,
         "pe_sector_median": 35.2,
         "peer_count": 473
       }
@@ -109315,33 +109893,33 @@
         "peer_count": 473
       }
     },
-    "AFCONS": {
+    "SAREGAMA": {
       "fundamental": {
-        "thesis": "Afcons is a Shapoorji Pallonji-group EPC contractor building metros, tunnels, bridges, marine works and highways, with about 45% of its order book overseas. Revenue fell 6.3% YoY to \u20b92,906 cr in Q2 FY27, better than Q1's -20.2%, but growth has slid from +3.4% in H1 FY26 to -16.6% in H1 FY27, and PAT margin has shrunk from 3.7% to about 1.4% (Q2 PAT \u20b941 cr, down 61%); H1 operating cash flow was negative \u20b9340 cr with free cash flow of about -\u20b91,047 cr. The one bright spot is order intake: \u20b915,968 cr won in H1 against \u20b94,125 cr in all of FY26, lifting the order book to \u20b943,837 cr, about 4x trailing revenue (my calculation; the feed's 15x figure looks wrong). On valuation I used EV/EBITDA, the right yardstick for a contractor: 12.1x is cheap against the broad market (P18), but a 4.7% ROE does not justify 2.15x book and trailing P/E of 46.9x is at the top of the industrials range, so I grade it fair; the biggest risk is that the new orders do not turn into revenue and cash fast enough while arbitration claims (about \u20b9838 cr contested) and interest coverage of only 2.2x strain the balance sheet, a concern backed by sell-side earnings estimates being cut 10-14% over the last 30-90 days.",
+        "thesis": "Saregama owns one of India's largest music catalogues and earns from licensing it to streaming, short-video and broadcast platforms, alongside film/video content and live events; it is a mid-cap content franchise that yfinance mislabels as Telecom. The Q2FY27 results announcement (4 Nov 2026) shows revenue from operations of \u20b9314.3 cr, up 37% YoY, adjusted EBITDA of \u20b9118 cr (+39%) and PBT of \u20b985.8 cr (+43%). That is a sharp rebound from FY26, when revenue fell 15.9% to \u20b9985 cr, although PAT margin did improve from 18.4% in H1FY26 to 21.0% for full-year FY26. On valuation, using EV/EBITDA and P/E against the broad market because there are no tight listed peers, the stock trades at 25.5x EV/EBITDA (P58) and 43.9x trailing P/E (P64), with a 32.3x forward P/E implying expected earnings growth, so it is fairly valued with modest upside. The biggest risk is cash conversion: CFO/PAT was only 0.48x in FY26 and free cash flow was negative (\u20b9-114 cr) because of heavy spending on acquiring catalogue and content, and the 37% jump is a single quarter off a weak base.",
         "valuation_grade": "fair",
-        "growth_grade": "weak",
-        "risk_grade": "high",
-        "conviction": 0.5,
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.45,
         "from_cache": true
       },
       "earnings_surprise": {
-        "filing_date": "2026-11-04",
+        "filing_date": "2026-11-05",
         "document_kind": "financial_results",
-        "days_since_filing": 21,
-        "reaction_1d_pct": 3.8,
-        "reaction_2d_pct": 2.12,
-        "surprise": "positive_surprise",
+        "days_since_filing": 20,
+        "reaction_1d_pct": -2.69,
+        "reaction_2d_pct": 1.73,
+        "surprise": "inline",
         "freshness": "high"
       },
       "peer_valuation": {
-        "sector": "Industrials",
+        "sector": "Consumer Discr.",
         "as_of": "2026-11-25",
         "metrics": {
           "trailing_pe": {
-            "stock_value": 46.9,
+            "stock_value": 43.9,
             "sector_median": 35.2,
-            "pct_rank": 66.7,
-            "premium_pct": 33.4,
+            "pct_rank": 64.2,
+            "premium_pct": 24.8,
             "label": "fair",
             "cheapest_peers": [
               "ZFCVINDIA",
@@ -109354,10 +109932,10 @@
             "peer_count": 473
           },
           "forward_pe": {
-            "stock_value": 19.0,
+            "stock_value": 32.3,
             "sector_median": 23.2,
-            "pct_rank": 35.0,
-            "premium_pct": -18.1,
+            "pct_rank": 68.8,
+            "premium_pct": 39.0,
             "label": "fair",
             "cheapest_peers": [
               "CHENNPETRO",
@@ -109370,11 +109948,11 @@
             "peer_count": 472
           },
           "pb_ratio": {
-            "stock_value": 2.1,
+            "stock_value": 5.8,
             "sector_median": 4.6,
-            "pct_rank": 20.9,
-            "premium_pct": -53.4,
-            "label": "cheap",
+            "pct_rank": 60.1,
+            "premium_pct": 26.5,
+            "label": "fair",
             "cheapest_peers": [
               "GICRE",
               "RPOWER"
@@ -109386,11 +109964,11 @@
             "peer_count": 490
           },
           "ev_ebitda": {
-            "stock_value": 12.1,
+            "stock_value": 25.5,
             "sector_median": 23.3,
-            "pct_rank": 18.2,
-            "premium_pct": -48.1,
-            "label": "cheap",
+            "pct_rank": 57.5,
+            "premium_pct": 9.2,
+            "label": "fair",
             "cheapest_peers": [
               "BBTC",
               "NIACL"
@@ -109403,40 +109981,40 @@
           }
         },
         "verdict": "fair",
-        "pe_pct_rank": 66.7,
-        "pe_premium_pct": 33.4,
+        "pe_pct_rank": 64.2,
+        "pe_premium_pct": 24.8,
         "pe_sector_median": 35.2,
         "peer_count": 473
       }
     },
-    "PGEL": {
+    "BLUEJET": {
       "fundamental": {
-        "thesis": "PG Electroplast is a contract manufacturer of room air-conditioners, washing machines, TVs and plastic components for consumer-durable brands, so its earnings depend on brand outsourcing volumes and seasonal cooling demand rather than consumer pricing power. H1 FY27 revenue grew 37.4% YoY to Rs 2,968 cr and PAT grew 28.9% to Rs 90 cr. The implied Q2 FY27 (H1 minus Q1) shows revenue of about Rs 934 cr, up roughly 43% YoY, but PAT of only Rs 13.7 cr, a margin of about 1.5%. EBITDA margin is stuck at 7.7% against 8.5-9.3% a year ago, so growth is coming at thinner profitability, with finance costs up 21% and net debt up from Rs 110 cr to Rs 291 cr. I graded valuation on EV/EBITDA, the right yardstick for this capital-intensive manufacturer: 39.5x sits at the 82nd percentile of the broad market, and trailing P/E of 81.7x is at the 88th percentile, against an ROE of only 6.7% on a P/B of 5.3x, so it is expensive. The forward P/E of 34x prices in a sharp earnings rebound, but sell-side FY EPS estimates have been cut 6% over 90 days. The biggest risk is that thin margins, debt-funded capex and a crude/INR cost squeeze in a risk-off market delay that rebound and trigger a de-rating.",
+        "thesis": "Blue Jet Healthcare is a mid-cap contract manufacturer (CDMO) that makes contrast-media intermediates and high-intensity sweeteners for a small group of global pharma customers, so it benefits from companies moving supply away from China. The latest quarter cannot be checked against official filings: the extracted trend table is internally inconsistent (FY26 revenue shows \u20b9103 cr while 9MFY26 shows \u20b9713 cr), no Q1/Q2 FY27 figures were extracted from the PDFs, and the only Q2FY27 figures (revenue \u20b9193 cr, PAT \u20b9103 cr, a 53% margin) come from unverified yfinance data and look implausibly high, so the growth direction cannot be stated reliably. On valuation, I used EV/EBITDA, the sector card's yardstick for a capital-intensive CDMO: 35.8x is at the 75th percentile of the market, 54% above the 23.3x median, and trailing P/E of 42.5x sits above the 28\u201340x pharma range, so the stock looks expensive. The 29.5x forward P/E suggests the market already expects earnings growth, and the consensus target is only about 4% above the current price. The biggest risk is lumpy, concentrated CDMO revenue combined with rising raw-material costs, and management has given no guidance; it relies on customer price increases starting in Q3 FY27 to protect margins.",
         "valuation_grade": "expensive",
         "growth_grade": "moderate",
         "risk_grade": "high",
-        "conviction": 0.45,
+        "conviction": 0.2,
         "from_cache": true
       },
       "earnings_surprise": {
-        "filing_date": "2026-10-27",
+        "filing_date": "2026-11-06",
         "document_kind": "financial_results",
-        "days_since_filing": 29,
-        "reaction_1d_pct": 12.93,
-        "reaction_2d_pct": 13.29,
-        "surprise": "positive_surprise",
+        "days_since_filing": 19,
+        "reaction_1d_pct": -5.69,
+        "reaction_2d_pct": -5.69,
+        "surprise": "negative_surprise",
         "freshness": "high"
       },
       "peer_valuation": {
-        "sector": "Consumer Discr.",
+        "sector": "Healthcare",
         "as_of": "2026-11-25",
         "metrics": {
           "trailing_pe": {
-            "stock_value": 81.7,
+            "stock_value": 42.5,
             "sector_median": 35.2,
-            "pct_rank": 87.9,
-            "premium_pct": 132.2,
-            "label": "expensive",
+            "pct_rank": 63.1,
+            "premium_pct": 21.0,
+            "label": "fair",
             "cheapest_peers": [
               "ZFCVINDIA",
               "IDEA"
@@ -109448,11 +110026,183 @@
             "peer_count": 473
           },
           "forward_pe": {
-            "stock_value": 34.1,
+            "stock_value": 29.5,
             "sector_median": 23.2,
-            "pct_rank": 72.6,
-            "premium_pct": 46.8,
+            "pct_rank": 65.0,
+            "premium_pct": 27.0,
             "label": "fair",
+            "cheapest_peers": [
+              "CHENNPETRO",
+              "MRPL"
+            ],
+            "priciest_peers": [
+              "DEVYANI",
+              "NYKAA"
+            ],
+            "peer_count": 472
+          },
+          "pb_ratio": {
+            "stock_value": 7.3,
+            "sector_median": 4.6,
+            "pct_rank": 68.7,
+            "premium_pct": 59.2,
+            "label": "fair",
+            "cheapest_peers": [
+              "GICRE",
+              "RPOWER"
+            ],
+            "priciest_peers": [
+              "ANANDRATHI",
+              "FACT"
+            ],
+            "peer_count": 490
+          },
+          "ev_ebitda": {
+            "stock_value": 35.8,
+            "sector_median": 23.3,
+            "pct_rank": 75.1,
+            "premium_pct": 53.7,
+            "label": "expensive",
+            "cheapest_peers": [
+              "BBTC",
+              "NIACL"
+            ],
+            "priciest_peers": [
+              "FIRSTCRY",
+              "BDL"
+            ],
+            "peer_count": 403
+          }
+        },
+        "verdict": "fair",
+        "pe_pct_rank": 63.1,
+        "pe_premium_pct": 21.0,
+        "pe_sector_median": 35.2,
+        "peer_count": 473
+      }
+    },
+    "KEC": {
+      "fundamental": {
+        "thesis": "KEC International is an RPG-group EPC contractor focused mainly on power transmission, with a smaller cables business. In H1FY27, EPC brought in about \u20b99,537 cr and cables about \u20b91,214 cr, each at roughly a 5% segment margin. The trend is getting worse: revenue growth has slowed from +15.4% (H1FY26) and +12.2% (Q3FY26) to 0.0% in Q1FY27 and -10.2% in Q2FY27 (\u20b95,468 cr). Q2 PAT fell 81.5% YoY to \u20b930 cr, so PAT margin dropped to 0.5% from 2.6%, and EBITDA margin slipped from about 7.1-7.2% to 5.6% in H1. On the capital-intensive yardstick of EV/EBITDA, the stock looks cheap at 10.2x, in the bottom 11% of the broad market (median 23.3x), with trailing P/E at 19.9x against a 28-45x sector range and P/B at 1.8x. But the forward P/E of 11.3x assumes a recovery that analysts are still cutting: FY EPS estimates are down 31% in 30 days and 34% in 90 days. The biggest risk is the balance sheet. H1 free cash flow was -\u20b9527 cr, unbilled contract assets are \u20b912,240 cr, borrowings are about \u20b96,021 cr (debt/equity 1.04), and interest coverage is only 1.59x. Profits are not turning into cash, so this could be a value trap rather than a value buy.",
+        "valuation_grade": "cheap",
+        "growth_grade": "weak",
+        "risk_grade": "high",
+        "conviction": 0.55,
+        "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-11-04",
+        "document_kind": "financial_results",
+        "days_since_filing": 21,
+        "reaction_1d_pct": 4.22,
+        "reaction_2d_pct": 5.37,
+        "surprise": "positive_surprise",
+        "freshness": "high"
+      },
+      "peer_valuation": {
+        "sector": "Industrials",
+        "as_of": "2026-11-25",
+        "metrics": {
+          "trailing_pe": {
+            "stock_value": 19.9,
+            "sector_median": 35.2,
+            "pct_rank": 22.2,
+            "premium_pct": -43.5,
+            "label": "cheap",
+            "cheapest_peers": [
+              "ZFCVINDIA",
+              "IDEA"
+            ],
+            "priciest_peers": [
+              "NSLNISP",
+              "PTCIL"
+            ],
+            "peer_count": 473
+          },
+          "forward_pe": {
+            "stock_value": 11.3,
+            "sector_median": 23.2,
+            "pct_rank": 12.7,
+            "premium_pct": -51.4,
+            "label": "cheap",
+            "cheapest_peers": [
+              "CHENNPETRO",
+              "MRPL"
+            ],
+            "priciest_peers": [
+              "DEVYANI",
+              "NYKAA"
+            ],
+            "peer_count": 472
+          },
+          "pb_ratio": {
+            "stock_value": 1.8,
+            "sector_median": 4.6,
+            "pct_rank": 14.1,
+            "premium_pct": -61.2,
+            "label": "cheap",
+            "cheapest_peers": [
+              "GICRE",
+              "RPOWER"
+            ],
+            "priciest_peers": [
+              "ANANDRATHI",
+              "FACT"
+            ],
+            "peer_count": 490
+          },
+          "ev_ebitda": {
+            "stock_value": 10.2,
+            "sector_median": 23.3,
+            "pct_rank": 10.9,
+            "premium_pct": -56.0,
+            "label": "cheap",
+            "cheapest_peers": [
+              "BBTC",
+              "NIACL"
+            ],
+            "priciest_peers": [
+              "FIRSTCRY",
+              "BDL"
+            ],
+            "peer_count": 403
+          }
+        },
+        "verdict": "cheap",
+        "pe_pct_rank": 22.2,
+        "pe_premium_pct": -43.5,
+        "pe_sector_median": 35.2,
+        "peer_count": 473
+      }
+    },
+    "SAPPHIRE": {
+      "fundamental": {
+        "thesis": "Sapphire Foods runs KFC and Pizza Hut restaurants in India and Sri Lanka (974 stores as of Q1 FY26) and is being merged into Devyani International at 177 DIL shares for every 100 SAPPHIRE shares, so the stock now largely trades as a proxy for DEVYANI. The latest extracted figures are stale (FY26; the Q2 FY27 results filed on 2026-10-22 are not in the dataset). They show revenue growth slowing from +13.0% (Q4FY25) to about +8% in every period since, PAT moving from a small profit to a loss of about -1.0% of revenue, and same-store sales of 0% at KFC and -8% at Pizza Hut. That means growth is coming almost entirely from new stores, not from more sales per store. Trailing P/E is not meaningful because the company is loss-making, so I graded valuation on EV/EBITDA: 27.8x is only slightly above the broad-market median of 23.3x (P61), which is fair for a QSR operator. Forward P/E of 96x (P99) and next-year EPS estimates cut by 21% in 30 days show earnings are not catching up with the price. The biggest risk is weak same-store sales combined with falling earnings estimates ahead of a merger swap that ties the stock's value to Devyani's own derating risk.",
+        "valuation_grade": "fair",
+        "growth_grade": "weak",
+        "risk_grade": "high",
+        "conviction": 0.3,
+        "from_cache": true
+      },
+      "earnings_surprise": {
+        "filing_date": "2026-10-22",
+        "document_kind": "financial_results",
+        "days_since_filing": 34,
+        "reaction_1d_pct": 1.32,
+        "reaction_2d_pct": 1.34,
+        "surprise": "inline",
+        "freshness": "medium"
+      },
+      "peer_valuation": {
+        "sector": "Consumer Discr.",
+        "as_of": "2026-11-25",
+        "metrics": {
+          "forward_pe": {
+            "stock_value": 96.2,
+            "sector_median": 23.2,
+            "pct_rank": 99.4,
+            "premium_pct": 313.9,
+            "label": "expensive",
             "cheapest_peers": [
               "CHENNPETRO",
               "MRPL"
@@ -109466,8 +110216,8 @@
           "pb_ratio": {
             "stock_value": 5.3,
             "sector_median": 4.6,
-            "pct_rank": 55.2,
-            "premium_pct": 14.8,
+            "pct_rank": 55.0,
+            "premium_pct": 14.1,
             "label": "fair",
             "cheapest_peers": [
               "GICRE",
@@ -109480,11 +110230,11 @@
             "peer_count": 490
           },
           "ev_ebitda": {
-            "stock_value": 39.5,
+            "stock_value": 27.8,
             "sector_median": 23.3,
-            "pct_rank": 81.6,
-            "premium_pct": 69.3,
-            "label": "expensive",
+            "pct_rank": 60.9,
+            "premium_pct": 19.4,
+            "label": "fair",
             "cheapest_peers": [
               "BBTC",
               "NIACL"
@@ -109497,27 +110247,27 @@
           }
         },
         "verdict": "expensive",
-        "pe_pct_rank": 87.9,
-        "pe_premium_pct": 132.2,
-        "pe_sector_median": 35.2,
-        "peer_count": 473
+        "pe_pct_rank": 99.4,
+        "pe_premium_pct": 313.9,
+        "pe_sector_median": 23.2,
+        "peer_count": 472
       }
     },
-    "JUBLFOOD": {
+    "ZEEL": {
       "fundamental": {
-        "thesis": "Jubilant FoodWorks runs Domino's in India (3,820 group stores, about 76% of sales through delivery), along with the growing Popeyes chain and DP Eurasia in Turkey. It is India's largest QSR (quick-service restaurant) operator. In Q2FY27 revenue rose 11.8% YoY to \u20b92,608 cr, but growth has slowed from +19.3% in Q4FY26 to +14.1% in Q1 and now +11.8%. EBITDA grew only 7.3%, and its margin fell 83 bps to 19.7%. Continuing-operations PAT was flat at \u20b9113.9 cr (+0.5% YoY), and reported PAT of \u20b9111.6 cr was down 42.7% because Dunkin was reclassified as a discontinued business. The one clear positive is Domino's India same-store sales (LFL), which improved from 0.2% to 2.5% to 4.1% over the last three quarters, though that is still below management's 5\u20137% medium-term target. Popeyes LFL was +53%. Cash generation is strong: H1 free cash flow was \u20b9491 cr and operating cash flow was 4.6\u00d7 PAT. The yardstick for this business is unit economics plus EV/EBITDA, because trailing P/E is distorted by discontinued operations and Turkish hyperinflation accounting. On that basis the stock is expensive. EV/EBITDA of 21.9\u00d7 is exactly at the peer median, but trailing P/E of 83.7\u00d7 (P82 among peers) and forward P/E of 52\u00d7 (P90) are too high for flat underlying profit growth. The stock sits only 26% up its 52-week range, but analysts have cut FY EPS estimates by 3% over the past 30 days. The biggest risk is about 200 bps of input-cost inflation (LPG, wages, dairy) eating into margins before LFL recovers to 5% or more, at a valuation with little room for disappointment.",
-        "valuation_grade": "expensive",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.5,
+        "thesis": "Zee Entertainment is India's second-largest broadcast media group (~50 TV channels plus the ZEE5 OTT platform), structurally pressured by the secular migration to streaming and left exposed after the Jiostar/Sony merger collapsed; it now carries substantial governance and legal overhangs that suppress any re-rating. FY26 annual revenue declined 1.9% YoY to \u20b97,567 Cr while PAT collapsed 82.8% to \u20b9120 Cr, compressing PAT margin to 1.6% and EBITDA margin to a catastrophic 2.6% (from 13.4% in FY25) \u2014 the multi-quarter trajectory shows revenue decelerating and margins contracting across every available period with no stabilisation evident in filings. Forward P/E of 13.42\u00d7 (P19 vs broad-market peers, -42% below median) and P/B of 0.9\u00d7 (P2 vs peers, -80% below median) both screen as unambiguously cheap; EV/EBITDA of 23\u00d7 looks deceptively at median but is computed on severely depressed EBITDA \u2014 on normalised 12-13% margins the implied EV/EBITDA would be sub-5\u00d7, confirming franchise-level cheapness if operational recovery is achievable. The single largest risk to the recovery thesis is the IDBI Bank insolvency petition (filed September 2025) seeking NCLT-admitted CIRP initiation, which if granted would be existential for the business regardless of underlying brand and content-IP value.",
+        "valuation_grade": "cheap",
+        "growth_grade": "weak",
+        "risk_grade": "high",
+        "conviction": 0.33,
         "from_cache": true
       },
       "earnings_surprise": {
-        "filing_date": "2026-11-06",
+        "filing_date": "2026-10-30",
         "document_kind": "financial_results",
-        "days_since_filing": 19,
-        "reaction_1d_pct": -6.13,
-        "reaction_2d_pct": -6.13,
+        "days_since_filing": 26,
+        "reaction_1d_pct": -12.66,
+        "reaction_2d_pct": -12.66,
         "surprise": "negative_surprise",
         "freshness": "high"
       },
@@ -109526,104 +110276,10 @@
         "as_of": "2026-11-25",
         "metrics": {
           "trailing_pe": {
-            "stock_value": 83.7,
-            "sector_median": 39.7,
-            "pct_rank": 82.4,
-            "premium_pct": 110.8,
-            "label": "expensive",
-            "cheapest_peers": [
-              "HEROMOTOCO",
-              "M&M"
-            ],
-            "priciest_peers": [
-              "VOLTAS",
-              "BHARATFORG"
-            ],
-            "peer_count": 18
-          },
-          "forward_pe": {
-            "stock_value": 52.1,
-            "sector_median": 29.4,
-            "pct_rank": 89.5,
-            "premium_pct": 76.9,
-            "label": "expensive",
-            "cheapest_peers": [
-              "TMPV",
-              "HEROMOTOCO"
-            ],
-            "priciest_peers": [
-              "TRENT",
-              "ETERNAL"
-            ],
-            "peer_count": 20
-          },
-          "pb_ratio": {
-            "stock_value": 13.6,
-            "sector_median": 7.2,
-            "pct_rank": 78.9,
-            "premium_pct": 89.0,
-            "label": "expensive",
-            "cheapest_peers": [
-              "TMPV",
-              "EXIDEIND"
-            ],
-            "priciest_peers": [
-              "PAGEIND",
-              "TVSMOTOR"
-            ],
-            "peer_count": 20
-          },
-          "ev_ebitda": {
-            "stock_value": 21.9,
-            "sector_median": 21.9,
-            "pct_rank": 50.0,
-            "premium_pct": 0.0,
-            "label": "fair",
-            "cheapest_peers": [
-              "TMPV",
-              "M&M"
-            ],
-            "priciest_peers": [
-              "TITAN",
-              "TRENT"
-            ],
-            "peer_count": 19
-          }
-        },
-        "verdict": "expensive",
-        "pe_pct_rank": 82.4,
-        "pe_premium_pct": 110.8,
-        "pe_sector_median": 39.7,
-        "peer_count": 18
-      }
-    },
-    "ERIS": {
-      "fundamental": {
-        "thesis": "Eris Lifesciences is a domestic branded-formulations company focused on chronic therapies such as diabetes and cardiac care, with almost no US-tariff exposure. Revenue growth has picked up from +7.4% YoY in Q1FY26 to +11.0% in Q3FY26 and +13.0% in Q1FY27 (\u20b9873 cr). PAT rose +20.7% to \u20b9142 cr, a 16.3% PAT margin. However, EBITDA grew only +6.4% and EBITDA margin slipped from 35.9% to 34.2% YoY, so the PAT growth comes from below the operating line rather than from better operations. On the healthcare yardstick of P/E cross-checked against EV/EBITDA, the stock looks fair. Trailing P/E is 31.6x, inside the 28-40x pharma range. EV/EBITDA of 18.8x is below the broad-market median of 23.3x (P37), forward P/E of 23.1x implies expected earnings growth, and the stock sits at 34% of its 52-week range. The main risks are working-capital stress and estimates being cut. The current ratio fell to 0.60 from 0.93, collections and inventory turnover both slowed, debt/equity is 0.64, and consensus FY EPS has been cut 7.7% over 90 days while 9 of 10 analysts still rate it a buy. Q2FY27 results come on 26-Oct, so the latest data is one quarter old and a binary event is three days away.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.45,
-        "from_cache": true
-      },
-      "earnings_surprise": {
-        "filing_date": "2026-10-26",
-        "document_kind": "financial_results",
-        "days_since_filing": 30,
-        "reaction_1d_pct": 9.39,
-        "reaction_2d_pct": 7.29,
-        "surprise": "positive_surprise",
-        "freshness": "high"
-      },
-      "peer_valuation": {
-        "sector": "Healthcare",
-        "as_of": "2026-11-25",
-        "metrics": {
-          "trailing_pe": {
-            "stock_value": 31.6,
+            "stock_value": 39.6,
             "sector_median": 35.2,
-            "pct_rank": 44.5,
-            "premium_pct": -10.2,
+            "pct_rank": 58.3,
+            "premium_pct": 12.7,
             "label": "fair",
             "cheapest_peers": [
               "ZFCVINDIA",
@@ -109636,11 +110292,11 @@
             "peer_count": 473
           },
           "forward_pe": {
-            "stock_value": 23.1,
+            "stock_value": 13.4,
             "sector_median": 23.2,
-            "pct_rank": 49.5,
-            "premium_pct": -0.7,
-            "label": "fair",
+            "pct_rank": 19.1,
+            "premium_pct": -42.2,
+            "label": "cheap",
             "cheapest_peers": [
               "CHENNPETRO",
               "MRPL"
@@ -109652,11 +110308,11 @@
             "peer_count": 472
           },
           "pb_ratio": {
-            "stock_value": 5.0,
+            "stock_value": 0.9,
             "sector_median": 4.6,
-            "pct_rank": 51.9,
-            "premium_pct": 8.7,
-            "label": "fair",
+            "pct_rank": 2.2,
+            "premium_pct": -80.5,
+            "label": "cheap",
             "cheapest_peers": [
               "GICRE",
               "RPOWER"
@@ -109668,10 +110324,10 @@
             "peer_count": 490
           },
           "ev_ebitda": {
-            "stock_value": 18.8,
+            "stock_value": 23.3,
             "sector_median": 23.3,
-            "pct_rank": 37.3,
-            "premium_pct": -19.2,
+            "pct_rank": 50.2,
+            "premium_pct": 0.1,
             "label": "fair",
             "cheapest_peers": [
               "BBTC",
@@ -109685,398 +110341,8 @@
           }
         },
         "verdict": "fair",
-        "pe_pct_rank": 44.5,
-        "pe_premium_pct": -10.2,
-        "pe_sector_median": 35.2,
-        "peer_count": 473
-      }
-    },
-    "RPOWER": {
-      "fundamental": {
-        "thesis": "Reliance Power is a leveraged private power producer with about 5.3 GW of operating capacity, anchored by the Sasan ultra-mega plant (92% PLF) and Rosa, and with a 4.8 GW renewable/hydro pipeline that is currently locked. It is not a regulated-ROE utility like NTPC or POWERGRID. H1 FY27 revenue was \u20b93,786 cr (-1.9% YoY) and PAT was \u20b995 cr (-28.2% YoY). Subtracting Q1 (\u20b91,956 cr revenue / \u20b965 cr PAT) gives an implied Q2 FY27 of about \u20b91,830 cr revenue (-7.3% YoY vs \u20b91,974 cr) and about \u20b930 cr PAT (down from \u20b987 cr), so growth slowed from +12.2% a year ago to negative, and PAT margin shrank to about 1.6% even though EBITDA margin held near 34%. Using EV/EBITDA, the right yardstick for a capital-intensive power business, the stock trades at 8.3x with P/B 0.69x and forward P/E 5.9x, which is cheap on the numbers and among the cheapest in the broad-market peer set. But with TTM ROE at -2.1% and debt/equity of about 92, the discount looks justified rather than a mispricing. The dominant risk is solvency and governance: the auditors flagged a material going-concern uncertainty, a lender has invoked a \u20b91,892 cr corporate guarantee on SMPL, an insolvency process (CIRP) was started against the parent in June 2026, and the ED's provisional asset attachments now reach parent bank balances, so the strong cash flow from operations (\u20b91,550 cr in H1) may not reach equity holders.",
-        "valuation_grade": "cheap",
-        "growth_grade": "weak",
-        "risk_grade": "high",
-        "conviction": 0.5,
-        "from_cache": true
-      },
-      "earnings_surprise": {
-        "filing_date": "2026-11-12",
-        "document_kind": "financial_results",
-        "days_since_filing": 13,
-        "reaction_1d_pct": -3.99,
-        "reaction_2d_pct": -6.47,
-        "surprise": "negative_surprise",
-        "freshness": "high"
-      },
-      "peer_valuation": {
-        "sector": "Utilities",
-        "as_of": "2026-11-25",
-        "metrics": {
-          "forward_pe": {
-            "stock_value": 5.9,
-            "sector_median": 23.2,
-            "pct_rank": 1.7,
-            "premium_pct": -74.6,
-            "label": "cheap",
-            "cheapest_peers": [
-              "CHENNPETRO",
-              "MRPL"
-            ],
-            "priciest_peers": [
-              "DEVYANI",
-              "NYKAA"
-            ],
-            "peer_count": 472
-          },
-          "pb_ratio": {
-            "stock_value": 0.7,
-            "sector_median": 4.6,
-            "pct_rank": 0.2,
-            "premium_pct": -85.0,
-            "label": "cheap",
-            "cheapest_peers": [
-              "GICRE",
-              "BANKINDIA"
-            ],
-            "priciest_peers": [
-              "ANANDRATHI",
-              "FACT"
-            ],
-            "peer_count": 490
-          },
-          "ev_ebitda": {
-            "stock_value": 8.3,
-            "sector_median": 23.3,
-            "pct_rank": 7.5,
-            "premium_pct": -64.2,
-            "label": "cheap",
-            "cheapest_peers": [
-              "BBTC",
-              "NIACL"
-            ],
-            "priciest_peers": [
-              "FIRSTCRY",
-              "BDL"
-            ],
-            "peer_count": 403
-          }
-        },
-        "verdict": "cheap",
-        "pe_pct_rank": 1.7,
-        "pe_premium_pct": -74.6,
-        "pe_sector_median": 23.2,
-        "peer_count": 472
-      }
-    },
-    "SAGILITY": {
-      "fundamental": {
-        "thesis": "Sagility is a mid-cap healthcare outsourcing company. About 90% of revenue comes from US health insurers (payers) and about 10% from hospitals and other providers. It is tagged IT here, but its demand comes from US healthcare operations, not tech spending. In Q2FY27 revenue was \u20b92,032 cr, up 22.5% YoY, and PAT was \u20b9284 cr, up 13.3%. Growth has slowed from +35.7% (Q3FY26) to +29.1% (FY26) to +25.0% (H1) to +22.5%, and constant-currency growth is only about 12%, so roughly half the headline growth comes from the weak rupee. Reported PAT margin fell to 14.0% from 15.1% a year ago, and adjusted PAT grew only 8.1% even though adjusted EBITDA margin reached a six-quarter high of 26.3%. On valuation, using P/E and EV/EBITDA, the trailing P/E of 21.5x is below the IT sector's 22\u201330x range and sits at about the 24th percentile of the broad market (there are no close peers in the universe). EV/EBITDA is 11.4x, forward P/E is 15.4x, and cash conversion is strong (CFO/PAT 1.27x), so the stock looks cheap. The biggest risk is client concentration: the top 3 clients are 60% of revenue and the top 10 are 84%, and voluntary attrition is high at 25.7%. Losing or repricing a single large client could hurt badly. The yfinance dividend yield (44%) and debt/equity (11.5) figures look like unit errors, so I ignored them.",
-        "valuation_grade": "cheap",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.55,
-        "from_cache": true
-      },
-      "earnings_surprise": {
-        "filing_date": "2026-10-22",
-        "document_kind": "financial_results",
-        "days_since_filing": 34,
-        "reaction_1d_pct": -0.52,
-        "reaction_2d_pct": 0.2,
-        "surprise": "inline",
-        "freshness": "medium"
-      },
-      "peer_valuation": {
-        "sector": "IT",
-        "as_of": "2026-11-25",
-        "metrics": {
-          "trailing_pe": {
-            "stock_value": 21.5,
-            "sector_median": 35.2,
-            "pct_rank": 24.4,
-            "premium_pct": -38.8,
-            "label": "cheap",
-            "cheapest_peers": [
-              "ZFCVINDIA",
-              "IDEA"
-            ],
-            "priciest_peers": [
-              "NSLNISP",
-              "PTCIL"
-            ],
-            "peer_count": 473
-          },
-          "forward_pe": {
-            "stock_value": 15.3,
-            "sector_median": 23.2,
-            "pct_rank": 25.1,
-            "premium_pct": -33.9,
-            "label": "fair",
-            "cheapest_peers": [
-              "CHENNPETRO",
-              "MRPL"
-            ],
-            "priciest_peers": [
-              "DEVYANI",
-              "NYKAA"
-            ],
-            "peer_count": 472
-          },
-          "pb_ratio": {
-            "stock_value": 2.1,
-            "sector_median": 4.6,
-            "pct_rank": 20.9,
-            "premium_pct": -53.4,
-            "label": "cheap",
-            "cheapest_peers": [
-              "GICRE",
-              "RPOWER"
-            ],
-            "priciest_peers": [
-              "ANANDRATHI",
-              "FACT"
-            ],
-            "peer_count": 490
-          },
-          "ev_ebitda": {
-            "stock_value": 11.4,
-            "sector_median": 23.3,
-            "pct_rank": 15.7,
-            "premium_pct": -51.2,
-            "label": "cheap",
-            "cheapest_peers": [
-              "BBTC",
-              "NIACL"
-            ],
-            "priciest_peers": [
-              "FIRSTCRY",
-              "BDL"
-            ],
-            "peer_count": 403
-          }
-        },
-        "verdict": "cheap",
-        "pe_pct_rank": 24.4,
-        "pe_premium_pct": -38.8,
-        "pe_sector_median": 35.2,
-        "peer_count": 473
-      }
-    },
-    "JSWINFRA": {
-      "fundamental": {
-        "thesis": "JSW Infrastructure runs ports with about 186 MTPA of capacity, targeting 400 MTPA by 2030, and is building a fast-growing rail and logistics arm. Q2FY27 revenue grew 17.0% YoY to \u20b91,481 cr, extending a slow slowdown from +20.2% to +18.1% to +17.0% over recent periods. PAT fell 11.1% YoY to \u20b9328 cr, a deeper drop than Q1's -8.2%, as finance costs rose about 125% and the PAT margin shrank from about 29-31% in FY26 to 22.1%; cargo volume growth was only 4% for H1, while logistics revenue grew about 71%. On EV/EBITDA, the right yardstick for a capital-heavy port business, the stock trades at 25.6x, around P58 of the peer set, and its 42.2x trailing P/E sits inside the 28-45x Industrials band, so it is fairly valued. Forward P/E of 27x already assumes a strong earnings rebound, while consensus estimates are being trimmed slightly (-0.4% for FY, -1.8% for next FY). The main risk is that heavy capex and acquisitions keep pushing up interest costs and free cash flow stays negative (\u20b9-384 cr in H1), so earnings per share keep falling, made worse by dilution from the \u20b96,555 cr QIP.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "medium",
-        "conviction": 0.5,
-        "from_cache": true
-      },
-      "earnings_surprise": {
-        "filing_date": "2026-10-27",
-        "document_kind": "financial_results",
-        "days_since_filing": 29,
-        "reaction_1d_pct": -0.83,
-        "reaction_2d_pct": 2.03,
-        "surprise": "inline",
-        "freshness": "high"
-      },
-      "peer_valuation": {
-        "sector": "Industrials",
-        "as_of": "2026-11-25",
-        "metrics": {
-          "trailing_pe": {
-            "stock_value": 42.2,
-            "sector_median": 35.2,
-            "pct_rank": 62.5,
-            "premium_pct": 20.1,
-            "label": "fair",
-            "cheapest_peers": [
-              "ZFCVINDIA",
-              "IDEA"
-            ],
-            "priciest_peers": [
-              "NSLNISP",
-              "PTCIL"
-            ],
-            "peer_count": 473
-          },
-          "forward_pe": {
-            "stock_value": 27.0,
-            "sector_median": 23.2,
-            "pct_rank": 59.0,
-            "premium_pct": 16.3,
-            "label": "fair",
-            "cheapest_peers": [
-              "CHENNPETRO",
-              "MRPL"
-            ],
-            "priciest_peers": [
-              "DEVYANI",
-              "NYKAA"
-            ],
-            "peer_count": 472
-          },
-          "pb_ratio": {
-            "stock_value": 5.9,
-            "sector_median": 4.6,
-            "pct_rank": 60.3,
-            "premium_pct": 27.8,
-            "label": "fair",
-            "cheapest_peers": [
-              "GICRE",
-              "RPOWER"
-            ],
-            "priciest_peers": [
-              "ANANDRATHI",
-              "FACT"
-            ],
-            "peer_count": 490
-          },
-          "ev_ebitda": {
-            "stock_value": 25.6,
-            "sector_median": 23.3,
-            "pct_rank": 58.0,
-            "premium_pct": 9.6,
-            "label": "fair",
-            "cheapest_peers": [
-              "BBTC",
-              "NIACL"
-            ],
-            "priciest_peers": [
-              "FIRSTCRY",
-              "BDL"
-            ],
-            "peer_count": 403
-          }
-        },
-        "verdict": "fair",
-        "pe_pct_rank": 62.5,
-        "pe_premium_pct": 20.1,
-        "pe_sector_median": 35.2,
-        "peer_count": 473
-      }
-    },
-    "OLAELEC": {
-      "fundamental": {
-        "thesis": "Ola Electric makes electric two-wheelers and is building its own battery cells, but it is losing market share and still makes heavy losses in an e-2W market that is growing about 6.5% penetration. In the latest quarter with verified filing figures (Q1 FY27), revenue fell 45.0% YoY to \u20b9455 cr and the net loss was \u20b9336 cr. The pace of revenue decline has eased only slightly (from -49.7% in Q1 FY26 to -45.0%), while PAT margin got worse, from -51.7% to -73.8%, and EBITDA margin from -20.4% to -29.9%. The unverified yfinance figure for Q2 FY27 (revenue \u20b9295 cr, loss \u20b9362 cr) points to a further drop in sales, but the Q2 results filed on 12 Nov have not yet been extracted, so this is not confirmed. Because the company is not making a profit, P/E means nothing here, so I graded valuation on EV/sales and growth delivery. At about 8.3x price/sales and 5.6x P/B, with revenue shrinking, ROE at -43% and negative EV/EBITDA, the stock is expensive. Sell-side analysts agree: 7 of 8 rate it sell, and FY EPS estimates have been cut 12% over 90 days. The biggest risk is that revenue keeps shrinking while cash burn continues. That would use up the IPO/QIP cash and force more dilution or borrowing on top of a balance sheet that already carries debt.",
-        "valuation_grade": "expensive",
-        "growth_grade": "weak",
-        "risk_grade": "high",
-        "conviction": 0.55,
-        "from_cache": true
-      },
-      "earnings_surprise": {
-        "filing_date": "2026-11-13",
-        "document_kind": "financial_results",
-        "days_since_filing": 12,
-        "reaction_1d_pct": -5.62,
-        "reaction_2d_pct": -5.62,
-        "surprise": "negative_surprise",
-        "freshness": "high"
-      },
-      "peer_valuation": {
-        "sector": "Auto",
-        "as_of": "2026-11-25",
-        "metrics": {
-          "pb_ratio": {
-            "stock_value": 5.6,
-            "sector_median": 4.6,
-            "pct_rank": 57.5,
-            "premium_pct": 21.0,
-            "label": "fair",
-            "cheapest_peers": [
-              "GICRE",
-              "RPOWER"
-            ],
-            "priciest_peers": [
-              "ANANDRATHI",
-              "FACT"
-            ],
-            "peer_count": 490
-          }
-        },
-        "verdict": "unknown",
-        "pe_pct_rank": null,
-        "pe_premium_pct": null,
-        "pe_sector_median": null,
-        "peer_count": 0
-      }
-    },
-    "LINDEINDIA": {
-      "fundamental": {
-        "thesis": "Linde India is a subsidiary of the global Linde group that makes industrial gases and also runs a lower-margin project engineering arm. Gases bring in about 71% of segment revenue at a 26.4% segment margin, while project engineering earns only 9.8%. The latest extracted quarter, Q1FY27, shows revenue of \u20b9694 cr, up 21.6% YoY, but PAT fell 2.4% YoY to \u20b9105 cr. PAT margin has slipped to 15.1% from the low-to-mid 20s in earlier periods, and the H1 EBITDA margin dropped 850 bps to 31.8%. In short, sales are growing faster but that growth is not reaching profit, and heavy capex (about 96% of H1 revenue) pushed free cash flow to -\u20b9647 cr. Industrial gases is a utility-like business, not a steel or cement cyclical, so I graded valuation on EV/EBITDA and peer multiples. EV/EBITDA was not available, so I fell back on peer multiples: trailing P/E of 99.6x, forward P/E of 73.8x and P/B of 12.7x put it at P93/P98/P89 against the broad market, roughly 180-220% above the median, which is clearly expensive. Sell-side next-year EPS estimates have been cut about 14% over the last 30-90 days. The Q2FY27 results (filed 3 Nov) have not been extracted yet, so this view rests on Q1 and H1 data.",
-        "valuation_grade": "expensive",
-        "growth_grade": "moderate",
-        "risk_grade": "high",
-        "conviction": 0.45,
-        "from_cache": true
-      },
-      "earnings_surprise": {
-        "filing_date": "2026-11-03",
-        "document_kind": "financial_results",
-        "days_since_filing": 22,
-        "reaction_1d_pct": 10.98,
-        "reaction_2d_pct": 9.55,
-        "surprise": "positive_surprise",
-        "freshness": "high"
-      },
-      "peer_valuation": {
-        "sector": "Materials",
-        "as_of": "2026-11-25",
-        "metrics": {
-          "trailing_pe": {
-            "stock_value": 99.6,
-            "sector_median": 35.2,
-            "pct_rank": 93.0,
-            "premium_pct": 183.1,
-            "label": "expensive",
-            "cheapest_peers": [
-              "ZFCVINDIA",
-              "IDEA"
-            ],
-            "priciest_peers": [
-              "NSLNISP",
-              "PTCIL"
-            ],
-            "peer_count": 473
-          },
-          "forward_pe": {
-            "stock_value": 73.8,
-            "sector_median": 23.2,
-            "pct_rank": 98.1,
-            "premium_pct": 217.7,
-            "label": "expensive",
-            "cheapest_peers": [
-              "CHENNPETRO",
-              "MRPL"
-            ],
-            "priciest_peers": [
-              "DEVYANI",
-              "NYKAA"
-            ],
-            "peer_count": 472
-          },
-          "pb_ratio": {
-            "stock_value": 12.7,
-            "sector_median": 4.6,
-            "pct_rank": 89.0,
-            "premium_pct": 175.5,
-            "label": "expensive",
-            "cheapest_peers": [
-              "GICRE",
-              "RPOWER"
-            ],
-            "priciest_peers": [
-              "ANANDRATHI",
-              "FACT"
-            ],
-            "peer_count": 490
-          }
-        },
-        "verdict": "expensive",
-        "pe_pct_rank": 93.0,
-        "pe_premium_pct": 183.1,
+        "pe_pct_rank": 58.3,
+        "pe_premium_pct": 12.7,
         "pe_sector_median": 35.2,
         "peer_count": 473
       }
@@ -110175,364 +110441,98 @@
         "peer_count": 17
       }
     },
-    "SAPPHIRE": {
+    "JUBLFOOD": {
       "fundamental": {
-        "thesis": "Sapphire Foods runs KFC and Pizza Hut restaurants in India and Sri Lanka (974 stores as of Q1 FY26) and is being merged into Devyani International at 177 DIL shares for every 100 SAPPHIRE shares, so the stock now largely trades as a proxy for DEVYANI. The latest extracted figures are stale (FY26; the Q2 FY27 results filed on 2026-10-22 are not in the dataset). They show revenue growth slowing from +13.0% (Q4FY25) to about +8% in every period since, PAT moving from a small profit to a loss of about -1.0% of revenue, and same-store sales of 0% at KFC and -8% at Pizza Hut. That means growth is coming almost entirely from new stores, not from more sales per store. Trailing P/E is not meaningful because the company is loss-making, so I graded valuation on EV/EBITDA: 27.8x is only slightly above the broad-market median of 23.3x (P61), which is fair for a QSR operator. Forward P/E of 96x (P99) and next-year EPS estimates cut by 21% in 30 days show earnings are not catching up with the price. The biggest risk is weak same-store sales combined with falling earnings estimates ahead of a merger swap that ties the stock's value to Devyani's own derating risk.",
-        "valuation_grade": "fair",
-        "growth_grade": "weak",
-        "risk_grade": "high",
-        "conviction": 0.3,
+        "thesis": "Jubilant FoodWorks runs Domino's in India (3,820 group stores, about 76% of sales through delivery), along with the growing Popeyes chain and DP Eurasia in Turkey. It is India's largest QSR (quick-service restaurant) operator. In Q2FY27 revenue rose 11.8% YoY to \u20b92,608 cr, but growth has slowed from +19.3% in Q4FY26 to +14.1% in Q1 and now +11.8%. EBITDA grew only 7.3%, and its margin fell 83 bps to 19.7%. Continuing-operations PAT was flat at \u20b9113.9 cr (+0.5% YoY), and reported PAT of \u20b9111.6 cr was down 42.7% because Dunkin was reclassified as a discontinued business. The one clear positive is Domino's India same-store sales (LFL), which improved from 0.2% to 2.5% to 4.1% over the last three quarters, though that is still below management's 5\u20137% medium-term target. Popeyes LFL was +53%. Cash generation is strong: H1 free cash flow was \u20b9491 cr and operating cash flow was 4.6\u00d7 PAT. The yardstick for this business is unit economics plus EV/EBITDA, because trailing P/E is distorted by discontinued operations and Turkish hyperinflation accounting. On that basis the stock is expensive. EV/EBITDA of 21.9\u00d7 is exactly at the peer median, but trailing P/E of 83.7\u00d7 (P82 among peers) and forward P/E of 52\u00d7 (P90) are too high for flat underlying profit growth. The stock sits only 26% up its 52-week range, but analysts have cut FY EPS estimates by 3% over the past 30 days. The biggest risk is about 200 bps of input-cost inflation (LPG, wages, dairy) eating into margins before LFL recovers to 5% or more, at a valuation with little room for disappointment.",
+        "valuation_grade": "expensive",
+        "growth_grade": "moderate",
+        "risk_grade": "medium",
+        "conviction": 0.5,
         "from_cache": true
       },
       "earnings_surprise": {
-        "filing_date": "2026-10-22",
+        "filing_date": "2026-11-06",
         "document_kind": "financial_results",
-        "days_since_filing": 34,
-        "reaction_1d_pct": 1.32,
-        "reaction_2d_pct": 1.34,
-        "surprise": "inline",
-        "freshness": "medium"
+        "days_since_filing": 19,
+        "reaction_1d_pct": -6.13,
+        "reaction_2d_pct": -6.13,
+        "surprise": "negative_surprise",
+        "freshness": "high"
       },
       "peer_valuation": {
         "sector": "Consumer Discr.",
         "as_of": "2026-11-25",
         "metrics": {
-          "forward_pe": {
-            "stock_value": 96.2,
-            "sector_median": 23.2,
-            "pct_rank": 99.4,
-            "premium_pct": 313.9,
+          "trailing_pe": {
+            "stock_value": 83.7,
+            "sector_median": 39.7,
+            "pct_rank": 82.4,
+            "premium_pct": 110.8,
             "label": "expensive",
             "cheapest_peers": [
-              "CHENNPETRO",
-              "MRPL"
+              "HEROMOTOCO",
+              "M&M"
             ],
             "priciest_peers": [
-              "DEVYANI",
-              "NYKAA"
+              "VOLTAS",
+              "BHARATFORG"
             ],
-            "peer_count": 472
+            "peer_count": 18
+          },
+          "forward_pe": {
+            "stock_value": 52.1,
+            "sector_median": 29.4,
+            "pct_rank": 89.5,
+            "premium_pct": 76.9,
+            "label": "expensive",
+            "cheapest_peers": [
+              "TMPV",
+              "HEROMOTOCO"
+            ],
+            "priciest_peers": [
+              "TRENT",
+              "ETERNAL"
+            ],
+            "peer_count": 20
           },
           "pb_ratio": {
-            "stock_value": 5.3,
-            "sector_median": 4.6,
-            "pct_rank": 55.0,
-            "premium_pct": 14.1,
-            "label": "fair",
+            "stock_value": 13.6,
+            "sector_median": 7.2,
+            "pct_rank": 78.9,
+            "premium_pct": 89.0,
+            "label": "expensive",
             "cheapest_peers": [
-              "GICRE",
-              "RPOWER"
+              "TMPV",
+              "EXIDEIND"
             ],
             "priciest_peers": [
-              "ANANDRATHI",
-              "FACT"
+              "PAGEIND",
+              "TVSMOTOR"
             ],
-            "peer_count": 490
+            "peer_count": 20
           },
           "ev_ebitda": {
-            "stock_value": 27.8,
-            "sector_median": 23.3,
-            "pct_rank": 60.9,
-            "premium_pct": 19.4,
+            "stock_value": 21.9,
+            "sector_median": 21.9,
+            "pct_rank": 50.0,
+            "premium_pct": 0.0,
             "label": "fair",
             "cheapest_peers": [
-              "BBTC",
-              "NIACL"
+              "TMPV",
+              "M&M"
             ],
             "priciest_peers": [
-              "FIRSTCRY",
-              "BDL"
+              "TITAN",
+              "TRENT"
             ],
-            "peer_count": 403
+            "peer_count": 19
           }
         },
         "verdict": "expensive",
-        "pe_pct_rank": 99.4,
-        "pe_premium_pct": 313.9,
-        "pe_sector_median": 23.2,
-        "peer_count": 472
-      }
-    },
-    "CHAMBLFERT": {
-      "fundamental": {
-        "thesis": "Chambal Fertilizers is one of India's largest private urea makers. It also sells traded and complex fertilisers and crop-protection products, and it has just started a new Technical Ammonium Nitrate (TAN) plant at Gadepan from August 20, 2026. Its earnings depend heavily on the government subsidy rules (New Urea Policy 2015 and NBS). Growth is going the wrong way: Q1FY27 revenue was \u20b95,027 cr, down 11.8% YoY, and PAT was \u20b9524 cr, down 4.6%, after FY26 grew 25% on traded complex fertilisers. Q2FY27 PAT margin slipped to about 9.0% from 10.4% in Q1, but the Q2 revenue figure was not extracted from the filing and the yfinance quarterly rows (Q2 revenue \u20b94,367 cr) do not match the PDF figures, so the latest-quarter picture is only partly confirmed. I graded this as a capital-intensive commodity business on EV/EBITDA, which at 7.3x sits at the low end of the 5\u20138x mid-cycle range for cyclicals. Trailing P/E of 9.9x is below the 12\u201322x Materials benchmark, ROE is 20.5%, net debt is slightly negative (the 10.27 'debt/equity' looks like a percentage, given 48x interest coverage), and the stock is in the bottom decile of the broad market on every multiple, so the verdict is cheap. Cash conversion is the biggest worry: FY26 operating cash flow covered only 0.07x of PAT and receivables jumped from \u20b9368 cr to \u20b92,075 cr, which looks like delayed subsidy payments and makes the reported earnings less solid than they appear.",
-        "valuation_grade": "cheap",
-        "growth_grade": "weak",
-        "risk_grade": "medium",
-        "conviction": 0.45,
-        "from_cache": true
-      },
-      "earnings_surprise": {
-        "filing_date": "2026-11-03",
-        "document_kind": "financial_results",
-        "days_since_filing": 22,
-        "reaction_1d_pct": 7.03,
-        "reaction_2d_pct": 5.43,
-        "surprise": "positive_surprise",
-        "freshness": "high"
-      },
-      "peer_valuation": {
-        "sector": "Materials",
-        "as_of": "2026-11-25",
-        "metrics": {
-          "trailing_pe": {
-            "stock_value": 9.9,
-            "sector_median": 35.2,
-            "pct_rank": 5.9,
-            "premium_pct": -71.9,
-            "label": "cheap",
-            "cheapest_peers": [
-              "ZFCVINDIA",
-              "IDEA"
-            ],
-            "priciest_peers": [
-              "NSLNISP",
-              "PTCIL"
-            ],
-            "peer_count": 473
-          },
-          "forward_pe": {
-            "stock_value": 9.7,
-            "sector_median": 23.2,
-            "pct_rank": 7.9,
-            "premium_pct": -58.3,
-            "label": "cheap",
-            "cheapest_peers": [
-              "CHENNPETRO",
-              "MRPL"
-            ],
-            "priciest_peers": [
-              "DEVYANI",
-              "NYKAA"
-            ],
-            "peer_count": 472
-          },
-          "pb_ratio": {
-            "stock_value": 1.9,
-            "sector_median": 4.6,
-            "pct_rank": 15.5,
-            "premium_pct": -59.9,
-            "label": "cheap",
-            "cheapest_peers": [
-              "GICRE",
-              "RPOWER"
-            ],
-            "priciest_peers": [
-              "ANANDRATHI",
-              "FACT"
-            ],
-            "peer_count": 490
-          },
-          "ev_ebitda": {
-            "stock_value": 7.3,
-            "sector_median": 23.3,
-            "pct_rank": 4.7,
-            "premium_pct": -68.6,
-            "label": "cheap",
-            "cheapest_peers": [
-              "BBTC",
-              "NIACL"
-            ],
-            "priciest_peers": [
-              "FIRSTCRY",
-              "BDL"
-            ],
-            "peer_count": 403
-          }
-        },
-        "verdict": "cheap",
-        "pe_pct_rank": 5.9,
-        "pe_premium_pct": -71.9,
-        "pe_sector_median": 35.2,
-        "peer_count": 473
-      }
-    },
-    "LATENTVIEW": {
-      "fundamental": {
-        "thesis": "Latent View Analytics is a mid-cap data-analytics and AI consulting firm with about 1,800 employees and 40 Fortune 500 clients; it is still growing much faster than tier-1 Indian IT, which is close to flat. Growth is slowing quarter by quarter, though. Revenue growth fell from +27.3% YoY in H1FY26 and +24.3% in FY26 to +14.2% in Q2FY27 (\u20b9294 cr). Q2 PAT was \u20b948 cr (+6.1% YoY), and H1FY27 PAT was flat at -0.8% even though revenue grew 17.7%. Margins are shrinking because employee costs rose 21.8% YoY and now take 68.8% of revenue, and outside Industrials (+21.4%) the segments are barely growing (Financial Services +3.5%, CPG/Retail +2.7%). On valuation I used the IT sector P/E range plus EV/EBITDA. Trailing P/E is 32.3x, a little above the 22\u201330x IT range. Forward P/E is 22.1x and EV/EBITDA is 24.2x, close to the broad-market median (about P50). That makes it fair overall, not cheap, since estimates are being cut. The biggest worry is earnings quality: in H1 only about 26% of profit turned into operating cash (CFO/PAT 0.26x, down from 0.60x), and analysts have cut FY EPS estimates by 6% over 90 days. Both suggest the growth premium could shrink further.",
-        "valuation_grade": "fair",
-        "growth_grade": "moderate",
-        "risk_grade": "high",
-        "conviction": 0.5,
-        "from_cache": true
-      },
-      "earnings_surprise": {
-        "filing_date": "2026-10-31",
-        "document_kind": "financial_results",
-        "days_since_filing": 25,
-        "reaction_1d_pct": -3.74,
-        "reaction_2d_pct": -3.74,
-        "surprise": "negative_surprise",
-        "freshness": "high"
-      },
-      "peer_valuation": {
-        "sector": "IT",
-        "as_of": "2026-11-25",
-        "metrics": {
-          "trailing_pe": {
-            "stock_value": 32.3,
-            "sector_median": 35.2,
-            "pct_rank": 45.6,
-            "premium_pct": -8.1,
-            "label": "fair",
-            "cheapest_peers": [
-              "ZFCVINDIA",
-              "IDEA"
-            ],
-            "priciest_peers": [
-              "NSLNISP",
-              "PTCIL"
-            ],
-            "peer_count": 473
-          },
-          "forward_pe": {
-            "stock_value": 22.1,
-            "sector_median": 23.2,
-            "pct_rank": 46.7,
-            "premium_pct": -4.8,
-            "label": "fair",
-            "cheapest_peers": [
-              "CHENNPETRO",
-              "MRPL"
-            ],
-            "priciest_peers": [
-              "DEVYANI",
-              "NYKAA"
-            ],
-            "peer_count": 472
-          },
-          "pb_ratio": {
-            "stock_value": 3.6,
-            "sector_median": 4.6,
-            "pct_rank": 40.7,
-            "premium_pct": -20.8,
-            "label": "fair",
-            "cheapest_peers": [
-              "GICRE",
-              "RPOWER"
-            ],
-            "priciest_peers": [
-              "ANANDRATHI",
-              "FACT"
-            ],
-            "peer_count": 490
-          },
-          "ev_ebitda": {
-            "stock_value": 24.2,
-            "sector_median": 23.3,
-            "pct_rank": 52.2,
-            "premium_pct": 3.8,
-            "label": "fair",
-            "cheapest_peers": [
-              "BBTC",
-              "NIACL"
-            ],
-            "priciest_peers": [
-              "FIRSTCRY",
-              "BDL"
-            ],
-            "peer_count": 403
-          }
-        },
-        "verdict": "fair",
-        "pe_pct_rank": 45.6,
-        "pe_premium_pct": -8.1,
-        "pe_sector_median": 35.2,
-        "peer_count": 473
-      }
-    },
-    "RITES": {
-      "fundamental": {
-        "thesis": "RITES is a government-owned rail and infrastructure consultancy, turnkey-project and rolling-stock export company with a \u20b99,388 cr order book, about 4.0x annual revenue, so revenue is visible for several years. Q2FY27 revenue was flat at \u20b9583 cr (+0.7% YoY), and revenue growth has slowed across recent periods (+10.0% FY26 \u2192 +5.7% Q3FY26 \u2192 +0.7% Q2FY27). PAT fell 8.0% YoY at a 19.5% margin (about \u20b9114 cr), and EBITDA fell 10.5% YoY. Turnkey revenue grew 65.9% and leasing grew 14.5%, but export revenue fell 99% to almost nothing and consultancy fell 4.3%. Q2 order inflow of \u20b9446 cr is low against the book, and only 4% of H1FY26 profit turned into operating cash (CFO/PAT 0.22x), so the deals coming in and the cash coming out both look weak. I graded valuation on EV/EBITDA plus order-book cover, the sector card's measure for order-book businesses. EV/EBITDA is 16.9x, 28% below the broad-market median, and trailing P/E is 24.9x, below the 28\u201345x range for Industrials. That looks like a discount, but it is about right for a low-margin, slowing, PSU consultancy whose earnings estimates have been cut 6% in 90 days, so I call it fair rather than cheap. The biggest risk to this view: the planned H2FY27 recovery in Bangladesh coach exports slips while consultancy keeps shrinking, and the order book doesn't turn into earnings growth.",
-        "valuation_grade": "fair",
-        "growth_grade": "weak",
-        "risk_grade": "medium",
-        "conviction": 0.45,
-        "from_cache": true
-      },
-      "earnings_surprise": {
-        "filing_date": "2026-11-05",
-        "document_kind": "financial_results",
-        "days_since_filing": 20,
-        "reaction_1d_pct": -1.22,
-        "reaction_2d_pct": -0.17,
-        "surprise": "inline",
-        "freshness": "high"
-      },
-      "peer_valuation": {
-        "sector": "Industrials",
-        "as_of": "2026-11-25",
-        "metrics": {
-          "trailing_pe": {
-            "stock_value": 24.9,
-            "sector_median": 35.2,
-            "pct_rank": 30.7,
-            "premium_pct": -29.3,
-            "label": "fair",
-            "cheapest_peers": [
-              "ZFCVINDIA",
-              "IDEA"
-            ],
-            "priciest_peers": [
-              "NSLNISP",
-              "PTCIL"
-            ],
-            "peer_count": 473
-          },
-          "forward_pe": {
-            "stock_value": 18.8,
-            "sector_median": 23.2,
-            "pct_rank": 34.8,
-            "premium_pct": -18.9,
-            "label": "fair",
-            "cheapest_peers": [
-              "CHENNPETRO",
-              "MRPL"
-            ],
-            "priciest_peers": [
-              "DEVYANI",
-              "NYKAA"
-            ],
-            "peer_count": 472
-          },
-          "pb_ratio": {
-            "stock_value": 3.8,
-            "sector_median": 4.6,
-            "pct_rank": 41.3,
-            "premium_pct": -17.4,
-            "label": "fair",
-            "cheapest_peers": [
-              "GICRE",
-              "RPOWER"
-            ],
-            "priciest_peers": [
-              "ANANDRATHI",
-              "FACT"
-            ],
-            "peer_count": 490
-          },
-          "ev_ebitda": {
-            "stock_value": 16.9,
-            "sector_median": 23.3,
-            "pct_rank": 30.6,
-            "premium_pct": -27.7,
-            "label": "fair",
-            "cheapest_peers": [
-              "BBTC",
-              "NIACL"
-            ],
-            "priciest_peers": [
-              "FIRSTCRY",
-              "BDL"
-            ],
-            "peer_count": 403
-          }
-        },
-        "verdict": "fair",
-        "pe_pct_rank": 30.7,
-        "pe_premium_pct": -29.3,
-        "pe_sector_median": 35.2,
-        "peer_count": 473
+        "pe_pct_rank": 82.4,
+        "pe_premium_pct": 110.8,
+        "pe_sector_median": 39.7,
+        "peer_count": 18
       }
     }
   },
@@ -112469,7 +112469,7 @@
   },
   "books": {
     "as_of": "2026-11-23",
-    "generated_at": "2026-11-24",
+    "generated_at": "2026-11-25",
     "leaderboard": [
       {
         "book_id": "book1_engine",
@@ -112640,7 +112640,7 @@
         "started_on": "2026-10-23",
         "as_of": "2026-11-23",
         "n_dates": 14,
-        "nav_inr": 1020561.53,
+        "nav_inr": 1020561.52,
         "cash_pct": 2.4,
         "n_positions": 30,
         "n_pending": 0,
@@ -112680,10 +112680,10 @@
         "started_on": "2026-10-23",
         "as_of": "2026-11-23",
         "n_dates": 14,
-        "nav_inr": 1007970.42,
+        "nav_inr": 1007970.41,
         "cash_pct": 35.7,
         "n_positions": 30,
-        "n_pending": 1,
+        "n_pending": 0,
         "twr_pct": 0.8,
         "max_dd_pct": -1.05,
         "turnover_pct": 63.5,
@@ -112720,7 +112720,7 @@
         "started_on": "2026-10-23",
         "as_of": "2026-11-23",
         "n_dates": 14,
-        "nav_inr": 1044459.87,
+        "nav_inr": 1044459.88,
         "cash_pct": 53.5,
         "n_positions": 28,
         "n_pending": 0,
@@ -112760,7 +112760,7 @@
         "started_on": "2026-10-23",
         "as_of": "2026-11-23",
         "n_dates": 14,
-        "nav_inr": 1042277.45,
+        "nav_inr": 1042277.44,
         "cash_pct": 3.2,
         "n_positions": 30,
         "n_pending": 0,
@@ -112800,7 +112800,7 @@
         "started_on": "2026-10-23",
         "as_of": "2026-11-23",
         "n_dates": 14,
-        "nav_inr": 1036614.21,
+        "nav_inr": 1036614.2,
         "cash_pct": 50.2,
         "n_positions": 29,
         "n_pending": 0,
@@ -112840,11 +112840,11 @@
         "started_on": "2026-10-23",
         "as_of": "2026-11-23",
         "n_dates": 14,
-        "nav_inr": 1036459.31,
-        "cash_pct": 49.5,
+        "nav_inr": 1035810.71,
+        "cash_pct": 49.6,
         "n_positions": 30,
         "n_pending": 0,
-        "twr_pct": 3.65,
+        "twr_pct": 3.58,
         "max_dd_pct": -0.89,
         "turnover_pct": 47.3,
         "hit_rate": null,
@@ -112952,6 +112952,86 @@
         "kill_flag": false
       },
       {
+        "book_id": "pf_ew_veto",
+        "title": "EW-500 minus losers (equal weight, AI loser veto)",
+        "hypothesis": "Own the whole NIFTY 500 equally \u2014 the public rule that beat cap weight over 3 and 5 years \u2014 and drop what the grades call losers (growth weak or risk high), the AI's one contribution that beat a random cut in the replays.",
+        "kind": "benchmark",
+        "costs": true,
+        "started_on": "2026-11-23",
+        "as_of": "2026-11-23",
+        "n_dates": 0,
+        "nav_inr": 100000000.0,
+        "cash_pct": 100.0,
+        "n_positions": 0,
+        "n_pending": 270,
+        "twr_pct": null,
+        "max_dd_pct": 0.0,
+        "turnover_pct": 0.0,
+        "hit_rate": null,
+        "n_sells": 0,
+        "fees_inr": 0.0,
+        "slippage_inr": 0.0,
+        "excess": {
+          "10d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          },
+          "20d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          }
+        },
+        "vs_null_60_pp": null,
+        "w30_pct": null,
+        "w60_pct": null,
+        "w90_pct": null,
+        "kill_flag": false
+      },
+      {
+        "book_id": "pf_ew",
+        "title": "Equal-weight NIFTY 500 (traded, no veto)",
+        "hypothesis": "The base the veto must beat: the same line, costs and rebalances, no AI.",
+        "kind": "benchmark",
+        "costs": true,
+        "started_on": "2026-11-23",
+        "as_of": "2026-11-23",
+        "n_dates": 0,
+        "nav_inr": 100000000.0,
+        "cash_pct": 100.0,
+        "n_positions": 0,
+        "n_pending": 500,
+        "twr_pct": null,
+        "max_dd_pct": 0.0,
+        "turnover_pct": 0.0,
+        "hit_rate": null,
+        "n_sells": 0,
+        "fees_inr": 0.0,
+        "slippage_inr": 0.0,
+        "excess": {
+          "10d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          },
+          "20d": {
+            "mean_pp": null,
+            "t": null,
+            "n": 0,
+            "n_dates": 0
+          }
+        },
+        "vs_null_60_pp": null,
+        "w30_pct": null,
+        "w60_pct": null,
+        "w90_pct": null,
+        "kill_flag": false
+      },
+      {
         "book_id": "bench_nifty500",
         "title": "NIFTY 500 (^CRSLDX)",
         "kind": "series",
@@ -112980,7 +113060,7 @@
         "started_on": "2026-10-23",
         "as_of": "2026-11-23",
         "n_dates": 21,
-        "twr_pct": 8.38,
+        "twr_pct": 8.37,
         "max_dd_pct": -1.93,
         "turnover_pct": null,
         "hit_rate": null,
@@ -113447,7 +113527,7 @@
         },
         {
           "date": "2026-11-23",
-          "value": 103.646
+          "value": 103.581
         }
       ],
       "quality_factor": [
@@ -113756,6 +113836,18 @@
           "value": 102.45
         }
       ],
+      "pf_ew_veto": [
+        {
+          "date": "2026-11-23",
+          "value": 100.0
+        }
+      ],
+      "pf_ew": [
+        {
+          "date": "2026-11-23",
+          "value": 100.0
+        }
+      ],
       "bench_nifty500": [
         {
           "date": "2026-10-23",
@@ -113933,7 +114025,7 @@
         },
         {
           "date": "2026-11-23",
-          "value": 108.383
+          "value": 108.375
         }
       ],
       "bench_buyhold": [
@@ -114264,6 +114356,42 @@
           "min_sessions_after_results": 5,
           "review_gate": "risk != high, growth != weak, data_quality != poor, revenue growth not decelerating (a missing number passes), revenue growth YoY > 0 (newest results period with a number; missing fails)"
         }
+      },
+      {
+        "book_id": "pf_ew_veto",
+        "title": "EW-500 minus losers (equal weight, AI loser veto)",
+        "hypothesis": "Own the whole NIFTY 500 equally \u2014 the public rule that beat cap weight over 3 and 5 years \u2014 and drop what the grades call losers (growth weak or risk high), the AI's one contribution that beat a random cut in the replays.",
+        "kind": "benchmark",
+        "costs": true,
+        "rules": {
+          "signal": "monthly \u2014 first session on/after the month's last weekday (start date counts)",
+          "universe": "the engine's NIFTY 500 list, names with a bar in the last 5 sessions",
+          "weight": "0.99/N over the names kept",
+          "band": "\u00b125% of target, then a cash sweep",
+          "veto": "drop a name whose latest view grades growth weak or risk high (no view: kept); a vetoed holding is sold on the signal date",
+          "overlay": "none",
+          "anti_chase": "none",
+          "stops": "none",
+          "capital": "\u20b9100,000,000 notional so whole-share rounding of high-priced names leaves no idle cash; returns are percentages and costs are proportional"
+        }
+      },
+      {
+        "book_id": "pf_ew",
+        "title": "Equal-weight NIFTY 500 (traded, no veto)",
+        "hypothesis": "The base the veto must beat: the same line, costs and rebalances, no AI.",
+        "kind": "benchmark",
+        "costs": true,
+        "rules": {
+          "signal": "monthly \u2014 first session on/after the month's last weekday (start date counts)",
+          "universe": "the engine's NIFTY 500 list, names with a bar in the last 5 sessions",
+          "weight": "0.99/N over the names kept",
+          "band": "\u00b125% of target, then a cash sweep",
+          "veto": "none",
+          "overlay": "none",
+          "anti_chase": "none",
+          "stops": "none",
+          "capital": "\u20b9100,000,000 notional so whole-share rounding of high-priced names leaves no idle cash; returns are percentages and costs are proportional"
+        }
       }
     ],
     "kill_rule": "more than 10 points behind the equal-weight null on a rolling 60-date basis, twice in a row",
@@ -114274,9 +114402,9 @@
       "proxy_names": 100,
       "fundamentals_source": "db+traces",
       "n_fundamentals": 502,
-      "n_decisions": 498,
+      "n_decisions": 499,
       "n_bearish_flags": 0,
-      "live_book": "2026-11-24",
+      "live_book": "2026-11-25",
       "quality_coverage": {
         "roce_pct": 265,
         "pat_margin_pct": 493,
@@ -114432,12 +114560,12 @@
             "from": "2026-11-02",
             "to": "2026-11-23",
             "n_holdings": 23,
-            "allocation_pp": -3.044,
-            "selection_pp": -0.347,
-            "interaction_pp": 0.112,
-            "active_pp": -3.279,
+            "allocation_pp": -3.037,
+            "selection_pp": -0.35,
+            "interaction_pp": 0.114,
+            "active_pp": -3.273,
             "book_bh_pp": 1.562,
-            "bench_ew_pp": 4.841,
+            "bench_ew_pp": 4.835,
             "book_twr_pp": 1.805,
             "residual_pp": 0.243,
             "by_sector": {
@@ -114446,7 +114574,7 @@
                 "bench_w": 0.0778,
                 "book_r": 12.564,
                 "bench_r": 7.458,
-                "allocation": -0.102,
+                "allocation": -0.103,
                 "selection": 0.397,
                 "interaction": -0.2
               },
@@ -114455,7 +114583,7 @@
                 "bench_w": 0.0,
                 "book_r": 0.0,
                 "bench_r": 0.0,
-                "allocation": -3.097,
+                "allocation": -3.093,
                 "selection": 0.0,
                 "interaction": 0.0
               },
@@ -114482,7 +114610,7 @@
                 "bench_w": 0.0579,
                 "book_r": 7.682,
                 "bench_r": 8.153,
-                "allocation": -0.134,
+                "allocation": -0.135,
                 "selection": -0.027,
                 "interaction": 0.019
               },
@@ -114490,10 +114618,10 @@
                 "book_w": 0.0562,
                 "bench_w": 0.2016,
                 "book_r": 9.406,
-                "bench_r": 8.315,
-                "allocation": -0.505,
-                "selection": 0.22,
-                "interaction": -0.159
+                "bench_r": 8.322,
+                "allocation": -0.507,
+                "selection": 0.219,
+                "interaction": -0.158
               },
               "Healthcare": {
                 "book_w": 0.054,
@@ -114517,17 +114645,17 @@
                 "book_w": 0.0471,
                 "bench_w": 0.1856,
                 "book_r": 2.665,
-                "bench_r": 0.996,
-                "allocation": 0.533,
-                "selection": 0.31,
-                "interaction": -0.231
+                "bench_r": 1.002,
+                "allocation": 0.531,
+                "selection": 0.309,
+                "interaction": -0.23
               },
               "Materials": {
                 "book_w": 0.0435,
                 "bench_w": 0.1118,
                 "book_r": -3.333,
                 "bench_r": 3.423,
-                "allocation": 0.097,
+                "allocation": 0.096,
                 "selection": -0.755,
                 "interaction": 0.461
               },
@@ -114543,9 +114671,9 @@
               "Telecom": {
                 "book_w": 0.0,
                 "bench_w": 0.02,
-                "book_r": -1.044,
-                "bench_r": -1.044,
-                "allocation": 0.117,
+                "book_r": -1.472,
+                "bench_r": -1.472,
+                "allocation": 0.126,
                 "selection": 0.0,
                 "interaction": -0.0
               },
@@ -114562,10 +114690,10 @@
           }
         ],
         "total": {
-          "allocation_pp": -4.572,
-          "selection_pp": -0.347,
-          "interaction_pp": 0.112,
-          "active_pp": -4.807,
+          "allocation_pp": -4.565,
+          "selection_pp": -0.35,
+          "interaction_pp": 0.114,
+          "active_pp": -4.801,
           "n_months": 2
         },
         "method": "Brinson-Fachler vs the equal-weight universe, start-of-month holdings held through the month; Cash is a sector with zero return and zero benchmark weight"
@@ -114637,47 +114765,47 @@
             "sessions": 21,
             "n": 6,
             "hit_rate": 0.667,
-            "mean_pp": -0.799,
+            "mean_pp": -0.802,
             "overweight": {
               "n": 2,
               "hit_rate": 0.5,
-              "mean_pp": -1.822
+              "mean_pp": -1.816
             },
             "underweight": {
               "n": 4,
               "hit_rate": 0.75,
-              "mean_pp": -0.288
+              "mean_pp": -0.294
             },
             "by_sector": {
               "Healthcare": {
                 "n": 1,
                 "hit_rate": 1.0,
-                "mean_pp": 4.15
+                "mean_pp": 4.155
               },
               "IT": {
                 "n": 1,
                 "hit_rate": 0.0,
-                "mean_pp": -7.793
+                "mean_pp": -7.788
               },
               "Industrials": {
                 "n": 1,
                 "hit_rate": 1.0,
-                "mean_pp": 3.948
+                "mean_pp": 3.936
               },
               "Materials": {
                 "n": 1,
                 "hit_rate": 1.0,
-                "mean_pp": 3.133
+                "mean_pp": 3.128
               },
               "Real Estate": {
                 "n": 1,
                 "hit_rate": 0.0,
-                "mean_pp": -8.434
+                "mean_pp": -8.439
               },
               "Utilities": {
                 "n": 1,
                 "hit_rate": 1.0,
-                "mean_pp": 0.203
+                "mean_pp": 0.198
               }
             }
           },
