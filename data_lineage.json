@@ -4,13 +4,13 @@
  "expected_annual": "FY26",
  "universe": 500,
  "counts": {
-  "current": 360,
-  "behind": 106,
+  "current": 361,
+  "behind": 105,
   "unread": 0,
   "annual_behind": 32,
   "no_filing": 2
  },
- "pct_current": 72.0,
+ "pct_current": 72.2,
  "pct_unread": 0.0,
  "unread_docs_total": 0,
  "rows": [
@@ -3809,15 +3809,15 @@
   {
    "symbol": "ENRIN",
    "expected_period": "Q2 FY27",
-   "latest_results_filing": "2026-08-06",
-   "latest_results_title": "Siemens Energy India Limited has submitted to the Exchange, the financial results for the period ended Jun 30, 2026.",
+   "latest_results_filing": "2026-11-25",
+   "latest_results_title": "Siemens Energy India Limited has submitted to the Exchange, the financial results for the period ended September 30, 202",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "9M FY26",
-   "latest_extracted_filing_date": "2026-08-06",
+   "latest_extracted_period": "FY26",
+   "latest_extracted_filing_date": "2026-11-25",
    "latest_extract_written": "2026-11-26",
    "expected_annual": "FY26",
-   "latest_annual_period": "FY25",
+   "latest_annual_period": "FY26",
    "status": "behind",
    "latest_filing_sha16": null,
    "latest_filing_receipt": null
@@ -5634,7 +5634,7 @@
    "symbol": "NEULANDLAB",
    "expected_period": "Q2 FY27",
    "latest_results_filing": "2026-11-03",
-   "latest_results_title": "Press Release on the Financial Results of the Company for the quarter and half year ended September 30, 2026",
+   "latest_results_title": "Unaudited Financial Results of the Company for the quarter and half year ended September 30, 2026",
    "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": "H1 FY27",
@@ -7813,12 +7813,12 @@
    "latest_results_title": "Unaudited Financial Results(Standalone & Consolidated) for the Quarter and Half Year ended 30th September,2026",
    "latest_filing_read": null,
    "unread_results_docs": 0,
-   "latest_extracted_period": "Q1 FY27",
-   "latest_extracted_filing_date": "2026-08-13",
+   "latest_extracted_period": "H1 FY27",
+   "latest_extracted_filing_date": "2026-11-13",
    "latest_extract_written": "2026-11-26",
    "expected_annual": "FY26",
    "latest_annual_period": "FY26",
-   "status": "behind",
+   "status": "current",
    "latest_filing_sha16": null,
    "latest_filing_receipt": null
   },
@@ -8002,7 +8002,7 @@
    "symbol": "PFOCUS",
    "expected_period": "Q2 FY27",
    "latest_results_filing": "2026-11-13",
-   "latest_results_title": "Unaudited (Standalone and Consolidated) Financial Results of the Company for second quarter and half year ended Septembe",
+   "latest_results_title": "Outcome of Board meeting held on November 13, 2026",
    "latest_filing_read": null,
    "unread_results_docs": 0,
    "latest_extracted_period": null,
@@ -8018,13 +8018,13 @@
  "previous": {
   "as_of": "2026-11-26",
   "counts": {
-   "current": 360,
-   "behind": 106,
+   "current": 361,
+   "behind": 105,
    "unread": 0,
    "annual_behind": 32,
    "no_filing": 2
   },
-  "pct_current": 72.0
+  "pct_current": 72.2
  },
  "repaired_since_previous": 0
 }
