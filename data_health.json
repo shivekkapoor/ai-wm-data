@@ -1,11 +1,11 @@
 {
- "as_of": "2026-11-26",
- "generated_at": "2026-11-26T14:01:36Z",
+ "as_of": "2026-11-27",
+ "generated_at": "2026-11-26T20:25:59Z",
  "overall": "RED",
  "alerts": [
   "Engine output: 103 decisions on 2026-11-26",
   "Fundamentals: 0/20 names analysed with a fresh fundamental view; 72.2% of filings read",
-  "Macro: macro snapshot 2026-11-26"
+  "Macro: macro snapshot 2026-11-27"
  ],
  "engine": {
   "date": "2026-11-26",
@@ -37,8 +37,8 @@
    "unread": 0
   },
   "reads_today": {
-   "accepted": 2,
-   "attempted": 3
+   "accepted": 0,
+   "attempted": 0
   },
   "stale_sessions": 3,
   "stale": []
@@ -60,7 +60,7 @@
      "label": "last real decision",
      "value": "2026-11-26",
      "status": "GREEN",
-     "detail": "0d ago",
+     "detail": "1d ago",
      "dimension": "fresh"
     },
     {
@@ -107,7 +107,7 @@
     },
     {
      "label": "reads today",
-     "value": "2 accepted / 3 attempted",
+     "value": "0 accepted / 0 attempted",
      "status": "GREEN",
      "detail": "extraction attempts receipted today (UTC) by the 17:00 prep and the weekend backlog job",
      "dimension": "used"
@@ -149,9 +149,9 @@
     },
     {
      "label": "cached view age",
-     "value": "median 37d, p90 161d",
+     "value": "median 38d, p90 162d",
      "status": "RED",
-     "detail": "766 views older than 90 days (4137 cached)",
+     "detail": "773 views older than 90 days (4138 cached)",
      "dimension": "used"
     },
     {
@@ -226,7 +226,7 @@
    "metrics": [
     {
      "label": "newest headline",
-     "value": "2026-11-26 (0d)",
+     "value": "2026-11-26 (1d)",
      "status": "GREEN",
      "detail": "publish refuses anything older than 3 days",
      "dimension": "fresh"
@@ -240,7 +240,7 @@
     },
     {
      "label": "headlines typed",
-     "value": "4807/4809 (100%)",
+     "value": "4721/4722 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
@@ -264,11 +264,11 @@
   {
    "pillar": "Macro",
    "status": "RED",
-   "headline": "macro snapshot 2026-11-26",
+   "headline": "macro snapshot 2026-11-27",
    "metrics": [
     {
      "label": "snapshot date",
-     "value": "2026-11-26 (0d)",
+     "value": "2026-11-27 (0d)",
      "status": "GREEN",
      "detail": "sector quadrants, momentum, events \u2014 rebuilt on every publish",
      "dimension": "fresh"
@@ -296,7 +296,7 @@
     },
     {
      "label": "regime the agents read",
-     "value": "NEUTRAL (0d)",
+     "value": "RISK_ON (0d)",
      "status": "GREEN",
      "detail": "the database snapshot every trader prompt opens with",
      "dimension": "used"
