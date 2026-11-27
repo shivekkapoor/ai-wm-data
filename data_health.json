@@ -1,30 +1,31 @@
 {
  "as_of": "2026-11-27",
- "generated_at": "2026-11-27T00:09:49Z",
+ "generated_at": "2026-11-27T01:41:11Z",
  "overall": "RED",
  "alerts": [
-  "Engine output: 136 decisions on 2026-11-27",
-  "Fundamentals: 0/20 names analysed with a fresh fundamental view; 72.2% of filings read",
+  "Engine output: 179 decisions on 2026-11-27",
+  "Fundamentals: 4/40 names analysed with a fresh fundamental view; 72.2% of filings read",
   "Macro: macro snapshot 2026-11-27"
  ],
  "engine": {
   "date": "2026-11-27",
-  "real": 136,
+  "real": 179,
   "errors": 1,
   "gated": 319,
-  "other": 0,
+  "other": 2,
   "top_error": "(psycopg2.OperationalError) could not receive data from server: Operation timed out\nSSL SYSCALL erro",
   "last_real_date": "2026-11-27"
  },
  "last_run": {
-  "date": "2026-11-26",
-  "names_analysed": 20,
+  "date": "2026-11-27",
+  "names_analysed": 40,
   "agent_calls": {
-   "sentiment_analyst": 20,
-   "technical_analyst": 20,
-   "timing_analyst": 20,
-   "trader": 20,
-   "trader_v2": 20
+   "timing_analyst": 40,
+   "trader": 40,
+   "trader_v2": 40,
+   "sentiment_analyst": 39,
+   "technical_analyst": 39,
+   "fundamental_analyst": 4
   }
  },
  "read_receipts": {
@@ -38,7 +39,7 @@
   },
   "reads_today": {
    "accepted": 0,
-   "attempted": 0
+   "attempted": 2
   },
   "stale_sessions": 3,
   "stale": []
@@ -47,11 +48,11 @@
   {
    "pillar": "Engine output",
    "status": "RED",
-   "headline": "136 decisions on 2026-11-27",
+   "headline": "179 decisions on 2026-11-27",
    "metrics": [
     {
      "label": "decisions (latest run)",
-     "value": "136 real / 1 errors / 319 gated",
+     "value": "179 real / 1 errors / 319 gated",
      "status": "GREEN",
      "detail": "run of 2026-11-27; top error: (psycopg2.OperationalError) could not receive data from server: Operation timed out\nSSL SYSCALL erro",
      "dimension": "used"
@@ -65,7 +66,7 @@
     },
     {
      "label": "trader traces (same date)",
-     "value": "0 traces / 136 decisions",
+     "value": "40 traces / 179 decisions",
      "status": "RED",
      "detail": "decisions without a matching trader call \u2014 trace log missing?",
      "dimension": "verified"
@@ -75,7 +76,7 @@
   {
    "pillar": "Fundamentals",
    "status": "RED",
-   "headline": "0/20 names analysed with a fresh fundamental view; 72.2% of filings read",
+   "headline": "4/40 names analysed with a fresh fundamental view; 72.2% of filings read",
    "metrics": [
     {
      "label": "filings read",
@@ -107,8 +108,8 @@
     },
     {
      "label": "reads today",
-     "value": "0 accepted / 0 attempted",
-     "status": "GREEN",
+     "value": "0 accepted / 2 attempted",
+     "status": "YELLOW",
      "detail": "extraction attempts receipted today (UTC) by the 17:00 prep and the weekend backlog job",
      "dimension": "used"
     },
@@ -142,16 +143,16 @@
     },
     {
      "label": "agent ran",
-     "value": "0/20 names",
-     "status": "RED",
-     "detail": "last run 2026-11-26: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
+     "value": "4/40 names",
+     "status": "YELLOW",
+     "detail": "last run 2026-11-27: a name whose figures have not changed reuses its cached view by design; 0% means the pillar never enters a decision",
      "dimension": "used"
     },
     {
      "label": "cached view age",
      "value": "median 38d, p90 162d",
      "status": "RED",
-     "detail": "773 views older than 90 days (4144 cached)",
+     "detail": "773 views older than 90 days (4147 cached)",
      "dimension": "used"
     },
     {
@@ -166,13 +167,13 @@
   {
    "pillar": "Technicals",
    "status": "GREEN",
-   "headline": "20/20 names analysed on technicals",
+   "headline": "39/40 names analysed on technicals",
    "metrics": [
     {
      "label": "newest bar",
-     "value": "2026-11-25",
+     "value": "2026-11-26",
      "status": "GREEN",
-     "detail": "502 series; median series ends 2026-11-25",
+     "detail": "502 series; median series ends 2026-11-26",
      "dimension": "fresh"
     },
     {
@@ -205,9 +206,9 @@
     },
     {
      "label": "agent ran",
-     "value": "20/20 names",
+     "value": "39/40 names",
      "status": "GREEN",
-     "detail": "last run 2026-11-26",
+     "detail": "last run 2026-11-27",
      "dimension": "used"
     },
     {
@@ -240,16 +241,16 @@
     },
     {
      "label": "headlines typed",
-     "value": "4771/4777 (100%)",
+     "value": "4736/4742 (100%)",
      "status": "GREEN",
      "detail": "event type + rationale from the classifier; untyped headlines carry no sentiment",
      "dimension": "correct"
     },
     {
      "label": "agent ran",
-     "value": "20/20 names",
+     "value": "39/40 names",
      "status": "GREEN",
-     "detail": "last run 2026-11-26",
+     "detail": "last run 2026-11-27",
      "dimension": "used"
     },
     {
